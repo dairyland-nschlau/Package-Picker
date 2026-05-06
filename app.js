@@ -154,7 +154,7 @@ const CATEGORY_DEFINITIONS = [
   }
 ];
 
-const EXCLUDED_NIR_NAME_PARTS = ["Calibrate", "Big Gain", "Plot", "Select24", "Select48", "Equine"];
+const EXCLUDED_NIR_NAME_PARTS = ["Calibrate", "Big Gain", "Plot", "Select24", "Select48", "Equine", "VFA Screen"];
 const BASE_FEE_AMOUNT = 7;
 const ALWAYS_INCLUDED_NIR_FIELDS = ["Dry Matter", "Moisture"];
 const EXCLUDED_NIR_PACKAGE_NAMES = ["IVSD7-O"];
