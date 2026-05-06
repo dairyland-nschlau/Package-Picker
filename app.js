@@ -158,6 +158,7 @@ const EXCLUDED_NIR_NAME_PARTS = ["Calibrate", "Big Gain", "Plot", "Select24", "S
 const BASE_FEE_AMOUNT = 7;
 const ALWAYS_INCLUDED_NIR_FIELDS = ["Dry Matter", "Moisture"];
 const EXCLUDED_NIR_PACKAGE_NAMES = ["IVSD7-O"];
+const EXCLUDED_PACKAGE_DISPLAY_NAMES = ["ND-ICP", "Chemlock minerals"];
 const FEED_TYPE_SEARCH_ALIASES = [
   { term: "maize", match: "corn" },
   { term: "soya", match: "soy" },
@@ -371,21 +372,22 @@ function buildDataIndex(packagesRows, packageFieldRows, nirRows, productsRows) {
   });
 
   const packages = packagesRows
-    .map((row) => ({
-      packageId: cleanValue(row.package_id),
-      type: cleanValue(row.name),
-      displayName: cleanValue(row.display_name) || cleanValue(row.description) || `Package ${cleanValue(row.package_id)}`,
-      description: cleanValue(row.description),
-      price: Number.parseFloat(cleanValue(row.price)) || 0,
-      baseFeeFlag: cleanValue(row.base_fee) === "1"
-    }))
-    .filter((pkg) => pkg.type === "Chemistry" || pkg.type === "NIR")
-    .filter((pkg) => pkg.price > 0)
-    .map((pkg) => ({
-      ...pkg,
-      coveredItemIds: Array.from(fieldMap.get(pkg.packageId) ?? [])
-    }))
-    .filter((pkg) => pkg.coveredItemIds.length > 0);
+  .map((row) => ({
+    packageId: cleanValue(row.package_id),
+    type: cleanValue(row.name),
+    displayName: cleanValue(row.display_name) || cleanValue(row.description) || `Package ${cleanValue(row.package_id)}`,
+    description: cleanValue(row.description),
+    price: Number.parseFloat(cleanValue(row.price)) || 0,
+    baseFeeFlag: cleanValue(row.base_fee) === "1"
+  }))
+  .filter((pkg) => pkg.type === "Chemistry" || pkg.type === "NIR")
+  .filter((pkg) => pkg.price > 0)
+  .filter((pkg) => !EXCLUDED_PACKAGE_DISPLAY_NAMES.includes(pkg.displayName)) // ← add this
+  .map((pkg) => ({
+    ...pkg,
+    coveredItemIds: Array.from(fieldMap.get(pkg.packageId) ?? [])
+  }))
+  .filter((pkg) => pkg.coveredItemIds.length > 0);
 
   const totalAminoAcidItemId = itemMap.get("total-amino-acid")?.id ?? "total-amino-acid";
   packages.forEach((pkg) => {
