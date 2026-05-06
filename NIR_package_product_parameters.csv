@@ -1,0 +1,3628 @@
+Package,Product,Parameter
+Calibrate GPN/FPN,Hay - Mixed,Calibrate FPN
+Calibrate GPN/FPN,Hay - Mixed,Calibrate NDF
+Calibrate GPN/FPN,Hay - Mixed,Calibrate NDFD
+Calibrate GPN/FPN,Hay - Grass,Calibrate FPN
+Calibrate GPN/FPN,Hay - Grass,Calibrate NDF
+Calibrate GPN/FPN,Hay - Grass,Calibrate NDFD
+Calibrate GPN/FPN,Haylage - Mixed,Calibrate FPN
+Calibrate GPN/FPN,Haylage - Mixed,Calibrate NDF
+Calibrate GPN/FPN,Haylage - Mixed,Calibrate NDFD
+Calibrate GPN/FPN,Haylage - Legume,Calibrate FPN
+Calibrate GPN/FPN,Haylage - Legume,Calibrate NDF
+Calibrate GPN/FPN,Haylage - Legume,Calibrate NDFD
+Calibrate GPN/FPN,Haylage - Grass,Calibrate FPN
+Calibrate GPN/FPN,Haylage - Grass,Calibrate NDF
+Calibrate GPN/FPN,Haylage - Grass,Calibrate NDFD
+Calibrate GPN/FPN,Corn - Grain,Calibrate GPN
+Calibrate GPN/FPN,Corn - Grain,Calibrate Starch
+Calibrate GPN/FPN,Corn - Ear,Calibrate GPN
+Calibrate GPN/FPN,Corn - Ear,Calibrate Starch
+Calibrate GPN/FPN,Small Grain Silage,Calibrate FPN
+Calibrate GPN/FPN,Small Grain Silage,Calibrate NDF
+Calibrate GPN/FPN,Small Grain Silage,Calibrate NDFD
+Calibrate GPN/FPN,Brewers grain dry,Calibrate FPN
+Calibrate GPN/FPN,Brewers grain dry,Calibrate NDF
+Calibrate GPN/FPN,Brewers grain dry,Calibrate NDFD
+Calibrate GPN/FPN,Corn distillers - dry,Calibrate FPN
+Calibrate GPN/FPN,Corn distillers - dry,Calibrate NDF
+Calibrate GPN/FPN,Corn distillers - dry,Calibrate NDFD
+Calibrate GPN/FPN,Corn gluten feed,Calibrate FPN
+Calibrate GPN/FPN,Corn gluten feed,Calibrate NDF
+Calibrate GPN/FPN,Corn gluten feed,Calibrate NDFD
+Calibrate GPN/FPN,Brewers grain wet,Calibrate FPN
+Calibrate GPN/FPN,Brewers grain wet,Calibrate NDF
+Calibrate GPN/FPN,Brewers grain wet,Calibrate NDFD
+Calibrate GPN/FPN,Corn distillers - wet,Calibrate FPN
+Calibrate GPN/FPN,Corn distillers - wet,Calibrate NDF
+Calibrate GPN/FPN,Corn distillers - wet,Calibrate NDFD
+Calibrate HQFA,Hay - Legume,Calibrate leaf%
+Calibrate HQFA,Haylage - Legume,Calibrate FPN
+Calibrate HQFA,Haylage - Legume,Calibrate NDF
+Calibrate HQFA,Haylage - Legume,Calibrate CP
+Calibrate HQFA,Haylage - Legume,Calibrate leaf%
+Calibrate HQFA,Haylage - Legume,Calibrate NDFD
+Calibrate Leaf%,Hay - Legume,Calibrate leaf%
+Calibrate Leaf%,Haylage - Legume,Calibrate leaf%
+CSPS (only starch by NIR),Whole plant corn,Starch
+CSPS (only starch by NIR),Whole plant corn,Coarse Wt
+CSPS (only starch by NIR),Whole plant corn,Medium Wt
+CSPS (only starch by NIR),Whole plant corn,Fine Wt
+CSPS (only starch by NIR),Whole plant corn,Coarse Starch
+CSPS (only starch by NIR),Corn - Ear,Starch
+CSPS (only starch by NIR),Corn - Ear,Coarse Wt
+CSPS (only starch by NIR),Corn - Ear,Medium Wt
+CSPS (only starch by NIR),Corn - Ear,Fine Wt
+CSPS (only starch by NIR),Corn - Ear,Coarse Starch
+Fecal starch,Manure,Starch
+IVSD7-O,Corn silage,IVSD7-o
+IVSD7-O,BMR corn silage,IVSD7-o
+IVSD7-O,Enogen corn silage,IVSD7-o
+IVSD7-O,Whole plant corn,IVSD7-o
+IVSD7-O,TMF corn silage,IVSD7-o
+IVSD7-O,Dry corn,IVSD7-o
+IVSD7-O,Enogen corn,IVSD7-o
+IVSD7-O,HMSC,IVSD7-o
+IVSD7-O,Corn,IVSD7-o
+Manure Select,Manure,aNDF
+Manure Select,Manure,aNDFom
+Manure Select,Manure,Ash
+Manure Select,Manure,CP
+Manure Select,Manure,Fat (EE)
+Manure Select,Manure,NDFDom240
+Manure Select,Manure,Starch
+Manure Select,Manure,uNDFom240
+Big Gain NIR Package,Hay - Mixed,16:0 Palmitic
+Big Gain NIR Package,Hay - Mixed,18:0 Stearic
+Big Gain NIR Package,Hay - Mixed,18:1 Oleic
+Big Gain NIR Package,Hay - Mixed,18:2 Linoleic
+Big Gain NIR Package,Hay - Mixed,18:3 Linolenic
+Big Gain NIR Package,Hay - Mixed,ADF
+Big Gain NIR Package,Hay - Mixed,ADICP
+Big Gain NIR Package,Hay - Mixed,aNDF
+Big Gain NIR Package,Hay - Mixed,aNDFom
+Big Gain NIR Package,Hay - Mixed,Ash
+Big Gain NIR Package,Hay - Mixed,Ca
+Big Gain NIR Package,Hay - Mixed,Cl
+Big Gain NIR Package,Hay - Mixed,CP
+Big Gain NIR Package,Hay - Mixed,Fat (EE)
+Big Gain NIR Package,Hay - Mixed,K
+Big Gain NIR Package,Hay - Mixed,Lignin
+Big Gain NIR Package,Hay - Mixed,Mg
+Big Gain NIR Package,Hay - Mixed,NDFDom24
+Big Gain NIR Package,Hay - Mixed,NDFDom240
+Big Gain NIR Package,Hay - Mixed,NDICPss
+Big Gain NIR Package,Hay - Mixed,P
+Big Gain NIR Package,Hay - Mixed,S
+Big Gain NIR Package,Hay - Mixed,SCP
+Big Gain NIR Package,Hay - Mixed,Starch
+Big Gain NIR Package,Hay - Mixed,Sugar (ESC)
+Big Gain NIR Package,Hay - Mixed,Sugar (WSC)
+Big Gain NIR Package,Hay - Mixed,Total fatty acids
+Big Gain NIR Package,Hay - Mixed,uNDFom24
+Big Gain NIR Package,Hay - Mixed,uNDFom240
+Big Gain NIR Package,Hay - Legume,16:0 Palmitic
+Big Gain NIR Package,Hay - Legume,18:0 Stearic
+Big Gain NIR Package,Hay - Legume,18:1 Oleic
+Big Gain NIR Package,Hay - Legume,18:2 Linoleic
+Big Gain NIR Package,Hay - Legume,18:3 Linolenic
+Big Gain NIR Package,Hay - Legume,ADF
+Big Gain NIR Package,Hay - Legume,ADICP
+Big Gain NIR Package,Hay - Legume,aNDF
+Big Gain NIR Package,Hay - Legume,aNDFom
+Big Gain NIR Package,Hay - Legume,Ash
+Big Gain NIR Package,Hay - Legume,Ca
+Big Gain NIR Package,Hay - Legume,Cl
+Big Gain NIR Package,Hay - Legume,CP
+Big Gain NIR Package,Hay - Legume,Fat (EE)
+Big Gain NIR Package,Hay - Legume,K
+Big Gain NIR Package,Hay - Legume,Lignin
+Big Gain NIR Package,Hay - Legume,Mg
+Big Gain NIR Package,Hay - Legume,NDFDom24
+Big Gain NIR Package,Hay - Legume,NDFDom240
+Big Gain NIR Package,Hay - Legume,NDICPss
+Big Gain NIR Package,Hay - Legume,S
+Big Gain NIR Package,Hay - Legume,SCP
+Big Gain NIR Package,Hay - Legume,Starch
+Big Gain NIR Package,Hay - Legume,Sugar (ESC)
+Big Gain NIR Package,Hay - Legume,Sugar (WSC)
+Big Gain NIR Package,Hay - Legume,Total fatty acids
+Big Gain NIR Package,Hay - Legume,uNDFom24
+Big Gain NIR Package,Hay - Legume,uNDFom240
+Big Gain NIR Package,Hay - Grass,16:0 Palmitic
+Big Gain NIR Package,Hay - Grass,18:0 Stearic
+Big Gain NIR Package,Hay - Grass,18:1 Oleic
+Big Gain NIR Package,Hay - Grass,18:2 Linoleic
+Big Gain NIR Package,Hay - Grass,18:3 Linolenic
+Big Gain NIR Package,Hay - Grass,ADF
+Big Gain NIR Package,Hay - Grass,ADICP
+Big Gain NIR Package,Hay - Grass,aNDF
+Big Gain NIR Package,Hay - Grass,aNDFom
+Big Gain NIR Package,Hay - Grass,Ash
+Big Gain NIR Package,Hay - Grass,Ca
+Big Gain NIR Package,Hay - Grass,Cl
+Big Gain NIR Package,Hay - Grass,CP
+Big Gain NIR Package,Hay - Grass,Fat (EE)
+Big Gain NIR Package,Hay - Grass,K
+Big Gain NIR Package,Hay - Grass,Lignin
+Big Gain NIR Package,Hay - Grass,Mg
+Big Gain NIR Package,Hay - Grass,NDFDom24
+Big Gain NIR Package,Hay - Grass,NDFDom240
+Big Gain NIR Package,Hay - Grass,NDICPss
+Big Gain NIR Package,Hay - Grass,S
+Big Gain NIR Package,Hay - Grass,SCP
+Big Gain NIR Package,Hay - Grass,Starch
+Big Gain NIR Package,Hay - Grass,Sugar (ESC)
+Big Gain NIR Package,Hay - Grass,Sugar (WSC)
+Big Gain NIR Package,Hay - Grass,Total fatty acids
+Big Gain NIR Package,Hay - Grass,uNDFom24
+Big Gain NIR Package,Hay - Grass,uNDFom240
+Big Gain NIR Package,Haylage - Mixed,16:0 Palmitic
+Big Gain NIR Package,Haylage - Mixed,18:0 Stearic
+Big Gain NIR Package,Haylage - Mixed,18:1 Oleic
+Big Gain NIR Package,Haylage - Mixed,18:2 Linoleic
+Big Gain NIR Package,Haylage - Mixed,18:3 Linolenic
+Big Gain NIR Package,Haylage - Mixed,ADF
+Big Gain NIR Package,Haylage - Mixed,ADICP
+Big Gain NIR Package,Haylage - Mixed,aNDF
+Big Gain NIR Package,Haylage - Mixed,aNDFom
+Big Gain NIR Package,Haylage - Mixed,Ash
+Big Gain NIR Package,Haylage - Mixed,Ca
+Big Gain NIR Package,Haylage - Mixed,Cl
+Big Gain NIR Package,Haylage - Mixed,CP
+Big Gain NIR Package,Haylage - Mixed,Fat (EE)
+Big Gain NIR Package,Haylage - Mixed,K
+Big Gain NIR Package,Haylage - Mixed,Lignin
+Big Gain NIR Package,Haylage - Mixed,Mg
+Big Gain NIR Package,Haylage - Mixed,NDFDom24
+Big Gain NIR Package,Haylage - Mixed,NDFDom240
+Big Gain NIR Package,Haylage - Mixed,NDICPss
+Big Gain NIR Package,Haylage - Mixed,P
+Big Gain NIR Package,Haylage - Mixed,pH
+Big Gain NIR Package,Haylage - Mixed,S
+Big Gain NIR Package,Haylage - Mixed,SCP
+Big Gain NIR Package,Haylage - Mixed,Starch
+Big Gain NIR Package,Haylage - Mixed,Sugar (ESC)
+Big Gain NIR Package,Haylage - Mixed,Sugar (WSC)
+Big Gain NIR Package,Haylage - Mixed,Total fatty acids
+Big Gain NIR Package,Haylage - Mixed,uNDFom24
+Big Gain NIR Package,Haylage - Mixed,uNDFom240
+Big Gain NIR Package,Haylage - Legume,16:0 Palmitic
+Big Gain NIR Package,Haylage - Legume,18:0 Stearic
+Big Gain NIR Package,Haylage - Legume,18:1 Oleic
+Big Gain NIR Package,Haylage - Legume,18:2 Linoleic
+Big Gain NIR Package,Haylage - Legume,18:3 Linolenic
+Big Gain NIR Package,Haylage - Legume,ADF
+Big Gain NIR Package,Haylage - Legume,ADICP
+Big Gain NIR Package,Haylage - Legume,aNDF
+Big Gain NIR Package,Haylage - Legume,aNDFom
+Big Gain NIR Package,Haylage - Legume,Ash
+Big Gain NIR Package,Haylage - Legume,Ca
+Big Gain NIR Package,Haylage - Legume,Cl
+Big Gain NIR Package,Haylage - Legume,CP
+Big Gain NIR Package,Haylage - Legume,Fat (EE)
+Big Gain NIR Package,Haylage - Legume,K
+Big Gain NIR Package,Haylage - Legume,Lignin
+Big Gain NIR Package,Haylage - Legume,Mg
+Big Gain NIR Package,Haylage - Legume,NDFDom24
+Big Gain NIR Package,Haylage - Legume,NDFDom240
+Big Gain NIR Package,Haylage - Legume,NDICPss
+Big Gain NIR Package,Haylage - Legume,pH
+Big Gain NIR Package,Haylage - Legume,S
+Big Gain NIR Package,Haylage - Legume,SCP
+Big Gain NIR Package,Haylage - Legume,Starch
+Big Gain NIR Package,Haylage - Legume,Sugar (ESC)
+Big Gain NIR Package,Haylage - Legume,Sugar (WSC)
+Big Gain NIR Package,Haylage - Legume,Total fatty acids
+Big Gain NIR Package,Haylage - Legume,uNDFom24
+Big Gain NIR Package,Haylage - Legume,uNDFom240
+Big Gain NIR Package,Haylage - Grass,16:0 Palmitic
+Big Gain NIR Package,Haylage - Grass,18:0 Stearic
+Big Gain NIR Package,Haylage - Grass,18:1 Oleic
+Big Gain NIR Package,Haylage - Grass,18:2 Linoleic
+Big Gain NIR Package,Haylage - Grass,18:3 Linolenic
+Big Gain NIR Package,Haylage - Grass,ADF
+Big Gain NIR Package,Haylage - Grass,ADICP
+Big Gain NIR Package,Haylage - Grass,aNDF
+Big Gain NIR Package,Haylage - Grass,aNDFom
+Big Gain NIR Package,Haylage - Grass,Ash
+Big Gain NIR Package,Haylage - Grass,Ca
+Big Gain NIR Package,Haylage - Grass,Cl
+Big Gain NIR Package,Haylage - Grass,CP
+Big Gain NIR Package,Haylage - Grass,Fat (EE)
+Big Gain NIR Package,Haylage - Grass,K
+Big Gain NIR Package,Haylage - Grass,Lignin
+Big Gain NIR Package,Haylage - Grass,Mg
+Big Gain NIR Package,Haylage - Grass,NDFDom24
+Big Gain NIR Package,Haylage - Grass,NDFDom240
+Big Gain NIR Package,Haylage - Grass,NDICPss
+Big Gain NIR Package,Haylage - Grass,pH
+Big Gain NIR Package,Haylage - Grass,S
+Big Gain NIR Package,Haylage - Grass,SCP
+Big Gain NIR Package,Haylage - Grass,Starch
+Big Gain NIR Package,Haylage - Grass,Sugar (ESC)
+Big Gain NIR Package,Haylage - Grass,Sugar (WSC)
+Big Gain NIR Package,Haylage - Grass,Total fatty acids
+Big Gain NIR Package,Haylage - Grass,uNDFom24
+Big Gain NIR Package,Haylage - Grass,uNDFom240
+Big Gain NIR Package,Whole plant corn,16:0 Palmitic
+Big Gain NIR Package,Whole plant corn,18:0 Stearic
+Big Gain NIR Package,Whole plant corn,18:1 Oleic
+Big Gain NIR Package,Whole plant corn,18:2 Linoleic
+Big Gain NIR Package,Whole plant corn,18:3 Linolenic
+Big Gain NIR Package,Whole plant corn,ADF
+Big Gain NIR Package,Whole plant corn,ADICP
+Big Gain NIR Package,Whole plant corn,aNDF
+Big Gain NIR Package,Whole plant corn,aNDFom
+Big Gain NIR Package,Whole plant corn,Ash
+Big Gain NIR Package,Whole plant corn,Ca
+Big Gain NIR Package,Whole plant corn,CP
+Big Gain NIR Package,Whole plant corn,Fat (EE)
+Big Gain NIR Package,Whole plant corn,K
+Big Gain NIR Package,Whole plant corn,Lignin
+Big Gain NIR Package,Whole plant corn,Mg
+Big Gain NIR Package,Whole plant corn,NDFDom24
+Big Gain NIR Package,Whole plant corn,NDFDom240
+Big Gain NIR Package,Whole plant corn,NDICPss
+Big Gain NIR Package,Whole plant corn,P
+Big Gain NIR Package,Whole plant corn,pH
+Big Gain NIR Package,Whole plant corn,S
+Big Gain NIR Package,Whole plant corn,SCP
+Big Gain NIR Package,Whole plant corn,Starch
+Big Gain NIR Package,Whole plant corn,Sugar (ESC)
+Big Gain NIR Package,Whole plant corn,Sugar (WSC)
+Big Gain NIR Package,Whole plant corn,Total fatty acids
+Big Gain NIR Package,Whole plant corn,uNDFom24
+Big Gain NIR Package,Whole plant corn,uNDFom240
+Big Gain NIR Package,Corn - Grain,16:0 Palmitic
+Big Gain NIR Package,Corn - Grain,18:0 Stearic
+Big Gain NIR Package,Corn - Grain,18:1 Oleic
+Big Gain NIR Package,Corn - Grain,18:2 Linoleic
+Big Gain NIR Package,Corn - Grain,18:3 Linolenic
+Big Gain NIR Package,Corn - Grain,ADF
+Big Gain NIR Package,Corn - Grain,ADICP
+Big Gain NIR Package,Corn - Grain,aNDF
+Big Gain NIR Package,Corn - Grain,aNDFom
+Big Gain NIR Package,Corn - Grain,Ash
+Big Gain NIR Package,Corn - Grain,Ca
+Big Gain NIR Package,Corn - Grain,CP
+Big Gain NIR Package,Corn - Grain,Fat (EE)
+Big Gain NIR Package,Corn - Grain,K
+Big Gain NIR Package,Corn - Grain,Mg
+Big Gain NIR Package,Corn - Grain,NDICPss
+Big Gain NIR Package,Corn - Grain,P
+Big Gain NIR Package,Corn - Grain,S
+Big Gain NIR Package,Corn - Grain,SCP
+Big Gain NIR Package,Corn - Grain,Starch
+Big Gain NIR Package,Corn - Grain,Sugar (ESC)
+Big Gain NIR Package,Corn - Grain,Sugar (WSC)
+Big Gain NIR Package,Corn - Grain,Total fatty acids
+Big Gain NIR Package,Corn - Ear,16:0 Palmitic
+Big Gain NIR Package,Corn - Ear,18:0 Stearic
+Big Gain NIR Package,Corn - Ear,18:1 Oleic
+Big Gain NIR Package,Corn - Ear,18:2 Linoleic
+Big Gain NIR Package,Corn - Ear,18:3 Linolenic
+Big Gain NIR Package,Corn - Ear,ADF
+Big Gain NIR Package,Corn - Ear,ADICP
+Big Gain NIR Package,Corn - Ear,aNDF
+Big Gain NIR Package,Corn - Ear,aNDFom
+Big Gain NIR Package,Corn - Ear,Ash
+Big Gain NIR Package,Corn - Ear,Ca
+Big Gain NIR Package,Corn - Ear,CP
+Big Gain NIR Package,Corn - Ear,Fat (EE)
+Big Gain NIR Package,Corn - Ear,K
+Big Gain NIR Package,Corn - Ear,Lignin
+Big Gain NIR Package,Corn - Ear,Mg
+Big Gain NIR Package,Corn - Ear,NDICPss
+Big Gain NIR Package,Corn - Ear,P
+Big Gain NIR Package,Corn - Ear,pH
+Big Gain NIR Package,Corn - Ear,S
+Big Gain NIR Package,Corn - Ear,SCP
+Big Gain NIR Package,Corn - Ear,Starch
+Big Gain NIR Package,Corn - Ear,Sugar (ESC)
+Big Gain NIR Package,Corn - Ear,Sugar (WSC)
+Big Gain NIR Package,Corn - Ear,Total fatty acids
+Big Gain NIR Package,Small Grain Silage,16:0 Palmitic
+Big Gain NIR Package,Small Grain Silage,18:0 Stearic
+Big Gain NIR Package,Small Grain Silage,18:1 Oleic
+Big Gain NIR Package,Small Grain Silage,18:2 Linoleic
+Big Gain NIR Package,Small Grain Silage,18:3 Linolenic
+Big Gain NIR Package,Small Grain Silage,ADF
+Big Gain NIR Package,Small Grain Silage,ADICP
+Big Gain NIR Package,Small Grain Silage,aNDF
+Big Gain NIR Package,Small Grain Silage,aNDFom
+Big Gain NIR Package,Small Grain Silage,Ash
+Big Gain NIR Package,Small Grain Silage,Ca
+Big Gain NIR Package,Small Grain Silage,Cl
+Big Gain NIR Package,Small Grain Silage,CP
+Big Gain NIR Package,Small Grain Silage,Fat (EE)
+Big Gain NIR Package,Small Grain Silage,K
+Big Gain NIR Package,Small Grain Silage,Lignin
+Big Gain NIR Package,Small Grain Silage,Mg
+Big Gain NIR Package,Small Grain Silage,NDFDom24
+Big Gain NIR Package,Small Grain Silage,NDFDom240
+Big Gain NIR Package,Small Grain Silage,NDICPss
+Big Gain NIR Package,Small Grain Silage,P
+Big Gain NIR Package,Small Grain Silage,pH
+Big Gain NIR Package,Small Grain Silage,S
+Big Gain NIR Package,Small Grain Silage,SCP
+Big Gain NIR Package,Small Grain Silage,Starch
+Big Gain NIR Package,Small Grain Silage,Sugar (ESC)
+Big Gain NIR Package,Small Grain Silage,Sugar (WSC)
+Big Gain NIR Package,Small Grain Silage,Total fatty acids
+Big Gain NIR Package,Small Grain Silage,uNDFom24
+Big Gain NIR Package,Small Grain Silage,uNDFom240
+Big Gain NIR Package,TMR - Bunk mixes,16:0 Palmitic
+Big Gain NIR Package,TMR - Bunk mixes,18:0 Stearic
+Big Gain NIR Package,TMR - Bunk mixes,18:1 Oleic
+Big Gain NIR Package,TMR - Bunk mixes,18:2 Linoleic
+Big Gain NIR Package,TMR - Bunk mixes,18:3 Linolenic
+Big Gain NIR Package,TMR - Bunk mixes,ADF
+Big Gain NIR Package,TMR - Bunk mixes,ADICP
+Big Gain NIR Package,TMR - Bunk mixes,aNDF
+Big Gain NIR Package,TMR - Bunk mixes,aNDFom
+Big Gain NIR Package,TMR - Bunk mixes,Ash
+Big Gain NIR Package,TMR - Bunk mixes,CP
+Big Gain NIR Package,TMR - Bunk mixes,Fat (EE)
+Big Gain NIR Package,TMR - Bunk mixes,Lignin
+Big Gain NIR Package,TMR - Bunk mixes,NDFDom240
+Big Gain NIR Package,TMR - Bunk mixes,pH
+Big Gain NIR Package,TMR - Bunk mixes,SCP
+Big Gain NIR Package,TMR - Bunk mixes,Starch
+Big Gain NIR Package,TMR - Bunk mixes,Sugar (ESC)
+Big Gain NIR Package,TMR - Bunk mixes,Sugar (WSC)
+Big Gain NIR Package,TMR - Bunk mixes,Total fatty acids
+Big Gain NIR Package,TMR - Bunk mixes,uNDFom240
+CNCPS 6.5+,Hay - Mixed,16:0 Palmitic
+CNCPS 6.5+,Hay - Mixed,18:0 Stearic
+CNCPS 6.5+,Hay - Mixed,18:1 Oleic
+CNCPS 6.5+,Hay - Mixed,18:2 Linoleic
+CNCPS 6.5+,Hay - Mixed,18:3 Linolenic
+CNCPS 6.5+,Hay - Mixed,ADF
+CNCPS 6.5+,Hay - Mixed,ADICP
+CNCPS 6.5+,Hay - Mixed,aNDF
+CNCPS 6.5+,Hay - Mixed,aNDFom
+CNCPS 6.5+,Hay - Mixed,Ash
+CNCPS 6.5+,Hay - Mixed,Ca
+CNCPS 6.5+,Hay - Mixed,Cl
+CNCPS 6.5+,Hay - Mixed,CP
+CNCPS 6.5+,Hay - Mixed,Fat (EE)
+CNCPS 6.5+,Hay - Mixed,Histidine
+CNCPS 6.5+,Hay - Mixed,Isoleucine
+CNCPS 6.5+,Hay - Mixed,K
+CNCPS 6.5+,Hay - Mixed,Leucine
+CNCPS 6.5+,Hay - Mixed,Lignin
+CNCPS 6.5+,Hay - Mixed,Lysine
+CNCPS 6.5+,Hay - Mixed,Methionine
+CNCPS 6.5+,Hay - Mixed,Mg
+CNCPS 6.5+,Hay - Mixed,NDFDom12
+CNCPS 6.5+,Hay - Mixed,NDFDom120
+CNCPS 6.5+,Hay - Mixed,NDFDom240
+CNCPS 6.5+,Hay - Mixed,NDFDom30
+CNCPS 6.5+,Hay - Mixed,NDICPss
+CNCPS 6.5+,Hay - Mixed,P
+CNCPS 6.5+,Hay - Mixed,S
+CNCPS 6.5+,Hay - Mixed,SCP
+CNCPS 6.5+,Hay - Mixed,Starch
+CNCPS 6.5+,Hay - Mixed,Sugar (ESC)
+CNCPS 6.5+,Hay - Mixed,Sugar (WSC)
+CNCPS 6.5+,Hay - Mixed,Total amino acid
+CNCPS 6.5+,Hay - Mixed,Total fatty acids
+CNCPS 6.5+,Hay - Mixed,uNDFom12
+CNCPS 6.5+,Hay - Mixed,uNDFom120
+CNCPS 6.5+,Hay - Mixed,uNDFom240
+CNCPS 6.5+,Hay - Mixed,uNDFom30
+CNCPS 6.5+,Hay - Mixed,Insoluble Protein
+CNCPS 6.5+,Hay - Legume,16:0 Palmitic
+CNCPS 6.5+,Hay - Legume,18:0 Stearic
+CNCPS 6.5+,Hay - Legume,18:1 Oleic
+CNCPS 6.5+,Hay - Legume,18:2 Linoleic
+CNCPS 6.5+,Hay - Legume,18:3 Linolenic
+CNCPS 6.5+,Hay - Legume,ADF
+CNCPS 6.5+,Hay - Legume,ADICP
+CNCPS 6.5+,Hay - Legume,aNDF
+CNCPS 6.5+,Hay - Legume,aNDFom
+CNCPS 6.5+,Hay - Legume,Ash
+CNCPS 6.5+,Hay - Legume,Ca
+CNCPS 6.5+,Hay - Legume,Cl
+CNCPS 6.5+,Hay - Legume,CP
+CNCPS 6.5+,Hay - Legume,Fat (EE)
+CNCPS 6.5+,Hay - Legume,K
+CNCPS 6.5+,Hay - Legume,Lignin
+CNCPS 6.5+,Hay - Legume,Mg
+CNCPS 6.5+,Hay - Legume,NDFDom12
+CNCPS 6.5+,Hay - Legume,NDFDom120
+CNCPS 6.5+,Hay - Legume,NDFDom240
+CNCPS 6.5+,Hay - Legume,NDFDom30
+CNCPS 6.5+,Hay - Legume,NDICPss
+CNCPS 6.5+,Hay - Legume,S
+CNCPS 6.5+,Hay - Legume,SCP
+CNCPS 6.5+,Hay - Legume,Starch
+CNCPS 6.5+,Hay - Legume,Sugar (ESC)
+CNCPS 6.5+,Hay - Legume,Sugar (WSC)
+CNCPS 6.5+,Hay - Legume,Total fatty acids
+CNCPS 6.5+,Hay - Legume,uNDFom12
+CNCPS 6.5+,Hay - Legume,uNDFom120
+CNCPS 6.5+,Hay - Legume,uNDFom240
+CNCPS 6.5+,Hay - Legume,uNDFom30
+CNCPS 6.5+,Hay - Legume,Insoluble Protein
+CNCPS 6.5+,Hay - Grass,16:0 Palmitic
+CNCPS 6.5+,Hay - Grass,18:0 Stearic
+CNCPS 6.5+,Hay - Grass,18:1 Oleic
+CNCPS 6.5+,Hay - Grass,18:2 Linoleic
+CNCPS 6.5+,Hay - Grass,18:3 Linolenic
+CNCPS 6.5+,Hay - Grass,ADF
+CNCPS 6.5+,Hay - Grass,ADICP
+CNCPS 6.5+,Hay - Grass,aNDF
+CNCPS 6.5+,Hay - Grass,aNDFom
+CNCPS 6.5+,Hay - Grass,Ash
+CNCPS 6.5+,Hay - Grass,Ca
+CNCPS 6.5+,Hay - Grass,Cl
+CNCPS 6.5+,Hay - Grass,CP
+CNCPS 6.5+,Hay - Grass,Fat (EE)
+CNCPS 6.5+,Hay - Grass,K
+CNCPS 6.5+,Hay - Grass,Lignin
+CNCPS 6.5+,Hay - Grass,Mg
+CNCPS 6.5+,Hay - Grass,NDFDom12
+CNCPS 6.5+,Hay - Grass,NDFDom120
+CNCPS 6.5+,Hay - Grass,NDFDom240
+CNCPS 6.5+,Hay - Grass,NDFDom30
+CNCPS 6.5+,Hay - Grass,NDICPss
+CNCPS 6.5+,Hay - Grass,S
+CNCPS 6.5+,Hay - Grass,SCP
+CNCPS 6.5+,Hay - Grass,Starch
+CNCPS 6.5+,Hay - Grass,Sugar (ESC)
+CNCPS 6.5+,Hay - Grass,Sugar (WSC)
+CNCPS 6.5+,Hay - Grass,Total fatty acids
+CNCPS 6.5+,Hay - Grass,uNDFom12
+CNCPS 6.5+,Hay - Grass,uNDFom120
+CNCPS 6.5+,Hay - Grass,uNDFom240
+CNCPS 6.5+,Hay - Grass,uNDFom30
+CNCPS 6.5+,Hay - Grass,Insoluble Protein
+CNCPS 6.5+,Haylage - Mixed,16:0 Palmitic
+CNCPS 6.5+,Haylage - Mixed,18:0 Stearic
+CNCPS 6.5+,Haylage - Mixed,18:1 Oleic
+CNCPS 6.5+,Haylage - Mixed,18:2 Linoleic
+CNCPS 6.5+,Haylage - Mixed,18:3 Linolenic
+CNCPS 6.5+,Haylage - Mixed,Acetic
+CNCPS 6.5+,Haylage - Mixed,ADF
+CNCPS 6.5+,Haylage - Mixed,ADICP
+CNCPS 6.5+,Haylage - Mixed,Ammonia
+CNCPS 6.5+,Haylage - Mixed,aNDF
+CNCPS 6.5+,Haylage - Mixed,aNDFom
+CNCPS 6.5+,Haylage - Mixed,Ash
+CNCPS 6.5+,Haylage - Mixed,Butyric
+CNCPS 6.5+,Haylage - Mixed,Ca
+CNCPS 6.5+,Haylage - Mixed,Cl
+CNCPS 6.5+,Haylage - Mixed,CP
+CNCPS 6.5+,Haylage - Mixed,Fat (EE)
+CNCPS 6.5+,Haylage - Mixed,Histidine
+CNCPS 6.5+,Haylage - Mixed,Isoleucine
+CNCPS 6.5+,Haylage - Mixed,K
+CNCPS 6.5+,Haylage - Mixed,Lactic
+CNCPS 6.5+,Haylage - Mixed,Leucine
+CNCPS 6.5+,Haylage - Mixed,Lignin
+CNCPS 6.5+,Haylage - Mixed,Lysine
+CNCPS 6.5+,Haylage - Mixed,Methionine
+CNCPS 6.5+,Haylage - Mixed,Mg
+CNCPS 6.5+,Haylage - Mixed,NDFDom12
+CNCPS 6.5+,Haylage - Mixed,NDFDom120
+CNCPS 6.5+,Haylage - Mixed,NDFDom240
+CNCPS 6.5+,Haylage - Mixed,NDFDom30
+CNCPS 6.5+,Haylage - Mixed,NDICPss
+CNCPS 6.5+,Haylage - Mixed,P
+CNCPS 6.5+,Haylage - Mixed,pH
+CNCPS 6.5+,Haylage - Mixed,Propionic
+CNCPS 6.5+,Haylage - Mixed,S
+CNCPS 6.5+,Haylage - Mixed,SCP
+CNCPS 6.5+,Haylage - Mixed,Starch
+CNCPS 6.5+,Haylage - Mixed,Sugar (ESC)
+CNCPS 6.5+,Haylage - Mixed,Sugar (WSC)
+CNCPS 6.5+,Haylage - Mixed,Total amino acid
+CNCPS 6.5+,Haylage - Mixed,Total fatty acids
+CNCPS 6.5+,Haylage - Mixed,uNDFom12
+CNCPS 6.5+,Haylage - Mixed,uNDFom120
+CNCPS 6.5+,Haylage - Mixed,uNDFom240
+CNCPS 6.5+,Haylage - Mixed,uNDFom30
+CNCPS 6.5+,Haylage - Mixed,Insoluble Protein
+CNCPS 6.5+,Haylage - Legume,16:0 Palmitic
+CNCPS 6.5+,Haylage - Legume,18:0 Stearic
+CNCPS 6.5+,Haylage - Legume,18:1 Oleic
+CNCPS 6.5+,Haylage - Legume,18:2 Linoleic
+CNCPS 6.5+,Haylage - Legume,18:3 Linolenic
+CNCPS 6.5+,Haylage - Legume,Acetic
+CNCPS 6.5+,Haylage - Legume,ADF
+CNCPS 6.5+,Haylage - Legume,ADICP
+CNCPS 6.5+,Haylage - Legume,Ammonia
+CNCPS 6.5+,Haylage - Legume,aNDF
+CNCPS 6.5+,Haylage - Legume,aNDFom
+CNCPS 6.5+,Haylage - Legume,Ash
+CNCPS 6.5+,Haylage - Legume,Butyric
+CNCPS 6.5+,Haylage - Legume,Ca
+CNCPS 6.5+,Haylage - Legume,Cl
+CNCPS 6.5+,Haylage - Legume,CP
+CNCPS 6.5+,Haylage - Legume,Fat (EE)
+CNCPS 6.5+,Haylage - Legume,K
+CNCPS 6.5+,Haylage - Legume,Lactic
+CNCPS 6.5+,Haylage - Legume,Lignin
+CNCPS 6.5+,Haylage - Legume,Mg
+CNCPS 6.5+,Haylage - Legume,NDFDom12
+CNCPS 6.5+,Haylage - Legume,NDFDom120
+CNCPS 6.5+,Haylage - Legume,NDFDom240
+CNCPS 6.5+,Haylage - Legume,NDFDom30
+CNCPS 6.5+,Haylage - Legume,NDICPss
+CNCPS 6.5+,Haylage - Legume,pH
+CNCPS 6.5+,Haylage - Legume,Propionic
+CNCPS 6.5+,Haylage - Legume,S
+CNCPS 6.5+,Haylage - Legume,SCP
+CNCPS 6.5+,Haylage - Legume,Starch
+CNCPS 6.5+,Haylage - Legume,Sugar (ESC)
+CNCPS 6.5+,Haylage - Legume,Sugar (WSC)
+CNCPS 6.5+,Haylage - Legume,Total fatty acids
+CNCPS 6.5+,Haylage - Legume,uNDFom12
+CNCPS 6.5+,Haylage - Legume,uNDFom120
+CNCPS 6.5+,Haylage - Legume,uNDFom240
+CNCPS 6.5+,Haylage - Legume,uNDFom30
+CNCPS 6.5+,Haylage - Legume,Insoluble Protein
+CNCPS 6.5+,Haylage - Grass,16:0 Palmitic
+CNCPS 6.5+,Haylage - Grass,18:0 Stearic
+CNCPS 6.5+,Haylage - Grass,18:1 Oleic
+CNCPS 6.5+,Haylage - Grass,18:2 Linoleic
+CNCPS 6.5+,Haylage - Grass,18:3 Linolenic
+CNCPS 6.5+,Haylage - Grass,Acetic
+CNCPS 6.5+,Haylage - Grass,ADF
+CNCPS 6.5+,Haylage - Grass,ADICP
+CNCPS 6.5+,Haylage - Grass,Ammonia
+CNCPS 6.5+,Haylage - Grass,aNDF
+CNCPS 6.5+,Haylage - Grass,aNDFom
+CNCPS 6.5+,Haylage - Grass,Ash
+CNCPS 6.5+,Haylage - Grass,Butyric
+CNCPS 6.5+,Haylage - Grass,Ca
+CNCPS 6.5+,Haylage - Grass,Cl
+CNCPS 6.5+,Haylage - Grass,CP
+CNCPS 6.5+,Haylage - Grass,Fat (EE)
+CNCPS 6.5+,Haylage - Grass,Histidine
+CNCPS 6.5+,Haylage - Grass,Isoleucine
+CNCPS 6.5+,Haylage - Grass,K
+CNCPS 6.5+,Haylage - Grass,Lactic
+CNCPS 6.5+,Haylage - Grass,Leucine
+CNCPS 6.5+,Haylage - Grass,Lignin
+CNCPS 6.5+,Haylage - Grass,Lysine
+CNCPS 6.5+,Haylage - Grass,Methionine
+CNCPS 6.5+,Haylage - Grass,Mg
+CNCPS 6.5+,Haylage - Grass,NDFDom12
+CNCPS 6.5+,Haylage - Grass,NDFDom120
+CNCPS 6.5+,Haylage - Grass,NDFDom240
+CNCPS 6.5+,Haylage - Grass,NDFDom30
+CNCPS 6.5+,Haylage - Grass,NDICPss
+CNCPS 6.5+,Haylage - Grass,pH
+CNCPS 6.5+,Haylage - Grass,Propionic
+CNCPS 6.5+,Haylage - Grass,S
+CNCPS 6.5+,Haylage - Grass,SCP
+CNCPS 6.5+,Haylage - Grass,Starch
+CNCPS 6.5+,Haylage - Grass,Sugar (ESC)
+CNCPS 6.5+,Haylage - Grass,Sugar (WSC)
+CNCPS 6.5+,Haylage - Grass,Total amino acid
+CNCPS 6.5+,Haylage - Grass,Total fatty acids
+CNCPS 6.5+,Haylage - Grass,uNDFom12
+CNCPS 6.5+,Haylage - Grass,uNDFom120
+CNCPS 6.5+,Haylage - Grass,uNDFom240
+CNCPS 6.5+,Haylage - Grass,uNDFom30
+CNCPS 6.5+,Haylage - Grass,Insoluble Protein
+CNCPS 6.5+,Whole plant corn,16:0 Palmitic
+CNCPS 6.5+,Whole plant corn,18:0 Stearic
+CNCPS 6.5+,Whole plant corn,18:1 Oleic
+CNCPS 6.5+,Whole plant corn,18:2 Linoleic
+CNCPS 6.5+,Whole plant corn,18:3 Linolenic
+CNCPS 6.5+,Whole plant corn,Acetic
+CNCPS 6.5+,Whole plant corn,ADF
+CNCPS 6.5+,Whole plant corn,ADICP
+CNCPS 6.5+,Whole plant corn,Ammonia
+CNCPS 6.5+,Whole plant corn,aNDF
+CNCPS 6.5+,Whole plant corn,aNDFom
+CNCPS 6.5+,Whole plant corn,Ash
+CNCPS 6.5+,Whole plant corn,Ca
+CNCPS 6.5+,Whole plant corn,CP
+CNCPS 6.5+,Whole plant corn,Fat (EE)
+CNCPS 6.5+,Whole plant corn,Histidine
+CNCPS 6.5+,Whole plant corn,Isoleucine
+CNCPS 6.5+,Whole plant corn,IVSD7-o
+CNCPS 6.5+,Whole plant corn,K
+CNCPS 6.5+,Whole plant corn,Lactic
+CNCPS 6.5+,Whole plant corn,Leucine
+CNCPS 6.5+,Whole plant corn,Lignin
+CNCPS 6.5+,Whole plant corn,Lysine
+CNCPS 6.5+,Whole plant corn,Methionine
+CNCPS 6.5+,Whole plant corn,Mg
+CNCPS 6.5+,Whole plant corn,NDFDom12
+CNCPS 6.5+,Whole plant corn,NDFDom120
+CNCPS 6.5+,Whole plant corn,NDFDom240
+CNCPS 6.5+,Whole plant corn,NDFDom30
+CNCPS 6.5+,Whole plant corn,NDICPss
+CNCPS 6.5+,Whole plant corn,P
+CNCPS 6.5+,Whole plant corn,pH
+CNCPS 6.5+,Whole plant corn,Propionic
+CNCPS 6.5+,Whole plant corn,S
+CNCPS 6.5+,Whole plant corn,SCP
+CNCPS 6.5+,Whole plant corn,Starch
+CNCPS 6.5+,Whole plant corn,Sugar (ESC)
+CNCPS 6.5+,Whole plant corn,Sugar (WSC)
+CNCPS 6.5+,Whole plant corn,Total amino acid
+CNCPS 6.5+,Whole plant corn,Total fatty acids
+CNCPS 6.5+,Whole plant corn,uNDFom12
+CNCPS 6.5+,Whole plant corn,uNDFom120
+CNCPS 6.5+,Whole plant corn,uNDFom240
+CNCPS 6.5+,Whole plant corn,uNDFom30
+CNCPS 6.5+,Whole plant corn,Insoluble Protein
+CNCPS 6.5+,Corn - Ear,16:0 Palmitic
+CNCPS 6.5+,Corn - Ear,18:0 Stearic
+CNCPS 6.5+,Corn - Ear,18:1 Oleic
+CNCPS 6.5+,Corn - Ear,18:2 Linoleic
+CNCPS 6.5+,Corn - Ear,18:3 Linolenic
+CNCPS 6.5+,Corn - Ear,Acetic
+CNCPS 6.5+,Corn - Ear,ADF
+CNCPS 6.5+,Corn - Ear,ADICP
+CNCPS 6.5+,Corn - Ear,Ammonia
+CNCPS 6.5+,Corn - Ear,aNDF
+CNCPS 6.5+,Corn - Ear,aNDFom
+CNCPS 6.5+,Corn - Ear,Ash
+CNCPS 6.5+,Corn - Ear,Ca
+CNCPS 6.5+,Corn - Ear,CP
+CNCPS 6.5+,Corn - Ear,Fat (EE)
+CNCPS 6.5+,Corn - Ear,IVSD7-o
+CNCPS 6.5+,Corn - Ear,K
+CNCPS 6.5+,Corn - Ear,Lactic
+CNCPS 6.5+,Corn - Ear,Lignin
+CNCPS 6.5+,Corn - Ear,Mg
+CNCPS 6.5+,Corn - Ear,NDICPss
+CNCPS 6.5+,Corn - Ear,P
+CNCPS 6.5+,Corn - Ear,pH
+CNCPS 6.5+,Corn - Ear,S
+CNCPS 6.5+,Corn - Ear,SCP
+CNCPS 6.5+,Corn - Ear,Starch
+CNCPS 6.5+,Corn - Ear,Sugar (ESC)
+CNCPS 6.5+,Corn - Ear,Sugar (WSC)
+CNCPS 6.5+,Corn - Ear,Total fatty acids
+CNCPS 6.5+,Corn - Ear,Insoluble Protein
+CNCPS 6.5+,Small Grain Silage,16:0 Palmitic
+CNCPS 6.5+,Small Grain Silage,18:0 Stearic
+CNCPS 6.5+,Small Grain Silage,18:1 Oleic
+CNCPS 6.5+,Small Grain Silage,18:2 Linoleic
+CNCPS 6.5+,Small Grain Silage,18:3 Linolenic
+CNCPS 6.5+,Small Grain Silage,Acetic
+CNCPS 6.5+,Small Grain Silage,ADF
+CNCPS 6.5+,Small Grain Silage,ADICP
+CNCPS 6.5+,Small Grain Silage,Ammonia
+CNCPS 6.5+,Small Grain Silage,aNDF
+CNCPS 6.5+,Small Grain Silage,aNDFom
+CNCPS 6.5+,Small Grain Silage,Ash
+CNCPS 6.5+,Small Grain Silage,Butyric
+CNCPS 6.5+,Small Grain Silage,Ca
+CNCPS 6.5+,Small Grain Silage,Cl
+CNCPS 6.5+,Small Grain Silage,CP
+CNCPS 6.5+,Small Grain Silage,Fat (EE)
+CNCPS 6.5+,Small Grain Silage,Histidine
+CNCPS 6.5+,Small Grain Silage,Isoleucine
+CNCPS 6.5+,Small Grain Silage,K
+CNCPS 6.5+,Small Grain Silage,Lactic
+CNCPS 6.5+,Small Grain Silage,Leucine
+CNCPS 6.5+,Small Grain Silage,Lignin
+CNCPS 6.5+,Small Grain Silage,Lysine
+CNCPS 6.5+,Small Grain Silage,Methionine
+CNCPS 6.5+,Small Grain Silage,Mg
+CNCPS 6.5+,Small Grain Silage,NDFDom12
+CNCPS 6.5+,Small Grain Silage,NDFDom120
+CNCPS 6.5+,Small Grain Silage,NDFDom240
+CNCPS 6.5+,Small Grain Silage,NDFDom30
+CNCPS 6.5+,Small Grain Silage,NDICPss
+CNCPS 6.5+,Small Grain Silage,P
+CNCPS 6.5+,Small Grain Silage,pH
+CNCPS 6.5+,Small Grain Silage,S
+CNCPS 6.5+,Small Grain Silage,SCP
+CNCPS 6.5+,Small Grain Silage,Starch
+CNCPS 6.5+,Small Grain Silage,Sugar (ESC)
+CNCPS 6.5+,Small Grain Silage,Sugar (WSC)
+CNCPS 6.5+,Small Grain Silage,Total amino acid
+CNCPS 6.5+,Small Grain Silage,Total fatty acids
+CNCPS 6.5+,Small Grain Silage,uNDFom12
+CNCPS 6.5+,Small Grain Silage,uNDFom120
+CNCPS 6.5+,Small Grain Silage,uNDFom240
+CNCPS 6.5+,Small Grain Silage,uNDFom30
+CNCPS 6.5+,Small Grain Silage,Insoluble Protein
+CNCPS 6.5+,TMR - Bunk mixes,16:0 Palmitic
+CNCPS 6.5+,TMR - Bunk mixes,18:0 Stearic
+CNCPS 6.5+,TMR - Bunk mixes,18:1 Oleic
+CNCPS 6.5+,TMR - Bunk mixes,18:2 Linoleic
+CNCPS 6.5+,TMR - Bunk mixes,18:3 Linolenic
+CNCPS 6.5+,TMR - Bunk mixes,ADF
+CNCPS 6.5+,TMR - Bunk mixes,ADICP
+CNCPS 6.5+,TMR - Bunk mixes,aNDF
+CNCPS 6.5+,TMR - Bunk mixes,aNDFom
+CNCPS 6.5+,TMR - Bunk mixes,Ash
+CNCPS 6.5+,TMR - Bunk mixes,CP
+CNCPS 6.5+,TMR - Bunk mixes,Fat (EE)
+CNCPS 6.5+,TMR - Bunk mixes,Lignin
+CNCPS 6.5+,TMR - Bunk mixes,NDFDom240
+CNCPS 6.5+,TMR - Bunk mixes,pH
+CNCPS 6.5+,TMR - Bunk mixes,SCP
+CNCPS 6.5+,TMR - Bunk mixes,Starch
+CNCPS 6.5+,TMR - Bunk mixes,Sugar (ESC)
+CNCPS 6.5+,TMR - Bunk mixes,Sugar (WSC)
+CNCPS 6.5+,TMR - Bunk mixes,Total fatty acids
+CNCPS 6.5+,TMR - Bunk mixes,uNDFom240
+CNCPS 6.5+,TMR - Bunk mixes,Insoluble Protein
+CNCPS 6.5+,Blood meal,Ash
+CNCPS 6.5+,Blood meal,CP
+CNCPS 6.5+,Blood meal,Fat (EE)
+CNCPS 6.5+,Blood meal,Histidine
+CNCPS 6.5+,Blood meal,Isoleucine
+CNCPS 6.5+,Blood meal,Leucine
+CNCPS 6.5+,Blood meal,Lysine
+CNCPS 6.5+,Blood meal,Methionine
+CNCPS 6.5+,Blood meal,Total amino acid
+CNCPS 6.5+,Blood meal,Ross UCP
+CNCPS 6.5+,Beet pulp,aNDF
+CNCPS 6.5+,Beet pulp,aNDFom
+CNCPS 6.5+,Beet pulp,Ash
+CNCPS 6.5+,Beet pulp,Crude Fiber
+CNCPS 6.5+,Beet pulp,CP
+CNCPS 6.5+,Beet pulp,Fat (EE)
+CNCPS 6.5+,Beet pulp,NDFDom12
+CNCPS 6.5+,Beet pulp,NDFDom120
+CNCPS 6.5+,Beet pulp,NDFDom72
+CNCPS 6.5+,Beet pulp,Sugar (ESC)
+CNCPS 6.5+,Beet pulp,Sugar (WSC)
+CNCPS 6.5+,Beet pulp,uNDFom12
+CNCPS 6.5+,Beet pulp,uNDFom120
+CNCPS 6.5+,Beet pulp,uNDFom72
+CNCPS 6.5+,Beet pulp,Sucrose
+CNCPS 6.5+,Beet pulp,Total sugar
+CNCPS 6.5+,Dry corn,Histidine
+CNCPS 6.5+,Dry corn,Isoleucine
+CNCPS 6.5+,Dry corn,IVSD7-o
+CNCPS 6.5+,Dry corn,Leucine
+CNCPS 6.5+,Dry corn,Lysine
+CNCPS 6.5+,Dry corn,Methionine
+CNCPS 6.5+,Dry corn,Total amino acid
+CNCPS 6.5+,Enogen corn,Acetic
+CNCPS 6.5+,Enogen corn,Ammonia
+CNCPS 6.5+,Enogen corn,Histidine
+CNCPS 6.5+,Enogen corn,Isoleucine
+CNCPS 6.5+,Enogen corn,IVSD7-o
+CNCPS 6.5+,Enogen corn,Lactic
+CNCPS 6.5+,Enogen corn,Leucine
+CNCPS 6.5+,Enogen corn,Lysine
+CNCPS 6.5+,Enogen corn,Methionine
+CNCPS 6.5+,Enogen corn,pH
+CNCPS 6.5+,Enogen corn,Total amino acid
+CNCPS 6.5+,HMSC,Acetic
+CNCPS 6.5+,HMSC,Ammonia
+CNCPS 6.5+,HMSC,Histidine
+CNCPS 6.5+,HMSC,Isoleucine
+CNCPS 6.5+,HMSC,IVSD7-o
+CNCPS 6.5+,HMSC,Lactic
+CNCPS 6.5+,HMSC,Leucine
+CNCPS 6.5+,HMSC,Lysine
+CNCPS 6.5+,HMSC,Methionine
+CNCPS 6.5+,HMSC,pH
+CNCPS 6.5+,HMSC,Total amino acid
+CNCPS 6.5+,High oil corn,Histidine
+CNCPS 6.5+,High oil corn,Isoleucine
+CNCPS 6.5+,High oil corn,IVSD7-o
+CNCPS 6.5+,High oil corn,Leucine
+CNCPS 6.5+,High oil corn,Lysine
+CNCPS 6.5+,High oil corn,Methionine
+CNCPS 6.5+,High oil corn,Total amino acid
+CNCPS 6.5+,Corn,Acetic
+CNCPS 6.5+,Corn,IVSD7-o
+CNCPS 6.5+,Corn,Lactic
+CNCPS 6.5+,Corn,pH
+CNCPS 6.5+,Steam flaked corn,Histidine
+CNCPS 6.5+,Steam flaked corn,Isoleucine
+CNCPS 6.5+,Steam flaked corn,Leucine
+CNCPS 6.5+,Steam flaked corn,Lysine
+CNCPS 6.5+,Steam flaked corn,Methionine
+CNCPS 6.5+,Steam flaked corn,Total amino acid
+CNCPS 6.5+,Barley grain,16:0 Palmitic
+CNCPS 6.5+,Barley grain,18:0 Stearic
+CNCPS 6.5+,Barley grain,18:1 Oleic
+CNCPS 6.5+,Barley grain,18:2 Linoleic
+CNCPS 6.5+,Barley grain,18:3 Linolenic
+CNCPS 6.5+,Barley grain,ADF
+CNCPS 6.5+,Barley grain,ADICP
+CNCPS 6.5+,Barley grain,Ca
+CNCPS 6.5+,Barley grain,Histidine
+CNCPS 6.5+,Barley grain,Isoleucine
+CNCPS 6.5+,Barley grain,K
+CNCPS 6.5+,Barley grain,Leucine
+CNCPS 6.5+,Barley grain,Lysine
+CNCPS 6.5+,Barley grain,Methionine
+CNCPS 6.5+,Barley grain,Mg
+CNCPS 6.5+,Barley grain,NDFDom12
+CNCPS 6.5+,Barley grain,NDFDom120
+CNCPS 6.5+,Barley grain,NDFDom72
+CNCPS 6.5+,Barley grain,P
+CNCPS 6.5+,Barley grain,SCP
+CNCPS 6.5+,Barley grain,Total amino acid
+CNCPS 6.5+,Barley grain,uNDFom12
+CNCPS 6.5+,Barley grain,uNDFom120
+CNCPS 6.5+,Barley grain,uNDFom72
+CNCPS 6.5+,Barley grain,Insoluble Protein
+CNCPS 6.5+,Spelt grain,16:0 Palmitic
+CNCPS 6.5+,Spelt grain,18:0 Stearic
+CNCPS 6.5+,Spelt grain,18:1 Oleic
+CNCPS 6.5+,Spelt grain,18:2 Linoleic
+CNCPS 6.5+,Spelt grain,18:3 Linolenic
+CNCPS 6.5+,Spelt grain,ADF
+CNCPS 6.5+,Spelt grain,ADICP
+CNCPS 6.5+,Spelt grain,Ca
+CNCPS 6.5+,Spelt grain,Histidine
+CNCPS 6.5+,Spelt grain,Isoleucine
+CNCPS 6.5+,Spelt grain,K
+CNCPS 6.5+,Spelt grain,Leucine
+CNCPS 6.5+,Spelt grain,Lysine
+CNCPS 6.5+,Spelt grain,Methionine
+CNCPS 6.5+,Spelt grain,Mg
+CNCPS 6.5+,Spelt grain,NDFDom12
+CNCPS 6.5+,Spelt grain,NDFDom120
+CNCPS 6.5+,Spelt grain,NDFDom72
+CNCPS 6.5+,Spelt grain,P
+CNCPS 6.5+,Spelt grain,SCP
+CNCPS 6.5+,Spelt grain,Total amino acid
+CNCPS 6.5+,Spelt grain,uNDFom12
+CNCPS 6.5+,Spelt grain,uNDFom120
+CNCPS 6.5+,Spelt grain,uNDFom72
+CNCPS 6.5+,Spelt grain,Insoluble Protein
+CNCPS 6.5+,Milo grain,16:0 Palmitic
+CNCPS 6.5+,Milo grain,18:0 Stearic
+CNCPS 6.5+,Milo grain,18:1 Oleic
+CNCPS 6.5+,Milo grain,18:2 Linoleic
+CNCPS 6.5+,Milo grain,18:3 Linolenic
+CNCPS 6.5+,Milo grain,ADF
+CNCPS 6.5+,Milo grain,ADICP
+CNCPS 6.5+,Milo grain,Ca
+CNCPS 6.5+,Milo grain,Histidine
+CNCPS 6.5+,Milo grain,Isoleucine
+CNCPS 6.5+,Milo grain,K
+CNCPS 6.5+,Milo grain,Leucine
+CNCPS 6.5+,Milo grain,Lysine
+CNCPS 6.5+,Milo grain,Methionine
+CNCPS 6.5+,Milo grain,Mg
+CNCPS 6.5+,Milo grain,NDFDom12
+CNCPS 6.5+,Milo grain,NDFDom120
+CNCPS 6.5+,Milo grain,NDFDom72
+CNCPS 6.5+,Milo grain,P
+CNCPS 6.5+,Milo grain,SCP
+CNCPS 6.5+,Milo grain,Total amino acid
+CNCPS 6.5+,Milo grain,uNDFom12
+CNCPS 6.5+,Milo grain,uNDFom120
+CNCPS 6.5+,Milo grain,uNDFom72
+CNCPS 6.5+,Milo grain,Insoluble Protein
+CNCPS 6.5+,Oat grain,16:0 Palmitic
+CNCPS 6.5+,Oat grain,18:0 Stearic
+CNCPS 6.5+,Oat grain,18:1 Oleic
+CNCPS 6.5+,Oat grain,18:2 Linoleic
+CNCPS 6.5+,Oat grain,18:3 Linolenic
+CNCPS 6.5+,Oat grain,ADF
+CNCPS 6.5+,Oat grain,ADICP
+CNCPS 6.5+,Oat grain,Ca
+CNCPS 6.5+,Oat grain,Histidine
+CNCPS 6.5+,Oat grain,Isoleucine
+CNCPS 6.5+,Oat grain,K
+CNCPS 6.5+,Oat grain,Leucine
+CNCPS 6.5+,Oat grain,Lysine
+CNCPS 6.5+,Oat grain,Methionine
+CNCPS 6.5+,Oat grain,Mg
+CNCPS 6.5+,Oat grain,NDFDom12
+CNCPS 6.5+,Oat grain,NDFDom120
+CNCPS 6.5+,Oat grain,NDFDom72
+CNCPS 6.5+,Oat grain,P
+CNCPS 6.5+,Oat grain,SCP
+CNCPS 6.5+,Oat grain,Total amino acid
+CNCPS 6.5+,Oat grain,uNDFom12
+CNCPS 6.5+,Oat grain,uNDFom120
+CNCPS 6.5+,Oat grain,uNDFom72
+CNCPS 6.5+,Oat grain,Insoluble Protein
+CNCPS 6.5+,Rye grain,16:0 Palmitic
+CNCPS 6.5+,Rye grain,18:0 Stearic
+CNCPS 6.5+,Rye grain,18:1 Oleic
+CNCPS 6.5+,Rye grain,18:2 Linoleic
+CNCPS 6.5+,Rye grain,18:3 Linolenic
+CNCPS 6.5+,Rye grain,ADF
+CNCPS 6.5+,Rye grain,ADICP
+CNCPS 6.5+,Rye grain,Ca
+CNCPS 6.5+,Rye grain,Histidine
+CNCPS 6.5+,Rye grain,Isoleucine
+CNCPS 6.5+,Rye grain,K
+CNCPS 6.5+,Rye grain,Leucine
+CNCPS 6.5+,Rye grain,Lysine
+CNCPS 6.5+,Rye grain,Methionine
+CNCPS 6.5+,Rye grain,Mg
+CNCPS 6.5+,Rye grain,NDFDom12
+CNCPS 6.5+,Rye grain,NDFDom120
+CNCPS 6.5+,Rye grain,NDFDom72
+CNCPS 6.5+,Rye grain,P
+CNCPS 6.5+,Rye grain,SCP
+CNCPS 6.5+,Rye grain,Total amino acid
+CNCPS 6.5+,Rye grain,uNDFom12
+CNCPS 6.5+,Rye grain,uNDFom120
+CNCPS 6.5+,Rye grain,uNDFom72
+CNCPS 6.5+,Rye grain,Insoluble Protein
+CNCPS 6.5+,Sorghum grain,16:0 Palmitic
+CNCPS 6.5+,Sorghum grain,18:0 Stearic
+CNCPS 6.5+,Sorghum grain,18:1 Oleic
+CNCPS 6.5+,Sorghum grain,18:2 Linoleic
+CNCPS 6.5+,Sorghum grain,18:3 Linolenic
+CNCPS 6.5+,Sorghum grain,ADF
+CNCPS 6.5+,Sorghum grain,ADICP
+CNCPS 6.5+,Sorghum grain,Ca
+CNCPS 6.5+,Sorghum grain,Histidine
+CNCPS 6.5+,Sorghum grain,Isoleucine
+CNCPS 6.5+,Sorghum grain,K
+CNCPS 6.5+,Sorghum grain,Leucine
+CNCPS 6.5+,Sorghum grain,Lysine
+CNCPS 6.5+,Sorghum grain,Methionine
+CNCPS 6.5+,Sorghum grain,Mg
+CNCPS 6.5+,Sorghum grain,NDFDom12
+CNCPS 6.5+,Sorghum grain,NDFDom120
+CNCPS 6.5+,Sorghum grain,NDFDom72
+CNCPS 6.5+,Sorghum grain,P
+CNCPS 6.5+,Sorghum grain,SCP
+CNCPS 6.5+,Sorghum grain,Total amino acid
+CNCPS 6.5+,Sorghum grain,uNDFom12
+CNCPS 6.5+,Sorghum grain,uNDFom120
+CNCPS 6.5+,Sorghum grain,uNDFom72
+CNCPS 6.5+,Sorghum grain,Insoluble Protein
+CNCPS 6.5+,Triticale grain,16:0 Palmitic
+CNCPS 6.5+,Triticale grain,18:0 Stearic
+CNCPS 6.5+,Triticale grain,18:1 Oleic
+CNCPS 6.5+,Triticale grain,18:2 Linoleic
+CNCPS 6.5+,Triticale grain,18:3 Linolenic
+CNCPS 6.5+,Triticale grain,ADF
+CNCPS 6.5+,Triticale grain,ADICP
+CNCPS 6.5+,Triticale grain,Ca
+CNCPS 6.5+,Triticale grain,Histidine
+CNCPS 6.5+,Triticale grain,Isoleucine
+CNCPS 6.5+,Triticale grain,K
+CNCPS 6.5+,Triticale grain,Leucine
+CNCPS 6.5+,Triticale grain,Lysine
+CNCPS 6.5+,Triticale grain,Methionine
+CNCPS 6.5+,Triticale grain,Mg
+CNCPS 6.5+,Triticale grain,NDFDom12
+CNCPS 6.5+,Triticale grain,NDFDom120
+CNCPS 6.5+,Triticale grain,NDFDom72
+CNCPS 6.5+,Triticale grain,P
+CNCPS 6.5+,Triticale grain,SCP
+CNCPS 6.5+,Triticale grain,Total amino acid
+CNCPS 6.5+,Triticale grain,uNDFom12
+CNCPS 6.5+,Triticale grain,uNDFom120
+CNCPS 6.5+,Triticale grain,uNDFom72
+CNCPS 6.5+,Triticale grain,Insoluble Protein
+CNCPS 6.5+,Wheat grain,16:0 Palmitic
+CNCPS 6.5+,Wheat grain,18:0 Stearic
+CNCPS 6.5+,Wheat grain,18:1 Oleic
+CNCPS 6.5+,Wheat grain,18:2 Linoleic
+CNCPS 6.5+,Wheat grain,18:3 Linolenic
+CNCPS 6.5+,Wheat grain,ADF
+CNCPS 6.5+,Wheat grain,ADICP
+CNCPS 6.5+,Wheat grain,Ca
+CNCPS 6.5+,Wheat grain,Histidine
+CNCPS 6.5+,Wheat grain,Isoleucine
+CNCPS 6.5+,Wheat grain,K
+CNCPS 6.5+,Wheat grain,Leucine
+CNCPS 6.5+,Wheat grain,Lysine
+CNCPS 6.5+,Wheat grain,Methionine
+CNCPS 6.5+,Wheat grain,Mg
+CNCPS 6.5+,Wheat grain,NDFDom12
+CNCPS 6.5+,Wheat grain,NDFDom120
+CNCPS 6.5+,Wheat grain,NDFDom72
+CNCPS 6.5+,Wheat grain,P
+CNCPS 6.5+,Wheat grain,SCP
+CNCPS 6.5+,Wheat grain,Total amino acid
+CNCPS 6.5+,Wheat grain,uNDFom12
+CNCPS 6.5+,Wheat grain,uNDFom120
+CNCPS 6.5+,Wheat grain,uNDFom72
+CNCPS 6.5+,Wheat grain,Insoluble Protein
+CNCPS 6.5+,Brewers grain dry,ADF
+CNCPS 6.5+,Brewers grain dry,ADICP
+CNCPS 6.5+,Brewers grain dry,aNDF
+CNCPS 6.5+,Brewers grain dry,aNDFom
+CNCPS 6.5+,Brewers grain dry,Ash
+CNCPS 6.5+,Brewers grain dry,Crude Fiber
+CNCPS 6.5+,Brewers grain dry,CP
+CNCPS 6.5+,Brewers grain dry,Fat (EE)
+CNCPS 6.5+,Brewers grain dry,NDFDom12
+CNCPS 6.5+,Brewers grain dry,NDFDom120
+CNCPS 6.5+,Brewers grain dry,NDFDom72
+CNCPS 6.5+,Brewers grain dry,NDICPss
+CNCPS 6.5+,Brewers grain dry,Starch
+CNCPS 6.5+,Brewers grain dry,uNDFom12
+CNCPS 6.5+,Brewers grain dry,uNDFom120
+CNCPS 6.5+,Brewers grain dry,uNDFom72
+CNCPS 6.5+,Corn distillers - dry,16:0 Palmitic
+CNCPS 6.5+,Corn distillers - dry,18:0 Stearic
+CNCPS 6.5+,Corn distillers - dry,18:1 Oleic
+CNCPS 6.5+,Corn distillers - dry,18:2 Linoleic
+CNCPS 6.5+,Corn distillers - dry,18:3 Linolenic
+CNCPS 6.5+,Corn distillers - dry,ADF
+CNCPS 6.5+,Corn distillers - dry,ADICP
+CNCPS 6.5+,Corn distillers - dry,aNDF
+CNCPS 6.5+,Corn distillers - dry,aNDFom
+CNCPS 6.5+,Corn distillers - dry,Ash
+CNCPS 6.5+,Corn distillers - dry,Ca
+CNCPS 6.5+,Corn distillers - dry,Crude Fiber
+CNCPS 6.5+,Corn distillers - dry,CP
+CNCPS 6.5+,Corn distillers - dry,Fat (EE)
+CNCPS 6.5+,Corn distillers - dry,Histidine
+CNCPS 6.5+,Corn distillers - dry,Isoleucine
+CNCPS 6.5+,Corn distillers - dry,K
+CNCPS 6.5+,Corn distillers - dry,Leucine
+CNCPS 6.5+,Corn distillers - dry,Lignin
+CNCPS 6.5+,Corn distillers - dry,Lysine
+CNCPS 6.5+,Corn distillers - dry,Methionine
+CNCPS 6.5+,Corn distillers - dry,Mg
+CNCPS 6.5+,Corn distillers - dry,NDFDom12
+CNCPS 6.5+,Corn distillers - dry,NDFDom120
+CNCPS 6.5+,Corn distillers - dry,NDFDom240
+CNCPS 6.5+,Corn distillers - dry,NDFDom30
+CNCPS 6.5+,Corn distillers - dry,NDFDom72
+CNCPS 6.5+,Corn distillers - dry,NDICPss
+CNCPS 6.5+,Corn distillers - dry,P
+CNCPS 6.5+,Corn distillers - dry,Ross UCP
+CNCPS 6.5+,Corn distillers - dry,S
+CNCPS 6.5+,Corn distillers - dry,SCP
+CNCPS 6.5+,Corn distillers - dry,Starch
+CNCPS 6.5+,Corn distillers - dry,Sugar (ESC)
+CNCPS 6.5+,Corn distillers - dry,Sugar (WSC)
+CNCPS 6.5+,Corn distillers - dry,Total amino acid
+CNCPS 6.5+,Corn distillers - dry,Total fatty acids
+CNCPS 6.5+,Corn distillers - dry,uNDFom12
+CNCPS 6.5+,Corn distillers - dry,uNDFom120
+CNCPS 6.5+,Corn distillers - dry,uNDFom240
+CNCPS 6.5+,Corn distillers - dry,uNDFom30
+CNCPS 6.5+,Corn distillers - dry,uNDFom72
+CNCPS 6.5+,Corn distillers - dry,Insoluble Protein
+CNCPS 6.5+,Corn gluten feed,16:0 Palmitic
+CNCPS 6.5+,Corn gluten feed,18:0 Stearic
+CNCPS 6.5+,Corn gluten feed,18:1 Oleic
+CNCPS 6.5+,Corn gluten feed,18:2 Linoleic
+CNCPS 6.5+,Corn gluten feed,18:3 Linolenic
+CNCPS 6.5+,Corn gluten feed,ADF
+CNCPS 6.5+,Corn gluten feed,ADICP
+CNCPS 6.5+,Corn gluten feed,aNDF
+CNCPS 6.5+,Corn gluten feed,aNDFom
+CNCPS 6.5+,Corn gluten feed,Ash
+CNCPS 6.5+,Corn gluten feed,Ca
+CNCPS 6.5+,Corn gluten feed,Crude Fiber
+CNCPS 6.5+,Corn gluten feed,CP
+CNCPS 6.5+,Corn gluten feed,Fat (EE)
+CNCPS 6.5+,Corn gluten feed,Histidine
+CNCPS 6.5+,Corn gluten feed,Isoleucine
+CNCPS 6.5+,Corn gluten feed,K
+CNCPS 6.5+,Corn gluten feed,Leucine
+CNCPS 6.5+,Corn gluten feed,Lysine
+CNCPS 6.5+,Corn gluten feed,Methionine
+CNCPS 6.5+,Corn gluten feed,Mg
+CNCPS 6.5+,Corn gluten feed,NDFDom12
+CNCPS 6.5+,Corn gluten feed,NDFDom120
+CNCPS 6.5+,Corn gluten feed,NDFDom240
+CNCPS 6.5+,Corn gluten feed,NDFDom30
+CNCPS 6.5+,Corn gluten feed,NDFDom72
+CNCPS 6.5+,Corn gluten feed,NDICPss
+CNCPS 6.5+,Corn gluten feed,P
+CNCPS 6.5+,Corn gluten feed,S
+CNCPS 6.5+,Corn gluten feed,SCP
+CNCPS 6.5+,Corn gluten feed,Starch
+CNCPS 6.5+,Corn gluten feed,Sugar (ESC)
+CNCPS 6.5+,Corn gluten feed,Sugar (WSC)
+CNCPS 6.5+,Corn gluten feed,Total amino acid
+CNCPS 6.5+,Corn gluten feed,Total fatty acids
+CNCPS 6.5+,Corn gluten feed,uNDFom12
+CNCPS 6.5+,Corn gluten feed,uNDFom120
+CNCPS 6.5+,Corn gluten feed,uNDFom240
+CNCPS 6.5+,Corn gluten feed,uNDFom30
+CNCPS 6.5+,Corn gluten feed,uNDFom72
+CNCPS 6.5+,Corn gluten feed,Insoluble Protein
+CNCPS 6.5+,Brewers grain wet,ADF
+CNCPS 6.5+,Brewers grain wet,ADICP
+CNCPS 6.5+,Brewers grain wet,aNDF
+CNCPS 6.5+,Brewers grain wet,aNDFom
+CNCPS 6.5+,Brewers grain wet,Ash
+CNCPS 6.5+,Brewers grain wet,Crude Fiber
+CNCPS 6.5+,Brewers grain wet,CP
+CNCPS 6.5+,Brewers grain wet,Fat (EE)
+CNCPS 6.5+,Brewers grain wet,NDFDom12
+CNCPS 6.5+,Brewers grain wet,NDFDom120
+CNCPS 6.5+,Brewers grain wet,NDFDom72
+CNCPS 6.5+,Brewers grain wet,NDICPss
+CNCPS 6.5+,Brewers grain wet,Starch
+CNCPS 6.5+,Brewers grain wet,uNDFom12
+CNCPS 6.5+,Brewers grain wet,uNDFom120
+CNCPS 6.5+,Brewers grain wet,uNDFom72
+CNCPS 6.5+,Corn distillers - wet,16:0 Palmitic
+CNCPS 6.5+,Corn distillers - wet,18:0 Stearic
+CNCPS 6.5+,Corn distillers - wet,18:1 Oleic
+CNCPS 6.5+,Corn distillers - wet,18:2 Linoleic
+CNCPS 6.5+,Corn distillers - wet,18:3 Linolenic
+CNCPS 6.5+,Corn distillers - wet,ADF
+CNCPS 6.5+,Corn distillers - wet,ADICP
+CNCPS 6.5+,Corn distillers - wet,aNDF
+CNCPS 6.5+,Corn distillers - wet,aNDFom
+CNCPS 6.5+,Corn distillers - wet,Ash
+CNCPS 6.5+,Corn distillers - wet,Ca
+CNCPS 6.5+,Corn distillers - wet,Crude Fiber
+CNCPS 6.5+,Corn distillers - wet,CP
+CNCPS 6.5+,Corn distillers - wet,Fat (EE)
+CNCPS 6.5+,Corn distillers - wet,Histidine
+CNCPS 6.5+,Corn distillers - wet,Isoleucine
+CNCPS 6.5+,Corn distillers - wet,K
+CNCPS 6.5+,Corn distillers - wet,Leucine
+CNCPS 6.5+,Corn distillers - wet,Lignin
+CNCPS 6.5+,Corn distillers - wet,Lysine
+CNCPS 6.5+,Corn distillers - wet,Methionine
+CNCPS 6.5+,Corn distillers - wet,Mg
+CNCPS 6.5+,Corn distillers - wet,NDFDom12
+CNCPS 6.5+,Corn distillers - wet,NDFDom120
+CNCPS 6.5+,Corn distillers - wet,NDFDom240
+CNCPS 6.5+,Corn distillers - wet,NDFDom30
+CNCPS 6.5+,Corn distillers - wet,NDFDom72
+CNCPS 6.5+,Corn distillers - wet,NDICPss
+CNCPS 6.5+,Corn distillers - wet,P
+CNCPS 6.5+,Corn distillers - wet,Ross UCP
+CNCPS 6.5+,Corn distillers - wet,S
+CNCPS 6.5+,Corn distillers - wet,SCP
+CNCPS 6.5+,Corn distillers - wet,Starch
+CNCPS 6.5+,Corn distillers - wet,Sugar (ESC)
+CNCPS 6.5+,Corn distillers - wet,Sugar (WSC)
+CNCPS 6.5+,Corn distillers - wet,Total amino acid
+CNCPS 6.5+,Corn distillers - wet,Total fatty acids
+CNCPS 6.5+,Corn distillers - wet,uNDFom12
+CNCPS 6.5+,Corn distillers - wet,uNDFom120
+CNCPS 6.5+,Corn distillers - wet,uNDFom240
+CNCPS 6.5+,Corn distillers - wet,uNDFom30
+CNCPS 6.5+,Corn distillers - wet,uNDFom72
+CNCPS 6.5+,Corn distillers - wet,Insoluble Protein
+CNCPS 6.5+,Wheat midds,ADF
+CNCPS 6.5+,Wheat midds,aNDF
+CNCPS 6.5+,Wheat midds,aNDFom
+CNCPS 6.5+,Wheat midds,Ash
+CNCPS 6.5+,Wheat midds,Crude Fiber
+CNCPS 6.5+,Wheat midds,CP
+CNCPS 6.5+,Wheat midds,Fat (EE)
+CNCPS 6.5+,Wheat midds,NDFDom12
+CNCPS 6.5+,Wheat midds,NDFDom120
+CNCPS 6.5+,Wheat midds,NDFDom240
+CNCPS 6.5+,Wheat midds,NDFDom72
+CNCPS 6.5+,Wheat midds,Starch
+CNCPS 6.5+,Wheat midds,uNDFom12
+CNCPS 6.5+,Wheat midds,uNDFom120
+CNCPS 6.5+,Wheat midds,uNDFom240
+CNCPS 6.5+,Wheat midds,uNDFom72
+CNCPS 6.5+,Canola meal,16:0 Palmitic
+CNCPS 6.5+,Canola meal,18:0 Stearic
+CNCPS 6.5+,Canola meal,18:1 Oleic
+CNCPS 6.5+,Canola meal,18:2 Linoleic
+CNCPS 6.5+,Canola meal,18:3 Linolenic
+CNCPS 6.5+,Canola meal,ADF
+CNCPS 6.5+,Canola meal,ADICP
+CNCPS 6.5+,Canola meal,aNDF
+CNCPS 6.5+,Canola meal,aNDFom
+CNCPS 6.5+,Canola meal,Ash
+CNCPS 6.5+,Canola meal,Crude Fiber
+CNCPS 6.5+,Canola meal,CP
+CNCPS 6.5+,Canola meal,Fat (EE)
+CNCPS 6.5+,Canola meal,Histidine
+CNCPS 6.5+,Canola meal,Isoleucine
+CNCPS 6.5+,Canola meal,Leucine
+CNCPS 6.5+,Canola meal,Lysine
+CNCPS 6.5+,Canola meal,Methionine
+CNCPS 6.5+,Canola meal,NDFDom12
+CNCPS 6.5+,Canola meal,NDFDom120
+CNCPS 6.5+,Canola meal,NDFDom240
+CNCPS 6.5+,Canola meal,NDFDom72
+CNCPS 6.5+,Canola meal,NDICPss
+CNCPS 6.5+,Canola meal,Ross UCP
+CNCPS 6.5+,Canola meal,Total amino acid
+CNCPS 6.5+,Canola meal,uNDFom12
+CNCPS 6.5+,Canola meal,uNDFom120
+CNCPS 6.5+,Canola meal,uNDFom240
+CNCPS 6.5+,Canola meal,uNDFom72
+CNCPS 6.5+,SF soybeans,16:0 Palmitic
+CNCPS 6.5+,SF soybeans,18:0 Stearic
+CNCPS 6.5+,SF soybeans,18:1 Oleic
+CNCPS 6.5+,SF soybeans,18:2 Linoleic
+CNCPS 6.5+,SF soybeans,18:3 Linolenic
+CNCPS 6.5+,SF soybeans,Crude Fiber
+CNCPS 6.5+,SF soybeans,CP
+CNCPS 6.5+,SF soybeans,Fat (EE)
+CNCPS 6.5+,SF soybeans,Total fatty acids
+CNCPS 6.5+,Soybeans,16:0 Palmitic
+CNCPS 6.5+,Soybeans,18:0 Stearic
+CNCPS 6.5+,Soybeans,18:1 Oleic
+CNCPS 6.5+,Soybeans,18:2 Linoleic
+CNCPS 6.5+,Soybeans,18:3 Linolenic
+CNCPS 6.5+,Soybeans,Crude Fiber
+CNCPS 6.5+,Soybeans,CP
+CNCPS 6.5+,Soybeans,Fat (EE)
+CNCPS 6.5+,Soybeans,Total fatty acids
+CNCPS 6.5+,SBM,ADF
+CNCPS 6.5+,SBM,ADICP
+CNCPS 6.5+,SBM,aNDF
+CNCPS 6.5+,SBM,aNDFom
+CNCPS 6.5+,SBM,Ash
+CNCPS 6.5+,SBM,Crude Fiber
+CNCPS 6.5+,SBM,CP
+CNCPS 6.5+,SBM,Fat (EE)
+CNCPS 6.5+,SBM,Histidine
+CNCPS 6.5+,SBM,Isoleucine
+CNCPS 6.5+,SBM,Leucine
+CNCPS 6.5+,SBM,Lysine
+CNCPS 6.5+,SBM,Methionine
+CNCPS 6.5+,SBM,NDICPss
+CNCPS 6.5+,SBM,Ross UCP
+CNCPS 6.5+,SBM,Sugar (ESC)
+CNCPS 6.5+,SBM,Total amino acid
+CNCPS 6.5+,Roasted soybeans,16:0 Palmitic
+CNCPS 6.5+,Roasted soybeans,18:0 Stearic
+CNCPS 6.5+,Roasted soybeans,18:1 Oleic
+CNCPS 6.5+,Roasted soybeans,18:2 Linoleic
+CNCPS 6.5+,Roasted soybeans,18:3 Linolenic
+CNCPS 6.5+,Roasted soybeans,Crude Fiber
+CNCPS 6.5+,Roasted soybeans,CP
+CNCPS 6.5+,Roasted soybeans,Fat (EE)
+CNCPS 6.5+,Roasted soybeans,Total fatty acids
+CNCPS 6.5+,Soyhulls,ADF
+CNCPS 6.5+,Soyhulls,aNDF
+CNCPS 6.5+,Soyhulls,aNDFom
+CNCPS 6.5+,Soyhulls,Ash
+CNCPS 6.5+,Soyhulls,Crude Fiber
+CNCPS 6.5+,Soyhulls,CP
+CNCPS 6.5+,Soyhulls,Fat (EE)
+CNCPS 6.5+,Soyhulls,NDFDom12
+CNCPS 6.5+,Soyhulls,NDFDom120
+CNCPS 6.5+,Soyhulls,NDFDom240
+CNCPS 6.5+,Soyhulls,NDFDom30
+CNCPS 6.5+,Soyhulls,NDFDom72
+CNCPS 6.5+,Soyhulls,Starch
+CNCPS 6.5+,Soyhulls,Sugar (WSC)
+CNCPS 6.5+,Soyhulls,uNDFom12
+CNCPS 6.5+,Soyhulls,uNDFom120
+CNCPS 6.5+,Soyhulls,uNDFom240
+CNCPS 6.5+,Soyhulls,uNDFom30
+CNCPS 6.5+,Soyhulls,uNDFom72
+NIR Plot Pkg,Whole plant corn,16:0 Palmitic
+NIR Plot Pkg,Whole plant corn,18:0 Stearic
+NIR Plot Pkg,Whole plant corn,18:1 Oleic
+NIR Plot Pkg,Whole plant corn,18:2 Linoleic
+NIR Plot Pkg,Whole plant corn,18:3 Linolenic
+NIR Plot Pkg,Whole plant corn,Acetic
+NIR Plot Pkg,Whole plant corn,ADF
+NIR Plot Pkg,Whole plant corn,ADICP
+NIR Plot Pkg,Whole plant corn,Ammonia
+NIR Plot Pkg,Whole plant corn,aNDF
+NIR Plot Pkg,Whole plant corn,aNDFom
+NIR Plot Pkg,Whole plant corn,Ash
+NIR Plot Pkg,Whole plant corn,Ca
+NIR Plot Pkg,Whole plant corn,CP
+NIR Plot Pkg,Whole plant corn,Fat (EE)
+NIR Plot Pkg,Whole plant corn,IVSD7-o
+NIR Plot Pkg,Whole plant corn,K
+NIR Plot Pkg,Whole plant corn,Lactic
+NIR Plot Pkg,Whole plant corn,Lignin
+NIR Plot Pkg,Whole plant corn,Mg
+NIR Plot Pkg,Whole plant corn,NDFDom120
+NIR Plot Pkg,Whole plant corn,NDFDom24
+NIR Plot Pkg,Whole plant corn,NDFDom240
+NIR Plot Pkg,Whole plant corn,NDFDom30
+NIR Plot Pkg,Whole plant corn,NDFDom48
+NIR Plot Pkg,Whole plant corn,NDICPss
+NIR Plot Pkg,Whole plant corn,P
+NIR Plot Pkg,Whole plant corn,Propionic
+NIR Plot Pkg,Whole plant corn,S
+NIR Plot Pkg,Whole plant corn,SCP
+NIR Plot Pkg,Whole plant corn,Starch
+NIR Plot Pkg,Whole plant corn,Sugar (ESC)
+NIR Plot Pkg,Whole plant corn,Sugar (WSC)
+NIR Plot Pkg,Whole plant corn,Total fatty acids
+NIR Plot Pkg,Whole plant corn,uNDFom120
+NIR Plot Pkg,Whole plant corn,uNDFom24
+NIR Plot Pkg,Whole plant corn,uNDFom240
+NIR Plot Pkg,Whole plant corn,uNDFom30
+NIR Plot Pkg,Whole plant corn,uNDFom48
+Basic,Hay - Mixed,ADF
+Basic,Hay - Mixed,ADICP
+Basic,Hay - Mixed,aNDF
+Basic,Hay - Mixed,aNDFom
+Basic,Hay - Mixed,Ash
+Basic,Hay - Mixed,Ca
+Basic,Hay - Mixed,Cl
+Basic,Hay - Mixed,CP
+Basic,Hay - Mixed,Fat (EE)
+Basic,Hay - Mixed,K
+Basic,Hay - Mixed,Lignin
+Basic,Hay - Mixed,Mg
+Basic,Hay - Mixed,NDFDom240
+Basic,Hay - Mixed,NDICPss
+Basic,Hay - Mixed,P
+Basic,Hay - Mixed,S
+Basic,Hay - Mixed,SCP
+Basic,Hay - Mixed,Starch
+Basic,Hay - Mixed,Sugar (ESC)
+Basic,Hay - Mixed,Sugar (WSC)
+Basic,Hay - Mixed,Total fatty acids
+Basic,Hay - Mixed,uNDFom240
+Basic,Hay - Mixed,Insoluble Protein
+Basic,Hay - Legume,ADF
+Basic,Hay - Legume,ADICP
+Basic,Hay - Legume,aNDF
+Basic,Hay - Legume,aNDFom
+Basic,Hay - Legume,Ash
+Basic,Hay - Legume,Ca
+Basic,Hay - Legume,Cl
+Basic,Hay - Legume,CP
+Basic,Hay - Legume,Fat (EE)
+Basic,Hay - Legume,K
+Basic,Hay - Legume,Lignin
+Basic,Hay - Legume,Mg
+Basic,Hay - Legume,NDFDom240
+Basic,Hay - Legume,NDICPss
+Basic,Hay - Legume,S
+Basic,Hay - Legume,SCP
+Basic,Hay - Legume,Starch
+Basic,Hay - Legume,Sugar (ESC)
+Basic,Hay - Legume,Sugar (WSC)
+Basic,Hay - Legume,Total fatty acids
+Basic,Hay - Legume,uNDFom240
+Basic,Hay - Legume,Insoluble Protein
+Basic,Hay - Grass,ADF
+Basic,Hay - Grass,ADICP
+Basic,Hay - Grass,aNDF
+Basic,Hay - Grass,aNDFom
+Basic,Hay - Grass,Ash
+Basic,Hay - Grass,Ca
+Basic,Hay - Grass,Cl
+Basic,Hay - Grass,CP
+Basic,Hay - Grass,Fat (EE)
+Basic,Hay - Grass,K
+Basic,Hay - Grass,Lignin
+Basic,Hay - Grass,Mg
+Basic,Hay - Grass,NDFDom240
+Basic,Hay - Grass,NDICPss
+Basic,Hay - Grass,S
+Basic,Hay - Grass,SCP
+Basic,Hay - Grass,Starch
+Basic,Hay - Grass,Sugar (ESC)
+Basic,Hay - Grass,Sugar (WSC)
+Basic,Hay - Grass,Total fatty acids
+Basic,Hay - Grass,uNDFom240
+Basic,Hay - Grass,Insoluble Protein
+Basic,Haylage - Mixed,ADF
+Basic,Haylage - Mixed,ADICP
+Basic,Haylage - Mixed,aNDF
+Basic,Haylage - Mixed,aNDFom
+Basic,Haylage - Mixed,Ash
+Basic,Haylage - Mixed,Ca
+Basic,Haylage - Mixed,Cl
+Basic,Haylage - Mixed,CP
+Basic,Haylage - Mixed,Fat (EE)
+Basic,Haylage - Mixed,K
+Basic,Haylage - Mixed,Lignin
+Basic,Haylage - Mixed,Mg
+Basic,Haylage - Mixed,NDFDom240
+Basic,Haylage - Mixed,NDICPss
+Basic,Haylage - Mixed,P
+Basic,Haylage - Mixed,pH
+Basic,Haylage - Mixed,S
+Basic,Haylage - Mixed,SCP
+Basic,Haylage - Mixed,Starch
+Basic,Haylage - Mixed,Sugar (ESC)
+Basic,Haylage - Mixed,Sugar (WSC)
+Basic,Haylage - Mixed,Total fatty acids
+Basic,Haylage - Mixed,uNDFom240
+Basic,Haylage - Mixed,Insoluble Protein
+Basic,Haylage - Legume,ADF
+Basic,Haylage - Legume,ADICP
+Basic,Haylage - Legume,aNDF
+Basic,Haylage - Legume,aNDFom
+Basic,Haylage - Legume,Ash
+Basic,Haylage - Legume,Ca
+Basic,Haylage - Legume,Cl
+Basic,Haylage - Legume,CP
+Basic,Haylage - Legume,Fat (EE)
+Basic,Haylage - Legume,K
+Basic,Haylage - Legume,Lignin
+Basic,Haylage - Legume,Mg
+Basic,Haylage - Legume,NDFDom240
+Basic,Haylage - Legume,NDICPss
+Basic,Haylage - Legume,pH
+Basic,Haylage - Legume,S
+Basic,Haylage - Legume,SCP
+Basic,Haylage - Legume,Starch
+Basic,Haylage - Legume,Sugar (ESC)
+Basic,Haylage - Legume,Sugar (WSC)
+Basic,Haylage - Legume,Total fatty acids
+Basic,Haylage - Legume,uNDFom240
+Basic,Haylage - Legume,Insoluble Protein
+Basic,Haylage - Grass,ADF
+Basic,Haylage - Grass,ADICP
+Basic,Haylage - Grass,aNDF
+Basic,Haylage - Grass,aNDFom
+Basic,Haylage - Grass,Ash
+Basic,Haylage - Grass,Ca
+Basic,Haylage - Grass,Cl
+Basic,Haylage - Grass,CP
+Basic,Haylage - Grass,Fat (EE)
+Basic,Haylage - Grass,K
+Basic,Haylage - Grass,Lignin
+Basic,Haylage - Grass,Mg
+Basic,Haylage - Grass,NDFDom240
+Basic,Haylage - Grass,NDICPss
+Basic,Haylage - Grass,pH
+Basic,Haylage - Grass,S
+Basic,Haylage - Grass,SCP
+Basic,Haylage - Grass,Starch
+Basic,Haylage - Grass,Sugar (ESC)
+Basic,Haylage - Grass,Sugar (WSC)
+Basic,Haylage - Grass,Total fatty acids
+Basic,Haylage - Grass,uNDFom240
+Basic,Haylage - Grass,Insoluble Protein
+Basic,Whole plant corn,ADF
+Basic,Whole plant corn,ADICP
+Basic,Whole plant corn,aNDF
+Basic,Whole plant corn,aNDFom
+Basic,Whole plant corn,Ash
+Basic,Whole plant corn,Ca
+Basic,Whole plant corn,CP
+Basic,Whole plant corn,Fat (EE)
+Basic,Whole plant corn,K
+Basic,Whole plant corn,Lignin
+Basic,Whole plant corn,Mg
+Basic,Whole plant corn,NDFDom240
+Basic,Whole plant corn,NDICPss
+Basic,Whole plant corn,P
+Basic,Whole plant corn,pH
+Basic,Whole plant corn,S
+Basic,Whole plant corn,SCP
+Basic,Whole plant corn,Starch
+Basic,Whole plant corn,Sugar (ESC)
+Basic,Whole plant corn,Sugar (WSC)
+Basic,Whole plant corn,Total fatty acids
+Basic,Whole plant corn,uNDFom240
+Basic,Whole plant corn,Insoluble Protein
+Basic,Corn - Grain,ADF
+Basic,Corn - Grain,ADICP
+Basic,Corn - Grain,aNDF
+Basic,Corn - Grain,aNDFom
+Basic,Corn - Grain,Ash
+Basic,Corn - Grain,Ca
+Basic,Corn - Grain,CP
+Basic,Corn - Grain,Fat (EE)
+Basic,Corn - Grain,K
+Basic,Corn - Grain,Mg
+Basic,Corn - Grain,NDICPss
+Basic,Corn - Grain,P
+Basic,Corn - Grain,S
+Basic,Corn - Grain,SCP
+Basic,Corn - Grain,Starch
+Basic,Corn - Grain,Sugar (ESC)
+Basic,Corn - Grain,Sugar (WSC)
+Basic,Corn - Grain,Total fatty acids
+Basic,Corn - Grain,Insoluble Protein
+Basic,Corn - Ear,ADF
+Basic,Corn - Ear,ADICP
+Basic,Corn - Ear,aNDF
+Basic,Corn - Ear,aNDFom
+Basic,Corn - Ear,Ash
+Basic,Corn - Ear,Ca
+Basic,Corn - Ear,CP
+Basic,Corn - Ear,Fat (EE)
+Basic,Corn - Ear,K
+Basic,Corn - Ear,Lignin
+Basic,Corn - Ear,Mg
+Basic,Corn - Ear,NDICPss
+Basic,Corn - Ear,P
+Basic,Corn - Ear,pH
+Basic,Corn - Ear,S
+Basic,Corn - Ear,SCP
+Basic,Corn - Ear,Starch
+Basic,Corn - Ear,Sugar (ESC)
+Basic,Corn - Ear,Sugar (WSC)
+Basic,Corn - Ear,Total fatty acids
+Basic,Corn - Ear,Insoluble Protein
+Basic,Small Grain,aNDF
+Basic,Small Grain,aNDFom
+Basic,Small Grain,Ash
+Basic,Small Grain,Crude Fiber
+Basic,Small Grain,CP
+Basic,Small Grain,Fat (EE)
+Basic,Small Grain,Lignin
+Basic,Small Grain,S
+Basic,Small Grain,Starch
+Basic,Small Grain,Total fatty acids
+Basic,Small Grain Silage,ADF
+Basic,Small Grain Silage,ADICP
+Basic,Small Grain Silage,aNDF
+Basic,Small Grain Silage,aNDFom
+Basic,Small Grain Silage,Ash
+Basic,Small Grain Silage,Ca
+Basic,Small Grain Silage,Cl
+Basic,Small Grain Silage,CP
+Basic,Small Grain Silage,Fat (EE)
+Basic,Small Grain Silage,K
+Basic,Small Grain Silage,Lignin
+Basic,Small Grain Silage,Mg
+Basic,Small Grain Silage,NDFDom240
+Basic,Small Grain Silage,NDICPss
+Basic,Small Grain Silage,P
+Basic,Small Grain Silage,pH
+Basic,Small Grain Silage,S
+Basic,Small Grain Silage,SCP
+Basic,Small Grain Silage,Starch
+Basic,Small Grain Silage,Sugar (ESC)
+Basic,Small Grain Silage,Sugar (WSC)
+Basic,Small Grain Silage,Total fatty acids
+Basic,Small Grain Silage,uNDFom240
+Basic,Small Grain Silage,Insoluble Protein
+Basic,TMR - Bunk mixes,ADF
+Basic,TMR - Bunk mixes,ADICP
+Basic,TMR - Bunk mixes,aNDF
+Basic,TMR - Bunk mixes,aNDFom
+Basic,TMR - Bunk mixes,Ash
+Basic,TMR - Bunk mixes,CP
+Basic,TMR - Bunk mixes,Fat (EE)
+Basic,TMR - Bunk mixes,Lignin
+Basic,TMR - Bunk mixes,NDFDom240
+Basic,TMR - Bunk mixes,pH
+Basic,TMR - Bunk mixes,SCP
+Basic,TMR - Bunk mixes,Starch
+Basic,TMR - Bunk mixes,Sugar (ESC)
+Basic,TMR - Bunk mixes,Sugar (WSC)
+Basic,TMR - Bunk mixes,Total fatty acids
+Basic,TMR - Bunk mixes,uNDFom240
+Basic,TMR - Bunk mixes,Insoluble Protein
+Basic,Blood meal,Ash
+Basic,Blood meal,CP
+Basic,Blood meal,Fat (EE)
+Basic,Beet pulp,aNDF
+Basic,Beet pulp,aNDFom
+Basic,Beet pulp,Ash
+Basic,Beet pulp,Crude Fiber
+Basic,Beet pulp,CP
+Basic,Beet pulp,Fat (EE)
+Basic,Beet pulp,Sugar (ESC)
+Basic,Beet pulp,Sugar (WSC)
+Basic,Meat & bone meal,Ash
+Basic,Meat & bone meal,CP
+Basic,Meat & bone meal,Fat (EE)
+Basic,Brewers grain dry,ADF
+Basic,Brewers grain dry,ADICP
+Basic,Brewers grain dry,aNDF
+Basic,Brewers grain dry,aNDFom
+Basic,Brewers grain dry,Ash
+Basic,Brewers grain dry,Crude Fiber
+Basic,Brewers grain dry,CP
+Basic,Brewers grain dry,Fat (EE)
+Basic,Brewers grain dry,NDICPss
+Basic,Brewers grain dry,Starch
+Basic,Corn distillers - dry,ADF
+Basic,Corn distillers - dry,ADICP
+Basic,Corn distillers - dry,aNDF
+Basic,Corn distillers - dry,aNDFom
+Basic,Corn distillers - dry,Ash
+Basic,Corn distillers - dry,Ca
+Basic,Corn distillers - dry,Crude Fiber
+Basic,Corn distillers - dry,CP
+Basic,Corn distillers - dry,Fat (EE)
+Basic,Corn distillers - dry,K
+Basic,Corn distillers - dry,Lignin
+Basic,Corn distillers - dry,Mg
+Basic,Corn distillers - dry,NDFDom240
+Basic,Corn distillers - dry,NDICPss
+Basic,Corn distillers - dry,P
+Basic,Corn distillers - dry,S
+Basic,Corn distillers - dry,SCP
+Basic,Corn distillers - dry,Starch
+Basic,Corn distillers - dry,Sugar (ESC)
+Basic,Corn distillers - dry,Sugar (WSC)
+Basic,Corn distillers - dry,Total fatty acids
+Basic,Corn distillers - dry,uNDFom240
+Basic,Corn distillers - dry,Insoluble Protein
+Basic,Corn gluten feed,ADF
+Basic,Corn gluten feed,ADICP
+Basic,Corn gluten feed,aNDF
+Basic,Corn gluten feed,aNDFom
+Basic,Corn gluten feed,Ash
+Basic,Corn gluten feed,Ca
+Basic,Corn gluten feed,Crude Fiber
+Basic,Corn gluten feed,CP
+Basic,Corn gluten feed,Fat (EE)
+Basic,Corn gluten feed,K
+Basic,Corn gluten feed,Mg
+Basic,Corn gluten feed,NDFDom240
+Basic,Corn gluten feed,NDICPss
+Basic,Corn gluten feed,P
+Basic,Corn gluten feed,S
+Basic,Corn gluten feed,SCP
+Basic,Corn gluten feed,Starch
+Basic,Corn gluten feed,Sugar (ESC)
+Basic,Corn gluten feed,Sugar (WSC)
+Basic,Corn gluten feed,Total fatty acids
+Basic,Corn gluten feed,uNDFom240
+Basic,Corn gluten feed,Insoluble Protein
+Basic,Brewers grain wet,ADF
+Basic,Brewers grain wet,ADICP
+Basic,Brewers grain wet,aNDF
+Basic,Brewers grain wet,aNDFom
+Basic,Brewers grain wet,Ash
+Basic,Brewers grain wet,Crude Fiber
+Basic,Brewers grain wet,CP
+Basic,Brewers grain wet,Fat (EE)
+Basic,Brewers grain wet,NDICPss
+Basic,Brewers grain wet,Starch
+Basic,Corn distillers - wet,ADF
+Basic,Corn distillers - wet,ADICP
+Basic,Corn distillers - wet,aNDF
+Basic,Corn distillers - wet,aNDFom
+Basic,Corn distillers - wet,Ash
+Basic,Corn distillers - wet,Ca
+Basic,Corn distillers - wet,Crude Fiber
+Basic,Corn distillers - wet,CP
+Basic,Corn distillers - wet,Fat (EE)
+Basic,Corn distillers - wet,K
+Basic,Corn distillers - wet,Lignin
+Basic,Corn distillers - wet,Mg
+Basic,Corn distillers - wet,NDFDom240
+Basic,Corn distillers - wet,NDICPss
+Basic,Corn distillers - wet,P
+Basic,Corn distillers - wet,S
+Basic,Corn distillers - wet,SCP
+Basic,Corn distillers - wet,Starch
+Basic,Corn distillers - wet,Sugar (ESC)
+Basic,Corn distillers - wet,Sugar (WSC)
+Basic,Corn distillers - wet,Total fatty acids
+Basic,Corn distillers - wet,uNDFom240
+Basic,Corn distillers - wet,Insoluble Protein
+Basic,Wheat midds,ADF
+Basic,Wheat midds,aNDF
+Basic,Wheat midds,aNDFom
+Basic,Wheat midds,Ash
+Basic,Wheat midds,Crude Fiber
+Basic,Wheat midds,CP
+Basic,Wheat midds,Fat (EE)
+Basic,Wheat midds,NDFDom240
+Basic,Wheat midds,Starch
+Basic,Wheat midds,uNDFom240
+Basic,Canola meal,ADF
+Basic,Canola meal,ADICP
+Basic,Canola meal,aNDF
+Basic,Canola meal,aNDFom
+Basic,Canola meal,Ash
+Basic,Canola meal,Crude Fiber
+Basic,Canola meal,CP
+Basic,Canola meal,Fat (EE)
+Basic,Canola meal,NDFDom240
+Basic,Canola meal,NDICPss
+Basic,Canola meal,uNDFom240
+Basic,SF soybeans,Crude Fiber
+Basic,SF soybeans,CP
+Basic,SF soybeans,Fat (EE)
+Basic,SF soybeans,Total fatty acids
+Basic,Soybeans,Crude Fiber
+Basic,Soybeans,CP
+Basic,Soybeans,Fat (EE)
+Basic,Soybeans,Total fatty acids
+Basic,SBM,ADF
+Basic,SBM,ADICP
+Basic,SBM,aNDF
+Basic,SBM,aNDFom
+Basic,SBM,Ash
+Basic,SBM,Crude Fiber
+Basic,SBM,CP
+Basic,SBM,Fat (EE)
+Basic,SBM,NDICPss
+Basic,SBM,Sugar (ESC)
+Basic,Roasted soybeans,Crude Fiber
+Basic,Roasted soybeans,CP
+Basic,Roasted soybeans,Fat (EE)
+Basic,Roasted soybeans,Total fatty acids
+Basic,Soyhulls,ADF
+Basic,Soyhulls,aNDF
+Basic,Soyhulls,aNDFom
+Basic,Soyhulls,Ash
+Basic,Soyhulls,Crude Fiber
+Basic,Soyhulls,CP
+Basic,Soyhulls,Fat (EE)
+Basic,Soyhulls,NDFDom240
+Basic,Soyhulls,Starch
+Basic,Soyhulls,Sugar (WSC)
+Basic,Soyhulls,uNDFom240
+Equine Choice DE,Hay - Mixed,ADF
+Equine Choice DE,Hay - Mixed,ADICP
+Equine Choice DE,Hay - Mixed,aNDF
+Equine Choice DE,Hay - Mixed,aNDFom
+Equine Choice DE,Hay - Mixed,Ash
+Equine Choice DE,Hay - Mixed,Ca
+Equine Choice DE,Hay - Mixed,Cl
+Equine Choice DE,Hay - Mixed,CP
+Equine Choice DE,Hay - Mixed,Fat (EE)
+Equine Choice DE,Hay - Mixed,K
+Equine Choice DE,Hay - Mixed,Lignin
+Equine Choice DE,Hay - Mixed,Lysine
+Equine Choice DE,Hay - Mixed,Methionine
+Equine Choice DE,Hay - Mixed,Mg
+Equine Choice DE,Hay - Mixed,NDFDom240
+Equine Choice DE,Hay - Mixed,NDICPss
+Equine Choice DE,Hay - Mixed,P
+Equine Choice DE,Hay - Mixed,S
+Equine Choice DE,Hay - Mixed,SCP
+Equine Choice DE,Hay - Mixed,Starch
+Equine Choice DE,Hay - Mixed,Sugar (ESC)
+Equine Choice DE,Hay - Mixed,Sugar (WSC)
+Equine Choice DE,Hay - Mixed,Total fatty acids
+Equine Choice DE,Hay - Mixed,uNDFom240
+Equine Choice DE,Hay - Mixed,Insoluble Protein
+Equine Choice DE,Hay - Legume,ADF
+Equine Choice DE,Hay - Legume,ADICP
+Equine Choice DE,Hay - Legume,aNDF
+Equine Choice DE,Hay - Legume,aNDFom
+Equine Choice DE,Hay - Legume,Ash
+Equine Choice DE,Hay - Legume,Ca
+Equine Choice DE,Hay - Legume,Cl
+Equine Choice DE,Hay - Legume,CP
+Equine Choice DE,Hay - Legume,Fat (EE)
+Equine Choice DE,Hay - Legume,K
+Equine Choice DE,Hay - Legume,Lignin
+Equine Choice DE,Hay - Legume,Mg
+Equine Choice DE,Hay - Legume,NDFDom240
+Equine Choice DE,Hay - Legume,NDICPss
+Equine Choice DE,Hay - Legume,S
+Equine Choice DE,Hay - Legume,SCP
+Equine Choice DE,Hay - Legume,Starch
+Equine Choice DE,Hay - Legume,Sugar (ESC)
+Equine Choice DE,Hay - Legume,Sugar (WSC)
+Equine Choice DE,Hay - Legume,Total fatty acids
+Equine Choice DE,Hay - Legume,uNDFom240
+Equine Choice DE,Hay - Legume,Insoluble Protein
+Equine Choice DE,Hay - Grass,ADF
+Equine Choice DE,Hay - Grass,ADICP
+Equine Choice DE,Hay - Grass,aNDF
+Equine Choice DE,Hay - Grass,aNDFom
+Equine Choice DE,Hay - Grass,Ash
+Equine Choice DE,Hay - Grass,Ca
+Equine Choice DE,Hay - Grass,Cl
+Equine Choice DE,Hay - Grass,CP
+Equine Choice DE,Hay - Grass,Fat (EE)
+Equine Choice DE,Hay - Grass,K
+Equine Choice DE,Hay - Grass,Lignin
+Equine Choice DE,Hay - Grass,Mg
+Equine Choice DE,Hay - Grass,NDFDom240
+Equine Choice DE,Hay - Grass,NDICPss
+Equine Choice DE,Hay - Grass,S
+Equine Choice DE,Hay - Grass,SCP
+Equine Choice DE,Hay - Grass,Starch
+Equine Choice DE,Hay - Grass,Sugar (ESC)
+Equine Choice DE,Hay - Grass,Sugar (WSC)
+Equine Choice DE,Hay - Grass,Total fatty acids
+Equine Choice DE,Hay - Grass,uNDFom240
+Equine Choice DE,Hay - Grass,Insoluble Protein
+Select,Hay - Mixed,ADF
+Select,Hay - Mixed,ADICP
+Select,Hay - Mixed,aNDF
+Select,Hay - Mixed,aNDFom
+Select,Hay - Mixed,Ash
+Select,Hay - Mixed,Ca
+Select,Hay - Mixed,Cl
+Select,Hay - Mixed,CP
+Select,Hay - Mixed,Fat (EE)
+Select,Hay - Mixed,K
+Select,Hay - Mixed,Lignin
+Select,Hay - Mixed,Mg
+Select,Hay - Mixed,NDFDom240
+Select,Hay - Mixed,NDFDom30
+Select,Hay - Mixed,NDICPss
+Select,Hay - Mixed,P
+Select,Hay - Mixed,S
+Select,Hay - Mixed,SCP
+Select,Hay - Mixed,Starch
+Select,Hay - Mixed,Sugar (ESC)
+Select,Hay - Mixed,Sugar (WSC)
+Select,Hay - Mixed,Total fatty acids
+Select,Hay - Mixed,uNDFom240
+Select,Hay - Mixed,uNDFom30
+Select,Hay - Mixed,Insoluble Protein
+Select,Hay - Legume,ADF
+Select,Hay - Legume,ADICP
+Select,Hay - Legume,aNDF
+Select,Hay - Legume,aNDFom
+Select,Hay - Legume,Ash
+Select,Hay - Legume,Ca
+Select,Hay - Legume,Cl
+Select,Hay - Legume,CP
+Select,Hay - Legume,Fat (EE)
+Select,Hay - Legume,K
+Select,Hay - Legume,Lignin
+Select,Hay - Legume,Mg
+Select,Hay - Legume,NDFDom240
+Select,Hay - Legume,NDFDom30
+Select,Hay - Legume,NDICPss
+Select,Hay - Legume,S
+Select,Hay - Legume,SCP
+Select,Hay - Legume,Starch
+Select,Hay - Legume,Sugar (ESC)
+Select,Hay - Legume,Sugar (WSC)
+Select,Hay - Legume,Total fatty acids
+Select,Hay - Legume,uNDFom240
+Select,Hay - Legume,uNDFom30
+Select,Hay - Legume,Insoluble Protein
+Select,Hay - Grass,ADF
+Select,Hay - Grass,ADICP
+Select,Hay - Grass,aNDF
+Select,Hay - Grass,aNDFom
+Select,Hay - Grass,Ash
+Select,Hay - Grass,Ca
+Select,Hay - Grass,Cl
+Select,Hay - Grass,CP
+Select,Hay - Grass,Fat (EE)
+Select,Hay - Grass,K
+Select,Hay - Grass,Lignin
+Select,Hay - Grass,Mg
+Select,Hay - Grass,NDFDom240
+Select,Hay - Grass,NDFDom30
+Select,Hay - Grass,NDICPss
+Select,Hay - Grass,S
+Select,Hay - Grass,SCP
+Select,Hay - Grass,Starch
+Select,Hay - Grass,Sugar (ESC)
+Select,Hay - Grass,Sugar (WSC)
+Select,Hay - Grass,Total fatty acids
+Select,Hay - Grass,uNDFom240
+Select,Hay - Grass,uNDFom30
+Select,Hay - Grass,Insoluble Protein
+Select,Haylage - Mixed,ADF
+Select,Haylage - Mixed,ADICP
+Select,Haylage - Mixed,aNDF
+Select,Haylage - Mixed,aNDFom
+Select,Haylage - Mixed,Ash
+Select,Haylage - Mixed,Ca
+Select,Haylage - Mixed,Cl
+Select,Haylage - Mixed,CP
+Select,Haylage - Mixed,Fat (EE)
+Select,Haylage - Mixed,K
+Select,Haylage - Mixed,Lignin
+Select,Haylage - Mixed,Mg
+Select,Haylage - Mixed,NDFDom240
+Select,Haylage - Mixed,NDFDom30
+Select,Haylage - Mixed,NDICPss
+Select,Haylage - Mixed,P
+Select,Haylage - Mixed,pH
+Select,Haylage - Mixed,S
+Select,Haylage - Mixed,SCP
+Select,Haylage - Mixed,Starch
+Select,Haylage - Mixed,Sugar (ESC)
+Select,Haylage - Mixed,Sugar (WSC)
+Select,Haylage - Mixed,Total fatty acids
+Select,Haylage - Mixed,uNDFom240
+Select,Haylage - Mixed,uNDFom30
+Select,Haylage - Mixed,Insoluble Protein
+Select,Haylage - Legume,ADF
+Select,Haylage - Legume,ADICP
+Select,Haylage - Legume,aNDF
+Select,Haylage - Legume,aNDFom
+Select,Haylage - Legume,Ash
+Select,Haylage - Legume,Ca
+Select,Haylage - Legume,Cl
+Select,Haylage - Legume,CP
+Select,Haylage - Legume,Fat (EE)
+Select,Haylage - Legume,K
+Select,Haylage - Legume,Lignin
+Select,Haylage - Legume,Mg
+Select,Haylage - Legume,NDFDom240
+Select,Haylage - Legume,NDFDom30
+Select,Haylage - Legume,NDICPss
+Select,Haylage - Legume,pH
+Select,Haylage - Legume,S
+Select,Haylage - Legume,SCP
+Select,Haylage - Legume,Starch
+Select,Haylage - Legume,Sugar (ESC)
+Select,Haylage - Legume,Sugar (WSC)
+Select,Haylage - Legume,Total fatty acids
+Select,Haylage - Legume,uNDFom240
+Select,Haylage - Legume,uNDFom30
+Select,Haylage - Legume,Insoluble Protein
+Select,Haylage - Grass,ADF
+Select,Haylage - Grass,ADICP
+Select,Haylage - Grass,aNDF
+Select,Haylage - Grass,aNDFom
+Select,Haylage - Grass,Ash
+Select,Haylage - Grass,Ca
+Select,Haylage - Grass,Cl
+Select,Haylage - Grass,CP
+Select,Haylage - Grass,Fat (EE)
+Select,Haylage - Grass,K
+Select,Haylage - Grass,Lignin
+Select,Haylage - Grass,Mg
+Select,Haylage - Grass,NDFDom240
+Select,Haylage - Grass,NDFDom30
+Select,Haylage - Grass,NDICPss
+Select,Haylage - Grass,pH
+Select,Haylage - Grass,S
+Select,Haylage - Grass,SCP
+Select,Haylage - Grass,Starch
+Select,Haylage - Grass,Sugar (ESC)
+Select,Haylage - Grass,Sugar (WSC)
+Select,Haylage - Grass,Total fatty acids
+Select,Haylage - Grass,uNDFom240
+Select,Haylage - Grass,uNDFom30
+Select,Haylage - Grass,Insoluble Protein
+Select,Whole plant corn,ADF
+Select,Whole plant corn,ADICP
+Select,Whole plant corn,aNDF
+Select,Whole plant corn,aNDFom
+Select,Whole plant corn,Ash
+Select,Whole plant corn,Ca
+Select,Whole plant corn,CP
+Select,Whole plant corn,Fat (EE)
+Select,Whole plant corn,IVSD7-o
+Select,Whole plant corn,K
+Select,Whole plant corn,Lignin
+Select,Whole plant corn,Mg
+Select,Whole plant corn,NDFDom240
+Select,Whole plant corn,NDFDom30
+Select,Whole plant corn,NDICPss
+Select,Whole plant corn,P
+Select,Whole plant corn,pH
+Select,Whole plant corn,S
+Select,Whole plant corn,SCP
+Select,Whole plant corn,Starch
+Select,Whole plant corn,Sugar (ESC)
+Select,Whole plant corn,Sugar (WSC)
+Select,Whole plant corn,Total fatty acids
+Select,Whole plant corn,uNDFom240
+Select,Whole plant corn,uNDFom30
+Select,Whole plant corn,Insoluble Protein
+Select,Small Grain Silage,ADF
+Select,Small Grain Silage,ADICP
+Select,Small Grain Silage,aNDF
+Select,Small Grain Silage,aNDFom
+Select,Small Grain Silage,Ash
+Select,Small Grain Silage,Ca
+Select,Small Grain Silage,Cl
+Select,Small Grain Silage,CP
+Select,Small Grain Silage,Fat (EE)
+Select,Small Grain Silage,K
+Select,Small Grain Silage,Lignin
+Select,Small Grain Silage,Mg
+Select,Small Grain Silage,NDFDom240
+Select,Small Grain Silage,NDFDom30
+Select,Small Grain Silage,NDICPss
+Select,Small Grain Silage,P
+Select,Small Grain Silage,pH
+Select,Small Grain Silage,S
+Select,Small Grain Silage,SCP
+Select,Small Grain Silage,Starch
+Select,Small Grain Silage,Sugar (ESC)
+Select,Small Grain Silage,Sugar (WSC)
+Select,Small Grain Silage,Total fatty acids
+Select,Small Grain Silage,uNDFom240
+Select,Small Grain Silage,uNDFom30
+Select,Small Grain Silage,Insoluble Protein
+Select,Cob corn,NDFDom240
+Select,Cob corn,NDFDom30
+Select,Cob corn,uNDFom240
+Select,Cob corn,uNDFom30
+Select,Earlage,NDFDom240
+Select,Earlage,NDFDom30
+Select,Earlage,uNDFom240
+Select,Earlage,uNDFom30
+Select,Enogen snap/ear,NDFDom240
+Select,Enogen snap/ear,NDFDom30
+Select,Enogen snap/ear,uNDFom240
+Select,Enogen snap/ear,uNDFom30
+Select,Snaplage,NDFDom240
+Select,Snaplage,NDFDom30
+Select,Snaplage,uNDFom240
+Select,Snaplage,uNDFom30
+Select,Corn distillers - dry,ADF
+Select,Corn distillers - dry,ADICP
+Select,Corn distillers - dry,aNDF
+Select,Corn distillers - dry,aNDFom
+Select,Corn distillers - dry,Ash
+Select,Corn distillers - dry,Ca
+Select,Corn distillers - dry,Crude Fiber
+Select,Corn distillers - dry,CP
+Select,Corn distillers - dry,Fat (EE)
+Select,Corn distillers - dry,K
+Select,Corn distillers - dry,Lignin
+Select,Corn distillers - dry,Mg
+Select,Corn distillers - dry,NDFDom240
+Select,Corn distillers - dry,NDFDom30
+Select,Corn distillers - dry,NDICPss
+Select,Corn distillers - dry,P
+Select,Corn distillers - dry,S
+Select,Corn distillers - dry,SCP
+Select,Corn distillers - dry,Starch
+Select,Corn distillers - dry,Sugar (ESC)
+Select,Corn distillers - dry,Sugar (WSC)
+Select,Corn distillers - dry,Total fatty acids
+Select,Corn distillers - dry,uNDFom240
+Select,Corn distillers - dry,uNDFom30
+Select,Corn distillers - dry,Insoluble Protein
+Select,Corn gluten feed,ADF
+Select,Corn gluten feed,ADICP
+Select,Corn gluten feed,aNDF
+Select,Corn gluten feed,aNDFom
+Select,Corn gluten feed,Ash
+Select,Corn gluten feed,Ca
+Select,Corn gluten feed,Crude Fiber
+Select,Corn gluten feed,CP
+Select,Corn gluten feed,Fat (EE)
+Select,Corn gluten feed,K
+Select,Corn gluten feed,Mg
+Select,Corn gluten feed,NDFDom240
+Select,Corn gluten feed,NDFDom30
+Select,Corn gluten feed,NDICPss
+Select,Corn gluten feed,P
+Select,Corn gluten feed,S
+Select,Corn gluten feed,SCP
+Select,Corn gluten feed,Starch
+Select,Corn gluten feed,Sugar (ESC)
+Select,Corn gluten feed,Sugar (WSC)
+Select,Corn gluten feed,Total fatty acids
+Select,Corn gluten feed,uNDFom240
+Select,Corn gluten feed,uNDFom30
+Select,Corn gluten feed,Insoluble Protein
+Select,Corn distillers - wet,ADF
+Select,Corn distillers - wet,ADICP
+Select,Corn distillers - wet,aNDF
+Select,Corn distillers - wet,aNDFom
+Select,Corn distillers - wet,Ash
+Select,Corn distillers - wet,Ca
+Select,Corn distillers - wet,Crude Fiber
+Select,Corn distillers - wet,CP
+Select,Corn distillers - wet,Fat (EE)
+Select,Corn distillers - wet,K
+Select,Corn distillers - wet,Lignin
+Select,Corn distillers - wet,Mg
+Select,Corn distillers - wet,NDFDom240
+Select,Corn distillers - wet,NDFDom30
+Select,Corn distillers - wet,NDICPss
+Select,Corn distillers - wet,P
+Select,Corn distillers - wet,S
+Select,Corn distillers - wet,SCP
+Select,Corn distillers - wet,Starch
+Select,Corn distillers - wet,Sugar (ESC)
+Select,Corn distillers - wet,Sugar (WSC)
+Select,Corn distillers - wet,Total fatty acids
+Select,Corn distillers - wet,uNDFom240
+Select,Corn distillers - wet,uNDFom30
+Select,Corn distillers - wet,Insoluble Protein
+Select,Soyhulls,ADF
+Select,Soyhulls,aNDF
+Select,Soyhulls,aNDFom
+Select,Soyhulls,Ash
+Select,Soyhulls,Crude Fiber
+Select,Soyhulls,CP
+Select,Soyhulls,Fat (EE)
+Select,Soyhulls,NDFDom240
+Select,Soyhulls,NDFDom30
+Select,Soyhulls,Starch
+Select,Soyhulls,Sugar (WSC)
+Select,Soyhulls,uNDFom240
+Select,Soyhulls,uNDFom30
+Complete NASEM,Hay - Mixed,16:0 Palmitic
+Complete NASEM,Hay - Mixed,18:0 Stearic
+Complete NASEM,Hay - Mixed,18:1 Oleic
+Complete NASEM,Hay - Mixed,18:2 Linoleic
+Complete NASEM,Hay - Mixed,18:3 Linolenic
+Complete NASEM,Hay - Mixed,ADF
+Complete NASEM,Hay - Mixed,ADICP
+Complete NASEM,Hay - Mixed,aNDF
+Complete NASEM,Hay - Mixed,aNDFom
+Complete NASEM,Hay - Mixed,Ash
+Complete NASEM,Hay - Mixed,Ca
+Complete NASEM,Hay - Mixed,Cl
+Complete NASEM,Hay - Mixed,CP
+Complete NASEM,Hay - Mixed,Fat (EE)
+Complete NASEM,Hay - Mixed,Histidine
+Complete NASEM,Hay - Mixed,Isoleucine
+Complete NASEM,Hay - Mixed,K
+Complete NASEM,Hay - Mixed,Leucine
+Complete NASEM,Hay - Mixed,Lignin
+Complete NASEM,Hay - Mixed,Lysine
+Complete NASEM,Hay - Mixed,Methionine
+Complete NASEM,Hay - Mixed,Mg
+Complete NASEM,Hay - Mixed,NDFDom12
+Complete NASEM,Hay - Mixed,NDFDom24
+Complete NASEM,Hay - Mixed,NDFDom240
+Complete NASEM,Hay - Mixed,NDFDom30
+Complete NASEM,Hay - Mixed,NDFDom48
+Complete NASEM,Hay - Mixed,NDICPss
+Complete NASEM,Hay - Mixed,P
+Complete NASEM,Hay - Mixed,S
+Complete NASEM,Hay - Mixed,SCP
+Complete NASEM,Hay - Mixed,Starch
+Complete NASEM,Hay - Mixed,Sugar (ESC)
+Complete NASEM,Hay - Mixed,Sugar (WSC)
+Complete NASEM,Hay - Mixed,Total amino acid
+Complete NASEM,Hay - Mixed,Total fatty acids
+Complete NASEM,Hay - Mixed,uNDFom12
+Complete NASEM,Hay - Mixed,uNDFom24
+Complete NASEM,Hay - Mixed,uNDFom240
+Complete NASEM,Hay - Mixed,uNDFom30
+Complete NASEM,Hay - Mixed,uNDFom48
+Complete NASEM,Hay - Mixed,Insoluble Protein
+Complete NASEM,Hay - Legume,16:0 Palmitic
+Complete NASEM,Hay - Legume,18:0 Stearic
+Complete NASEM,Hay - Legume,18:1 Oleic
+Complete NASEM,Hay - Legume,18:2 Linoleic
+Complete NASEM,Hay - Legume,18:3 Linolenic
+Complete NASEM,Hay - Legume,ADF
+Complete NASEM,Hay - Legume,ADICP
+Complete NASEM,Hay - Legume,aNDF
+Complete NASEM,Hay - Legume,aNDFom
+Complete NASEM,Hay - Legume,Ash
+Complete NASEM,Hay - Legume,Ca
+Complete NASEM,Hay - Legume,Cl
+Complete NASEM,Hay - Legume,CP
+Complete NASEM,Hay - Legume,Fat (EE)
+Complete NASEM,Hay - Legume,K
+Complete NASEM,Hay - Legume,Lignin
+Complete NASEM,Hay - Legume,Mg
+Complete NASEM,Hay - Legume,NDFDom12
+Complete NASEM,Hay - Legume,NDFDom24
+Complete NASEM,Hay - Legume,NDFDom240
+Complete NASEM,Hay - Legume,NDFDom30
+Complete NASEM,Hay - Legume,NDFDom48
+Complete NASEM,Hay - Legume,NDICPss
+Complete NASEM,Hay - Legume,S
+Complete NASEM,Hay - Legume,SCP
+Complete NASEM,Hay - Legume,Starch
+Complete NASEM,Hay - Legume,Sugar (ESC)
+Complete NASEM,Hay - Legume,Sugar (WSC)
+Complete NASEM,Hay - Legume,Total fatty acids
+Complete NASEM,Hay - Legume,uNDFom12
+Complete NASEM,Hay - Legume,uNDFom24
+Complete NASEM,Hay - Legume,uNDFom240
+Complete NASEM,Hay - Legume,uNDFom30
+Complete NASEM,Hay - Legume,uNDFom48
+Complete NASEM,Hay - Legume,Insoluble Protein
+Complete NASEM,Hay - Grass,16:0 Palmitic
+Complete NASEM,Hay - Grass,18:0 Stearic
+Complete NASEM,Hay - Grass,18:1 Oleic
+Complete NASEM,Hay - Grass,18:2 Linoleic
+Complete NASEM,Hay - Grass,18:3 Linolenic
+Complete NASEM,Hay - Grass,ADF
+Complete NASEM,Hay - Grass,ADICP
+Complete NASEM,Hay - Grass,aNDF
+Complete NASEM,Hay - Grass,aNDFom
+Complete NASEM,Hay - Grass,Ash
+Complete NASEM,Hay - Grass,Ca
+Complete NASEM,Hay - Grass,Cl
+Complete NASEM,Hay - Grass,CP
+Complete NASEM,Hay - Grass,Fat (EE)
+Complete NASEM,Hay - Grass,K
+Complete NASEM,Hay - Grass,Lignin
+Complete NASEM,Hay - Grass,Mg
+Complete NASEM,Hay - Grass,NDFDom12
+Complete NASEM,Hay - Grass,NDFDom24
+Complete NASEM,Hay - Grass,NDFDom240
+Complete NASEM,Hay - Grass,NDFDom30
+Complete NASEM,Hay - Grass,NDFDom48
+Complete NASEM,Hay - Grass,NDICPss
+Complete NASEM,Hay - Grass,S
+Complete NASEM,Hay - Grass,SCP
+Complete NASEM,Hay - Grass,Starch
+Complete NASEM,Hay - Grass,Sugar (ESC)
+Complete NASEM,Hay - Grass,Sugar (WSC)
+Complete NASEM,Hay - Grass,Total fatty acids
+Complete NASEM,Hay - Grass,uNDFom12
+Complete NASEM,Hay - Grass,uNDFom24
+Complete NASEM,Hay - Grass,uNDFom240
+Complete NASEM,Hay - Grass,uNDFom30
+Complete NASEM,Hay - Grass,uNDFom48
+Complete NASEM,Hay - Grass,Insoluble Protein
+Complete NASEM,Haylage - Mixed,16:0 Palmitic
+Complete NASEM,Haylage - Mixed,18:0 Stearic
+Complete NASEM,Haylage - Mixed,18:1 Oleic
+Complete NASEM,Haylage - Mixed,18:2 Linoleic
+Complete NASEM,Haylage - Mixed,18:3 Linolenic
+Complete NASEM,Haylage - Mixed,Acetic
+Complete NASEM,Haylage - Mixed,ADF
+Complete NASEM,Haylage - Mixed,ADICP
+Complete NASEM,Haylage - Mixed,Ammonia
+Complete NASEM,Haylage - Mixed,aNDF
+Complete NASEM,Haylage - Mixed,aNDFom
+Complete NASEM,Haylage - Mixed,Ash
+Complete NASEM,Haylage - Mixed,Butyric
+Complete NASEM,Haylage - Mixed,Ca
+Complete NASEM,Haylage - Mixed,Cl
+Complete NASEM,Haylage - Mixed,CP
+Complete NASEM,Haylage - Mixed,Fat (EE)
+Complete NASEM,Haylage - Mixed,Histidine
+Complete NASEM,Haylage - Mixed,Isoleucine
+Complete NASEM,Haylage - Mixed,K
+Complete NASEM,Haylage - Mixed,Lactic
+Complete NASEM,Haylage - Mixed,Leucine
+Complete NASEM,Haylage - Mixed,Lignin
+Complete NASEM,Haylage - Mixed,Lysine
+Complete NASEM,Haylage - Mixed,Methionine
+Complete NASEM,Haylage - Mixed,Mg
+Complete NASEM,Haylage - Mixed,NDFDom12
+Complete NASEM,Haylage - Mixed,NDFDom24
+Complete NASEM,Haylage - Mixed,NDFDom240
+Complete NASEM,Haylage - Mixed,NDFDom30
+Complete NASEM,Haylage - Mixed,NDFDom48
+Complete NASEM,Haylage - Mixed,NDICPss
+Complete NASEM,Haylage - Mixed,P
+Complete NASEM,Haylage - Mixed,pH
+Complete NASEM,Haylage - Mixed,Propionic
+Complete NASEM,Haylage - Mixed,S
+Complete NASEM,Haylage - Mixed,SCP
+Complete NASEM,Haylage - Mixed,Starch
+Complete NASEM,Haylage - Mixed,Sugar (ESC)
+Complete NASEM,Haylage - Mixed,Sugar (WSC)
+Complete NASEM,Haylage - Mixed,Total amino acid
+Complete NASEM,Haylage - Mixed,Total fatty acids
+Complete NASEM,Haylage - Mixed,uNDFom12
+Complete NASEM,Haylage - Mixed,uNDFom24
+Complete NASEM,Haylage - Mixed,uNDFom240
+Complete NASEM,Haylage - Mixed,uNDFom30
+Complete NASEM,Haylage - Mixed,uNDFom48
+Complete NASEM,Haylage - Mixed,Insoluble Protein
+Complete NASEM,Haylage - Legume,16:0 Palmitic
+Complete NASEM,Haylage - Legume,18:0 Stearic
+Complete NASEM,Haylage - Legume,18:1 Oleic
+Complete NASEM,Haylage - Legume,18:2 Linoleic
+Complete NASEM,Haylage - Legume,18:3 Linolenic
+Complete NASEM,Haylage - Legume,Acetic
+Complete NASEM,Haylage - Legume,ADF
+Complete NASEM,Haylage - Legume,ADICP
+Complete NASEM,Haylage - Legume,Ammonia
+Complete NASEM,Haylage - Legume,aNDF
+Complete NASEM,Haylage - Legume,aNDFom
+Complete NASEM,Haylage - Legume,Ash
+Complete NASEM,Haylage - Legume,Butyric
+Complete NASEM,Haylage - Legume,Ca
+Complete NASEM,Haylage - Legume,Cl
+Complete NASEM,Haylage - Legume,CP
+Complete NASEM,Haylage - Legume,Fat (EE)
+Complete NASEM,Haylage - Legume,K
+Complete NASEM,Haylage - Legume,Lactic
+Complete NASEM,Haylage - Legume,Lignin
+Complete NASEM,Haylage - Legume,Mg
+Complete NASEM,Haylage - Legume,NDFDom12
+Complete NASEM,Haylage - Legume,NDFDom24
+Complete NASEM,Haylage - Legume,NDFDom240
+Complete NASEM,Haylage - Legume,NDFDom30
+Complete NASEM,Haylage - Legume,NDFDom48
+Complete NASEM,Haylage - Legume,NDICPss
+Complete NASEM,Haylage - Legume,pH
+Complete NASEM,Haylage - Legume,Propionic
+Complete NASEM,Haylage - Legume,S
+Complete NASEM,Haylage - Legume,SCP
+Complete NASEM,Haylage - Legume,Starch
+Complete NASEM,Haylage - Legume,Sugar (ESC)
+Complete NASEM,Haylage - Legume,Sugar (WSC)
+Complete NASEM,Haylage - Legume,Total fatty acids
+Complete NASEM,Haylage - Legume,uNDFom12
+Complete NASEM,Haylage - Legume,uNDFom24
+Complete NASEM,Haylage - Legume,uNDFom240
+Complete NASEM,Haylage - Legume,uNDFom30
+Complete NASEM,Haylage - Legume,uNDFom48
+Complete NASEM,Haylage - Legume,Insoluble Protein
+Complete NASEM,Haylage - Grass,16:0 Palmitic
+Complete NASEM,Haylage - Grass,18:0 Stearic
+Complete NASEM,Haylage - Grass,18:1 Oleic
+Complete NASEM,Haylage - Grass,18:2 Linoleic
+Complete NASEM,Haylage - Grass,18:3 Linolenic
+Complete NASEM,Haylage - Grass,Acetic
+Complete NASEM,Haylage - Grass,ADF
+Complete NASEM,Haylage - Grass,ADICP
+Complete NASEM,Haylage - Grass,Ammonia
+Complete NASEM,Haylage - Grass,aNDF
+Complete NASEM,Haylage - Grass,aNDFom
+Complete NASEM,Haylage - Grass,Ash
+Complete NASEM,Haylage - Grass,Butyric
+Complete NASEM,Haylage - Grass,Ca
+Complete NASEM,Haylage - Grass,Cl
+Complete NASEM,Haylage - Grass,CP
+Complete NASEM,Haylage - Grass,Fat (EE)
+Complete NASEM,Haylage - Grass,Histidine
+Complete NASEM,Haylage - Grass,Isoleucine
+Complete NASEM,Haylage - Grass,K
+Complete NASEM,Haylage - Grass,Lactic
+Complete NASEM,Haylage - Grass,Leucine
+Complete NASEM,Haylage - Grass,Lignin
+Complete NASEM,Haylage - Grass,Lysine
+Complete NASEM,Haylage - Grass,Methionine
+Complete NASEM,Haylage - Grass,Mg
+Complete NASEM,Haylage - Grass,NDFDom12
+Complete NASEM,Haylage - Grass,NDFDom24
+Complete NASEM,Haylage - Grass,NDFDom240
+Complete NASEM,Haylage - Grass,NDFDom30
+Complete NASEM,Haylage - Grass,NDFDom48
+Complete NASEM,Haylage - Grass,NDICPss
+Complete NASEM,Haylage - Grass,pH
+Complete NASEM,Haylage - Grass,Propionic
+Complete NASEM,Haylage - Grass,S
+Complete NASEM,Haylage - Grass,SCP
+Complete NASEM,Haylage - Grass,Starch
+Complete NASEM,Haylage - Grass,Sugar (ESC)
+Complete NASEM,Haylage - Grass,Sugar (WSC)
+Complete NASEM,Haylage - Grass,Total amino acid
+Complete NASEM,Haylage - Grass,Total fatty acids
+Complete NASEM,Haylage - Grass,uNDFom12
+Complete NASEM,Haylage - Grass,uNDFom24
+Complete NASEM,Haylage - Grass,uNDFom240
+Complete NASEM,Haylage - Grass,uNDFom30
+Complete NASEM,Haylage - Grass,uNDFom48
+Complete NASEM,Haylage - Grass,Insoluble Protein
+Complete NASEM,Whole plant corn,16:0 Palmitic
+Complete NASEM,Whole plant corn,18:0 Stearic
+Complete NASEM,Whole plant corn,18:1 Oleic
+Complete NASEM,Whole plant corn,18:2 Linoleic
+Complete NASEM,Whole plant corn,18:3 Linolenic
+Complete NASEM,Whole plant corn,Acetic
+Complete NASEM,Whole plant corn,ADF
+Complete NASEM,Whole plant corn,ADICP
+Complete NASEM,Whole plant corn,Ammonia
+Complete NASEM,Whole plant corn,aNDF
+Complete NASEM,Whole plant corn,aNDFom
+Complete NASEM,Whole plant corn,Ash
+Complete NASEM,Whole plant corn,Ca
+Complete NASEM,Whole plant corn,CP
+Complete NASEM,Whole plant corn,Fat (EE)
+Complete NASEM,Whole plant corn,Histidine
+Complete NASEM,Whole plant corn,Isoleucine
+Complete NASEM,Whole plant corn,IVSD7-o
+Complete NASEM,Whole plant corn,K
+Complete NASEM,Whole plant corn,Lactic
+Complete NASEM,Whole plant corn,Leucine
+Complete NASEM,Whole plant corn,Lignin
+Complete NASEM,Whole plant corn,Lysine
+Complete NASEM,Whole plant corn,Methionine
+Complete NASEM,Whole plant corn,Mg
+Complete NASEM,Whole plant corn,NDFDom12
+Complete NASEM,Whole plant corn,NDFDom24
+Complete NASEM,Whole plant corn,NDFDom240
+Complete NASEM,Whole plant corn,NDFDom30
+Complete NASEM,Whole plant corn,NDFDom48
+Complete NASEM,Whole plant corn,NDICPss
+Complete NASEM,Whole plant corn,P
+Complete NASEM,Whole plant corn,pH
+Complete NASEM,Whole plant corn,Propionic
+Complete NASEM,Whole plant corn,S
+Complete NASEM,Whole plant corn,SCP
+Complete NASEM,Whole plant corn,Starch
+Complete NASEM,Whole plant corn,Sugar (ESC)
+Complete NASEM,Whole plant corn,Sugar (WSC)
+Complete NASEM,Whole plant corn,Total amino acid
+Complete NASEM,Whole plant corn,Total fatty acids
+Complete NASEM,Whole plant corn,uNDFom12
+Complete NASEM,Whole plant corn,uNDFom24
+Complete NASEM,Whole plant corn,uNDFom240
+Complete NASEM,Whole plant corn,uNDFom30
+Complete NASEM,Whole plant corn,uNDFom48
+Complete NASEM,Whole plant corn,Insoluble Protein
+Complete NASEM,Small Grain Silage,16:0 Palmitic
+Complete NASEM,Small Grain Silage,18:0 Stearic
+Complete NASEM,Small Grain Silage,18:1 Oleic
+Complete NASEM,Small Grain Silage,18:2 Linoleic
+Complete NASEM,Small Grain Silage,18:3 Linolenic
+Complete NASEM,Small Grain Silage,Acetic
+Complete NASEM,Small Grain Silage,ADF
+Complete NASEM,Small Grain Silage,ADICP
+Complete NASEM,Small Grain Silage,Ammonia
+Complete NASEM,Small Grain Silage,aNDF
+Complete NASEM,Small Grain Silage,aNDFom
+Complete NASEM,Small Grain Silage,Ash
+Complete NASEM,Small Grain Silage,Butyric
+Complete NASEM,Small Grain Silage,Ca
+Complete NASEM,Small Grain Silage,Cl
+Complete NASEM,Small Grain Silage,CP
+Complete NASEM,Small Grain Silage,Fat (EE)
+Complete NASEM,Small Grain Silage,Histidine
+Complete NASEM,Small Grain Silage,Isoleucine
+Complete NASEM,Small Grain Silage,K
+Complete NASEM,Small Grain Silage,Lactic
+Complete NASEM,Small Grain Silage,Leucine
+Complete NASEM,Small Grain Silage,Lignin
+Complete NASEM,Small Grain Silage,Lysine
+Complete NASEM,Small Grain Silage,Methionine
+Complete NASEM,Small Grain Silage,Mg
+Complete NASEM,Small Grain Silage,NDFDom12
+Complete NASEM,Small Grain Silage,NDFDom24
+Complete NASEM,Small Grain Silage,NDFDom240
+Complete NASEM,Small Grain Silage,NDFDom30
+Complete NASEM,Small Grain Silage,NDFDom48
+Complete NASEM,Small Grain Silage,NDICPss
+Complete NASEM,Small Grain Silage,P
+Complete NASEM,Small Grain Silage,pH
+Complete NASEM,Small Grain Silage,S
+Complete NASEM,Small Grain Silage,SCP
+Complete NASEM,Small Grain Silage,Starch
+Complete NASEM,Small Grain Silage,Sugar (ESC)
+Complete NASEM,Small Grain Silage,Sugar (WSC)
+Complete NASEM,Small Grain Silage,Total amino acid
+Complete NASEM,Small Grain Silage,Total fatty acids
+Complete NASEM,Small Grain Silage,uNDFom12
+Complete NASEM,Small Grain Silage,uNDFom24
+Complete NASEM,Small Grain Silage,uNDFom240
+Complete NASEM,Small Grain Silage,uNDFom30
+Complete NASEM,Small Grain Silage,uNDFom48
+Complete NASEM,Small Grain Silage,Insoluble Protein
+Complete NASEM,TMR - Bunk mixes,16:0 Palmitic
+Complete NASEM,TMR - Bunk mixes,18:0 Stearic
+Complete NASEM,TMR - Bunk mixes,18:1 Oleic
+Complete NASEM,TMR - Bunk mixes,18:2 Linoleic
+Complete NASEM,TMR - Bunk mixes,18:3 Linolenic
+Complete NASEM,TMR - Bunk mixes,ADF
+Complete NASEM,TMR - Bunk mixes,ADICP
+Complete NASEM,TMR - Bunk mixes,aNDF
+Complete NASEM,TMR - Bunk mixes,aNDFom
+Complete NASEM,TMR - Bunk mixes,Ash
+Complete NASEM,TMR - Bunk mixes,CP
+Complete NASEM,TMR - Bunk mixes,Fat (EE)
+Complete NASEM,TMR - Bunk mixes,Lignin
+Complete NASEM,TMR - Bunk mixes,NDFDom240
+Complete NASEM,TMR - Bunk mixes,pH
+Complete NASEM,TMR - Bunk mixes,SCP
+Complete NASEM,TMR - Bunk mixes,Starch
+Complete NASEM,TMR - Bunk mixes,Sugar (ESC)
+Complete NASEM,TMR - Bunk mixes,Sugar (WSC)
+Complete NASEM,TMR - Bunk mixes,Total fatty acids
+Complete NASEM,TMR - Bunk mixes,uNDFom240
+Complete NASEM,TMR - Bunk mixes,Insoluble Protein
+Complete NASEM,Blood meal,Ash
+Complete NASEM,Blood meal,CP
+Complete NASEM,Blood meal,Fat (EE)
+Complete NASEM,Blood meal,Histidine
+Complete NASEM,Blood meal,Isoleucine
+Complete NASEM,Blood meal,Leucine
+Complete NASEM,Blood meal,Lysine
+Complete NASEM,Blood meal,Methionine
+Complete NASEM,Blood meal,Total amino acid
+Complete NASEM,Blood meal,Ross UCP
+Complete NASEM,Beet pulp,aNDF
+Complete NASEM,Beet pulp,aNDFom
+Complete NASEM,Beet pulp,Ash
+Complete NASEM,Beet pulp,Crude Fiber
+Complete NASEM,Beet pulp,CP
+Complete NASEM,Beet pulp,Fat (EE)
+Complete NASEM,Beet pulp,NDFDom12
+Complete NASEM,Beet pulp,Sugar (ESC)
+Complete NASEM,Beet pulp,Sugar (WSC)
+Complete NASEM,Beet pulp,uNDFom12
+Complete NASEM,Beet pulp,Sucrose
+Complete NASEM,Beet pulp,Total sugar
+Complete NASEM,Dry corn,Histidine
+Complete NASEM,Dry corn,Isoleucine
+Complete NASEM,Dry corn,IVSD7-o
+Complete NASEM,Dry corn,Leucine
+Complete NASEM,Dry corn,Lysine
+Complete NASEM,Dry corn,Methionine
+Complete NASEM,Dry corn,Total amino acid
+Complete NASEM,Enogen corn,Acetic
+Complete NASEM,Enogen corn,Ammonia
+Complete NASEM,Enogen corn,Histidine
+Complete NASEM,Enogen corn,Isoleucine
+Complete NASEM,Enogen corn,IVSD7-o
+Complete NASEM,Enogen corn,Lactic
+Complete NASEM,Enogen corn,Leucine
+Complete NASEM,Enogen corn,Lysine
+Complete NASEM,Enogen corn,Methionine
+Complete NASEM,Enogen corn,pH
+Complete NASEM,Enogen corn,Total amino acid
+Complete NASEM,HMSC,Acetic
+Complete NASEM,HMSC,Ammonia
+Complete NASEM,HMSC,Histidine
+Complete NASEM,HMSC,Isoleucine
+Complete NASEM,HMSC,IVSD7-o
+Complete NASEM,HMSC,Lactic
+Complete NASEM,HMSC,Leucine
+Complete NASEM,HMSC,Lysine
+Complete NASEM,HMSC,Methionine
+Complete NASEM,HMSC,pH
+Complete NASEM,HMSC,Total amino acid
+Complete NASEM,High oil corn,Histidine
+Complete NASEM,High oil corn,Isoleucine
+Complete NASEM,High oil corn,IVSD7-o
+Complete NASEM,High oil corn,Leucine
+Complete NASEM,High oil corn,Lysine
+Complete NASEM,High oil corn,Methionine
+Complete NASEM,High oil corn,Total amino acid
+Complete NASEM,Corn,Acetic
+Complete NASEM,Corn,IVSD7-o
+Complete NASEM,Corn,Lactic
+Complete NASEM,Corn,pH
+Complete NASEM,Steam flaked corn,Histidine
+Complete NASEM,Steam flaked corn,Isoleucine
+Complete NASEM,Steam flaked corn,Leucine
+Complete NASEM,Steam flaked corn,Lysine
+Complete NASEM,Steam flaked corn,Methionine
+Complete NASEM,Steam flaked corn,Total amino acid
+Complete NASEM,Cob corn,NDFDom12
+Complete NASEM,Cob corn,NDFDom24
+Complete NASEM,Cob corn,NDFDom240
+Complete NASEM,Cob corn,NDFDom30
+Complete NASEM,Cob corn,uNDFom12
+Complete NASEM,Cob corn,uNDFom24
+Complete NASEM,Cob corn,uNDFom240
+Complete NASEM,Cob corn,uNDFom30
+Complete NASEM,Earlage,Histidine
+Complete NASEM,Earlage,Isoleucine
+Complete NASEM,Earlage,Leucine
+Complete NASEM,Earlage,Lysine
+Complete NASEM,Earlage,Methionine
+Complete NASEM,Earlage,NDFDom12
+Complete NASEM,Earlage,NDFDom24
+Complete NASEM,Earlage,NDFDom240
+Complete NASEM,Earlage,NDFDom30
+Complete NASEM,Earlage,Total amino acid
+Complete NASEM,Earlage,uNDFom12
+Complete NASEM,Earlage,uNDFom24
+Complete NASEM,Earlage,uNDFom240
+Complete NASEM,Earlage,uNDFom30
+Complete NASEM,Enogen snap/ear,Histidine
+Complete NASEM,Enogen snap/ear,Isoleucine
+Complete NASEM,Enogen snap/ear,Leucine
+Complete NASEM,Enogen snap/ear,Lysine
+Complete NASEM,Enogen snap/ear,Methionine
+Complete NASEM,Enogen snap/ear,NDFDom12
+Complete NASEM,Enogen snap/ear,NDFDom24
+Complete NASEM,Enogen snap/ear,NDFDom240
+Complete NASEM,Enogen snap/ear,NDFDom30
+Complete NASEM,Enogen snap/ear,Total amino acid
+Complete NASEM,Enogen snap/ear,uNDFom12
+Complete NASEM,Enogen snap/ear,uNDFom24
+Complete NASEM,Enogen snap/ear,uNDFom240
+Complete NASEM,Enogen snap/ear,uNDFom30
+Complete NASEM,Snaplage,Histidine
+Complete NASEM,Snaplage,Isoleucine
+Complete NASEM,Snaplage,Leucine
+Complete NASEM,Snaplage,Lysine
+Complete NASEM,Snaplage,Methionine
+Complete NASEM,Snaplage,NDFDom12
+Complete NASEM,Snaplage,NDFDom24
+Complete NASEM,Snaplage,NDFDom240
+Complete NASEM,Snaplage,NDFDom30
+Complete NASEM,Snaplage,Total amino acid
+Complete NASEM,Snaplage,uNDFom12
+Complete NASEM,Snaplage,uNDFom24
+Complete NASEM,Snaplage,uNDFom240
+Complete NASEM,Snaplage,uNDFom30
+Complete NASEM,Barley grain,16:0 Palmitic
+Complete NASEM,Barley grain,18:0 Stearic
+Complete NASEM,Barley grain,18:1 Oleic
+Complete NASEM,Barley grain,18:2 Linoleic
+Complete NASEM,Barley grain,18:3 Linolenic
+Complete NASEM,Barley grain,ADF
+Complete NASEM,Barley grain,ADICP
+Complete NASEM,Barley grain,Ca
+Complete NASEM,Barley grain,Histidine
+Complete NASEM,Barley grain,Isoleucine
+Complete NASEM,Barley grain,K
+Complete NASEM,Barley grain,Leucine
+Complete NASEM,Barley grain,Lysine
+Complete NASEM,Barley grain,Methionine
+Complete NASEM,Barley grain,Mg
+Complete NASEM,Barley grain,NDFDom12
+Complete NASEM,Barley grain,P
+Complete NASEM,Barley grain,SCP
+Complete NASEM,Barley grain,Total amino acid
+Complete NASEM,Barley grain,uNDFom12
+Complete NASEM,Barley grain,Insoluble Protein
+Complete NASEM,Spelt grain,16:0 Palmitic
+Complete NASEM,Spelt grain,18:0 Stearic
+Complete NASEM,Spelt grain,18:1 Oleic
+Complete NASEM,Spelt grain,18:2 Linoleic
+Complete NASEM,Spelt grain,18:3 Linolenic
+Complete NASEM,Spelt grain,ADF
+Complete NASEM,Spelt grain,ADICP
+Complete NASEM,Spelt grain,Ca
+Complete NASEM,Spelt grain,Histidine
+Complete NASEM,Spelt grain,Isoleucine
+Complete NASEM,Spelt grain,K
+Complete NASEM,Spelt grain,Leucine
+Complete NASEM,Spelt grain,Lysine
+Complete NASEM,Spelt grain,Methionine
+Complete NASEM,Spelt grain,Mg
+Complete NASEM,Spelt grain,NDFDom12
+Complete NASEM,Spelt grain,P
+Complete NASEM,Spelt grain,SCP
+Complete NASEM,Spelt grain,Total amino acid
+Complete NASEM,Spelt grain,uNDFom12
+Complete NASEM,Spelt grain,Insoluble Protein
+Complete NASEM,Milo grain,16:0 Palmitic
+Complete NASEM,Milo grain,18:0 Stearic
+Complete NASEM,Milo grain,18:1 Oleic
+Complete NASEM,Milo grain,18:2 Linoleic
+Complete NASEM,Milo grain,18:3 Linolenic
+Complete NASEM,Milo grain,ADF
+Complete NASEM,Milo grain,ADICP
+Complete NASEM,Milo grain,Ca
+Complete NASEM,Milo grain,Histidine
+Complete NASEM,Milo grain,Isoleucine
+Complete NASEM,Milo grain,K
+Complete NASEM,Milo grain,Leucine
+Complete NASEM,Milo grain,Lysine
+Complete NASEM,Milo grain,Methionine
+Complete NASEM,Milo grain,Mg
+Complete NASEM,Milo grain,NDFDom12
+Complete NASEM,Milo grain,P
+Complete NASEM,Milo grain,SCP
+Complete NASEM,Milo grain,Total amino acid
+Complete NASEM,Milo grain,uNDFom12
+Complete NASEM,Milo grain,Insoluble Protein
+Complete NASEM,Oat grain,16:0 Palmitic
+Complete NASEM,Oat grain,18:0 Stearic
+Complete NASEM,Oat grain,18:1 Oleic
+Complete NASEM,Oat grain,18:2 Linoleic
+Complete NASEM,Oat grain,18:3 Linolenic
+Complete NASEM,Oat grain,ADF
+Complete NASEM,Oat grain,ADICP
+Complete NASEM,Oat grain,Ca
+Complete NASEM,Oat grain,Histidine
+Complete NASEM,Oat grain,Isoleucine
+Complete NASEM,Oat grain,K
+Complete NASEM,Oat grain,Leucine
+Complete NASEM,Oat grain,Lysine
+Complete NASEM,Oat grain,Methionine
+Complete NASEM,Oat grain,Mg
+Complete NASEM,Oat grain,NDFDom12
+Complete NASEM,Oat grain,P
+Complete NASEM,Oat grain,SCP
+Complete NASEM,Oat grain,Total amino acid
+Complete NASEM,Oat grain,uNDFom12
+Complete NASEM,Oat grain,Insoluble Protein
+Complete NASEM,Rye grain,16:0 Palmitic
+Complete NASEM,Rye grain,18:0 Stearic
+Complete NASEM,Rye grain,18:1 Oleic
+Complete NASEM,Rye grain,18:2 Linoleic
+Complete NASEM,Rye grain,18:3 Linolenic
+Complete NASEM,Rye grain,ADF
+Complete NASEM,Rye grain,ADICP
+Complete NASEM,Rye grain,Ca
+Complete NASEM,Rye grain,Histidine
+Complete NASEM,Rye grain,Isoleucine
+Complete NASEM,Rye grain,K
+Complete NASEM,Rye grain,Leucine
+Complete NASEM,Rye grain,Lysine
+Complete NASEM,Rye grain,Methionine
+Complete NASEM,Rye grain,Mg
+Complete NASEM,Rye grain,NDFDom12
+Complete NASEM,Rye grain,P
+Complete NASEM,Rye grain,SCP
+Complete NASEM,Rye grain,Total amino acid
+Complete NASEM,Rye grain,uNDFom12
+Complete NASEM,Rye grain,Insoluble Protein
+Complete NASEM,Sorghum grain,16:0 Palmitic
+Complete NASEM,Sorghum grain,18:0 Stearic
+Complete NASEM,Sorghum grain,18:1 Oleic
+Complete NASEM,Sorghum grain,18:2 Linoleic
+Complete NASEM,Sorghum grain,18:3 Linolenic
+Complete NASEM,Sorghum grain,ADF
+Complete NASEM,Sorghum grain,ADICP
+Complete NASEM,Sorghum grain,Ca
+Complete NASEM,Sorghum grain,Histidine
+Complete NASEM,Sorghum grain,Isoleucine
+Complete NASEM,Sorghum grain,K
+Complete NASEM,Sorghum grain,Leucine
+Complete NASEM,Sorghum grain,Lysine
+Complete NASEM,Sorghum grain,Methionine
+Complete NASEM,Sorghum grain,Mg
+Complete NASEM,Sorghum grain,NDFDom12
+Complete NASEM,Sorghum grain,P
+Complete NASEM,Sorghum grain,SCP
+Complete NASEM,Sorghum grain,Total amino acid
+Complete NASEM,Sorghum grain,uNDFom12
+Complete NASEM,Sorghum grain,Insoluble Protein
+Complete NASEM,Triticale grain,16:0 Palmitic
+Complete NASEM,Triticale grain,18:0 Stearic
+Complete NASEM,Triticale grain,18:1 Oleic
+Complete NASEM,Triticale grain,18:2 Linoleic
+Complete NASEM,Triticale grain,18:3 Linolenic
+Complete NASEM,Triticale grain,ADF
+Complete NASEM,Triticale grain,ADICP
+Complete NASEM,Triticale grain,Ca
+Complete NASEM,Triticale grain,Histidine
+Complete NASEM,Triticale grain,Isoleucine
+Complete NASEM,Triticale grain,K
+Complete NASEM,Triticale grain,Leucine
+Complete NASEM,Triticale grain,Lysine
+Complete NASEM,Triticale grain,Methionine
+Complete NASEM,Triticale grain,Mg
+Complete NASEM,Triticale grain,NDFDom12
+Complete NASEM,Triticale grain,P
+Complete NASEM,Triticale grain,SCP
+Complete NASEM,Triticale grain,Total amino acid
+Complete NASEM,Triticale grain,uNDFom12
+Complete NASEM,Triticale grain,Insoluble Protein
+Complete NASEM,Wheat grain,16:0 Palmitic
+Complete NASEM,Wheat grain,18:0 Stearic
+Complete NASEM,Wheat grain,18:1 Oleic
+Complete NASEM,Wheat grain,18:2 Linoleic
+Complete NASEM,Wheat grain,18:3 Linolenic
+Complete NASEM,Wheat grain,ADF
+Complete NASEM,Wheat grain,ADICP
+Complete NASEM,Wheat grain,Ca
+Complete NASEM,Wheat grain,Histidine
+Complete NASEM,Wheat grain,Isoleucine
+Complete NASEM,Wheat grain,K
+Complete NASEM,Wheat grain,Leucine
+Complete NASEM,Wheat grain,Lysine
+Complete NASEM,Wheat grain,Methionine
+Complete NASEM,Wheat grain,Mg
+Complete NASEM,Wheat grain,NDFDom12
+Complete NASEM,Wheat grain,P
+Complete NASEM,Wheat grain,SCP
+Complete NASEM,Wheat grain,Total amino acid
+Complete NASEM,Wheat grain,uNDFom12
+Complete NASEM,Wheat grain,Insoluble Protein
+Complete NASEM,Corn distillers - dry,16:0 Palmitic
+Complete NASEM,Corn distillers - dry,18:0 Stearic
+Complete NASEM,Corn distillers - dry,18:1 Oleic
+Complete NASEM,Corn distillers - dry,18:2 Linoleic
+Complete NASEM,Corn distillers - dry,18:3 Linolenic
+Complete NASEM,Corn distillers - dry,ADF
+Complete NASEM,Corn distillers - dry,ADICP
+Complete NASEM,Corn distillers - dry,aNDF
+Complete NASEM,Corn distillers - dry,aNDFom
+Complete NASEM,Corn distillers - dry,Ash
+Complete NASEM,Corn distillers - dry,Ca
+Complete NASEM,Corn distillers - dry,Crude Fiber
+Complete NASEM,Corn distillers - dry,CP
+Complete NASEM,Corn distillers - dry,Fat (EE)
+Complete NASEM,Corn distillers - dry,Histidine
+Complete NASEM,Corn distillers - dry,Isoleucine
+Complete NASEM,Corn distillers - dry,K
+Complete NASEM,Corn distillers - dry,Leucine
+Complete NASEM,Corn distillers - dry,Lignin
+Complete NASEM,Corn distillers - dry,Lysine
+Complete NASEM,Corn distillers - dry,Methionine
+Complete NASEM,Corn distillers - dry,Mg
+Complete NASEM,Corn distillers - dry,NDFDom12
+Complete NASEM,Corn distillers - dry,NDFDom240
+Complete NASEM,Corn distillers - dry,NDFDom30
+Complete NASEM,Corn distillers - dry,NDFDom48
+Complete NASEM,Corn distillers - dry,NDICPss
+Complete NASEM,Corn distillers - dry,P
+Complete NASEM,Corn distillers - dry,Ross UCP
+Complete NASEM,Corn distillers - dry,S
+Complete NASEM,Corn distillers - dry,SCP
+Complete NASEM,Corn distillers - dry,Starch
+Complete NASEM,Corn distillers - dry,Sugar (ESC)
+Complete NASEM,Corn distillers - dry,Sugar (WSC)
+Complete NASEM,Corn distillers - dry,Total amino acid
+Complete NASEM,Corn distillers - dry,Total fatty acids
+Complete NASEM,Corn distillers - dry,uNDFom12
+Complete NASEM,Corn distillers - dry,uNDFom240
+Complete NASEM,Corn distillers - dry,uNDFom30
+Complete NASEM,Corn distillers - dry,uNDFom48
+Complete NASEM,Corn distillers - dry,Insoluble Protein
+Complete NASEM,Corn gluten feed,16:0 Palmitic
+Complete NASEM,Corn gluten feed,18:0 Stearic
+Complete NASEM,Corn gluten feed,18:1 Oleic
+Complete NASEM,Corn gluten feed,18:2 Linoleic
+Complete NASEM,Corn gluten feed,18:3 Linolenic
+Complete NASEM,Corn gluten feed,ADF
+Complete NASEM,Corn gluten feed,ADICP
+Complete NASEM,Corn gluten feed,aNDF
+Complete NASEM,Corn gluten feed,aNDFom
+Complete NASEM,Corn gluten feed,Ash
+Complete NASEM,Corn gluten feed,Ca
+Complete NASEM,Corn gluten feed,Crude Fiber
+Complete NASEM,Corn gluten feed,CP
+Complete NASEM,Corn gluten feed,Fat (EE)
+Complete NASEM,Corn gluten feed,Histidine
+Complete NASEM,Corn gluten feed,Isoleucine
+Complete NASEM,Corn gluten feed,K
+Complete NASEM,Corn gluten feed,Leucine
+Complete NASEM,Corn gluten feed,Lysine
+Complete NASEM,Corn gluten feed,Methionine
+Complete NASEM,Corn gluten feed,Mg
+Complete NASEM,Corn gluten feed,NDFDom12
+Complete NASEM,Corn gluten feed,NDFDom240
+Complete NASEM,Corn gluten feed,NDFDom30
+Complete NASEM,Corn gluten feed,NDFDom48
+Complete NASEM,Corn gluten feed,NDICPss
+Complete NASEM,Corn gluten feed,P
+Complete NASEM,Corn gluten feed,S
+Complete NASEM,Corn gluten feed,SCP
+Complete NASEM,Corn gluten feed,Starch
+Complete NASEM,Corn gluten feed,Sugar (ESC)
+Complete NASEM,Corn gluten feed,Sugar (WSC)
+Complete NASEM,Corn gluten feed,Total amino acid
+Complete NASEM,Corn gluten feed,Total fatty acids
+Complete NASEM,Corn gluten feed,uNDFom12
+Complete NASEM,Corn gluten feed,uNDFom240
+Complete NASEM,Corn gluten feed,uNDFom30
+Complete NASEM,Corn gluten feed,uNDFom48
+Complete NASEM,Corn gluten feed,Insoluble Protein
+Complete NASEM,Corn distillers - wet,16:0 Palmitic
+Complete NASEM,Corn distillers - wet,18:0 Stearic
+Complete NASEM,Corn distillers - wet,18:1 Oleic
+Complete NASEM,Corn distillers - wet,18:2 Linoleic
+Complete NASEM,Corn distillers - wet,18:3 Linolenic
+Complete NASEM,Corn distillers - wet,ADF
+Complete NASEM,Corn distillers - wet,ADICP
+Complete NASEM,Corn distillers - wet,aNDF
+Complete NASEM,Corn distillers - wet,aNDFom
+Complete NASEM,Corn distillers - wet,Ash
+Complete NASEM,Corn distillers - wet,Ca
+Complete NASEM,Corn distillers - wet,Crude Fiber
+Complete NASEM,Corn distillers - wet,CP
+Complete NASEM,Corn distillers - wet,Fat (EE)
+Complete NASEM,Corn distillers - wet,Histidine
+Complete NASEM,Corn distillers - wet,Isoleucine
+Complete NASEM,Corn distillers - wet,K
+Complete NASEM,Corn distillers - wet,Leucine
+Complete NASEM,Corn distillers - wet,Lignin
+Complete NASEM,Corn distillers - wet,Lysine
+Complete NASEM,Corn distillers - wet,Methionine
+Complete NASEM,Corn distillers - wet,Mg
+Complete NASEM,Corn distillers - wet,NDFDom12
+Complete NASEM,Corn distillers - wet,NDFDom240
+Complete NASEM,Corn distillers - wet,NDFDom30
+Complete NASEM,Corn distillers - wet,NDFDom48
+Complete NASEM,Corn distillers - wet,NDICPss
+Complete NASEM,Corn distillers - wet,P
+Complete NASEM,Corn distillers - wet,Ross UCP
+Complete NASEM,Corn distillers - wet,S
+Complete NASEM,Corn distillers - wet,SCP
+Complete NASEM,Corn distillers - wet,Starch
+Complete NASEM,Corn distillers - wet,Sugar (ESC)
+Complete NASEM,Corn distillers - wet,Sugar (WSC)
+Complete NASEM,Corn distillers - wet,Total amino acid
+Complete NASEM,Corn distillers - wet,Total fatty acids
+Complete NASEM,Corn distillers - wet,uNDFom12
+Complete NASEM,Corn distillers - wet,uNDFom240
+Complete NASEM,Corn distillers - wet,uNDFom30
+Complete NASEM,Corn distillers - wet,uNDFom48
+Complete NASEM,Corn distillers - wet,Insoluble Protein
+Complete NASEM,Wheat midds,ADF
+Complete NASEM,Wheat midds,aNDF
+Complete NASEM,Wheat midds,aNDFom
+Complete NASEM,Wheat midds,Ash
+Complete NASEM,Wheat midds,Crude Fiber
+Complete NASEM,Wheat midds,CP
+Complete NASEM,Wheat midds,Fat (EE)
+Complete NASEM,Wheat midds,NDFDom12
+Complete NASEM,Wheat midds,NDFDom240
+Complete NASEM,Wheat midds,NDFDom48
+Complete NASEM,Wheat midds,Starch
+Complete NASEM,Wheat midds,uNDFom12
+Complete NASEM,Wheat midds,uNDFom240
+Complete NASEM,Wheat midds,uNDFom48
+Complete NASEM,Canola meal,16:0 Palmitic
+Complete NASEM,Canola meal,18:0 Stearic
+Complete NASEM,Canola meal,18:1 Oleic
+Complete NASEM,Canola meal,18:2 Linoleic
+Complete NASEM,Canola meal,18:3 Linolenic
+Complete NASEM,Canola meal,ADF
+Complete NASEM,Canola meal,ADICP
+Complete NASEM,Canola meal,aNDF
+Complete NASEM,Canola meal,aNDFom
+Complete NASEM,Canola meal,Ash
+Complete NASEM,Canola meal,Crude Fiber
+Complete NASEM,Canola meal,CP
+Complete NASEM,Canola meal,Fat (EE)
+Complete NASEM,Canola meal,Histidine
+Complete NASEM,Canola meal,Isoleucine
+Complete NASEM,Canola meal,Leucine
+Complete NASEM,Canola meal,Lysine
+Complete NASEM,Canola meal,Methionine
+Complete NASEM,Canola meal,NDFDom12
+Complete NASEM,Canola meal,NDFDom240
+Complete NASEM,Canola meal,NDFDom48
+Complete NASEM,Canola meal,NDICPss
+Complete NASEM,Canola meal,Ross UCP
+Complete NASEM,Canola meal,Total amino acid
+Complete NASEM,Canola meal,uNDFom12
+Complete NASEM,Canola meal,uNDFom240
+Complete NASEM,Canola meal,uNDFom48
+Complete NASEM,SF soybeans,16:0 Palmitic
+Complete NASEM,SF soybeans,18:0 Stearic
+Complete NASEM,SF soybeans,18:1 Oleic
+Complete NASEM,SF soybeans,18:2 Linoleic
+Complete NASEM,SF soybeans,18:3 Linolenic
+Complete NASEM,SF soybeans,Crude Fiber
+Complete NASEM,SF soybeans,CP
+Complete NASEM,SF soybeans,Fat (EE)
+Complete NASEM,SF soybeans,Total fatty acids
+Complete NASEM,Soybeans,16:0 Palmitic
+Complete NASEM,Soybeans,18:0 Stearic
+Complete NASEM,Soybeans,18:1 Oleic
+Complete NASEM,Soybeans,18:2 Linoleic
+Complete NASEM,Soybeans,18:3 Linolenic
+Complete NASEM,Soybeans,Crude Fiber
+Complete NASEM,Soybeans,CP
+Complete NASEM,Soybeans,Fat (EE)
+Complete NASEM,Soybeans,Total fatty acids
+Complete NASEM,SBM,ADF
+Complete NASEM,SBM,ADICP
+Complete NASEM,SBM,aNDF
+Complete NASEM,SBM,aNDFom
+Complete NASEM,SBM,Ash
+Complete NASEM,SBM,Crude Fiber
+Complete NASEM,SBM,CP
+Complete NASEM,SBM,Fat (EE)
+Complete NASEM,SBM,Histidine
+Complete NASEM,SBM,Isoleucine
+Complete NASEM,SBM,Leucine
+Complete NASEM,SBM,Lysine
+Complete NASEM,SBM,Methionine
+Complete NASEM,SBM,NDICPss
+Complete NASEM,SBM,Ross UCP
+Complete NASEM,SBM,Sugar (ESC)
+Complete NASEM,SBM,Total amino acid
+Complete NASEM,Roasted soybeans,16:0 Palmitic
+Complete NASEM,Roasted soybeans,18:0 Stearic
+Complete NASEM,Roasted soybeans,18:1 Oleic
+Complete NASEM,Roasted soybeans,18:2 Linoleic
+Complete NASEM,Roasted soybeans,18:3 Linolenic
+Complete NASEM,Roasted soybeans,Crude Fiber
+Complete NASEM,Roasted soybeans,CP
+Complete NASEM,Roasted soybeans,Fat (EE)
+Complete NASEM,Roasted soybeans,Total fatty acids
+Complete NASEM,Soyhulls,ADF
+Complete NASEM,Soyhulls,aNDF
+Complete NASEM,Soyhulls,aNDFom
+Complete NASEM,Soyhulls,Ash
+Complete NASEM,Soyhulls,Crude Fiber
+Complete NASEM,Soyhulls,CP
+Complete NASEM,Soyhulls,Fat (EE)
+Complete NASEM,Soyhulls,NDFDom12
+Complete NASEM,Soyhulls,NDFDom240
+Complete NASEM,Soyhulls,NDFDom30
+Complete NASEM,Soyhulls,NDFDom48
+Complete NASEM,Soyhulls,Starch
+Complete NASEM,Soyhulls,Sugar (WSC)
+Complete NASEM,Soyhulls,uNDFom12
+Complete NASEM,Soyhulls,uNDFom240
+Complete NASEM,Soyhulls,uNDFom30
+Complete NASEM,Soyhulls,uNDFom48
+Apparent Digestibility,Manure,aNDF
+Apparent Digestibility,Manure,aNDFom
+Apparent Digestibility,Manure,Ash
+Apparent Digestibility,Manure,CP
+Apparent Digestibility,Manure,Fat (EE)
+Apparent Digestibility,Manure,NDFDom240
+Apparent Digestibility,Manure,Starch
+Apparent Digestibility,Manure,uNDFom240
+VFA Screen,Haylage - Mixed,Acetic
+VFA Screen,Haylage - Mixed,Butyric
+VFA Screen,Haylage - Mixed,Lactic
+VFA Screen,Haylage - Mixed,pH
+VFA Screen,Haylage - Mixed,Propionic
+VFA Screen,Haylage - Legume,Acetic
+VFA Screen,Haylage - Legume,Butyric
+VFA Screen,Haylage - Legume,Lactic
+VFA Screen,Haylage - Legume,pH
+VFA Screen,Haylage - Legume,Propionic
+VFA Screen,Haylage - Grass,Acetic
+VFA Screen,Haylage - Grass,Butyric
+VFA Screen,Haylage - Grass,Lactic
+VFA Screen,Haylage - Grass,pH
+VFA Screen,Haylage - Grass,Propionic
+VFA Screen,Corn silage,Acetic
+VFA Screen,Corn silage,IVSD7-o
+VFA Screen,Corn silage,Lactic
+VFA Screen,Corn silage,pH
+VFA Screen,Corn silage,Propionic
+VFA Screen,BMR corn silage,Acetic
+VFA Screen,BMR corn silage,IVSD7-o
+VFA Screen,BMR corn silage,Lactic
+VFA Screen,BMR corn silage,pH
+VFA Screen,BMR corn silage,Propionic
+VFA Screen,Enogen corn silage,Acetic
+VFA Screen,Enogen corn silage,IVSD7-o
+VFA Screen,Enogen corn silage,Lactic
+VFA Screen,Enogen corn silage,pH
+VFA Screen,Enogen corn silage,Propionic
+VFA Screen,Whole plant corn,Acetic
+VFA Screen,Whole plant corn,IVSD7-o
+VFA Screen,Whole plant corn,Lactic
+VFA Screen,Whole plant corn,pH
+VFA Screen,Whole plant corn,Propionic
+VFA Screen,TMF corn silage,Acetic
+VFA Screen,TMF corn silage,IVSD7-o
+VFA Screen,TMF corn silage,Lactic
+VFA Screen,TMF corn silage,pH
+VFA Screen,TMF corn silage,Propionic
+VFA Screen,Corn,Acetic
+VFA Screen,Corn,IVSD7-o
+VFA Screen,Corn,Lactic
+VFA Screen,Corn,pH
+Select24,Hay - Mixed,ADF
+Select24,Hay - Mixed,ADICP
+Select24,Hay - Mixed,aNDF
+Select24,Hay - Mixed,aNDFom
+Select24,Hay - Mixed,Ash
+Select24,Hay - Mixed,Ca
+Select24,Hay - Mixed,Cl
+Select24,Hay - Mixed,CP
+Select24,Hay - Mixed,Fat (EE)
+Select24,Hay - Mixed,K
+Select24,Hay - Mixed,Lignin
+Select24,Hay - Mixed,Mg
+Select24,Hay - Mixed,NDFDom24
+Select24,Hay - Mixed,NDFDom240
+Select24,Hay - Mixed,NDICPss
+Select24,Hay - Mixed,P
+Select24,Hay - Mixed,S
+Select24,Hay - Mixed,SCP
+Select24,Hay - Mixed,Starch
+Select24,Hay - Mixed,Sugar (ESC)
+Select24,Hay - Mixed,Sugar (WSC)
+Select24,Hay - Mixed,Total fatty acids
+Select24,Hay - Mixed,uNDFom24
+Select24,Hay - Mixed,uNDFom240
+Select24,Hay - Mixed,Insoluble Protein
+Select24,Hay - Legume,ADF
+Select24,Hay - Legume,ADICP
+Select24,Hay - Legume,aNDF
+Select24,Hay - Legume,aNDFom
+Select24,Hay - Legume,Ash
+Select24,Hay - Legume,Ca
+Select24,Hay - Legume,Cl
+Select24,Hay - Legume,CP
+Select24,Hay - Legume,Fat (EE)
+Select24,Hay - Legume,K
+Select24,Hay - Legume,Lignin
+Select24,Hay - Legume,Mg
+Select24,Hay - Legume,NDFDom24
+Select24,Hay - Legume,NDFDom240
+Select24,Hay - Legume,NDICPss
+Select24,Hay - Legume,S
+Select24,Hay - Legume,SCP
+Select24,Hay - Legume,Starch
+Select24,Hay - Legume,Sugar (ESC)
+Select24,Hay - Legume,Sugar (WSC)
+Select24,Hay - Legume,Total fatty acids
+Select24,Hay - Legume,uNDFom24
+Select24,Hay - Legume,uNDFom240
+Select24,Hay - Legume,Insoluble Protein
+Select24,Hay - Grass,ADF
+Select24,Hay - Grass,ADICP
+Select24,Hay - Grass,aNDF
+Select24,Hay - Grass,aNDFom
+Select24,Hay - Grass,Ash
+Select24,Hay - Grass,Ca
+Select24,Hay - Grass,Cl
+Select24,Hay - Grass,CP
+Select24,Hay - Grass,Fat (EE)
+Select24,Hay - Grass,K
+Select24,Hay - Grass,Lignin
+Select24,Hay - Grass,Mg
+Select24,Hay - Grass,NDFDom24
+Select24,Hay - Grass,NDFDom240
+Select24,Hay - Grass,NDICPss
+Select24,Hay - Grass,S
+Select24,Hay - Grass,SCP
+Select24,Hay - Grass,Starch
+Select24,Hay - Grass,Sugar (ESC)
+Select24,Hay - Grass,Sugar (WSC)
+Select24,Hay - Grass,Total fatty acids
+Select24,Hay - Grass,uNDFom24
+Select24,Hay - Grass,uNDFom240
+Select24,Hay - Grass,Insoluble Protein
+Select24,Haylage - Mixed,ADF
+Select24,Haylage - Mixed,ADICP
+Select24,Haylage - Mixed,aNDF
+Select24,Haylage - Mixed,aNDFom
+Select24,Haylage - Mixed,Ash
+Select24,Haylage - Mixed,Ca
+Select24,Haylage - Mixed,Cl
+Select24,Haylage - Mixed,CP
+Select24,Haylage - Mixed,Fat (EE)
+Select24,Haylage - Mixed,K
+Select24,Haylage - Mixed,Lignin
+Select24,Haylage - Mixed,Mg
+Select24,Haylage - Mixed,NDFDom24
+Select24,Haylage - Mixed,NDFDom240
+Select24,Haylage - Mixed,NDICPss
+Select24,Haylage - Mixed,P
+Select24,Haylage - Mixed,pH
+Select24,Haylage - Mixed,S
+Select24,Haylage - Mixed,SCP
+Select24,Haylage - Mixed,Starch
+Select24,Haylage - Mixed,Sugar (ESC)
+Select24,Haylage - Mixed,Sugar (WSC)
+Select24,Haylage - Mixed,Total fatty acids
+Select24,Haylage - Mixed,uNDFom24
+Select24,Haylage - Mixed,uNDFom240
+Select24,Haylage - Mixed,Insoluble Protein
+Select24,Haylage - Legume,ADF
+Select24,Haylage - Legume,ADICP
+Select24,Haylage - Legume,aNDF
+Select24,Haylage - Legume,aNDFom
+Select24,Haylage - Legume,Ash
+Select24,Haylage - Legume,Ca
+Select24,Haylage - Legume,Cl
+Select24,Haylage - Legume,CP
+Select24,Haylage - Legume,Fat (EE)
+Select24,Haylage - Legume,K
+Select24,Haylage - Legume,Lignin
+Select24,Haylage - Legume,Mg
+Select24,Haylage - Legume,NDFDom24
+Select24,Haylage - Legume,NDFDom240
+Select24,Haylage - Legume,NDICPss
+Select24,Haylage - Legume,pH
+Select24,Haylage - Legume,S
+Select24,Haylage - Legume,SCP
+Select24,Haylage - Legume,Starch
+Select24,Haylage - Legume,Sugar (ESC)
+Select24,Haylage - Legume,Sugar (WSC)
+Select24,Haylage - Legume,Total fatty acids
+Select24,Haylage - Legume,uNDFom24
+Select24,Haylage - Legume,uNDFom240
+Select24,Haylage - Legume,Insoluble Protein
+Select24,Haylage - Grass,ADF
+Select24,Haylage - Grass,ADICP
+Select24,Haylage - Grass,aNDF
+Select24,Haylage - Grass,aNDFom
+Select24,Haylage - Grass,Ash
+Select24,Haylage - Grass,Ca
+Select24,Haylage - Grass,Cl
+Select24,Haylage - Grass,CP
+Select24,Haylage - Grass,Fat (EE)
+Select24,Haylage - Grass,K
+Select24,Haylage - Grass,Lignin
+Select24,Haylage - Grass,Mg
+Select24,Haylage - Grass,NDFDom24
+Select24,Haylage - Grass,NDFDom240
+Select24,Haylage - Grass,NDICPss
+Select24,Haylage - Grass,pH
+Select24,Haylage - Grass,S
+Select24,Haylage - Grass,SCP
+Select24,Haylage - Grass,Starch
+Select24,Haylage - Grass,Sugar (ESC)
+Select24,Haylage - Grass,Sugar (WSC)
+Select24,Haylage - Grass,Total fatty acids
+Select24,Haylage - Grass,uNDFom24
+Select24,Haylage - Grass,uNDFom240
+Select24,Haylage - Grass,Insoluble Protein
+Select24,Whole plant corn,ADF
+Select24,Whole plant corn,ADICP
+Select24,Whole plant corn,aNDF
+Select24,Whole plant corn,aNDFom
+Select24,Whole plant corn,Ash
+Select24,Whole plant corn,Ca
+Select24,Whole plant corn,CP
+Select24,Whole plant corn,Fat (EE)
+Select24,Whole plant corn,IVSD7-o
+Select24,Whole plant corn,K
+Select24,Whole plant corn,Lignin
+Select24,Whole plant corn,Mg
+Select24,Whole plant corn,NDFDom24
+Select24,Whole plant corn,NDFDom240
+Select24,Whole plant corn,NDICPss
+Select24,Whole plant corn,P
+Select24,Whole plant corn,pH
+Select24,Whole plant corn,S
+Select24,Whole plant corn,SCP
+Select24,Whole plant corn,Starch
+Select24,Whole plant corn,Sugar (ESC)
+Select24,Whole plant corn,Sugar (WSC)
+Select24,Whole plant corn,Total fatty acids
+Select24,Whole plant corn,uNDFom24
+Select24,Whole plant corn,uNDFom240
+Select24,Whole plant corn,Insoluble Protein
+Select24,Small Grain Silage,ADF
+Select24,Small Grain Silage,ADICP
+Select24,Small Grain Silage,aNDF
+Select24,Small Grain Silage,aNDFom
+Select24,Small Grain Silage,Ash
+Select24,Small Grain Silage,Ca
+Select24,Small Grain Silage,Cl
+Select24,Small Grain Silage,CP
+Select24,Small Grain Silage,Fat (EE)
+Select24,Small Grain Silage,K
+Select24,Small Grain Silage,Lignin
+Select24,Small Grain Silage,Mg
+Select24,Small Grain Silage,NDFDom24
+Select24,Small Grain Silage,NDFDom240
+Select24,Small Grain Silage,NDICPss
+Select24,Small Grain Silage,P
+Select24,Small Grain Silage,pH
+Select24,Small Grain Silage,S
+Select24,Small Grain Silage,SCP
+Select24,Small Grain Silage,Starch
+Select24,Small Grain Silage,Sugar (ESC)
+Select24,Small Grain Silage,Sugar (WSC)
+Select24,Small Grain Silage,Total fatty acids
+Select24,Small Grain Silage,uNDFom24
+Select24,Small Grain Silage,uNDFom240
+Select24,Small Grain Silage,Insoluble Protein
+Select24,Cob corn,NDFDom24
+Select24,Cob corn,NDFDom240
+Select24,Cob corn,uNDFom24
+Select24,Cob corn,uNDFom240
+Select24,Earlage,NDFDom24
+Select24,Earlage,NDFDom240
+Select24,Earlage,uNDFom24
+Select24,Earlage,uNDFom240
+Select24,Enogen snap/ear,NDFDom24
+Select24,Enogen snap/ear,NDFDom240
+Select24,Enogen snap/ear,uNDFom24
+Select24,Enogen snap/ear,uNDFom240
+Select24,Snaplage,NDFDom24
+Select24,Snaplage,NDFDom240
+Select24,Snaplage,uNDFom24
+Select24,Snaplage,uNDFom240
+Select24,Corn distillers - dry,ADF
+Select24,Corn distillers - dry,ADICP
+Select24,Corn distillers - dry,aNDF
+Select24,Corn distillers - dry,aNDFom
+Select24,Corn distillers - dry,Ash
+Select24,Corn distillers - dry,Ca
+Select24,Corn distillers - dry,Crude Fiber
+Select24,Corn distillers - dry,CP
+Select24,Corn distillers - dry,Fat (EE)
+Select24,Corn distillers - dry,K
+Select24,Corn distillers - dry,Lignin
+Select24,Corn distillers - dry,Mg
+Select24,Corn distillers - dry,NDFDom240
+Select24,Corn distillers - dry,NDICPss
+Select24,Corn distillers - dry,P
+Select24,Corn distillers - dry,S
+Select24,Corn distillers - dry,SCP
+Select24,Corn distillers - dry,Starch
+Select24,Corn distillers - dry,Sugar (ESC)
+Select24,Corn distillers - dry,Sugar (WSC)
+Select24,Corn distillers - dry,Total fatty acids
+Select24,Corn distillers - dry,uNDFom240
+Select24,Corn distillers - dry,Insoluble Protein
+Select24,Corn gluten feed,ADF
+Select24,Corn gluten feed,ADICP
+Select24,Corn gluten feed,aNDF
+Select24,Corn gluten feed,aNDFom
+Select24,Corn gluten feed,Ash
+Select24,Corn gluten feed,Ca
+Select24,Corn gluten feed,Crude Fiber
+Select24,Corn gluten feed,CP
+Select24,Corn gluten feed,Fat (EE)
+Select24,Corn gluten feed,K
+Select24,Corn gluten feed,Mg
+Select24,Corn gluten feed,NDFDom240
+Select24,Corn gluten feed,NDICPss
+Select24,Corn gluten feed,P
+Select24,Corn gluten feed,S
+Select24,Corn gluten feed,SCP
+Select24,Corn gluten feed,Starch
+Select24,Corn gluten feed,Sugar (ESC)
+Select24,Corn gluten feed,Sugar (WSC)
+Select24,Corn gluten feed,Total fatty acids
+Select24,Corn gluten feed,uNDFom240
+Select24,Corn gluten feed,Insoluble Protein
+Select24,Corn distillers - wet,ADF
+Select24,Corn distillers - wet,ADICP
+Select24,Corn distillers - wet,aNDF
+Select24,Corn distillers - wet,aNDFom
+Select24,Corn distillers - wet,Ash
+Select24,Corn distillers - wet,Ca
+Select24,Corn distillers - wet,Crude Fiber
+Select24,Corn distillers - wet,CP
+Select24,Corn distillers - wet,Fat (EE)
+Select24,Corn distillers - wet,K
+Select24,Corn distillers - wet,Lignin
+Select24,Corn distillers - wet,Mg
+Select24,Corn distillers - wet,NDFDom240
+Select24,Corn distillers - wet,NDICPss
+Select24,Corn distillers - wet,P
+Select24,Corn distillers - wet,S
+Select24,Corn distillers - wet,SCP
+Select24,Corn distillers - wet,Starch
+Select24,Corn distillers - wet,Sugar (ESC)
+Select24,Corn distillers - wet,Sugar (WSC)
+Select24,Corn distillers - wet,Total fatty acids
+Select24,Corn distillers - wet,uNDFom240
+Select24,Corn distillers - wet,Insoluble Protein
+Select24,Soyhulls,ADF
+Select24,Soyhulls,aNDF
+Select24,Soyhulls,aNDFom
+Select24,Soyhulls,Ash
+Select24,Soyhulls,Crude Fiber
+Select24,Soyhulls,CP
+Select24,Soyhulls,Fat (EE)
+Select24,Soyhulls,NDFDom240
+Select24,Soyhulls,Starch
+Select24,Soyhulls,Sugar (WSC)
+Select24,Soyhulls,uNDFom240
+Select48,Hay - Mixed,ADF
+Select48,Hay - Mixed,ADICP
+Select48,Hay - Mixed,aNDF
+Select48,Hay - Mixed,aNDFom
+Select48,Hay - Mixed,Ash
+Select48,Hay - Mixed,Ca
+Select48,Hay - Mixed,Cl
+Select48,Hay - Mixed,CP
+Select48,Hay - Mixed,Fat (EE)
+Select48,Hay - Mixed,K
+Select48,Hay - Mixed,Lignin
+Select48,Hay - Mixed,Mg
+Select48,Hay - Mixed,NDFDom240
+Select48,Hay - Mixed,NDFDom48
+Select48,Hay - Mixed,NDICPss
+Select48,Hay - Mixed,P
+Select48,Hay - Mixed,S
+Select48,Hay - Mixed,SCP
+Select48,Hay - Mixed,Starch
+Select48,Hay - Mixed,Sugar (ESC)
+Select48,Hay - Mixed,Sugar (WSC)
+Select48,Hay - Mixed,Total fatty acids
+Select48,Hay - Mixed,uNDFom240
+Select48,Hay - Mixed,uNDFom48
+Select48,Hay - Mixed,Insoluble Protein
+Select48,Hay - Legume,ADF
+Select48,Hay - Legume,ADICP
+Select48,Hay - Legume,aNDF
+Select48,Hay - Legume,aNDFom
+Select48,Hay - Legume,Ash
+Select48,Hay - Legume,Ca
+Select48,Hay - Legume,Cl
+Select48,Hay - Legume,CP
+Select48,Hay - Legume,Fat (EE)
+Select48,Hay - Legume,K
+Select48,Hay - Legume,Lignin
+Select48,Hay - Legume,Mg
+Select48,Hay - Legume,NDFDom240
+Select48,Hay - Legume,NDFDom48
+Select48,Hay - Legume,NDICPss
+Select48,Hay - Legume,S
+Select48,Hay - Legume,SCP
+Select48,Hay - Legume,Starch
+Select48,Hay - Legume,Sugar (ESC)
+Select48,Hay - Legume,Sugar (WSC)
+Select48,Hay - Legume,Total fatty acids
+Select48,Hay - Legume,uNDFom240
+Select48,Hay - Legume,uNDFom48
+Select48,Hay - Legume,Insoluble Protein
+Select48,Hay - Grass,ADF
+Select48,Hay - Grass,ADICP
+Select48,Hay - Grass,aNDF
+Select48,Hay - Grass,aNDFom
+Select48,Hay - Grass,Ash
+Select48,Hay - Grass,Ca
+Select48,Hay - Grass,Cl
+Select48,Hay - Grass,CP
+Select48,Hay - Grass,Fat (EE)
+Select48,Hay - Grass,K
+Select48,Hay - Grass,Lignin
+Select48,Hay - Grass,Mg
+Select48,Hay - Grass,NDFDom240
+Select48,Hay - Grass,NDFDom48
+Select48,Hay - Grass,NDICPss
+Select48,Hay - Grass,S
+Select48,Hay - Grass,SCP
+Select48,Hay - Grass,Starch
+Select48,Hay - Grass,Sugar (ESC)
+Select48,Hay - Grass,Sugar (WSC)
+Select48,Hay - Grass,Total fatty acids
+Select48,Hay - Grass,uNDFom240
+Select48,Hay - Grass,uNDFom48
+Select48,Hay - Grass,Insoluble Protein
+Select48,Haylage - Mixed,ADF
+Select48,Haylage - Mixed,ADICP
+Select48,Haylage - Mixed,aNDF
+Select48,Haylage - Mixed,aNDFom
+Select48,Haylage - Mixed,Ash
+Select48,Haylage - Mixed,Ca
+Select48,Haylage - Mixed,Cl
+Select48,Haylage - Mixed,CP
+Select48,Haylage - Mixed,Fat (EE)
+Select48,Haylage - Mixed,K
+Select48,Haylage - Mixed,Lignin
+Select48,Haylage - Mixed,Mg
+Select48,Haylage - Mixed,NDFDom240
+Select48,Haylage - Mixed,NDFDom48
+Select48,Haylage - Mixed,NDICPss
+Select48,Haylage - Mixed,P
+Select48,Haylage - Mixed,pH
+Select48,Haylage - Mixed,S
+Select48,Haylage - Mixed,SCP
+Select48,Haylage - Mixed,Starch
+Select48,Haylage - Mixed,Sugar (ESC)
+Select48,Haylage - Mixed,Sugar (WSC)
+Select48,Haylage - Mixed,Total fatty acids
+Select48,Haylage - Mixed,uNDFom240
+Select48,Haylage - Mixed,uNDFom48
+Select48,Haylage - Mixed,Insoluble Protein
+Select48,Haylage - Legume,ADF
+Select48,Haylage - Legume,ADICP
+Select48,Haylage - Legume,aNDF
+Select48,Haylage - Legume,aNDFom
+Select48,Haylage - Legume,Ash
+Select48,Haylage - Legume,Ca
+Select48,Haylage - Legume,Cl
+Select48,Haylage - Legume,CP
+Select48,Haylage - Legume,Fat (EE)
+Select48,Haylage - Legume,K
+Select48,Haylage - Legume,Lignin
+Select48,Haylage - Legume,Mg
+Select48,Haylage - Legume,NDFDom240
+Select48,Haylage - Legume,NDFDom48
+Select48,Haylage - Legume,NDICPss
+Select48,Haylage - Legume,pH
+Select48,Haylage - Legume,S
+Select48,Haylage - Legume,SCP
+Select48,Haylage - Legume,Starch
+Select48,Haylage - Legume,Sugar (ESC)
+Select48,Haylage - Legume,Sugar (WSC)
+Select48,Haylage - Legume,Total fatty acids
+Select48,Haylage - Legume,uNDFom240
+Select48,Haylage - Legume,uNDFom48
+Select48,Haylage - Legume,Insoluble Protein
+Select48,Haylage - Grass,ADF
+Select48,Haylage - Grass,ADICP
+Select48,Haylage - Grass,aNDF
+Select48,Haylage - Grass,aNDFom
+Select48,Haylage - Grass,Ash
+Select48,Haylage - Grass,Ca
+Select48,Haylage - Grass,Cl
+Select48,Haylage - Grass,CP
+Select48,Haylage - Grass,Fat (EE)
+Select48,Haylage - Grass,K
+Select48,Haylage - Grass,Lignin
+Select48,Haylage - Grass,Mg
+Select48,Haylage - Grass,NDFDom240
+Select48,Haylage - Grass,NDFDom48
+Select48,Haylage - Grass,NDICPss
+Select48,Haylage - Grass,pH
+Select48,Haylage - Grass,S
+Select48,Haylage - Grass,SCP
+Select48,Haylage - Grass,Starch
+Select48,Haylage - Grass,Sugar (ESC)
+Select48,Haylage - Grass,Sugar (WSC)
+Select48,Haylage - Grass,Total fatty acids
+Select48,Haylage - Grass,uNDFom240
+Select48,Haylage - Grass,uNDFom48
+Select48,Haylage - Grass,Insoluble Protein
+Select48,Whole plant corn,ADF
+Select48,Whole plant corn,ADICP
+Select48,Whole plant corn,aNDF
+Select48,Whole plant corn,aNDFom
+Select48,Whole plant corn,Ash
+Select48,Whole plant corn,Ca
+Select48,Whole plant corn,CP
+Select48,Whole plant corn,Fat (EE)
+Select48,Whole plant corn,IVSD7-o
+Select48,Whole plant corn,K
+Select48,Whole plant corn,Lignin
+Select48,Whole plant corn,Mg
+Select48,Whole plant corn,NDFDom240
+Select48,Whole plant corn,NDFDom48
+Select48,Whole plant corn,NDICPss
+Select48,Whole plant corn,P
+Select48,Whole plant corn,pH
+Select48,Whole plant corn,S
+Select48,Whole plant corn,SCP
+Select48,Whole plant corn,Starch
+Select48,Whole plant corn,Sugar (ESC)
+Select48,Whole plant corn,Sugar (WSC)
+Select48,Whole plant corn,Total fatty acids
+Select48,Whole plant corn,uNDFom240
+Select48,Whole plant corn,uNDFom48
+Select48,Whole plant corn,Insoluble Protein
+Select48,Small Grain Silage,ADF
+Select48,Small Grain Silage,ADICP
+Select48,Small Grain Silage,aNDF
+Select48,Small Grain Silage,aNDFom
+Select48,Small Grain Silage,Ash
+Select48,Small Grain Silage,Ca
+Select48,Small Grain Silage,Cl
+Select48,Small Grain Silage,CP
+Select48,Small Grain Silage,Fat (EE)
+Select48,Small Grain Silage,K
+Select48,Small Grain Silage,Lignin
+Select48,Small Grain Silage,Mg
+Select48,Small Grain Silage,NDFDom240
+Select48,Small Grain Silage,NDFDom48
+Select48,Small Grain Silage,NDICPss
+Select48,Small Grain Silage,P
+Select48,Small Grain Silage,pH
+Select48,Small Grain Silage,S
+Select48,Small Grain Silage,SCP
+Select48,Small Grain Silage,Starch
+Select48,Small Grain Silage,Sugar (ESC)
+Select48,Small Grain Silage,Sugar (WSC)
+Select48,Small Grain Silage,Total fatty acids
+Select48,Small Grain Silage,uNDFom240
+Select48,Small Grain Silage,uNDFom48
+Select48,Small Grain Silage,Insoluble Protein
+Select48,Cob corn,NDFDom240
+Select48,Cob corn,uNDFom240
+Select48,Earlage,NDFDom240
+Select48,Earlage,uNDFom240
+Select48,Enogen snap/ear,NDFDom240
+Select48,Enogen snap/ear,uNDFom240
+Select48,Snaplage,NDFDom240
+Select48,Snaplage,uNDFom240
+Select48,Corn distillers - dry,ADF
+Select48,Corn distillers - dry,ADICP
+Select48,Corn distillers - dry,aNDF
+Select48,Corn distillers - dry,aNDFom
+Select48,Corn distillers - dry,Ash
+Select48,Corn distillers - dry,Ca
+Select48,Corn distillers - dry,Crude Fiber
+Select48,Corn distillers - dry,CP
+Select48,Corn distillers - dry,Fat (EE)
+Select48,Corn distillers - dry,K
+Select48,Corn distillers - dry,Lignin
+Select48,Corn distillers - dry,Mg
+Select48,Corn distillers - dry,NDFDom240
+Select48,Corn distillers - dry,NDFDom48
+Select48,Corn distillers - dry,NDICPss
+Select48,Corn distillers - dry,P
+Select48,Corn distillers - dry,S
+Select48,Corn distillers - dry,SCP
+Select48,Corn distillers - dry,Starch
+Select48,Corn distillers - dry,Sugar (ESC)
+Select48,Corn distillers - dry,Sugar (WSC)
+Select48,Corn distillers - dry,Total fatty acids
+Select48,Corn distillers - dry,uNDFom240
+Select48,Corn distillers - dry,uNDFom48
+Select48,Corn distillers - dry,Insoluble Protein
+Select48,Corn gluten feed,ADF
+Select48,Corn gluten feed,ADICP
+Select48,Corn gluten feed,aNDF
+Select48,Corn gluten feed,aNDFom
+Select48,Corn gluten feed,Ash
+Select48,Corn gluten feed,Ca
+Select48,Corn gluten feed,Crude Fiber
+Select48,Corn gluten feed,CP
+Select48,Corn gluten feed,Fat (EE)
+Select48,Corn gluten feed,K
+Select48,Corn gluten feed,Mg
+Select48,Corn gluten feed,NDFDom240
+Select48,Corn gluten feed,NDFDom48
+Select48,Corn gluten feed,NDICPss
+Select48,Corn gluten feed,P
+Select48,Corn gluten feed,S
+Select48,Corn gluten feed,SCP
+Select48,Corn gluten feed,Starch
+Select48,Corn gluten feed,Sugar (ESC)
+Select48,Corn gluten feed,Sugar (WSC)
+Select48,Corn gluten feed,Total fatty acids
+Select48,Corn gluten feed,uNDFom240
+Select48,Corn gluten feed,uNDFom48
+Select48,Corn gluten feed,Insoluble Protein
+Select48,Corn distillers - wet,ADF
+Select48,Corn distillers - wet,ADICP
+Select48,Corn distillers - wet,aNDF
+Select48,Corn distillers - wet,aNDFom
+Select48,Corn distillers - wet,Ash
+Select48,Corn distillers - wet,Ca
+Select48,Corn distillers - wet,Crude Fiber
+Select48,Corn distillers - wet,CP
+Select48,Corn distillers - wet,Fat (EE)
+Select48,Corn distillers - wet,K
+Select48,Corn distillers - wet,Lignin
+Select48,Corn distillers - wet,Mg
+Select48,Corn distillers - wet,NDFDom240
+Select48,Corn distillers - wet,NDFDom48
+Select48,Corn distillers - wet,NDICPss
+Select48,Corn distillers - wet,P
+Select48,Corn distillers - wet,S
+Select48,Corn distillers - wet,SCP
+Select48,Corn distillers - wet,Starch
+Select48,Corn distillers - wet,Sugar (ESC)
+Select48,Corn distillers - wet,Sugar (WSC)
+Select48,Corn distillers - wet,Total fatty acids
+Select48,Corn distillers - wet,uNDFom240
+Select48,Corn distillers - wet,uNDFom48
+Select48,Corn distillers - wet,Insoluble Protein
+Select48,Soyhulls,ADF
+Select48,Soyhulls,aNDF
+Select48,Soyhulls,aNDFom
+Select48,Soyhulls,Ash
+Select48,Soyhulls,Crude Fiber
+Select48,Soyhulls,CP
+Select48,Soyhulls,Fat (EE)
+Select48,Soyhulls,NDFDom240
+Select48,Soyhulls,NDFDom48
+Select48,Soyhulls,Starch
+Select48,Soyhulls,Sugar (WSC)
+Select48,Soyhulls,uNDFom240
+Select48,Soyhulls,uNDFom48

@@ -1,0 +1,2569 @@
+package_id,Result_field
+550,"15 Acetyl DON"
+551,"15 Acetyl DON"
+560,"15 Acetyl DON"
+561,"15 Acetyl DON"
+619,"15 Acetyl DON"
+637,"15 Acetyl DON"
+102,"16:0 Palmitic"
+447,"16:0 Palmitic"
+448,"16:0 Palmitic"
+449,"16:0 Palmitic"
+453,"16:0 Palmitic"
+102,"18:0 Stearic"
+447,"18:0 Stearic"
+448,"18:0 Stearic"
+449,"18:0 Stearic"
+453,"18:0 Stearic"
+102,"18:1 Oleic"
+447,"18:1 Oleic"
+448,"18:1 Oleic"
+449,"18:1 Oleic"
+453,"18:1 Oleic"
+102,"18:2 Linoleic"
+447,"18:2 Linoleic"
+448,"18:2 Linoleic"
+449,"18:2 Linoleic"
+453,"18:2 Linoleic"
+102,"18:3 Linolenic"
+447,"18:3 Linolenic"
+448,"18:3 Linolenic"
+449,"18:3 Linolenic"
+453,"18:3 Linolenic"
+102,"12:0 Lauric"
+102,"14:0 Myristic"
+102,"16:1 Palmitoleic"
+102,"17:0 Margaric"
+102,"19:0 Nonadecanoic"
+102,"20:0 Arachidic"
+102,"20:1 Gadoleic"
+102,"20:2 Eicosadienoic"
+102,"20:3 Eicosatrienoic"
+102,"20:4 Arachidonic"
+102,"20:5 Eicosapentaenoic"
+102,"22:0 Behenic"
+102,"22:1 Erucic"
+102,"22:6 Docosahexaenoic"
+102,"24:0 Lignoceric"
+102,"24:1 Nervonic"
+550,"3 Acetyl DON"
+551,"3 Acetyl DON"
+560,"3 Acetyl DON"
+561,"3 Acetyl DON"
+619,"3 Acetyl DON"
+637,"3 Acetyl DON"
+181,Acetic
+288,Acetic
+419,Acetic
+448,Acetic
+449,Acetic
+453,Acetic
+455,Acetic
+157,ADF
+181,ADF
+184,ADF
+214,ADF
+307,ADF
+340,ADF
+341,ADF
+345,ADF
+346,ADF
+351,ADF
+352,ADF
+354,ADF
+355,ADF
+360,ADF
+387,ADF
+389,ADF
+391,ADF
+401,ADF
+421,ADF
+423,ADF
+432,ADF
+433,ADF
+434,ADF
+444,ADF
+447,ADF
+448,ADF
+449,ADF
+451,ADF
+452,ADF
+453,ADF
+458,ADF
+650,ADF
+157,ADICP
+181,ADICP
+184,ADICP
+214,ADICP
+307,ADICP
+340,ADICP
+341,ADICP
+351,ADICP
+352,ADICP
+391,ADICP
+422,ADICP
+434,ADICP
+444,ADICP
+447,ADICP
+448,ADICP
+449,ADICP
+451,ADICP
+452,ADICP
+453,ADICP
+458,ADICP
+650,ADICP
+549,"Aflatoxin - B1"
+551,"Aflatoxin - B1"
+559,"Aflatoxin - B1"
+560,"Aflatoxin - B1"
+561,"Aflatoxin - B1"
+616,"Aflatoxin - B1"
+617,"Aflatoxin - B1"
+631,"Aflatoxin - B1"
+639,"Aflatoxin - B1"
+640,"Aflatoxin - B1"
+641,"Aflatoxin - B1"
+642,"Aflatoxin - B1"
+643,"Aflatoxin - B1"
+644,"Aflatoxin - B1"
+645,"Aflatoxin - B1"
+646,"Aflatoxin - B1"
+549,"Aflatoxin - B2"
+551,"Aflatoxin - B2"
+559,"Aflatoxin - B2"
+560,"Aflatoxin - B2"
+561,"Aflatoxin - B2"
+616,"Aflatoxin - B2"
+617,"Aflatoxin - B2"
+631,"Aflatoxin - B2"
+639,"Aflatoxin - B2"
+640,"Aflatoxin - B2"
+641,"Aflatoxin - B2"
+642,"Aflatoxin - B2"
+643,"Aflatoxin - B2"
+644,"Aflatoxin - B2"
+645,"Aflatoxin - B2"
+646,"Aflatoxin - B2"
+549,"Aflatoxin - G1"
+551,"Aflatoxin - G1"
+559,"Aflatoxin - G1"
+560,"Aflatoxin - G1"
+561,"Aflatoxin - G1"
+616,"Aflatoxin - G1"
+617,"Aflatoxin - G1"
+631,"Aflatoxin - G1"
+639,"Aflatoxin - G1"
+640,"Aflatoxin - G1"
+641,"Aflatoxin - G1"
+642,"Aflatoxin - G1"
+643,"Aflatoxin - G1"
+644,"Aflatoxin - G1"
+645,"Aflatoxin - G1"
+646,"Aflatoxin - G1"
+549,"Aflatoxin - G2"
+551,"Aflatoxin - G2"
+559,"Aflatoxin - G2"
+560,"Aflatoxin - G2"
+561,"Aflatoxin - G2"
+616,"Aflatoxin - G2"
+617,"Aflatoxin - G2"
+631,"Aflatoxin - G2"
+639,"Aflatoxin - G2"
+640,"Aflatoxin - G2"
+641,"Aflatoxin - G2"
+642,"Aflatoxin - G2"
+643,"Aflatoxin - G2"
+644,"Aflatoxin - G2"
+645,"Aflatoxin - G2"
+646,"Aflatoxin - G2"
+548,Aflatoxin
+549,Aflatoxin
+551,Aflatoxin
+559,Aflatoxin
+560,Aflatoxin
+561,Aflatoxin
+616,Aflatoxin
+617,Aflatoxin
+631,Aflatoxin
+639,Aflatoxin
+640,Aflatoxin
+641,Aflatoxin
+642,Aflatoxin
+643,Aflatoxin
+644,Aflatoxin
+645,Aflatoxin
+646,Aflatoxin
+333,Alanine
+334,Alanine
+421,Alanine
+18,Ammonia
+19,Ammonia
+288,Ammonia
+338,Ammonia
+418,Ammonia
+419,Ammonia
+448,Ammonia
+449,Ammonia
+453,Ammonia
+568,Ammonia
+24,aNDF
+65,aNDF
+147,aNDF
+149,aNDF
+157,aNDF
+181,aNDF
+184,aNDF
+214,aNDF
+307,aNDF
+341,aNDF
+345,aNDF
+346,aNDF
+351,aNDF
+352,aNDF
+354,aNDF
+355,aNDF
+360,aNDF
+388,aNDF
+389,aNDF
+390,aNDF
+391,aNDF
+394,aNDF
+398,aNDF
+401,aNDF
+418,aNDF
+421,aNDF
+424,aNDF
+429,aNDF
+433,aNDF
+434,aNDF
+435,aNDF
+444,aNDF
+447,aNDF
+448,aNDF
+449,aNDF
+451,aNDF
+452,aNDF
+453,aNDF
+454,aNDF
+458,aNDF
+604,aNDF
+605,aNDF
+633,aNDF
+650,aNDF
+23,aNDFom
+24,aNDFom
+65,aNDFom
+147,aNDFom
+149,aNDFom
+157,aNDFom
+184,aNDFom
+214,aNDFom
+307,aNDFom
+341,aNDFom
+345,aNDFom
+346,aNDFom
+351,aNDFom
+352,aNDFom
+354,aNDFom
+355,aNDFom
+360,aNDFom
+388,aNDFom
+389,aNDFom
+390,aNDFom
+391,aNDFom
+394,aNDFom
+398,aNDFom
+401,aNDFom
+421,aNDFom
+424,aNDFom
+429,aNDFom
+433,aNDFom
+434,aNDFom
+444,aNDFom
+447,aNDFom
+448,aNDFom
+449,aNDFom
+451,aNDFom
+452,aNDFom
+453,aNDFom
+454,aNDFom
+458,aNDFom
+604,aNDFom
+605,aNDFom
+633,aNDFom
+650,aNDFom
+334,Arginine
+421,Arginine
+24,Ash
+65,Ash
+157,Ash
+184,Ash
+214,Ash
+307,Ash
+339,Ash
+345,Ash
+346,Ash
+351,Ash
+352,Ash
+354,Ash
+355,Ash
+360,Ash
+390,Ash
+391,Ash
+393,Ash
+401,Ash
+418,Ash
+421,Ash
+424,Ash
+434,Ash
+444,Ash
+447,Ash
+448,Ash
+449,Ash
+451,Ash
+452,Ash
+453,Ash
+454,Ash
+458,Ash
+604,Ash
+605,Ash
+650,Ash
+333,"Aspartic Acid"
+334,"Aspartic Acid"
+421,"Aspartic Acid"
+558,Aspergillius
+33,Boron
+158,Boron
+216,Boron
+570,Boron
+181,Butyric
+288,Butyric
+419,Butyric
+448,Butyric
+449,Butyric
+453,Butyric
+455,Butyric
+38,Ca
+61,Ca
+155,Ca
+156,Ca
+157,Ca
+158,Ca
+159,Ca
+181,Ca
+184,Ca
+216,Ca
+217,Ca
+307,Ca
+342,Ca
+346,Ca
+351,Ca
+352,Ca
+360,Ca
+371,Ca
+386,Ca
+387,Ca
+389,Ca
+393,Ca
+401,Ca
+413,Ca
+421,Ca
+447,Ca
+448,Ca
+449,Ca
+451,Ca
+452,Ca
+453,Ca
+458,Ca
+460,Ca
+593,Ca
+599,Ca
+600,Ca
+601,Ca
+602,Ca
+603,Ca
+629,Ca
+633,Ca
+635,Ca
+636,Ca
+650,Ca
+439,"Calibrate FPN"
+440,"Calibrate FPN"
+41,"Calibrate GPN"
+439,"Calibrate GPN"
+440,"Calibrate GPN"
+40,"Calibrate NDF"
+439,"Calibrate NDF"
+440,"Calibrate NDF"
+439,"Calibrate Starch"
+440,"Calibrate Starch"
+184,"Crude Fiber"
+413,"Crude Fiber"
+414,"Crude Fiber"
+421,"Crude Fiber"
+425,"Crude Fiber"
+447,"Crude Fiber"
+448,"Crude Fiber"
+449,"Crude Fiber"
+451,"Crude Fiber"
+452,"Crude Fiber"
+453,"Crude Fiber"
+458,"Crude Fiber"
+650,"Crude Fiber"
+550,Citrinin
+551,Citrinin
+560,Citrinin
+561,Citrinin
+617,Citrinin
+618,Citrinin
+624,Citrinin
+637,Citrinin
+643,Citrinin
+644,Citrinin
+645,Citrinin
+646,Citrinin
+61,Cl
+157,Cl
+159,Cl
+181,Cl
+184,Cl
+216,Cl
+307,Cl
+343,Cl
+386,Cl
+393,Cl
+408,Cl
+421,Cl
+447,Cl
+448,Cl
+449,Cl
+451,Cl
+452,Cl
+453,Cl
+458,Cl
+591,Cl
+599,Cl
+600,Cl
+601,Cl
+602,Cl
+635,Cl
+636,Cl
+650,Cl
+558,Cladosporium
+59,CP
+65,CP
+157,CP
+180,CP
+181,CP
+184,CP
+214,CP
+231,CP
+232,CP
+288,CP
+307,CP
+333,CP
+334,CP
+335,CP
+336,CP
+340,CP
+341,CP
+345,CP
+346,CP
+351,CP
+352,CP
+354,CP
+355,CP
+360,CP
+361,CP
+386,CP
+387,CP
+388,CP
+389,CP
+390,CP
+391,CP
+392,CP
+393,CP
+397,CP
+401,CP
+405,CP
+413,CP
+414,CP
+418,CP
+419,CP
+421,CP
+424,CP
+426,CP
+431,CP
+432,CP
+433,CP
+434,CP
+444,CP
+447,CP
+448,CP
+449,CP
+451,CP
+452,CP
+453,CP
+454,CP
+458,CP
+604,CP
+605,CP
+633,CP
+650,CP
+427,CSPS
+442,CSPS
+157,Cu
+158,Cu
+216,Cu
+344,Cu
+461,Cu
+599,Cu
+600,Cu
+601,Cu
+602,Cu
+603,Cu
+633,Cu
+333,Cysteine
+334,Cysteine
+421,Cysteine
+560,DAS
+623,DAS
+18,"DM Yield/Acre"
+20,"DM Yield/Acre"
+21,"DM Yield/Acre"
+23,"DM Yield/Acre"
+24,"DM Yield/Acre"
+38,"DM Yield/Acre"
+40,"DM Yield/Acre"
+41,"DM Yield/Acre"
+46,"DM Yield/Acre"
+49,"DM Yield/Acre"
+59,"DM Yield/Acre"
+61,"DM Yield/Acre"
+65,"DM Yield/Acre"
+70,"DM Yield/Acre"
+75,"DM Yield/Acre"
+102,"DM Yield/Acre"
+147,"DM Yield/Acre"
+149,"DM Yield/Acre"
+155,"DM Yield/Acre"
+156,"DM Yield/Acre"
+157,"DM Yield/Acre"
+158,"DM Yield/Acre"
+159,"DM Yield/Acre"
+163,"DM Yield/Acre"
+180,"DM Yield/Acre"
+181,"DM Yield/Acre"
+184,"DM Yield/Acre"
+187,"DM Yield/Acre"
+190,"DM Yield/Acre"
+191,"DM Yield/Acre"
+192,"DM Yield/Acre"
+193,"DM Yield/Acre"
+194,"DM Yield/Acre"
+195,"DM Yield/Acre"
+196,"DM Yield/Acre"
+212,"DM Yield/Acre"
+214,"DM Yield/Acre"
+215,"DM Yield/Acre"
+216,"DM Yield/Acre"
+217,"DM Yield/Acre"
+231,"DM Yield/Acre"
+232,"DM Yield/Acre"
+248,"DM Yield/Acre"
+258,"DM Yield/Acre"
+272,"DM Yield/Acre"
+274,"DM Yield/Acre"
+275,"DM Yield/Acre"
+279,"DM Yield/Acre"
+280,"DM Yield/Acre"
+282,"DM Yield/Acre"
+288,"DM Yield/Acre"
+307,"DM Yield/Acre"
+338,"DM Yield/Acre"
+339,"DM Yield/Acre"
+340,"DM Yield/Acre"
+341,"DM Yield/Acre"
+342,"DM Yield/Acre"
+343,"DM Yield/Acre"
+344,"DM Yield/Acre"
+345,"DM Yield/Acre"
+346,"DM Yield/Acre"
+348,"DM Yield/Acre"
+350,"DM Yield/Acre"
+351,"DM Yield/Acre"
+352,"DM Yield/Acre"
+354,"DM Yield/Acre"
+355,"DM Yield/Acre"
+358,"DM Yield/Acre"
+359,"DM Yield/Acre"
+360,"DM Yield/Acre"
+361,"DM Yield/Acre"
+364,"DM Yield/Acre"
+365,"DM Yield/Acre"
+369,"DM Yield/Acre"
+370,"DM Yield/Acre"
+371,"DM Yield/Acre"
+374,"DM Yield/Acre"
+375,"DM Yield/Acre"
+376,"DM Yield/Acre"
+377,"DM Yield/Acre"
+385,"DM Yield/Acre"
+386,"DM Yield/Acre"
+387,"DM Yield/Acre"
+388,"DM Yield/Acre"
+389,"DM Yield/Acre"
+390,"DM Yield/Acre"
+391,"DM Yield/Acre"
+392,"DM Yield/Acre"
+393,"DM Yield/Acre"
+394,"DM Yield/Acre"
+397,"DM Yield/Acre"
+398,"DM Yield/Acre"
+400,"DM Yield/Acre"
+401,"DM Yield/Acre"
+402,"DM Yield/Acre"
+403,"DM Yield/Acre"
+404,"DM Yield/Acre"
+405,"DM Yield/Acre"
+408,"DM Yield/Acre"
+409,"DM Yield/Acre"
+411,"DM Yield/Acre"
+412,"DM Yield/Acre"
+413,"DM Yield/Acre"
+414,"DM Yield/Acre"
+416,"DM Yield/Acre"
+417,"DM Yield/Acre"
+418,"DM Yield/Acre"
+419,"DM Yield/Acre"
+421,"DM Yield/Acre"
+422,"DM Yield/Acre"
+423,"DM Yield/Acre"
+424,"DM Yield/Acre"
+427,"DM Yield/Acre"
+428,"DM Yield/Acre"
+429,"DM Yield/Acre"
+430,"DM Yield/Acre"
+431,"DM Yield/Acre"
+432,"DM Yield/Acre"
+433,"DM Yield/Acre"
+434,"DM Yield/Acre"
+435,"DM Yield/Acre"
+436,"DM Yield/Acre"
+437,"DM Yield/Acre"
+438,"DM Yield/Acre"
+439,"DM Yield/Acre"
+440,"DM Yield/Acre"
+441,"DM Yield/Acre"
+442,"DM Yield/Acre"
+443,"DM Yield/Acre"
+444,"DM Yield/Acre"
+445,"DM Yield/Acre"
+447,"DM Yield/Acre"
+448,"DM Yield/Acre"
+449,"DM Yield/Acre"
+451,"DM Yield/Acre"
+452,"DM Yield/Acre"
+453,"DM Yield/Acre"
+454,"DM Yield/Acre"
+455,"DM Yield/Acre"
+456,"DM Yield/Acre"
+458,"DM Yield/Acre"
+482,"DM Yield/Acre"
+547,"DM Yield/Acre"
+550,"DM Yield/Acre"
+551,"DM Yield/Acre"
+556,"DM Yield/Acre"
+558,"DM Yield/Acre"
+559,"DM Yield/Acre"
+560,"DM Yield/Acre"
+561,"DM Yield/Acre"
+562,"DM Yield/Acre"
+564,"DM Yield/Acre"
+566,"DM Yield/Acre"
+567,"DM Yield/Acre"
+570,"DM Yield/Acre"
+572,"DM Yield/Acre"
+591,"DM Yield/Acre"
+594,"DM Yield/Acre"
+604,"DM Yield/Acre"
+605,"DM Yield/Acre"
+616,"DM Yield/Acre"
+617,"DM Yield/Acre"
+618,"DM Yield/Acre"
+629,"DM Yield/Acre"
+630,"DM Yield/Acre"
+631,"DM Yield/Acre"
+632,"DM Yield/Acre"
+633,"DM Yield/Acre"
+634,"DM Yield/Acre"
+635,"DM Yield/Acre"
+636,"DM Yield/Acre"
+637,"DM Yield/Acre"
+638,"DM Yield/Acre"
+639,"DM Yield/Acre"
+640,"DM Yield/Acre"
+641,"DM Yield/Acre"
+642,"DM Yield/Acre"
+643,"DM Yield/Acre"
+644,"DM Yield/Acre"
+645,"DM Yield/Acre"
+646,"DM Yield/Acre"
+647,"DM Yield/Acre"
+650,"DM Yield/Acre"
+7,"Dry Matter"
+16,"Dry Matter"
+18,"Dry Matter"
+19,"Dry Matter"
+20,"Dry Matter"
+21,"Dry Matter"
+23,"Dry Matter"
+24,"Dry Matter"
+33,"Dry Matter"
+38,"Dry Matter"
+40,"Dry Matter"
+41,"Dry Matter"
+46,"Dry Matter"
+49,"Dry Matter"
+59,"Dry Matter"
+61,"Dry Matter"
+65,"Dry Matter"
+70,"Dry Matter"
+74,"Dry Matter"
+75,"Dry Matter"
+102,"Dry Matter"
+147,"Dry Matter"
+149,"Dry Matter"
+155,"Dry Matter"
+156,"Dry Matter"
+157,"Dry Matter"
+158,"Dry Matter"
+159,"Dry Matter"
+163,"Dry Matter"
+180,"Dry Matter"
+181,"Dry Matter"
+184,"Dry Matter"
+187,"Dry Matter"
+190,"Dry Matter"
+191,"Dry Matter"
+192,"Dry Matter"
+193,"Dry Matter"
+194,"Dry Matter"
+195,"Dry Matter"
+196,"Dry Matter"
+197,"Dry Matter"
+199,"Dry Matter"
+200,"Dry Matter"
+212,"Dry Matter"
+214,"Dry Matter"
+215,"Dry Matter"
+216,"Dry Matter"
+217,"Dry Matter"
+226,"Dry Matter"
+231,"Dry Matter"
+232,"Dry Matter"
+248,"Dry Matter"
+258,"Dry Matter"
+272,"Dry Matter"
+274,"Dry Matter"
+275,"Dry Matter"
+276,"Dry Matter"
+279,"Dry Matter"
+280,"Dry Matter"
+282,"Dry Matter"
+288,"Dry Matter"
+307,"Dry Matter"
+308,"Dry Matter"
+333,"Dry Matter"
+334,"Dry Matter"
+335,"Dry Matter"
+336,"Dry Matter"
+337,"Dry Matter"
+338,"Dry Matter"
+339,"Dry Matter"
+340,"Dry Matter"
+341,"Dry Matter"
+342,"Dry Matter"
+343,"Dry Matter"
+344,"Dry Matter"
+345,"Dry Matter"
+346,"Dry Matter"
+348,"Dry Matter"
+350,"Dry Matter"
+351,"Dry Matter"
+352,"Dry Matter"
+354,"Dry Matter"
+355,"Dry Matter"
+358,"Dry Matter"
+359,"Dry Matter"
+360,"Dry Matter"
+361,"Dry Matter"
+364,"Dry Matter"
+365,"Dry Matter"
+369,"Dry Matter"
+370,"Dry Matter"
+371,"Dry Matter"
+373,"Dry Matter"
+374,"Dry Matter"
+375,"Dry Matter"
+376,"Dry Matter"
+377,"Dry Matter"
+385,"Dry Matter"
+386,"Dry Matter"
+387,"Dry Matter"
+388,"Dry Matter"
+389,"Dry Matter"
+390,"Dry Matter"
+391,"Dry Matter"
+392,"Dry Matter"
+393,"Dry Matter"
+394,"Dry Matter"
+397,"Dry Matter"
+398,"Dry Matter"
+399,"Dry Matter"
+400,"Dry Matter"
+401,"Dry Matter"
+402,"Dry Matter"
+403,"Dry Matter"
+404,"Dry Matter"
+405,"Dry Matter"
+408,"Dry Matter"
+409,"Dry Matter"
+411,"Dry Matter"
+412,"Dry Matter"
+413,"Dry Matter"
+414,"Dry Matter"
+416,"Dry Matter"
+417,"Dry Matter"
+418,"Dry Matter"
+419,"Dry Matter"
+421,"Dry Matter"
+422,"Dry Matter"
+423,"Dry Matter"
+424,"Dry Matter"
+425,"Dry Matter"
+426,"Dry Matter"
+427,"Dry Matter"
+428,"Dry Matter"
+429,"Dry Matter"
+430,"Dry Matter"
+431,"Dry Matter"
+432,"Dry Matter"
+433,"Dry Matter"
+434,"Dry Matter"
+435,"Dry Matter"
+436,"Dry Matter"
+437,"Dry Matter"
+438,"Dry Matter"
+439,"Dry Matter"
+440,"Dry Matter"
+441,"Dry Matter"
+442,"Dry Matter"
+443,"Dry Matter"
+444,"Dry Matter"
+445,"Dry Matter"
+447,"Dry Matter"
+448,"Dry Matter"
+449,"Dry Matter"
+451,"Dry Matter"
+452,"Dry Matter"
+453,"Dry Matter"
+454,"Dry Matter"
+455,"Dry Matter"
+456,"Dry Matter"
+458,"Dry Matter"
+459,"Dry Matter"
+460,"Dry Matter"
+461,"Dry Matter"
+462,"Dry Matter"
+463,"Dry Matter"
+464,"Dry Matter"
+465,"Dry Matter"
+466,"Dry Matter"
+467,"Dry Matter"
+468,"Dry Matter"
+469,"Dry Matter"
+470,"Dry Matter"
+482,"Dry Matter"
+547,"Dry Matter"
+548,"Dry Matter"
+549,"Dry Matter"
+550,"Dry Matter"
+551,"Dry Matter"
+552,"Dry Matter"
+553,"Dry Matter"
+554,"Dry Matter"
+556,"Dry Matter"
+557,"Dry Matter"
+558,"Dry Matter"
+559,"Dry Matter"
+560,"Dry Matter"
+561,"Dry Matter"
+562,"Dry Matter"
+563,"Dry Matter"
+564,"Dry Matter"
+565,"Dry Matter"
+566,"Dry Matter"
+567,"Dry Matter"
+568,"Dry Matter"
+570,"Dry Matter"
+572,"Dry Matter"
+590,"Dry Matter"
+591,"Dry Matter"
+594,"Dry Matter"
+604,"Dry Matter"
+605,"Dry Matter"
+616,"Dry Matter"
+617,"Dry Matter"
+618,"Dry Matter"
+619,"Dry Matter"
+620,"Dry Matter"
+621,"Dry Matter"
+622,"Dry Matter"
+623,"Dry Matter"
+624,"Dry Matter"
+625,"Dry Matter"
+626,"Dry Matter"
+627,"Dry Matter"
+629,"Dry Matter"
+630,"Dry Matter"
+631,"Dry Matter"
+632,"Dry Matter"
+633,"Dry Matter"
+634,"Dry Matter"
+635,"Dry Matter"
+636,"Dry Matter"
+637,"Dry Matter"
+638,"Dry Matter"
+639,"Dry Matter"
+640,"Dry Matter"
+641,"Dry Matter"
+642,"Dry Matter"
+643,"Dry Matter"
+644,"Dry Matter"
+645,"Dry Matter"
+646,"Dry Matter"
+647,"Dry Matter"
+650,"Dry Matter"
+65,"Fat (EE)"
+70,"Fat (EE)"
+157,"Fat (EE)"
+184,"Fat (EE)"
+214,"Fat (EE)"
+307,"Fat (EE)"
+345,"Fat (EE)"
+346,"Fat (EE)"
+351,"Fat (EE)"
+352,"Fat (EE)"
+354,"Fat (EE)"
+355,"Fat (EE)"
+360,"Fat (EE)"
+390,"Fat (EE)"
+391,"Fat (EE)"
+392,"Fat (EE)"
+401,"Fat (EE)"
+413,"Fat (EE)"
+414,"Fat (EE)"
+418,"Fat (EE)"
+421,"Fat (EE)"
+424,"Fat (EE)"
+428,"Fat (EE)"
+434,"Fat (EE)"
+444,"Fat (EE)"
+447,"Fat (EE)"
+448,"Fat (EE)"
+449,"Fat (EE)"
+451,"Fat (EE)"
+452,"Fat (EE)"
+453,"Fat (EE)"
+454,"Fat (EE)"
+458,"Fat (EE)"
+605,"Fat (EE)"
+650,"Fat (EE)"
+157,Fe
+158,Fe
+216,Fe
+358,Fe
+462,Fe
+599,Fe
+600,Fe
+601,Fe
+602,Fe
+603,Fe
+629,Fe
+633,Fe
+550,"Fumonisin B1"
+551,"Fumonisin B1"
+556,"Fumonisin B1"
+559,"Fumonisin B1"
+560,"Fumonisin B1"
+561,"Fumonisin B1"
+616,"Fumonisin B1"
+617,"Fumonisin B1"
+618,"Fumonisin B1"
+631,"Fumonisin B1"
+637,"Fumonisin B1"
+643,"Fumonisin B1"
+644,"Fumonisin B1"
+645,"Fumonisin B1"
+646,"Fumonisin B1"
+550,"Fumonisin B2"
+551,"Fumonisin B2"
+556,"Fumonisin B2"
+559,"Fumonisin B2"
+560,"Fumonisin B2"
+561,"Fumonisin B2"
+616,"Fumonisin B2"
+617,"Fumonisin B2"
+618,"Fumonisin B2"
+631,"Fumonisin B2"
+637,"Fumonisin B2"
+643,"Fumonisin B2"
+644,"Fumonisin B2"
+645,"Fumonisin B2"
+646,"Fumonisin B2"
+550,"Fumonisin B3"
+551,"Fumonisin B3"
+556,"Fumonisin B3"
+559,"Fumonisin B3"
+560,"Fumonisin B3"
+561,"Fumonisin B3"
+616,"Fumonisin B3"
+617,"Fumonisin B3"
+618,"Fumonisin B3"
+631,"Fumonisin B3"
+637,"Fumonisin B3"
+643,"Fumonisin B3"
+644,"Fumonisin B3"
+645,"Fumonisin B3"
+646,"Fumonisin B3"
+560,"Fusarenon X"
+620,"Fusarenon X"
+625,"Fusaric Acid"
+558,Fusarium
+333,"Glutamic Acid"
+334,"Glutamic Acid"
+421,"Glutamic Acid"
+333,Glycine
+334,Glycine
+421,Glycine
+360,Hemicellulose
+451,Hemicellulose
+334,Histidine
+421,Histidine
+448,Histidine
+453,Histidine
+547,HT2
+550,HT2
+551,HT2
+559,HT2
+560,HT2
+561,HT2
+564,HT2
+616,HT2
+617,HT2
+618,HT2
+631,HT2
+634,HT2
+637,HT2
+639,HT2
+640,HT2
+641,HT2
+642,HT2
+643,HT2
+644,HT2
+645,HT2
+646,HT2
+333,Isoleucine
+334,Isoleucine
+421,Isoleucine
+448,Isoleucine
+453,Isoleucine
+181,IVSD7-o
+359,IVSD7-o
+445,IVSD7-o
+448,IVSD7-o
+449,IVSD7-o
+452,IVSD7-o
+453,IVSD7-o
+455,IVSD7-o
+456,IVSD7-o
+458,IVSD7-o
+650,IVSD7-o
+61,K
+155,K
+156,K
+157,K
+158,K
+159,K
+163,K
+181,K
+184,K
+216,K
+217,K
+307,K
+346,K
+351,K
+352,K
+360,K
+386,K
+387,K
+389,K
+393,K
+401,K
+402,K
+421,K
+447,K
+448,K
+449,K
+451,K
+452,K
+453,K
+458,K
+467,K
+599,K
+600,K
+601,K
+602,K
+603,K
+629,K
+633,K
+635,K
+636,K
+650,K
+181,Lactic
+288,Lactic
+419,Lactic
+448,Lactic
+449,Lactic
+453,Lactic
+455,Lactic
+364,Lactose
+393,Lactose
+333,Leucine
+334,Leucine
+421,Leucine
+448,Leucine
+453,Leucine
+157,Lignin
+184,Lignin
+214,Lignin
+307,Lignin
+345,Lignin
+346,Lignin
+351,Lignin
+352,Lignin
+365,Lignin
+391,Lignin
+401,Lignin
+434,Lignin
+447,Lignin
+448,Lignin
+449,Lignin
+451,Lignin
+452,Lignin
+453,Lignin
+458,Lignin
+650,Lignin
+333,Lysine
+334,Lysine
+335,Lysine
+421,Lysine
+448,Lysine
+451,Lysine
+453,Lysine
+333,Methionine
+334,Methionine
+336,Methionine
+421,Methionine
+448,Methionine
+451,Methionine
+453,Methionine
+61,Mg
+155,Mg
+156,Mg
+157,Mg
+158,Mg
+159,Mg
+163,Mg
+181,Mg
+184,Mg
+216,Mg
+217,Mg
+307,Mg
+346,Mg
+351,Mg
+352,Mg
+360,Mg
+369,Mg
+386,Mg
+387,Mg
+389,Mg
+393,Mg
+401,Mg
+421,Mg
+447,Mg
+448,Mg
+449,Mg
+451,Mg
+452,Mg
+453,Mg
+458,Mg
+463,Mg
+593,Mg
+599,Mg
+600,Mg
+601,Mg
+602,Mg
+603,Mg
+629,Mg
+633,Mg
+635,Mg
+636,Mg
+650,Mg
+157,Mn
+158,Mn
+216,Mn
+370,Mn
+373,Mn
+464,Mn
+599,Mn
+600,Mn
+601,Mn
+602,Mn
+603,Mn
+633,Mn
+7,Moisture
+16,Moisture
+18,Moisture
+19,Moisture
+20,Moisture
+21,Moisture
+23,Moisture
+24,Moisture
+33,Moisture
+38,Moisture
+40,Moisture
+41,Moisture
+46,Moisture
+49,Moisture
+59,Moisture
+61,Moisture
+65,Moisture
+70,Moisture
+74,Moisture
+75,Moisture
+102,Moisture
+147,Moisture
+149,Moisture
+155,Moisture
+156,Moisture
+157,Moisture
+158,Moisture
+159,Moisture
+163,Moisture
+180,Moisture
+181,Moisture
+184,Moisture
+187,Moisture
+190,Moisture
+191,Moisture
+192,Moisture
+193,Moisture
+194,Moisture
+195,Moisture
+196,Moisture
+197,Moisture
+199,Moisture
+200,Moisture
+212,Moisture
+214,Moisture
+215,Moisture
+216,Moisture
+217,Moisture
+226,Moisture
+231,Moisture
+232,Moisture
+248,Moisture
+258,Moisture
+272,Moisture
+274,Moisture
+275,Moisture
+276,Moisture
+279,Moisture
+280,Moisture
+282,Moisture
+288,Moisture
+307,Moisture
+308,Moisture
+333,Moisture
+334,Moisture
+335,Moisture
+336,Moisture
+337,Moisture
+338,Moisture
+339,Moisture
+340,Moisture
+341,Moisture
+342,Moisture
+343,Moisture
+344,Moisture
+345,Moisture
+346,Moisture
+348,Moisture
+350,Moisture
+351,Moisture
+352,Moisture
+354,Moisture
+355,Moisture
+358,Moisture
+359,Moisture
+360,Moisture
+361,Moisture
+364,Moisture
+365,Moisture
+369,Moisture
+370,Moisture
+371,Moisture
+373,Moisture
+374,Moisture
+375,Moisture
+376,Moisture
+377,Moisture
+385,Moisture
+386,Moisture
+387,Moisture
+388,Moisture
+389,Moisture
+390,Moisture
+391,Moisture
+392,Moisture
+393,Moisture
+394,Moisture
+397,Moisture
+398,Moisture
+399,Moisture
+400,Moisture
+401,Moisture
+402,Moisture
+403,Moisture
+404,Moisture
+405,Moisture
+408,Moisture
+409,Moisture
+411,Moisture
+412,Moisture
+413,Moisture
+414,Moisture
+416,Moisture
+417,Moisture
+418,Moisture
+419,Moisture
+421,Moisture
+422,Moisture
+423,Moisture
+424,Moisture
+425,Moisture
+426,Moisture
+427,Moisture
+428,Moisture
+429,Moisture
+430,Moisture
+431,Moisture
+432,Moisture
+433,Moisture
+434,Moisture
+435,Moisture
+436,Moisture
+437,Moisture
+438,Moisture
+439,Moisture
+440,Moisture
+441,Moisture
+442,Moisture
+443,Moisture
+444,Moisture
+445,Moisture
+447,Moisture
+448,Moisture
+449,Moisture
+451,Moisture
+452,Moisture
+453,Moisture
+454,Moisture
+455,Moisture
+456,Moisture
+458,Moisture
+459,Moisture
+460,Moisture
+461,Moisture
+462,Moisture
+463,Moisture
+464,Moisture
+465,Moisture
+466,Moisture
+467,Moisture
+468,Moisture
+469,Moisture
+470,Moisture
+482,Moisture
+547,Moisture
+548,Moisture
+549,Moisture
+550,Moisture
+551,Moisture
+552,Moisture
+553,Moisture
+554,Moisture
+556,Moisture
+557,Moisture
+558,Moisture
+559,Moisture
+560,Moisture
+561,Moisture
+562,Moisture
+563,Moisture
+564,Moisture
+565,Moisture
+566,Moisture
+567,Moisture
+568,Moisture
+570,Moisture
+572,Moisture
+590,Moisture
+591,Moisture
+594,Moisture
+604,Moisture
+605,Moisture
+616,Moisture
+617,Moisture
+618,Moisture
+619,Moisture
+620,Moisture
+621,Moisture
+622,Moisture
+623,Moisture
+624,Moisture
+625,Moisture
+626,Moisture
+627,Moisture
+629,Moisture
+630,Moisture
+631,Moisture
+632,Moisture
+633,Moisture
+634,Moisture
+635,Moisture
+636,Moisture
+637,Moisture
+638,Moisture
+639,Moisture
+640,Moisture
+641,Moisture
+642,Moisture
+643,Moisture
+644,Moisture
+645,Moisture
+646,Moisture
+647,Moisture
+650,Moisture
+558,"Mold count"
+566,"Mold count"
+631,"Mold count"
+558,Mucor
+61,Na
+157,Na
+158,Na
+159,Na
+216,Na
+217,Na
+307,Na
+351,Na
+352,Na
+371,Na
+393,Na
+409,Na
+413,Na
+421,Na
+468,Na
+599,Na
+600,Na
+601,Na
+602,Na
+603,Na
+629,Na
+633,Na
+635,Na
+636,Na
+149,NDFDom12
+191,NDFDom12
+197,NDFDom12
+215,NDFDom12
+308,NDFDom12
+394,NDFDom12
+448,NDFDom12
+453,NDFDom12
+147,NDFDom120
+149,NDFDom120
+190,NDFDom120
+215,NDFDom120
+308,NDFDom120
+394,NDFDom120
+424,NDFDom120
+448,NDFDom120
+449,NDFDom120
+193,NDFDom24
+199,NDFDom24
+214,NDFDom24
+215,NDFDom24
+308,NDFDom24
+394,NDFDom24
+447,NDFDom24
+449,NDFDom24
+453,NDFDom24
+650,NDFDom24
+147,NDFDom240
+184,NDFDom240
+192,NDFDom240
+308,NDFDom240
+351,NDFDom240
+352,NDFDom240
+394,NDFDom240
+447,NDFDom240
+448,NDFDom240
+449,NDFDom240
+451,NDFDom240
+452,NDFDom240
+453,NDFDom240
+454,NDFDom240
+458,NDFDom240
+604,NDFDom240
+650,NDFDom240
+147,NDFDom30
+194,NDFDom30
+200,NDFDom30
+214,NDFDom30
+215,NDFDom30
+308,NDFDom30
+346,NDFDom30
+394,NDFDom30
+448,NDFDom30
+449,NDFDom30
+452,NDFDom30
+453,NDFDom30
+195,NDFDom48
+214,NDFDom48
+215,NDFDom48
+308,NDFDom48
+394,NDFDom48
+449,NDFDom48
+453,NDFDom48
+458,NDFDom48
+149,NDFDom72
+196,NDFDom72
+215,NDFDom72
+308,NDFDom72
+394,NDFDom72
+448,NDFDom72
+377,NDICP
+157,NDICPss
+184,NDICPss
+187,NDICPss
+214,NDICPss
+307,NDICPss
+351,NDICPss
+352,NDICPss
+377,NDICPss
+391,NDICPss
+418,NDICPss
+444,NDICPss
+447,NDICPss
+448,NDICPss
+449,NDICPss
+451,NDICPss
+452,NDICPss
+453,NDICPss
+458,NDICPss
+650,NDICPss
+157,NDRom
+184,NDRom
+214,NDRom
+307,NDRom
+351,NDRom
+352,NDRom
+391,NDRom
+444,NDRom
+447,NDRom
+448,NDRom
+449,NDRom
+451,NDRom
+452,NDRom
+453,NDRom
+458,NDRom
+650,NDRom
+560,Neosolaniol
+622,Neosolaniol
+430,Nitrate-N
+594,Nitrate-N
+597,Nitrate-N
+598,Nitrate-N
+599,Nitrate-N
+600,Nitrate-N
+601,Nitrate-N
+602,Nitrate-N
+59,Nitrogen
+65,Nitrogen
+157,Nitrogen
+180,Nitrogen
+181,Nitrogen
+184,Nitrogen
+214,Nitrogen
+231,Nitrogen
+232,Nitrogen
+288,Nitrogen
+307,Nitrogen
+333,Nitrogen
+334,Nitrogen
+335,Nitrogen
+336,Nitrogen
+340,Nitrogen
+341,Nitrogen
+345,Nitrogen
+346,Nitrogen
+351,Nitrogen
+352,Nitrogen
+354,Nitrogen
+355,Nitrogen
+360,Nitrogen
+361,Nitrogen
+386,Nitrogen
+387,Nitrogen
+388,Nitrogen
+389,Nitrogen
+390,Nitrogen
+391,Nitrogen
+392,Nitrogen
+393,Nitrogen
+397,Nitrogen
+401,Nitrogen
+405,Nitrogen
+413,Nitrogen
+414,Nitrogen
+418,Nitrogen
+419,Nitrogen
+421,Nitrogen
+424,Nitrogen
+426,Nitrogen
+431,Nitrogen
+432,Nitrogen
+433,Nitrogen
+434,Nitrogen
+444,Nitrogen
+447,Nitrogen
+448,Nitrogen
+449,Nitrogen
+451,Nitrogen
+452,Nitrogen
+453,Nitrogen
+454,Nitrogen
+458,Nitrogen
+604,Nitrogen
+605,Nitrogen
+633,Nitrogen
+650,Nitrogen
+560,Nivalenol
+621,Nivalenol
+550,"Ochratoxin A"
+551,"Ochratoxin A"
+559,"Ochratoxin A"
+560,"Ochratoxin A"
+561,"Ochratoxin A"
+562,"Ochratoxin A"
+563,"Ochratoxin A"
+617,"Ochratoxin A"
+618,"Ochratoxin A"
+631,"Ochratoxin A"
+637,"Ochratoxin A"
+643,"Ochratoxin A"
+644,"Ochratoxin A"
+645,"Ochratoxin A"
+646,"Ochratoxin A"
+558,"Other Molds"
+38,P
+61,P
+155,P
+156,P
+157,P
+158,P
+159,P
+181,P
+184,P
+216,P
+217,P
+307,P
+346,P
+351,P
+352,P
+360,P
+371,P
+386,P
+387,P
+389,P
+393,P
+400,P
+401,P
+413,P
+421,P
+447,P
+448,P
+449,P
+451,P
+452,P
+453,P
+458,P
+466,P
+599,P
+600,P
+601,P
+602,P
+603,P
+629,P
+633,P
+635,P
+636,P
+650,P
+560,Patulin
+626,Patulin
+398,peNDF
+435,peNDF
+558,Penicillium
+181,pH
+184,pH
+288,pH
+399,pH
+419,pH
+448,pH
+451,pH
+452,pH
+453,pH
+455,pH
+458,pH
+595,pH
+599,pH
+600,pH
+601,pH
+602,pH
+650,pH
+334,Phenylalenine
+421,Phenylalenine
+333,Proline
+334,Proline
+421,Proline
+181,Propionic
+288,Propionic
+419,Propionic
+448,Propionic
+449,Propionic
+453,Propionic
+455,Propionic
+7,RDM
+16,RDM
+18,RDM
+19,RDM
+20,RDM
+21,RDM
+23,RDM
+24,RDM
+33,RDM
+38,RDM
+40,RDM
+41,RDM
+46,RDM
+49,RDM
+59,RDM
+61,RDM
+65,RDM
+70,RDM
+74,RDM
+75,RDM
+102,RDM
+147,RDM
+149,RDM
+155,RDM
+156,RDM
+157,RDM
+158,RDM
+159,RDM
+163,RDM
+180,RDM
+181,RDM
+184,RDM
+187,RDM
+190,RDM
+191,RDM
+192,RDM
+193,RDM
+194,RDM
+195,RDM
+196,RDM
+197,RDM
+199,RDM
+200,RDM
+212,RDM
+214,RDM
+215,RDM
+216,RDM
+217,RDM
+226,RDM
+231,RDM
+232,RDM
+248,RDM
+258,RDM
+272,RDM
+274,RDM
+275,RDM
+276,RDM
+279,RDM
+280,RDM
+282,RDM
+288,RDM
+307,RDM
+308,RDM
+333,RDM
+334,RDM
+335,RDM
+336,RDM
+337,RDM
+338,RDM
+339,RDM
+340,RDM
+341,RDM
+342,RDM
+343,RDM
+344,RDM
+345,RDM
+346,RDM
+348,RDM
+350,RDM
+351,RDM
+352,RDM
+354,RDM
+355,RDM
+358,RDM
+359,RDM
+360,RDM
+361,RDM
+364,RDM
+365,RDM
+369,RDM
+370,RDM
+371,RDM
+373,RDM
+374,RDM
+375,RDM
+376,RDM
+377,RDM
+385,RDM
+386,RDM
+387,RDM
+388,RDM
+389,RDM
+390,RDM
+391,RDM
+392,RDM
+393,RDM
+394,RDM
+397,RDM
+398,RDM
+399,RDM
+400,RDM
+401,RDM
+402,RDM
+403,RDM
+404,RDM
+405,RDM
+408,RDM
+409,RDM
+411,RDM
+412,RDM
+413,RDM
+414,RDM
+416,RDM
+417,RDM
+418,RDM
+419,RDM
+421,RDM
+422,RDM
+423,RDM
+424,RDM
+425,RDM
+426,RDM
+427,RDM
+428,RDM
+429,RDM
+430,RDM
+431,RDM
+432,RDM
+433,RDM
+434,RDM
+435,RDM
+436,RDM
+437,RDM
+438,RDM
+439,RDM
+440,RDM
+441,RDM
+442,RDM
+443,RDM
+444,RDM
+445,RDM
+447,RDM
+448,RDM
+449,RDM
+451,RDM
+452,RDM
+453,RDM
+454,RDM
+455,RDM
+456,RDM
+458,RDM
+459,RDM
+460,RDM
+461,RDM
+462,RDM
+463,RDM
+464,RDM
+465,RDM
+466,RDM
+467,RDM
+468,RDM
+469,RDM
+470,RDM
+482,RDM
+547,RDM
+548,RDM
+549,RDM
+550,RDM
+551,RDM
+552,RDM
+553,RDM
+554,RDM
+556,RDM
+557,RDM
+558,RDM
+559,RDM
+560,RDM
+561,RDM
+562,RDM
+563,RDM
+564,RDM
+565,RDM
+566,RDM
+567,RDM
+568,RDM
+570,RDM
+572,RDM
+590,RDM
+591,RDM
+594,RDM
+604,RDM
+605,RDM
+616,RDM
+617,RDM
+618,RDM
+619,RDM
+620,RDM
+621,RDM
+622,RDM
+623,RDM
+624,RDM
+625,RDM
+626,RDM
+627,RDM
+629,RDM
+630,RDM
+631,RDM
+632,RDM
+633,RDM
+634,RDM
+635,RDM
+636,RDM
+637,RDM
+638,RDM
+639,RDM
+640,RDM
+641,RDM
+642,RDM
+643,RDM
+644,RDM
+645,RDM
+646,RDM
+647,RDM
+650,RDM
+558,Rhizopus
+231,"Ross 16hRUP"
+232,"Ross 16hRUP"
+232,"Ross UCP"
+448,"Ross UCP"
+453,"Ross UCP"
+61,S
+156,S
+157,S
+158,S
+159,S
+181,S
+184,S
+216,S
+217,S
+307,S
+346,S
+360,S
+386,S
+389,S
+393,S
+401,S
+412,S
+421,S
+447,S
+448,S
+449,S
+451,S
+452,S
+453,S
+458,S
+469,S
+599,S
+600,S
+601,S
+602,S
+603,S
+629,S
+633,S
+635,S
+636,S
+650,S
+333,Serine
+334,Serine
+421,Serine
+157,SCP
+181,SCP
+184,SCP
+307,SCP
+351,SCP
+352,SCP
+391,SCP
+404,SCP
+444,SCP
+447,SCP
+448,SCP
+449,SCP
+451,SCP
+452,SCP
+453,SCP
+458,SCP
+650,SCP
+20,Starch
+21,Starch
+24,Starch
+157,Starch
+181,Starch
+184,Starch
+214,Starch
+226,Starch
+248,Starch
+307,Starch
+350,Starch
+351,Starch
+352,Starch
+355,Starch
+391,Starch
+418,Starch
+421,Starch
+424,Starch
+427,Starch
+442,Starch
+443,Starch
+444,Starch
+447,Starch
+448,Starch
+449,Starch
+451,Starch
+452,Starch
+453,Starch
+454,Starch
+456,Starch
+458,Starch
+604,Starch
+605,Starch
+633,Starch
+638,Starch
+650,Starch
+157,"Sugar (ESC)"
+184,"Sugar (ESC)"
+307,"Sugar (ESC)"
+348,"Sugar (ESC)"
+447,"Sugar (ESC)"
+448,"Sugar (ESC)"
+449,"Sugar (ESC)"
+451,"Sugar (ESC)"
+452,"Sugar (ESC)"
+453,"Sugar (ESC)"
+458,"Sugar (ESC)"
+605,"Sugar (ESC)"
+650,"Sugar (ESC)"
+157,"Sugar (WSC)"
+181,"Sugar (WSC)"
+184,"Sugar (WSC)"
+307,"Sugar (WSC)"
+351,"Sugar (WSC)"
+352,"Sugar (WSC)"
+391,"Sugar (WSC)"
+436,"Sugar (WSC)"
+444,"Sugar (WSC)"
+447,"Sugar (WSC)"
+448,"Sugar (WSC)"
+449,"Sugar (WSC)"
+451,"Sugar (WSC)"
+452,"Sugar (WSC)"
+453,"Sugar (WSC)"
+458,"Sugar (WSC)"
+605,"Sugar (WSC)"
+650,"Sugar (WSC)"
+547,T2
+550,T2
+551,T2
+559,T2
+560,T2
+561,T2
+564,T2
+616,T2
+617,T2
+618,T2
+631,T2
+634,T2
+637,T2
+639,T2
+640,T2
+641,T2
+642,T2
+643,T2
+644,T2
+645,T2
+646,T2
+438,T2/HT2
+547,T2/HT2
+550,T2/HT2
+551,T2/HT2
+552,T2/HT2
+559,T2/HT2
+560,T2/HT2
+561,T2/HT2
+564,T2/HT2
+616,T2/HT2
+617,T2/HT2
+618,T2/HT2
+631,T2/HT2
+634,T2/HT2
+637,T2/HT2
+639,T2/HT2
+640,T2/HT2
+641,T2/HT2
+642,T2/HT2
+643,T2/HT2
+644,T2/HT2
+645,T2/HT2
+646,T2/HT2
+448,"Total amino acid"
+453,"Total amino acid"
+102,"Total fatty acids"
+184,"Total fatty acids"
+258,"Total fatty acids"
+424,"Total fatty acids"
+447,"Total fatty acids"
+448,"Total fatty acids"
+449,"Total fatty acids"
+451,"Total fatty acids"
+452,"Total fatty acids"
+453,"Total fatty acids"
+454,"Total fatty acids"
+458,"Total fatty acids"
+650,"Total fatty acids"
+333,Threonine
+334,Threonine
+421,Threonine
+550,"Total DONs"
+551,"Total DONs"
+560,"Total DONs"
+561,"Total DONs"
+637,"Total DONs"
+550,"Total Fumonisins"
+551,"Total Fumonisins"
+556,"Total Fumonisins"
+559,"Total Fumonisins"
+560,"Total Fumonisins"
+561,"Total Fumonisins"
+616,"Total Fumonisins"
+617,"Total Fumonisins"
+618,"Total Fumonisins"
+631,"Total Fumonisins"
+637,"Total Fumonisins"
+643,"Total Fumonisins"
+644,"Total Fumonisins"
+645,"Total Fumonisins"
+646,"Total Fumonisins"
+334,Tryptophan
+421,Tryptophan
+334,Tyrosine
+421,Tyrosine
+149,uNDFom12
+191,uNDFom12
+215,uNDFom12
+279,uNDFom12
+308,uNDFom12
+394,uNDFom12
+448,uNDFom12
+453,uNDFom12
+24,uNDFom120
+147,uNDFom120
+149,uNDFom120
+190,uNDFom120
+215,uNDFom120
+274,uNDFom120
+308,uNDFom120
+394,uNDFom120
+424,uNDFom120
+448,uNDFom120
+449,uNDFom120
+193,uNDFom24
+214,uNDFom24
+215,uNDFom24
+308,uNDFom24
+394,uNDFom24
+447,uNDFom24
+449,uNDFom24
+453,uNDFom24
+650,uNDFom24
+147,uNDFom240
+184,uNDFom240
+192,uNDFom240
+272,uNDFom240
+275,uNDFom240
+308,uNDFom240
+351,uNDFom240
+352,uNDFom240
+394,uNDFom240
+447,uNDFom240
+448,uNDFom240
+449,uNDFom240
+451,uNDFom240
+452,uNDFom240
+453,uNDFom240
+454,uNDFom240
+458,uNDFom240
+604,uNDFom240
+650,uNDFom240
+147,uNDFom30
+194,uNDFom30
+214,uNDFom30
+215,uNDFom30
+276,uNDFom30
+308,uNDFom30
+346,uNDFom30
+394,uNDFom30
+448,uNDFom30
+449,uNDFom30
+452,uNDFom30
+453,uNDFom30
+195,uNDFom48
+214,uNDFom48
+215,uNDFom48
+308,uNDFom48
+394,uNDFom48
+449,uNDFom48
+453,uNDFom48
+458,uNDFom48
+149,uNDFom72
+196,uNDFom72
+215,uNDFom72
+282,uNDFom72
+308,uNDFom72
+394,uNDFom72
+448,uNDFom72
+333,Valine
+334,Valine
+421,Valine
+438,"Vomitoxin (DON)"
+547,"Vomitoxin (DON)"
+550,"Vomitoxin (DON)"
+551,"Vomitoxin (DON)"
+553,"Vomitoxin (DON)"
+559,"Vomitoxin (DON)"
+560,"Vomitoxin (DON)"
+561,"Vomitoxin (DON)"
+565,"Vomitoxin (DON)"
+616,"Vomitoxin (DON)"
+617,"Vomitoxin (DON)"
+618,"Vomitoxin (DON)"
+631,"Vomitoxin (DON)"
+634,"Vomitoxin (DON)"
+637,"Vomitoxin (DON)"
+639,"Vomitoxin (DON)"
+640,"Vomitoxin (DON)"
+641,"Vomitoxin (DON)"
+642,"Vomitoxin (DON)"
+643,"Vomitoxin (DON)"
+644,"Vomitoxin (DON)"
+645,"Vomitoxin (DON)"
+646,"Vomitoxin (DON)"
+558,"Yeast count"
+566,"Yeast count"
+631,"Yeast count"
+438,Zearalenone
+547,Zearalenone
+550,Zearalenone
+551,Zearalenone
+554,Zearalenone
+559,Zearalenone
+560,Zearalenone
+561,Zearalenone
+567,Zearalenone
+616,Zearalenone
+617,Zearalenone
+618,Zearalenone
+631,Zearalenone
+634,Zearalenone
+637,Zearalenone
+639,Zearalenone
+640,Zearalenone
+641,Zearalenone
+642,Zearalenone
+643,Zearalenone
+644,Zearalenone
+645,Zearalenone
+646,Zearalenone
+157,Zn
+158,Zn
+216,Zn
+373,Zn
+437,Zn
+470,Zn
+599,Zn
+600,Zn
+601,Zn
+602,Zn
+603,Zn
+633,Zn
+16,Al
+158,Al
+216,Al
+459,Al
+629,Al
+635,Al
+351,aOMD
+352,aOMD
+590,APC
+440,"Calibrate CP"
+440,"Calibrate leaf%"
+441,"Calibrate leaf%"
+439,"Calibrate NDFD"
+440,"Calibrate NDFD"
+498,Colilert-Coliform
+499,Colilert-Coliform
+597,Colilert-Coliform
+598,Colilert-Coliform
+599,Colilert-Coliform
+600,Colilert-Coliform
+498,"Colilert-E. Coli"
+499,"Colilert-E. Coli"
+597,"Colilert-E. Coli"
+598,"Colilert-E. Coli"
+599,"Colilert-E. Coli"
+600,"Colilert-E. Coli"
+375,Mojonnier
+499,"Free Chlorine"
+500,"Free Chlorine"
+592,"Free Chlorine"
+597,"Free Chlorine"
+599,"Free Chlorine"
+351,"Gas production"
+352,"Gas production"
+356,Germination
+376,Mo
+465,Mo
+353,MPL
+497,MPN-Coliform
+500,MPN-Coliform
+497,"MPN-E. Coli"
+500,"MPN-E. Coli"
+357,"Mean Part Size (DGW)"
+418,"Mean Part Size (DGW)"
+421,"Mean Part Size (DGW)"
+102,"14:1 Myristoleic"
+385,NPN
+397,PDI
+405,PDI
+226,Prolamin
+403,Prolamin
+418,Prolamin
+288,"1,2 Propanediol"
+411,"Starch gelatinization"
+596,TDS
+601,TDS
+602,TDS
+416,Urea
+405,"Urease activity"
+417,"Urease activity"
+550,"Roquefortine C"
+551,"Roquefortine C"
+559,"Roquefortine C"
+560,"Roquefortine C"
+561,"Roquefortine C"
+617,"Roquefortine C"
+618,"Roquefortine C"
+627,"Roquefortine C"
+631,"Roquefortine C"
+637,"Roquefortine C"
+643,"Roquefortine C"
+644,"Roquefortine C"
+645,"Roquefortine C"
+646,"Roquefortine C"
+337,"Fat (AH)"
+157,NDR
+184,NDR
+214,NDR
+307,NDR
+351,NDR
+352,NDR
+391,NDR
+444,NDR
+447,NDR
+448,NDR
+449,NDR
+451,NDR
+452,NDR
+453,NDR
+458,NDR
+650,NDR
+288,"Iso-Butyric Acid"
+419,"Iso-Butyric Acid"
+75,Ethanol
+288,Ethanol
+288,Methanol
+288,Propanol
+288,Butanol
+212,"Organic Matter"
+353,"Screen 1 Weight"
+353,"Screen 2 Weight"
+353,"Screen 3 Weight"
+353,"Screen 4 Weight"
+353,"Screen 5 Weight"
+353,"Pan Weight"
+357,"Pan Weight"
+353,"Screen 1 Percentage"
+353,"Screen 2 Percentage"
+353,"Screen 3 Percentage"
+353,"Screen 4 Percentage"
+353,"Screen 5 Percentage"
+353,"Pan Percentage"
+353,"Percent of Weight on Screens 1 & 2"
+357,"Sieve 4"
+357,"Sieve 6"
+357,"Sieve 8"
+357,"Sieve 12"
+357,"Sieve 16"
+357,"Sieve 20"
+357,"Sieve 30"
+357,"Sieve 40"
+357,"Sieve 50"
+357,"Sieve 70"
+357,"Sieve 100"
+357,"Sieve 140"
+357,"Sieve 200"
+357,"Sieve 270"
+497,"MPN Coliform Large Bubbles"
+500,"MPN Coliform Large Bubbles"
+497,"MPN Coliform Small Bubbles"
+500,"MPN Coliform Small Bubbles"
+497,"MPN E. Coli Large Bubbles"
+500,"MPN E. Coli Large Bubbles"
+497,"MPN E. Coli Small Bubbles"
+500,"MPN E. Coli Small Bubbles"
+469,SO4
+599,SO4
+600,SO4
+601,SO4
+602,SO4
+603,SO4
+398,"Coarse Wt"
+427,"Coarse Wt"
+435,"Coarse Wt"
+442,"Coarse Wt"
+398,"Medium Wt"
+427,"Medium Wt"
+435,"Medium Wt"
+442,"Medium Wt"
+398,"Fine Wt"
+427,"Fine Wt"
+435,"Fine Wt"
+442,"Fine Wt"
+427,"Coarse Starch"
+442,"Coarse Starch"
+398,"Fine NDF"
+435,"Fine NDF"
+593,"Water Hardness"
+599,"Water Hardness"
+600,"Water Hardness"
+601,"Water Hardness"
+602,"Water Hardness"
+603,"Water Hardness"
+557,"Zearalenone screen"
+557,"DON (Vomitoxin) screen"
+557,"T2/HT2 screen"
+557,"Fumonisin screen"
+361,"KOH solubility"
+181,"Insoluble Protein"
+184,"Insoluble Protein"
+351,"Insoluble Protein"
+352,"Insoluble Protein"
+391,"Insoluble Protein"
+404,"Insoluble Protein"
+444,"Insoluble Protein"
+448,"Insoluble Protein"
+451,"Insoluble Protein"
+452,"Insoluble Protein"
+453,"Insoluble Protein"
+458,"Insoluble Protein"
+650,"Insoluble Protein"
+221,"Pellet durability 30"
+606,"Pellet durability 30"
+221,"Pellet durability 60"
+606,"Pellet durability 60"
+221,"Pellet durability 90"
+606,"Pellet durability 90"
+221,"Pellet durability 120"
+606,"Pellet durability 120"
+221,"PD time to 50pct"
+606,"PD time to 50pct"
+630,Coliform
+630,E.coli
+482,Enterobacteriaceae
+631,Enterobacteriaceae
+46,"Clostridia perfringens"
+631,"Clostridia perfringens"
+5,"AH Starch"
+7,"Acid Insoluble Ash"
+20,Amylopectin
+21,Amylose
+49,Cobalt
+572,Cobalt
+74,Ergot
+146,KFM
+280,uNDFom18
+448,Sucrose
+453,Sucrose
+448,"Total sugar"
+453,"Total sugar"
+632,"Total Clostridia"
+647,"Heterotrophic Plate Count"
+408,"Salt (Cl as %NaCl)"
+569,Arsenic

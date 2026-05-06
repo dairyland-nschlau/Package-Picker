@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Package Picker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <p class="eyebrow">Dairyland Labs</p>
+      <h1>Package Picker</h1>
+      <p class="hero-copy">
+        Select feed type and nutrients to compare available packages.
+      </p>
+    </header>
+
+    <main class="layout">
+      <section class="panel controls-panel">
+        <div class="panel-head">
+          <p>Choose a feed type, then search or browse nutrients by category.</p>
+        </div>
+
+        <div class="field-grid">
+          <label class="field">
+            <span class="field-label">Feed type</span>
+            <div id="feedTypeDropdown" class="feed-type-dropdown">
+              <div class="feed-type-control">
+                <input id="feedTypeInput" type="search" placeholder="Select or search feed type" autocomplete="off">
+                <button id="feedTypeToggle" class="feed-type-toggle" type="button" aria-label="Show feed types">▾</button>
+              </div>
+              <div id="feedTypeList" class="feed-type-list hidden" aria-live="polite"></div>
+            </div>
+          </label>
+
+          <label class="field">
+            <span class="field-label">Search Nutrients</span>
+            <input id="nutrientSearch" type="search" placeholder="Type to search or select nutrients below">
+          </label>
+        </div>
+
+        <label class="inline-toggle">
+          <input id="chemistryOnlyToggle" type="checkbox">
+          <span>Show Chemistry packages only</span>
+        </label>
+
+        <div class="toolbar">
+          <div id="selectionSummary" class="selection-summary">0 nutrients selected</div>
+          <div class="toolbar-actions">
+            <button id="clearSelections" class="ghost-button" type="button">Clear selections</button>
+          </div>
+        </div>
+
+        <div id="selectedChips" class="chips" aria-live="polite"></div>
+        <div id="categoryContainer" class="category-container"></div>
+      </section>
+
+      <section class="panel results-panel">
+        <div class="panel-head">
+          <h2>Recommendations</h2>
+        </div>
+
+        <div id="loadingState" class="loading-card">Loading package data...</div>
+        <div id="resultsState" class="results-grid hidden"></div>
+      </section>
+    </main>
+  </div>
+
+  <template id="resultCardTemplate">
+    <article class="result-card">
+      <div class="result-top">
+        <div>
+          <p class="result-label"></p>
+          <h3 class="result-title"></h3>
+        </div>
+        <div class="price-pill"></div>
+      </div>
+      <p class="result-summary"></p>
+      <div class="result-block">
+        <h4>Recommended package set</h4>
+        <div class="package-list"></div>
+      </div>
+      <div class="result-block alternate-block hidden">
+        <h4>Other same-price option</h4>
+        <div class="alternate-list"></div>
+      </div>
+      <div class="result-block">
+        <h4>Nutrients included</h4>
+        <div class="covered-list chips chips-soft"></div>
+      </div>
+      <div class="result-block missing-block hidden">
+        <h4>Not available in this method</h4>
+        <div class="missing-list chips chips-warn"></div>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

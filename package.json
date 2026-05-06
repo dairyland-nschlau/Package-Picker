@@ -1,0 +1,9 @@
+{
+  "name": "package-picker-preview",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Local preview server for the Package Picker optimizer",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

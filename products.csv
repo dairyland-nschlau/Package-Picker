@@ -1,0 +1,159 @@
+"","product_id","parent_id","code","name","order","description","alternative_names","search_priority","preparation_method_id"
+"1",1,0,"1","Hay - Mixed",3,NA,NA,NA,NA
+"2",2,0,"10","Other Feeds",15,NA,NA,NA,NA
+"3",3,0,"1A","Hay - Legume",2,NA,NA,NA,NA
+"4",4,0,"1B","Hay - Grass",1,NA,NA,NA,NA
+"5",5,0,"1C","Haylage - Mixed",6,NA,NA,NA,NA
+"6",6,0,"1D","Haylage - Legume",5,NA,NA,NA,NA
+"7",7,0,"1E","Haylage - Grass",4,NA,NA,NA,NA
+"8",8,0,"2","Whole plant corn",8,NA,NA,NA,NA
+"9",9,0,"3","Corn - Grain",10,NA,NA,NA,NA
+"10",10,0,"4","Corn - Ear",9,NA,NA,NA,NA
+"11",11,0,"5","Small Grain",11,NA,NA,NA,NA
+"12",12,0,"6","Grain byproducts",13,NA,NA,NA,NA
+"13",13,0,"7","Small Grain Silage",7,NA,NA,NA,NA
+"14",14,0,"8","Oilseeds & byproducts",14,NA,NA,NA,NA
+"15",15,0,"9","TMR - Bunk mixes",12,NA,NA,NA,NA
+"16",16,1,"1N","Mixed hay",1,NA,"Mixed",5,1
+"17",17,2,"BL","Blood meal",7,NA,NA,101,3
+"18",18,2,"BP","Beet pulp",5,NA,NA,55,1
+"19",19,2,"BT","Beet tailings",6,NA,NA,135,1
+"20",20,2,"BW","Bakery waste",4,NA,"cookies, bread",122,3
+"21",21,2,"CP","Citrus pulp",9,NA,NA,192,1
+"22",22,2,"FA","Feather meal",10,NA,NA,144,3
+"23",23,2,"FM","Fish meal",11,NA,NA,208,3
+"24",24,2,"GR","Grain mix",12,NA,NA,15,1
+"25",25,2,"MA","Manure",13,NA,"fecal",37,1
+"26",26,2,"MB","Meat & bone meal",14,NA,NA,147,3
+"27",27,2,"MM","Mineral mix",15,NA,NA,47,3
+"28",28,2,"MO","Molasses",16,NA,"QLF",119,3
+"29",29,2,"OO","Misc feed",22,NA,"Other",257,3
+"30",30,2,"OY","Oyster shells",17,NA,NA,254,3
+"31",31,2,"PE","Pellets",18,NA,NA,44,1
+"32",32,2,"PR","Protein mix",20,NA,NA,72,1
+"33",33,2,"PT","Potatoes",19,NA,"waste, fry, spud",90,1
+"34",34,2,"WR","Water",1,NA,NA,NA,3
+"35",35,2,"WY","Whey",21,NA,"permeat",42,3
+"36",36,3,"AH","Alfalfa hay",1,NA,"Alfalfa",2,1
+"37",37,3,"AP","Alfalfa pellets",4,NA,NA,102,1
+"38",38,3,"CL","Clover hay",3,NA,"red, white, Clover",89,1
+"39",39,3,"LA","Alfalfa hay - reduced lignin",2,NA,"alfalfa, reduced, lignin, Low Lignin",74,1
+"40",40,3,"OO","Legume hay",5,NA,"sanfoin, sainfoin, Other",50,1
+"41",41,4,"BH","Bermuda hay",5,NA,"grass, tifton, coastal, Bermuda",125,1
+"42",42,4,"BN","Mixed grass hay",17,NA,"grass, Mixed",6,1
+"43",43,4,"BY","Barley hay",4,NA,"grass, Barley",45,1
+"44",44,4,"FE","Fescue hay",6,NA,"grass, Fescue",71,1
+"45",45,4,"GH","Annual rye hay",1,NA,"grass, Rye - annual",60,1
+"46",46,4,"KH","Kochia hay",8,NA,"grass, Kochia",140,1
+"47",47,4,"KY","Kikuyu hay",7,NA,"grass, Kikuyu",167,1
+"48",48,4,"MH","Millet hay",9,NA,"grass, Millet",31,1
+"49",49,4,"OD","Orchardgrass",11,NA,"grass, Orchard",96,1
+"50",50,4,"OH","Oat hay",10,NA,"grass, Oat",19,1
+"51",51,4,"OO","Grass hay",18,NA,"grass, Other",24,1
+"52",52,4,"PH","Pasture",12,NA,"grass",51,1
+"53",53,4,"RH","Ryegrass",2,NA,"grass, Ryegrass - perennial",56,1
+"54",54,4,"SH","Sorghum/sudan",3,NA,"grass",30,1
+"55",55,4,"ST","Straw",13,NA,"grass, wheat, barley, oat",17,1
+"56",56,4,"TH","Timothy hay",14,NA,"grass, Timothy",78,1
+"57",57,4,"TR","Triticale hay",15,NA,"grass, Triticale",58,1
+"58",58,4,"WT","Wheat hay",16,NA,"grass, Wheat",40,1
+"59",59,5,"CN","Mixed haylage",1,NA,"alfalfa, grass, Mixed",3,1
+"60",60,6,"AL","Alfalfa haylage",1,NA,"Alfalfa",4,1
+"61",61,6,"LD","Alfalfa haylage - reduced lignin",2,NA,"alfalfa, reduced, lignin, Low Lignin",64,1
+"62",62,6,"OO","Legume haylage",5,NA,"sanfoin, sainfoin, Other",41,1
+"63",63,6,"RC","Clover silage",3,NA,"white, red, Clover",76,1
+"64",64,6,"SN","Soybean silage",4,NA,"Soybean",85,1
+"65",65,7,"BE","Bermuda silage",2,NA,"grass, tifton, coastal, Bermuda",159,1
+"66",66,7,"EN","Mixed grass silage",8,NA,"grass, Mixed",9,1
+"67",67,7,"FU","Fescue silage",3,NA,"grass, Fescue",105,1
+"68",68,7,"KO","Kochia silage",5,NA,"grass, Kochia",196,1
+"69",69,7,"KU","Kikuyu silage",4,NA,"grass, Kikuyu",250,1
+"70",70,7,"OG","Orchardgrass silage",6,NA,"grass, Orchard",110,1
+"71",71,7,"OO","Grass silage",9,NA,"grass, Other",13,1
+"72",72,7,"RG","Ryegrass silage",1,NA,"grass, Ryegrass - perennial",65,1
+"73",73,7,"TI","Timothy silage",7,NA,"grass, Timothy",114,1
+"74",74,8,"2N","Corn silage",1,NA,"corn silage, Conventional",1,1
+"75",75,8,"BM","BMR corn silage",2,NA,"corn silage, BMR",12,1
+"76",76,8,"EO","Enogen corn silage",3,NA,"corn silage, Enogen CS",258,1
+"77",77,8,"HO","High oil corn silage",9,NA,"High oil",236,1
+"78",78,8,"LK","Corn stalks",5,NA,"Stalks",34,1
+"79",79,8,"OO","Whole plant corn",10,NA,"Other",11,1
+"80",80,8,"SW","Sweet corn silage",6,NA,"corn silage, Sweet CS",75,1
+"81",81,8,"TD","NPN corn silage",8,NA,"corn silage, Treated - NPN",141,1
+"82",82,8,"TM","TMF corn silage",4,NA,"corn silage, TMF",14,1
+"83",83,8,"WA","Cannery waste",7,NA,NA,151,1
+"84",84,9,"DC","Dry corn",1,NA,"corn, corn grain",22,1
+"85",85,9,"EG","Enogen corn",6,NA,"corn, Enogen",259,1
+"86",86,9,"HM","HMSC",2,NA,"corn, hm, High moisture",7,1
+"87",87,9,"HY","Hominy",4,NA,NA,49,1
+"88",88,9,"OI","High oil corn",5,NA,"corn, High oil",251,1
+"89",89,9,"OO","Corn",7,NA,"Other",48,1
+"90",90,9,"SF","Steam flaked corn",3,NA,"corn, rolled, Steam flaked",39,1
+"91",91,10,"CC","Cob corn",3,NA,NA,93,1
+"92",92,10,"EA","Earlage",2,NA,NA,20,1
+"93",93,10,"EE","Enogen snap/ear",4,NA,NA,260,1
+"94",94,10,"OO","Ear corn",5,NA,"Other",92,1
+"95",95,10,"SP","Snaplage",1,NA,NA,21,1
+"96",96,11,"BG","Barley grain",1,NA,"Barley",73,2
+"97",97,11,"EL","Spelt grain",6,NA,"Spelt",156,2
+"98",98,11,"MI","Milo grain",2,NA,"Milo",129,2
+"99",99,11,"OA","Oat grain",3,NA,"Oats",68,2
+"100",100,11,"OO","Small grain",9,NA,"Other",95,2
+"101",101,11,"RY","Rye grain",4,NA,"Rye",112,2
+"102",102,11,"SG","Sorghum grain",5,NA,"Sorghum",154,2
+"103",103,11,"TG","Triticale grain",7,NA,"Triticale",158,2
+"104",104,11,"WG","Wheat grain",8,NA,"Wheat",67,2
+"105",105,12,"CG","Corn germ",6,NA,NA,165,1
+"106",106,12,"CS","Corn stillage",9,NA,NA,252,3
+"107",107,12,"DB","Brewers grain dry",1,NA,"barley",142,1
+"108",108,12,"DD","Corn distillers - dry",4,NA,"cake, ddg, Corn distillers dry",43,1
+"109",109,12,"DS","Distillers syrup",10,NA,NA,62,3
+"110",110,12,"EE","Mixed screenings",12,NA,"corn, grain, Screenings - mixed",109,1
+"111",111,12,"GF","Corn gluten feed",7,NA,"CGF",36,1
+"112",112,12,"GM","Corn gluten meal",8,NA,"CGM",115,1
+"113",113,12,"HD","Wheat distillers",13,NA,"wheat",240,1
+"114",114,12,"MS","Malt sprouts",11,NA,"MS, Malt sprouts - barley",80,1
+"115",115,12,"OO","Grain byproduct",15,NA,"Other",88,3
+"116",116,12,"WB","Brewers grain wet",2,NA,"barley",81,1
+"117",117,12,"WD","Corn distillers - wet",5,NA,"wdg, mdg, Corn distillers wet",29,1
+"118",118,12,"WM","Wheat midds",14,NA,"Wheat middlings",98,2
+"119",119,12,"YB","Brewers yeast",3,NA,NA,255,3
+"120",120,13,"7M","Mixed SGS",12,NA,NA,27,1
+"121",121,13,"BA","Barley silage",4,NA,"Barley",32,1
+"122",122,13,"BR","Barley & pea silage",5,NA,"Barley & peas",84,1
+"123",123,13,"BS","BMR SS silage",3,NA,"Sorghum/sudan BMR",66,1
+"124",124,13,"ML","Millet silage",6,NA,"Millet",57,1
+"125",125,13,"OO","Small grain silage",13,NA,"Other",35,1
+"126",126,13,"OT","Oatlage",7,NA,NA,16,1
+"127",127,13,"PO","Pea & oat silage",8,NA,"Peas & oats",38,1
+"128",128,13,"RS","Annual rye silage",1,NA,"Ryelage - annual",18,1
+"129",129,13,"SS","Sorghum/sudan silage",2,NA,"Sorghum/sudan",8,1
+"130",130,13,"TP","Trit & pea silage",10,NA,"Triticale & peas",61,1
+"131",131,13,"TS","Triticale silage",9,NA,"Triticale",23,1
+"132",132,13,"WH","Wheatlage",11,NA,NA,28,1
+"133",133,14,"CA","Canola seeds",2,NA,"rape",162,1
+"134",134,14,"CD","Delinted cottonseed",3,NA,"Cotton seed - delinted",249,3
+"135",135,14,"CH","Cottonseed hulls",4,NA,"Cotton seed - hulls",163,1
+"136",136,14,"CM","Canola meal",1,NA,"rape",70,2
+"137",137,14,"CW","Cottonseed",5,NA,"Cotton seed - whole",91,3
+"138",138,14,"CX","Cottonseed meal",6,NA,NA,180,3
+"139",139,14,"FL","SF soybeans",12,NA,"rolled, Soybeans - steam flaked",166,3
+"140",140,14,"LM","Linseed meal",7,NA,"flax",149,3
+"141",141,14,"OM","Soy mash",8,NA,NA,256,1
+"142",142,14,"OO","Oilseeds",16,NA,"Other",86,3
+"143",143,14,"SB","Soybeans",13,NA,"raw, Soybeans - whole",87,3
+"144",144,14,"SL","SBM",10,NA,"plus, excel, pass, soybean meal, Soybean - meal",33,3
+"145",145,14,"SM","Sunflower meal",14,NA,NA,116,1
+"146",146,14,"SR","Roasted soybeans",11,NA,"Soybeans - roasted",100,3
+"147",147,14,"SU","Sunflower seeds",15,NA,NA,145,3
+"148",148,14,"SY","Soyhulls",9,NA,"soy hulls, Soybean - hulls",83,2
+"149",149,15,"FN","Finishing ration",4,NA,"steer, beef, tmr, Finishing",69,1
+"150",150,15,"GN","Growing ration",3,NA,"beef, heifer, calf, calves, tmr, Growing",52,1
+"151",151,15,"HC","HLG + CS",5,NA,"tmr, Haylage + corn silage",59,1
+"152",152,15,"HG","Lactating ration",2,NA,"high, milk, fresh, tmr, Lactating",25,1
+"153",153,15,"HS","Haylage + syrup",6,NA,"molasses, syrup, qlf, tmr",253,1
+"154",154,15,"LG","Dry cow ration",1,NA,"far off, prefresh, pre-fresh, tmr, Dry cow mix",53,1
+"155",155,15,"OO","Mixed ration",7,NA,"tmr, Other",10,1
+"156",156,2,"AM","Almond hulls",2,NA,NA,261,1
+"157",157,2,"BK","Bakery meal",3,NA,NA,262,3
+"158",158,2,"SE","Blood serum",8,NA,NA,261,3
