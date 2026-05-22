@@ -3,8 +3,8 @@ const CATEGORY_DEFINITIONS = [
     key: "proximate-analysis",
     label: "Proximate analysis",
     items: [
-      "Dry Matter",
-      "Moisture",
+      { raw: "Dry Matter", display: "Dry Matter", aliases: ["DM"] },
+      { raw: "Moisture", display: "Moisture", aliases: ["Humidity"] },
       { raw: "CP", display: "Crude protein" },
       "ADF",
       "aNDF",
@@ -158,21 +158,80 @@ const EXCLUDED_NIR_NAME_PARTS = ["Calibrate", "Big Gain", "Plot", "Select24", "S
 const BASE_FEE_AMOUNT = 7;
 const ALWAYS_INCLUDED_NIR_FIELDS = ["Dry Matter", "Moisture"];
 const EXCLUDED_NIR_PACKAGE_NAMES = ["IVSD7-O"];
-const EXCLUDED_PACKAGE_DISPLAY_NAMES = ["ND-ICP", "Chemlock minerals"];
+const EXCLUDED_PACKAGE_DISPLAY_NAMES = ["ND-ICP", "Chemlock minerals", "M8 - Ca/P/K/Mg/S/Na"];
+const EXCLUDED_PACKAGE_NAME_PARTS = ["Poulin", "Protekta"];
 const FEED_TYPE_SEARCH_ALIASES = [
   { term: "maize", match: "corn" },
   { term: "soya", match: "soy" },
   { term: "oaten", match: "oat" }
 ];
 
+const CALCULATION_DEFINITIONS = [
+  {
+    id: "rfv",
+    label: "RFV",
+    allowedTopLevelIds: ["1", "3", "4", "5", "6", "7", "13"],
+    allOf: ["adf", "andf"]
+  },
+  {
+    id: "rfq",
+    label: "RFQ",
+    allowedTopLevelIds: ["1", "3", "4", "5", "6", "7", "13"],
+    allOf: ["cp", "andf", "andfom", "ndfdom30-undfom30", "ash"],
+    anyOfGroups: [["fat-ee", "total-fatty-acids"]]
+  },
+  {
+    id: "ndf-kd-rate-mir-p1",
+    label: "NDF kd rate MIR_P1",
+    packageNames: ["NDFD 6.5 Forages 30,120,240"],
+    nirPatterns: [
+      ["ndfdom12-undfom12", "ndfdom30-undfom30", "ndfdom120-undfom120", "ndfdom240-undfom240"],
+      ["ndfdom12-undfom12", "ndfdom72-undfom72", "ndfdom120-undfom120"]
+    ]
+  },
+  {
+    id: "starch-kd-rate-mir-p1t1",
+    label: "Starch kd rate MIR_P1T1",
+    allOf: ["starch", "ivsd7"]
+  },
+  {
+    id: "dcad",
+    label: "DCAD",
+    allOf: ["na", "k", "ca", "s"]
+  },
+  {
+    id: "adjusted-cp",
+    label: "Adjusted CP",
+    allOf: ["cp", "adicp"]
+  },
+  {
+    id: "nfc",
+    label: "NFC",
+    allOf: ["cp", "andf", "andfom", "ash"],
+    anyOfGroups: [["fat-ee", "total-fatty-acids"]]
+  },
+  {
+    id: "nsc",
+    label: "NSC",
+    allOf: ["starch", "sugar-wsc"]
+  },
+  {
+    id: "hemicellulose",
+    label: "Hemicellulose",
+    allOf: ["andf", "andfom", "adf"]
+  }
+];
+
 const state = {
   categories: [],
   itemMap: new Map(),
+  calculationMap: new Map(),
   chemistryPackages: [],
   nirPackages: [],
   products: [],
   productLookup: new Map(),
   selectedItems: new Set(),
+  selectedCalculations: new Set(),
   searchTerm: "",
   currentProductId: "",
   feedTypeDropdownOpen: false,
@@ -189,6 +248,7 @@ const elements = {
   clearSelections: document.getElementById("clearSelections"),
   selectionSummary: document.getElementById("selectionSummary"),
   selectedChips: document.getElementById("selectedChips"),
+  calculationContainer: document.getElementById("calculationContainer"),
   categoryContainer: document.getElementById("categoryContainer"),
   loadingState: document.getElementById("loadingState"),
   resultsState: document.getElementById("resultsState"),
@@ -210,6 +270,7 @@ async function initialize() {
   const dataIndex = buildDataIndex(packagesRows, packageFieldRows, nirRows, productsRows);
   state.categories = dataIndex.categories;
   state.itemMap = dataIndex.itemMap;
+  state.calculationMap = dataIndex.calculationMap;
   state.chemistryPackages = dataIndex.chemistryPackages;
   state.nirPackages = dataIndex.nirPackages;
   state.products = dataIndex.products;
@@ -219,6 +280,7 @@ async function initialize() {
   bindEvents();
   renderProductOptions();
   renderSelections();
+  renderCalculations();
   renderCategories();
   renderResults();
 
@@ -282,6 +344,7 @@ function bindEvents() {
 
   elements.clearSelections.addEventListener("click", () => {
     state.selectedItems.clear();
+    state.selectedCalculations.clear();
     state.currentProductId = "";
     elements.feedTypeInput.value = "";
     state.searchTerm = "";
@@ -290,6 +353,7 @@ function bindEvents() {
     state.chemistryOnly = false;
     elements.chemistryOnlyToggle.checked = false;
     renderSelections();
+    renderCalculations();
     renderFeedTypeDropdown();
     renderCategories();
     renderResults();
@@ -298,6 +362,7 @@ function bindEvents() {
 
 function buildDataIndex(packagesRows, packageFieldRows, nirRows, productsRows) {
   const { categories, itemMap, fieldToItemIds } = buildCategoryIndex();
+  const calculationMap = new Map(CALCULATION_DEFINITIONS.map((definition) => [definition.id, definition]));
   const alwaysIncludedNirIds = ALWAYS_INCLUDED_NIR_FIELDS.flatMap((field) => Array.from(fieldToItemIds.get(field) ?? []));
 
   const rawProducts = productsRows
@@ -307,6 +372,10 @@ function buildDataIndex(packagesRows, packageFieldRows, nirRows, productsRows) {
       code: cleanValue(row.code),
       name: cleanValue(row.name),
       order: Number.parseInt(cleanValue(row.order), 10) || 9999
+    }))
+    .map((product) => ({
+      ...product,
+      parentId: product.parentId === "0" ? product.productId : product.parentId
     }))
     .filter((product) => product.productId && product.name);
 
@@ -398,12 +467,14 @@ function buildDataIndex(packagesRows, packageFieldRows, nirRows, productsRows) {
 
   const chemistryPackages = packages
     .filter((pkg) => pkg.type === "Chemistry")
+    .filter((pkg) => !EXCLUDED_PACKAGE_NAME_PARTS.some((part) => pkg.displayName.includes(part)))
     .filter((pkg) => pkg.coveredItemIds.length > 0);
 
   const nirPackages = packages
     .filter((pkg) => pkg.type === "NIR")
     .filter((pkg) => !EXCLUDED_NIR_NAME_PARTS.some((part) => pkg.displayName.includes(part)))
     .filter((pkg) => !EXCLUDED_NIR_PACKAGE_NAMES.includes(pkg.displayName))
+    .filter((pkg) => !EXCLUDED_PACKAGE_NAME_PARTS.some((part) => pkg.displayName.includes(part)))
     .map((pkg) => ({
       ...pkg,
       availabilityByProduct: mergeAlwaysIncludedNirFields(
@@ -413,7 +484,7 @@ function buildDataIndex(packagesRows, packageFieldRows, nirRows, productsRows) {
     }))
     .filter((pkg) => pkg.availabilityByProduct.size > 0);
 
-  return { categories, itemMap, chemistryPackages, nirPackages, products: dedupedProducts, productLookup };
+  return { categories, itemMap, calculationMap, chemistryPackages, nirPackages, products: dedupedProducts, productLookup };
 }
 
 function mergeAlwaysIncludedNirFields(availabilityByProduct, alwaysIncludedNirIds) {
@@ -460,6 +531,24 @@ function getCurrentProduct() {
   return state.products.find((product) => product.productId === state.currentProductId) ?? null;
 }
 
+function getTopLevelProductId(product) {
+  if (!product) {
+    return "";
+  }
+
+  let current = product;
+  const seenProductIds = new Set();
+  while (current && !seenProductIds.has(current.productId)) {
+    if (!current.parentId || current.parentId === current.productId) {
+      return current.productId;
+    }
+    seenProductIds.add(current.productId);
+    current = state.productLookup.get(current.parentId) ?? null;
+  }
+
+  return product.productId;
+}
+
 function getCurrentFeedTypeLabel() {
   const typedValue = elements.feedTypeInput.value.trim();
   if (typedValue) {
@@ -497,8 +586,80 @@ function getNirCoveredItemIdsForProduct(pkg, product) {
   return pkg.coveredItemIds.filter((itemId) => allowedIds.has(itemId));
 }
 
+function getPackageCalculationIds(pkg, currentProduct, coveredItemIds) {
+  const topLevelProductId = getTopLevelProductId(currentProduct);
+  return CALCULATION_DEFINITIONS
+    .filter((definition) => calculationAppliesToPackage(definition, pkg, currentProduct, topLevelProductId, coveredItemIds))
+    .map((definition) => definition.id);
+}
+
+function getExpandedSelectionIds(selectedNutrientIds, selectedCalculationIds) {
+  const expanded = new Set(selectedNutrientIds);
+  const specialCalculationIds = new Set();
+
+  selectedCalculationIds.forEach((calculationId) => {
+    const definition = state.calculationMap.get(calculationId);
+    if (!definition) {
+      return;
+    }
+
+    const canExpandToMeasurements =
+      calculationId !== "ndf-kd-rate-mir-p1";
+
+    if (canExpandToMeasurements) {
+      (definition.allOf ?? []).forEach((itemId) => expanded.add(itemId));
+      (definition.anyOfGroups ?? []).forEach((group) => {
+        if (group.length) {
+          expanded.add(group[0]);
+        }
+      });
+    } else {
+      specialCalculationIds.add(calculationId);
+    }
+  });
+
+  return [...expanded, ...specialCalculationIds];
+}
+
+function calculationAppliesToPackage(definition, pkg, currentProduct, topLevelProductId, coveredItemIds) {
+  if (definition.allowedTopLevelIds && !definition.allowedTopLevelIds.includes(topLevelProductId)) {
+    return false;
+  }
+
+  if (definition.packageNames?.includes(pkg.displayName)) {
+    return true;
+  }
+
+  if (pkg.type === "NIR" && definition.nirAllPackages) {
+    return true;
+  }
+
+  if (pkg.type === "NIR" && definition.nirPatterns?.some((pattern) => pattern.every((itemId) => coveredItemIds.includes(itemId)))) {
+    return true;
+  }
+
+  if (definition.allOf && !definition.allOf.every((itemId) => coveredItemIds.includes(itemId))) {
+    return false;
+  }
+
+  if (definition.anyOfGroups && !definition.anyOfGroups.every((group) => group.some((itemId) => coveredItemIds.includes(itemId)))) {
+    return false;
+  }
+
+  return Boolean(definition.allOf || definition.anyOfGroups);
+}
+
 function getSelectedItemIdsWithRules(packages, selectedIds) {
   const augmented = new Set(selectedIds);
+
+  if (augmented.has("scp") || augmented.has("adicp") || augmented.has("ndicpss")) {
+    augmented.add("cp");
+  }
+
+  if (augmented.has("lignin")) {
+    augmented.add("adf");
+  }
+
   let changed = true;
 
   while (changed) {
@@ -525,6 +686,153 @@ function getSelectedItemIdsWithRules(packages, selectedIds) {
   }
 
   return Array.from(augmented);
+}
+
+function normalizeCoverageIds(coverageIds) {
+  const normalized = new Set(coverageIds);
+  if (normalized.has("ivsd7-o")) {
+    normalized.add("ivsd7");
+  }
+  if (normalized.has("total-amino-acid")) {
+    normalized.add("total-amino-acids");
+  }
+  return Array.from(normalized);
+}
+
+function getEligibleChemistryPackages(currentProduct, selectedIds) {
+  let packages = [...state.chemistryPackages];
+
+  if (currentProduct?.name === "Manure") {
+    const allowedNames = new Set(["Fecal Starch", "Apparent Digestibility"]);
+    packages = packages.filter((pkg) => allowedNames.has(pkg.displayName));
+  }
+
+  if (isOnlyMoistureOrDryMatterSelection(selectedIds)) {
+    packages = packages.filter((pkg) => pkg.displayName === "Moisture");
+  }
+
+  if (selectedIds.includes("cp") || selectedIds.some((itemId) => ["scp", "adicp", "ndicpss"].includes(itemId))) {
+    packages = packages.filter((pkg) => pkg.displayName !== "CP");
+  }
+
+  return packages;
+}
+
+function isOnlyMoistureOrDryMatterSelection(selectedIds) {
+  return selectedIds.length > 0 && selectedIds.every((itemId) => itemId === "dry-matter" || itemId === "moisture");
+}
+
+function isMineralsOnlySelection(selectedIds) {
+  const allowedMineralIds = new Set([
+    "ca",
+    "p",
+    "mg",
+    "k",
+    "s",
+    "cl",
+    "na",
+    "zn",
+    "mn",
+    "cu",
+    "fe",
+    "al",
+    "boron",
+    "salt-cl-as-nacl",
+    "mo"
+  ]);
+
+  return selectedIds.length > 0 && selectedIds.every((itemId) => allowedMineralIds.has(itemId));
+}
+
+function hasSelectedMineralsExcludingAsh(selectedIds) {
+  const mineralIdsExcludingAsh = new Set([
+    "ca",
+    "p",
+    "mg",
+    "k",
+    "s",
+    "cl",
+    "na",
+    "zn",
+    "mn",
+    "cu",
+    "fe",
+    "al",
+    "boron",
+    "salt-cl-as-nacl",
+    "mo"
+  ]);
+
+  return selectedIds.some((itemId) => mineralIdsExcludingAsh.has(itemId));
+}
+
+function hasSelectedNonMinerals(selectedIds) {
+  const mineralAndAshIds = new Set([
+    "ash",
+    "ca",
+    "p",
+    "mg",
+    "k",
+    "s",
+    "cl",
+    "na",
+    "zn",
+    "mn",
+    "cu",
+    "fe",
+    "al",
+    "boron",
+    "salt-cl-as-nacl",
+    "mo"
+  ]);
+
+  return selectedIds.some((itemId) => !mineralAndAshIds.has(itemId));
+}
+
+function shouldPreferNirWithChemistryMinerals(selectedIds, nirResult, hybridResult) {
+  return hasSelectedMineralsExcludingAsh(selectedIds) &&
+    hasSelectedNonMinerals(selectedIds) &&
+    !nirResult.solution &&
+    Boolean(hybridResult?.solution);
+}
+
+function splitSelectedIdsForNirAndChemistry(selectedIds) {
+  const mineralIdsExcludingAsh = new Set([
+    "ca",
+    "p",
+    "mg",
+    "k",
+    "s",
+    "cl",
+    "na",
+    "zn",
+    "mn",
+    "cu",
+    "fe",
+    "al",
+    "boron",
+    "salt-cl-as-nacl",
+    "mo"
+  ]);
+
+  const hasMixedMineralsRequest =
+    hasSelectedMineralsExcludingAsh(selectedIds) && hasSelectedNonMinerals(selectedIds);
+
+  if (!hasMixedMineralsRequest) {
+    return {
+      nirSelectedIds: selectedIds,
+      chemistrySelectedIds: selectedIds
+    };
+  }
+
+  return {
+    nirSelectedIds: selectedIds.filter((itemId) => !mineralIdsExcludingAsh.has(itemId)),
+    chemistrySelectedIds: selectedIds
+  };
+}
+
+function hasMineralsOnlyGap(missingSelectedIds) {
+  return missingSelectedIds.length > 0 && isMineralsOnlySelection(missingSelectedIds);
 }
 
 function buildCategoryIndex() {
@@ -602,6 +910,55 @@ function renderProductOptions() {
   renderFeedTypeDropdown();
 }
 
+function renderCalculations() {
+  elements.calculationContainer.innerHTML = "";
+
+  const card = document.createElement("section");
+  card.className = "category-card";
+  card.innerHTML = `
+    <div class="category-head">
+      <h3>Calculations</h3>
+      <span>${state.selectedCalculations.size} selected</span>
+    </div>
+  `;
+
+  const grid = document.createElement("div");
+  grid.className = "calculation-grid";
+
+  CALCULATION_DEFINITIONS.forEach((definition) => {
+    const option = document.createElement("div");
+    option.className = "nutrient-option";
+
+    const checkbox = document.createElement("input");
+    checkbox.className = "nutrient-toggle";
+    checkbox.type = "checkbox";
+    checkbox.id = `calc-${definition.id}`;
+    checkbox.checked = state.selectedCalculations.has(definition.id);
+
+    const label = document.createElement("label");
+    label.htmlFor = checkbox.id;
+    label.innerHTML = `<span class="nutrient-name">${escapeHtml(definition.label)}</span>`;
+
+    checkbox.addEventListener("change", () => {
+      if (checkbox.checked) {
+        state.selectedCalculations.add(definition.id);
+      } else {
+        state.selectedCalculations.delete(definition.id);
+      }
+      renderSelections();
+      renderCalculations();
+      renderResults();
+    });
+
+    option.appendChild(checkbox);
+    option.appendChild(label);
+    grid.appendChild(option);
+  });
+
+  card.appendChild(grid);
+  elements.calculationContainer.appendChild(card);
+}
+
 function renderFeedTypeDropdown() {
   elements.feedTypeList.classList.toggle("hidden", !state.feedTypeDropdownOpen);
   renderFeedTypeList();
@@ -661,23 +1018,28 @@ function renderFeedTypeList() {
 }
 
 function renderSelections() {
-  const selectedItems = Array.from(state.selectedItems)
+  const selectedNutrients = Array.from(state.selectedItems)
     .map((id) => state.itemMap.get(id))
     .filter(Boolean)
     .sort((a, b) => a.display.localeCompare(b.display));
+  const selectedCalculations = Array.from(state.selectedCalculations)
+    .map((id) => state.calculationMap.get(id))
+    .filter(Boolean)
+    .sort((a, b) => a.label.localeCompare(b.label));
+  const totalSelections = selectedNutrients.length + selectedCalculations.length;
 
-  elements.selectionSummary.textContent = `${selectedItems.length} nutrient${selectedItems.length === 1 ? "" : "s"} selected`;
+  elements.selectionSummary.textContent = `${totalSelections} selection${totalSelections === 1 ? "" : "s"} selected`;
   elements.selectedChips.innerHTML = "";
 
-  if (!selectedItems.length) {
+  if (!totalSelections) {
     const empty = document.createElement("p");
     empty.className = "empty-state";
-    empty.textContent = "Select one or more nutrients to calculate the lowest-cost package recommendations.";
+    empty.textContent = "Select nutrients and calculations to calculate the lowest-cost package recommendations.";
     elements.selectedChips.appendChild(empty);
     return;
   }
 
-  selectedItems.forEach((item) => {
+  selectedNutrients.forEach((item) => {
     const chip = document.createElement("div");
     chip.className = "chip";
     chip.innerHTML = `<span>${escapeHtml(item.display)}</span><button type="button" aria-label="Remove ${escapeHtml(item.display)}">x</button>`;
@@ -685,6 +1047,19 @@ function renderSelections() {
       state.selectedItems.delete(item.id);
       renderSelections();
       renderCategories();
+      renderResults();
+    });
+    elements.selectedChips.appendChild(chip);
+  });
+
+  selectedCalculations.forEach((calculation) => {
+    const chip = document.createElement("div");
+    chip.className = "chip";
+    chip.innerHTML = `<span>${escapeHtml(calculation.label)}</span><button type="button" aria-label="Remove ${escapeHtml(calculation.label)}">x</button>`;
+    chip.querySelector("button").addEventListener("click", () => {
+      state.selectedCalculations.delete(calculation.id);
+      renderSelections();
+      renderCalculations();
       renderResults();
     });
     elements.selectedChips.appendChild(chip);
@@ -763,34 +1138,51 @@ function renderCategories() {
 function renderResults() {
   elements.resultsState.innerHTML = "";
 
-  if (!state.selectedItems.size) {
+  if (!state.selectedItems.size && !state.selectedCalculations.size) {
     elements.resultsState.innerHTML = `<div class="loading-card"><p class="empty-state">Recommendations will appear here after nutrients are selected.</p></div>`;
     return;
   }
 
-  const selectedIds = Array.from(state.selectedItems);
+  const baseSelectedNutrientIds = Array.from(state.selectedItems);
+  const selectedCalculationIds = Array.from(state.selectedCalculations);
+  const selectedIds = getExpandedSelectionIds(baseSelectedNutrientIds, selectedCalculationIds);
+  const { nirSelectedIds, chemistrySelectedIds: chemistryBaseSelectedIds } = splitSelectedIdsForNirAndChemistry(selectedIds);
   const currentProduct = getCurrentProduct();
   const currentFeedTypeLabel = getCurrentFeedTypeLabel();
-  const chemistrySelectedIds = getSelectedItemIdsWithRules(state.chemistryPackages, selectedIds);
-  const chemistryResult = optimizePackagesCore(state.chemistryPackages, chemistrySelectedIds);
+  const mineralsOnlyRequest = isMineralsOnlySelection(selectedIds);
+  const chemistryPackages = getEligibleChemistryPackages(currentProduct, selectedIds);
+  const chemistrySelectedIds = getSelectedItemIdsWithRules(chemistryPackages, chemistryBaseSelectedIds);
+  const chemistryPackagesWithCalcs = chemistryPackages.map((pkg) => ({
+    ...pkg,
+    coverageIds: normalizeCoverageIds([...pkg.coveredItemIds, ...getPackageCalculationIds(pkg, currentProduct, pkg.coveredItemIds)])
+  }));
+  const chemistryResult = optimizePackagesCore(chemistryPackagesWithCalcs, chemistrySelectedIds);
   const nirCandidates = state.nirPackages
     .map((pkg) => {
       const coveredItemIds = getNirCoveredItemIdsForProduct(pkg, currentProduct);
       if (!coveredItemIds.length) {
         return null;
       }
-      return { ...pkg, coveredItemIds };
+      return {
+        ...pkg,
+        coveredItemIds,
+        coverageIds: normalizeCoverageIds([...coveredItemIds, ...getPackageCalculationIds(pkg, currentProduct, coveredItemIds)])
+      };
     })
     .filter(Boolean);
-  const nirResult = optimizePackagesCore(nirCandidates, selectedIds);
-  const hybridResult = buildHybridResult(nirCandidates, state.chemistryPackages, selectedIds);
+  const nirOptimizedSelectedIds = getSelectedItemIdsWithRules(nirCandidates, nirSelectedIds);
+  const nirResult = optimizePackagesCore(nirCandidates, nirOptimizedSelectedIds);
+  const hybridResult = buildHybridResult(nirCandidates, chemistryPackagesWithCalcs, selectedIds, nirOptimizedSelectedIds);
   const nirCardConfig = {
     methodLabel: "NIR",
     title: `NIR for ${currentFeedTypeLabel}`,
     result: nirResult,
     showFullCoverage: true,
     noMatchMessage: "There are no NIR packages available for the currently selected feed type and nutrients.",
-    hybridResult
+    hybridResult,
+    hybridSummary: hasSelectedMineralsExcludingAsh(selectedIds) && hasSelectedNonMinerals(selectedIds) && hybridResult?.solution
+      ? "One package is enough to cover the currently selected nutrients, but we recommend adding minerals by chemistry."
+      : null
   };
   const chemistryCardConfig = {
     methodLabel: "",
@@ -798,22 +1190,30 @@ function renderResults() {
     result: chemistryResult,
     showFullCoverage: true
   };
-  const showNirFirst = !state.chemistryOnly && nirResult.coverableCount > 0;
-  const orderedCards = showNirFirst
-    ? [nirCardConfig, chemistryCardConfig]
-    : [chemistryCardConfig, nirCardConfig];
+  const nirDisplayedCost = nirResult.solution?.totalCost ?? hybridResult?.solution?.totalCost ?? Number.POSITIVE_INFINITY;
+  const chemistryDisplayedCost = chemistryResult.solution?.totalCost ?? Number.POSITIVE_INFINITY;
+  const preferNirWithChemistryMinerals = shouldPreferNirWithChemistryMinerals(selectedIds, nirResult, hybridResult);
+  const showChemistryFirst =
+    state.chemistryOnly ||
+    isMineralsOnlySelection(selectedIds) ||
+    (!preferNirWithChemistryMinerals && nirResult.coverableCount === 0) ||
+    (!preferNirWithChemistryMinerals && chemistryDisplayedCost <= nirDisplayedCost);
+  const orderedCards = showChemistryFirst
+    ? [chemistryCardConfig, nirCardConfig]
+    : [nirCardConfig, chemistryCardConfig];
 
   orderedCards.forEach((cardConfig) => {
-    if (state.chemistryOnly && cardConfig.methodLabel === "NIR") {
+    if ((state.chemistryOnly || mineralsOnlyRequest) && cardConfig.methodLabel === "NIR") {
       return;
     }
     elements.resultsState.appendChild(createResultCard(cardConfig));
   });
 }
 
-function createResultCard({ methodLabel, title, result, showFullCoverage = false, noMatchMessage = "None of the currently selected nutrients are available in this method.", hybridResult = null }) {
+function createResultCard({ methodLabel, title, result, showFullCoverage = false, noMatchMessage = "None of the currently selected nutrients are available in this method.", hybridResult = null, hybridSummary = null }) {
   const fragment = elements.resultCardTemplate.content.cloneNode(true);
   const card = fragment.querySelector(".result-card");
+  const showHybridWithPrimary = Boolean(result.solution && hybridResult?.solution && hybridSummary);
 
   card.querySelector(".result-label").textContent = methodLabel;
   card.querySelector(".result-label").classList.toggle("hidden", !methodLabel);
@@ -830,7 +1230,7 @@ function createResultCard({ methodLabel, title, result, showFullCoverage = false
   if (!result.solution) {
     if (hybridResult?.solution) {
       card.querySelector(".price-pill").textContent = formatMoney(hybridResult.solution.totalCost);
-      card.querySelector(".result-summary").textContent = "NIR alone cannot cover every selected nutrient, so this estimate combines NIR and Chemistry packages.";
+      card.querySelector(".result-summary").textContent = hybridSummary ?? "NIR alone cannot cover every selected nutrient, so this estimate combines NIR and Chemistry packages.";
       const packageList = card.querySelector(".package-list");
       appendPackageGroup(packageList, "NIR package price", hybridResult.solution.nirPackages, hybridResult.solution.nirCost);
       appendPackageGroup(packageList, "Chemistry package price", hybridResult.solution.chemistryPackages, hybridResult.solution.chemistryCost);
@@ -862,26 +1262,70 @@ function createResultCard({ methodLabel, title, result, showFullCoverage = false
     card.querySelector(".result-summary").textContent = "This method cannot cover every selected nutrient with the currently eligible packages.";
     card.querySelector(".package-list").innerHTML = `<p class="empty-state">Covered nutrients are shown below, but at least one selection is unavailable in this method.</p>`;
   } else {
-    card.querySelector(".price-pill").textContent = formatMoney(result.solution.totalCost);
+    card.querySelector(".price-pill").textContent = formatMoney(showHybridWithPrimary ? hybridResult.solution.totalCost : result.solution.totalCost);
     card.querySelector(".result-summary").textContent =
-      result.solution.alternativeSolutions?.length > 0
+      showHybridWithPrimary
+        ? hybridSummary
+        : result.solution.alternativeSolutions?.length > 0
         ? "Two options available at the same price."
         : result.solution.packages.length === 1
           ? "One package is enough to cover the currently selected nutrients."
           : `${result.solution.packages.length} packages are needed to cover the currently selected nutrients.`;
 
     const packageList = card.querySelector(".package-list");
-    result.solution.packages.forEach((pkg) => {
-      const row = document.createElement("div");
-      row.className = "package-item";
-      row.innerHTML = `
+    const samePriceSinglePackageAlternatives =
+      !showHybridWithPrimary &&
+      result.solution.alternativeSolutions?.length > 0 &&
+      result.solution.packages.length === 1 &&
+      result.solution.alternativeSolutions.every((solution) => solution.packages.length === 1);
+
+    if (showHybridWithPrimary) {
+      appendPackageGroup(packageList, "NIR package price", hybridResult.solution.nirPackages, hybridResult.solution.nirCost);
+      appendPackageGroup(packageList, "Chemistry package price", hybridResult.solution.chemistryPackages, hybridResult.solution.chemistryCost);
+      const totalRow = document.createElement("div");
+      totalRow.className = "package-item";
+      totalRow.innerHTML = `
         <div class="package-item-top">
-          <div class="package-item-name">${escapeHtml(pkg.displayName)}</div>
-          <div>${formatMoney(pkg.price)}</div>
+          <div class="package-item-name">Total</div>
+          <div>${formatMoney(hybridResult.solution.totalCost)}</div>
         </div>
       `;
-      packageList.appendChild(row);
-    });
+      packageList.appendChild(totalRow);
+    } else if (samePriceSinglePackageAlternatives) {
+      const options = [
+        {
+          packages: result.solution.packages,
+          totalCost: result.solution.totalCost,
+          allCoveredItemIds: result.solution.allCoveredItemIds
+        },
+        ...result.solution.alternativeSolutions
+      ];
+
+      options.forEach((option, index) => {
+        const wrapper = document.createElement("div");
+        wrapper.className = "alternate-card";
+        wrapper.innerHTML = `
+          <div class="alternate-card-top">
+            <div class="alternate-card-title">Option ${index + 1}: ${escapeHtml(option.packages.map((pkg) => pkg.displayName).join(" + "))}</div>
+            <div>${formatMoney(option.totalCost)}</div>
+          </div>
+          <p class="alternate-card-copy">${escapeHtml(formatAlternateCoverageText(option.allCoveredItemIds))}</p>
+        `;
+        packageList.appendChild(wrapper);
+      });
+    } else {
+      result.solution.packages.forEach((pkg) => {
+        const row = document.createElement("div");
+        row.className = "package-item";
+        row.innerHTML = `
+          <div class="package-item-top">
+            <div class="package-item-name">${escapeHtml(pkg.displayName)}</div>
+            <div>${formatMoney(pkg.price)}</div>
+          </div>
+        `;
+        packageList.appendChild(row);
+      });
+    }
 
     if (result.solution.baseFeeApplied) {
       const feeRow = document.createElement("div");
@@ -895,7 +1339,7 @@ function createResultCard({ methodLabel, title, result, showFullCoverage = false
       packageList.appendChild(feeRow);
     }
 
-    if (result.solution.alternativeSolutions?.length) {
+    if (result.solution.alternativeSolutions?.length && !samePriceSinglePackageAlternatives) {
       const alternateBlock = card.querySelector(".alternate-block");
       const alternateList = card.querySelector(".alternate-list");
       alternateBlock.classList.remove("hidden");
@@ -916,7 +1360,11 @@ function createResultCard({ methodLabel, title, result, showFullCoverage = false
 
   fillChipList(
     card.querySelector(".covered-list"),
-    showFullCoverage && result.solution ? result.solution.allCoveredItemIds : result.coveredSelectedIds
+    showFullCoverage && showHybridWithPrimary
+      ? hybridResult.solution.allCoveredItemIds
+      : showFullCoverage && result.solution
+        ? result.solution.allCoveredItemIds
+        : result.coveredSelectedIds
   );
 
   if (result.missingSelectedIds.length) {
@@ -959,13 +1407,13 @@ function formatAlternateCoverageText(itemIds) {
 function fillChipList(container, itemIds) {
   container.innerHTML = "";
   itemIds
-    .map((id) => state.itemMap.get(id))
+    .map((id) => state.itemMap.get(id) ?? state.calculationMap.get(id))
     .filter(Boolean)
-    .sort((a, b) => a.display.localeCompare(b.display))
+    .sort((a, b) => (a.display ?? a.label).localeCompare(b.display ?? b.label))
     .forEach((item) => {
       const chip = document.createElement("div");
       chip.className = "chip";
-      chip.textContent = item.display;
+      chip.textContent = item.display ?? item.label;
       container.appendChild(chip);
     });
 }
@@ -980,7 +1428,8 @@ function optimizePackagesCore(packages, selectedIds) {
 
   const normalizedPackages = packages
     .map((pkg) => {
-      const coverage = pkg.coveredItemIds.filter((id) => selectedMaskMap.has(id));
+      const coverageSource = pkg.coverageIds ?? pkg.coveredItemIds;
+      const coverage = coverageSource.filter((id) => selectedMaskMap.has(id));
       if (!coverage.length) {
         return null;
       }
@@ -1140,18 +1589,24 @@ function optimizePackagesCore(packages, selectedIds) {
   };
 }
 
-function buildHybridResult(nirPackages, chemistryPackages, selectedIds) {
-  const nirResult = optimizePackagesCore(nirPackages, selectedIds);
-  if (nirResult.solution || !nirResult.coverableCount) {
+function buildHybridResult(nirPackages, chemistryPackages, fullSelectedIds, nirSelectedIds = fullSelectedIds) {
+  const nirResult = optimizePackagesCore(nirPackages, nirSelectedIds);
+  if (!nirResult.coverableCount) {
     return null;
   }
 
-  const nirPartialResult = optimizePackagesCore(nirPackages, nirResult.coveredSelectedIds);
+  const nirCoveredIds = nirResult.solution ? nirSelectedIds : nirResult.coveredSelectedIds;
+  const missingFromFullSelection = fullSelectedIds.filter((id) => !nirCoveredIds.includes(id));
+  if (!missingFromFullSelection.length) {
+    return null;
+  }
+
+  const nirPartialResult = optimizePackagesCore(nirPackages, nirCoveredIds);
   if (!nirPartialResult.solution) {
     return null;
   }
 
-  const chemistrySelectedIds = getSelectedItemIdsWithRules(chemistryPackages, nirResult.missingSelectedIds);
+  const chemistrySelectedIds = getSelectedItemIdsWithRules(chemistryPackages, missingFromFullSelection);
   const chemistryResult = optimizePackagesCore(chemistryPackages, chemistrySelectedIds);
   if (!chemistryResult.solution) {
     return null;
@@ -1170,8 +1625,8 @@ function buildHybridResult(nirPackages, chemistryPackages, selectedIds) {
       ]))
     },
     coveredSelectedIds: Array.from(new Set([
-      ...nirResult.coveredSelectedIds,
-      ...nirResult.missingSelectedIds
+      ...nirCoveredIds,
+      ...missingFromFullSelection
     ])),
     missingSelectedIds: chemistryResult.missingSelectedIds
   };

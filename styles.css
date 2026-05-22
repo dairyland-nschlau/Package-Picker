@@ -316,6 +316,12 @@ input[type="search"]:focus,
   margin-top: 18px;
 }
 
+.calculation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+}
+
 .category-card {
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
