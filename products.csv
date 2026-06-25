@@ -1,9 +1,9 @@
 "","product_id","parent_id","code","name","order","description","alternative_names","search_priority","preparation_method_id"
-"1",1,0,"1","Hay - Mixed",3,NA,NA,NA,NA
+"1",1,0,"1","Hay - Grass/legume mixtures",3,NA,NA,NA,NA
 "2",2,0,"10","Other Feeds",15,NA,NA,NA,NA
 "3",3,0,"1A","Hay - Legume",2,NA,NA,NA,NA
 "4",4,0,"1B","Hay - Grass",1,NA,NA,NA,NA
-"5",5,0,"1C","Haylage - Mixed",6,NA,NA,NA,NA
+"5",5,0,"1C","Haylage - Grass/legume mixtures",6,NA,NA,NA,NA
 "6",6,0,"1D","Haylage - Legume",5,NA,NA,NA,NA
 "7",7,0,"1E","Haylage - Grass",4,NA,NA,NA,NA
 "8",8,0,"2","Whole plant corn",8,NA,NA,NA,NA
@@ -47,12 +47,12 @@
 "46",46,4,"KH","Kochia hay",8,NA,"grass, Kochia",140,1
 "47",47,4,"KY","Kikuyu hay",7,NA,"grass, Kikuyu",167,1
 "48",48,4,"MH","Millet hay",9,NA,"grass, Millet",31,1
-"49",49,4,"OD","Orchardgrass",11,NA,"grass, Orchard",96,1
+"49",49,4,"OD","Orchardgrass hay",11,NA,"grass, Orchard",96,1
 "50",50,4,"OH","Oat hay",10,NA,"grass, Oat",19,1
 "51",51,4,"OO","Grass hay",18,NA,"grass, Other",24,1
 "52",52,4,"PH","Pasture",12,NA,"grass",51,1
-"53",53,4,"RH","Ryegrass",2,NA,"grass, Ryegrass - perennial",56,1
-"54",54,4,"SH","Sorghum/sudan",3,NA,"grass",30,1
+"53",53,4,"RH","Ryegrass hay",2,NA,"grass, Ryegrass - perennial",56,1
+"54",54,4,"SH","Sorghum/sudan hay",3,NA,"grass",30,1
 "55",55,4,"ST","Straw",13,NA,"grass, wheat, barley, oat",17,1
 "56",56,4,"TH","Timothy hay",14,NA,"grass, Timothy",78,1
 "57",57,4,"TR","Triticale hay",15,NA,"grass, Triticale",58,1

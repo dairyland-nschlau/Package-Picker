@@ -154,29 +154,141 @@ const CATEGORY_DEFINITIONS = [
   }
 ];
 
-const EXCLUDED_NIR_NAME_PARTS = ["Calibrate", "Big Gain", "Plot", "Select24", "Select48", "Equine", "VFA Screen"];
+const EXCLUDED_NIR_NAME_PARTS = ["Calibrate", "Big Gain", "Plot", "Select24", "Select48", "VFA Screen"];
 const BASE_FEE_AMOUNT = 7;
 const ALWAYS_INCLUDED_NIR_FIELDS = ["Dry Matter", "Moisture"];
 const EXCLUDED_NIR_PACKAGE_NAMES = ["IVSD7-O"];
 const EXCLUDED_PACKAGE_DISPLAY_NAMES = ["ND-ICP", "Chemlock minerals", "M8 - Ca/P/K/Mg/S/Na"];
-const EXCLUDED_PACKAGE_NAME_PARTS = ["Poulin", "Protekta"];
+const EXCLUDED_PACKAGE_NAME_PARTS = ["Poulin", "Protekta", "Swine", "Equine"];
+const EXCLUDED_FEED_TYPE_NAMES = ["Mixed hay", "Mixed haylage"];
 const FEED_TYPE_SEARCH_ALIASES = [
   { term: "maize", match: "corn" },
   { term: "soya", match: "soy" },
-  { term: "oaten", match: "oat" }
+  { term: "oaten", match: "oat" },
+  { term: "sgs", match: "small grain silage" },
+  { term: "sf", match: "steam flaked" },
+  { term: "sbm", match: "soybean meal" },
+  { term: "linseed", match: "flaxseed" },
+  { term: "rape", match: "canola" },
+  { term: "balage", match: "haylage" }
 ];
 
 const CALCULATION_DEFINITIONS = [
   {
+    id: "adf-energy",
+    label: "ADF (TDN, NEL, NEG, NEM)",
+    aliases: [
+      "TDN",
+      "Total digestible nutrients",
+      "NEL",
+      "Net energy for Lactation",
+      "NEG",
+      "Net energy for Gain",
+      "NEM",
+      "Net energy for Maintenance",
+      "Beef/ton"
+    ],
+    allowedParentIds: ["1", "3", "4", "5", "6", "7", "8", "9", "10", "13"],
+    allOf: ["adf"]
+  },
+  {
+    id: "oardc-energy",
+    label: "OARDC (TDN, NEL, NEG, NEM)",
+    aliases: [
+      "TDN",
+      "Total digestible nutrients",
+      "NEL",
+      "Net energy for Lactation",
+      "NEG",
+      "Net energy for Gain",
+      "NEM",
+      "Net energy for Maintenance",
+      "ME",
+      "Metabolizable energy",
+      "Beef/ton",
+      "NRC"
+    ],
+    allOf: ["cp", "andfom", "ash"],
+    anyOfGroups: [["fat-ee", "total-fatty-acids"]]
+  },
+  {
+    id: "milk2006",
+    label: "MILK2006 (TDN, NEL, NEG, NEM, Milk per ton)",
+    aliases: [
+      "TDN",
+      "Total digestible nutrients",
+      "NEL",
+      "Net energy for Lactation",
+      "NEG",
+      "Net energy for Gain",
+      "NEM",
+      "Net energy for Maintenance",
+      "Milk/ton"
+    ],
+    allowedParentIds: ["8"],
+    allOf: ["cp", "andf", "andfom", "ash", "starch", "ndfdom30-undfom30"],
+    anyOfGroups: [["fat-ee", "total-fatty-acids"]]
+  },
+  {
+    id: "milk2013",
+    label: "MILK2013",
+    aliases: [
+      "TDN",
+      "Total digestible nutrients",
+      "NEL",
+      "Net energy for Lactation",
+      "NEG",
+      "Net energy for Gain",
+      "NEM",
+      "Net energy for Maintenance",
+      "Milk/ton"
+    ],
+    allowedParentIds: ["1", "3", "4", "5", "6", "7", "13"],
+    allOf: ["cp", "andf", "andfom", "ash", "ndfdom30-undfom30"],
+    anyOfGroups: [["fat-ee", "total-fatty-acids"]]
+  },
+  {
+    id: "milk2024",
+    label: "MILK2024 (NEL, Milk per ton)",
+    aliases: [
+      "TDN",
+      "Total digestible nutrients",
+      "NEL",
+      "Net energy for Lactation",
+      "NEG",
+      "Net energy for Gain",
+      "NEM",
+      "Net energy for Maintenance",
+      "Milk/ton"
+    ],
+    allowedParentIds: ["8"],
+    allOf: ["cp", "andf", "andfom", "ash", "starch", "ivsd7", "ndfdom30-undfom30"],
+    anyOfGroups: [["fat-ee", "total-fatty-acids"]]
+  },
+  {
+    id: "isu-beef",
+    label: "ISU Beef (TDN, NEM, NEG, Beef per ton)",
+    aliases: [
+      "TDN",
+      "NEL",
+      "NEG",
+      "NEM",
+      "Beef/ton"
+    ],
+    allowedParentIds: ["8", "13"],
+    allOf: ["cp", "andfom", "ash", "ndfdom30-undfom30"],
+    anyOfGroups: [["fat-ee", "total-fatty-acids"]]
+  },
+  {
     id: "rfv",
     label: "RFV",
-    allowedTopLevelIds: ["1", "3", "4", "5", "6", "7", "13"],
+    allowedParentIds: ["1", "3", "4", "5", "6", "7", "13"],
     allOf: ["adf", "andf"]
   },
   {
     id: "rfq",
     label: "RFQ",
-    allowedTopLevelIds: ["1", "3", "4", "5", "6", "7", "13"],
+    allowedParentIds: ["1", "3", "4", "5", "6", "7", "13"],
     allOf: ["cp", "andf", "andfom", "ndfdom30-undfom30", "ash"],
     anyOfGroups: [["fat-ee", "total-fatty-acids"]]
   },
@@ -334,6 +446,7 @@ function bindEvents() {
 
   elements.nutrientSearch.addEventListener("input", () => {
     state.searchTerm = elements.nutrientSearch.value.trim().toLowerCase();
+    renderCalculations();
     renderCategories();
   });
 
@@ -371,6 +484,7 @@ function buildDataIndex(packagesRows, packageFieldRows, nirRows, productsRows) {
       parentId: cleanValue(row.parent_id),
       code: cleanValue(row.code),
       name: cleanValue(row.name),
+      alternativeNames: cleanValue(row.alternative_names),
       order: Number.parseInt(cleanValue(row.order), 10) || 9999
     }))
     .map((product) => ({
@@ -451,7 +565,7 @@ function buildDataIndex(packagesRows, packageFieldRows, nirRows, productsRows) {
   }))
   .filter((pkg) => pkg.type === "Chemistry" || pkg.type === "NIR")
   .filter((pkg) => pkg.price > 0)
-  .filter((pkg) => !EXCLUDED_PACKAGE_DISPLAY_NAMES.includes(pkg.displayName)) // ← add this
+  .filter((pkg) => !EXCLUDED_PACKAGE_DISPLAY_NAMES.includes(pkg.displayName))
   .map((pkg) => ({
     ...pkg,
     coveredItemIds: Array.from(fieldMap.get(pkg.packageId) ?? [])
@@ -467,14 +581,14 @@ function buildDataIndex(packagesRows, packageFieldRows, nirRows, productsRows) {
 
   const chemistryPackages = packages
     .filter((pkg) => pkg.type === "Chemistry")
-    .filter((pkg) => !EXCLUDED_PACKAGE_NAME_PARTS.some((part) => pkg.displayName.includes(part)))
+    .filter((pkg) => !hasExcludedPackageNamePart(pkg.displayName))
     .filter((pkg) => pkg.coveredItemIds.length > 0);
 
   const nirPackages = packages
     .filter((pkg) => pkg.type === "NIR")
-    .filter((pkg) => !EXCLUDED_NIR_NAME_PARTS.some((part) => pkg.displayName.includes(part)))
+    .filter((pkg) => !hasExcludedNirNamePart(pkg.displayName))
     .filter((pkg) => !EXCLUDED_NIR_PACKAGE_NAMES.includes(pkg.displayName))
-    .filter((pkg) => !EXCLUDED_PACKAGE_NAME_PARTS.some((part) => pkg.displayName.includes(part)))
+    .filter((pkg) => !hasExcludedPackageNamePart(pkg.displayName))
     .map((pkg) => ({
       ...pkg,
       availabilityByProduct: mergeAlwaysIncludedNirFields(
@@ -497,6 +611,16 @@ function mergeAlwaysIncludedNirFields(availabilityByProduct, alwaysIncludedNirId
   });
 
   return merged;
+}
+
+function hasExcludedPackageNamePart(displayName) {
+  const normalizedName = displayName.toLowerCase();
+  return EXCLUDED_PACKAGE_NAME_PARTS.some((part) => normalizedName.includes(part.toLowerCase()));
+}
+
+function hasExcludedNirNamePart(displayName) {
+  const normalizedName = displayName.toLowerCase();
+  return EXCLUDED_NIR_NAME_PARTS.some((part) => normalizedName.includes(part.toLowerCase()));
 }
 
 function buildProductLookupNames(product, productLookup) {
@@ -527,6 +651,75 @@ function buildProductSortKey(product, productLookup) {
   return segments.join(".");
 }
 
+function buildFeedTypeSearchText(product, productLookup) {
+  const names = buildProductLookupNames(product, productLookup);
+  const searchTerms = new Set();
+  const topLevelProductId = getTopLevelProductId(product);
+  const alternativeNames = String(product.alternativeNames ?? "")
+    .split(",")
+    .map((part) => part.trim())
+    .filter(Boolean);
+  const combinedText = [product.name, ...alternativeNames, ...names].join(" ").toLowerCase();
+
+  searchTerms.add(product.name.toLowerCase());
+  names.forEach((name) => searchTerms.add(name.toLowerCase()));
+  alternativeNames.forEach((alias) => searchTerms.add(alias.toLowerCase()));
+
+  FEED_TYPE_SEARCH_ALIASES.forEach((alias) => {
+    if (combinedText.includes(alias.match)) {
+      searchTerms.add(alias.term);
+    }
+  });
+
+  if (combinedText.includes("small grain silage") || combinedText.includes("sgs")) {
+    searchTerms.add("small grain silage");
+    searchTerms.add("sgs");
+  }
+
+  if (combinedText.includes("steam flaked") || /\bsf\b/.test(combinedText) || product.name.toLowerCase().startsWith("sf ")) {
+    searchTerms.add("steam flaked");
+    searchTerms.add("sf");
+  }
+
+  if (combinedText.includes("soybean meal") || combinedText.includes("sbm")) {
+    searchTerms.add("soybean meal");
+    searchTerms.add("sbm");
+  }
+
+  if (combinedText.includes("flaxseed") || combinedText.includes("linseed")) {
+    searchTerms.add("flaxseed");
+    searchTerms.add("linseed");
+  }
+
+  if (combinedText.includes("canola") || combinedText.includes("rape")) {
+    searchTerms.add("canola");
+    searchTerms.add("rape");
+  }
+
+  if (combinedText.includes("soy")) {
+    searchTerms.add("soya");
+    searchTerms.add("soy");
+    searchTerms.add("sbm");
+  }
+
+  if (combinedText.includes("sbm")) {
+    searchTerms.add("soya");
+    searchTerms.add("soybean meal");
+    searchTerms.add("sbm");
+  }
+
+  if (combinedText.includes("corn")) {
+    searchTerms.add("maize");
+  }
+
+  if (combinedText.includes("haylage") || topLevelProductId === "13") {
+    searchTerms.add("balage");
+    searchTerms.add("haylage");
+  }
+
+  return Array.from(searchTerms).join(" ");
+}
+
 function getCurrentProduct() {
   return state.products.find((product) => product.productId === state.currentProductId) ?? null;
 }
@@ -549,6 +742,10 @@ function getTopLevelProductId(product) {
   return product.productId;
 }
 
+function getCalculationParentId(product) {
+  return product?.parentId ?? "";
+}
+
 function getCurrentFeedTypeLabel() {
   const typedValue = elements.feedTypeInput.value.trim();
   if (typedValue) {
@@ -559,14 +756,6 @@ function getCurrentFeedTypeLabel() {
 
 function getOtherFeedTypeProduct() {
   return state.products.find((product) => product.name === "Other Feeds") ?? null;
-}
-
-function buildFeedTypeSearchText(name) {
-  const loweredName = name.toLowerCase();
-  const aliases = FEED_TYPE_SEARCH_ALIASES
-    .filter((alias) => loweredName.includes(alias.match))
-    .map((alias) => alias.term);
-  return [loweredName, ...aliases].join(" ");
 }
 
 function getNirCoveredItemIdsForProduct(pkg, product) {
@@ -587,15 +776,15 @@ function getNirCoveredItemIdsForProduct(pkg, product) {
 }
 
 function getPackageCalculationIds(pkg, currentProduct, coveredItemIds) {
-  const topLevelProductId = getTopLevelProductId(currentProduct);
+  const parentId = getCalculationParentId(currentProduct);
   return CALCULATION_DEFINITIONS
-    .filter((definition) => calculationAppliesToPackage(definition, pkg, currentProduct, topLevelProductId, coveredItemIds))
+    .filter((definition) => calculationAppliesToPackage(definition, pkg, currentProduct, parentId, coveredItemIds))
     .map((definition) => definition.id);
 }
 
-function getExpandedSelectionIds(selectedNutrientIds, selectedCalculationIds) {
+function getExpandedSelectionIds(selectedNutrientIds, selectedCalculationIds, currentProduct = null) {
   const expanded = new Set(selectedNutrientIds);
-  const specialCalculationIds = new Set();
+  const parentId = getCalculationParentId(currentProduct);
 
   selectedCalculationIds.forEach((calculationId) => {
     const definition = state.calculationMap.get(calculationId);
@@ -603,28 +792,40 @@ function getExpandedSelectionIds(selectedNutrientIds, selectedCalculationIds) {
       return;
     }
 
-    const canExpandToMeasurements =
-      calculationId !== "ndf-kd-rate-mir-p1";
-
-    if (canExpandToMeasurements) {
-      (definition.allOf ?? []).forEach((itemId) => expanded.add(itemId));
-      (definition.anyOfGroups ?? []).forEach((group) => {
-        if (group.length) {
-          expanded.add(group[0]);
-        }
-      });
-    } else {
-      specialCalculationIds.add(calculationId);
+    if (definition.allowedParentIds && !definition.allowedParentIds.includes(parentId)) {
+      expanded.add(calculationId);
+      return;
     }
+
+    const measurementIds = getCalculationMeasurementIds(definition);
+    if (!measurementIds.length) {
+      expanded.add(calculationId);
+      return;
+    }
+
+    measurementIds.forEach((itemId) => expanded.add(itemId));
   });
 
-  return [...expanded, ...specialCalculationIds];
+  return Array.from(expanded);
 }
 
-function calculationAppliesToPackage(definition, pkg, currentProduct, topLevelProductId, coveredItemIds) {
-  if (definition.allowedTopLevelIds && !definition.allowedTopLevelIds.includes(topLevelProductId)) {
+function getCalculationMeasurementIds(definition) {
+  const measurementIds = [];
+  (definition.allOf ?? []).forEach((itemId) => measurementIds.push(itemId));
+  (definition.anyOfGroups ?? []).forEach((group) => {
+    if (group.length) {
+      measurementIds.push(group[0]);
+    }
+  });
+  return measurementIds;
+}
+
+function calculationAppliesToPackage(definition, pkg, currentProduct, parentId, coveredItemIds) {
+  if (definition.allowedParentIds && !definition.allowedParentIds.includes(parentId)) {
     return false;
   }
+
+  const normalizedCoveredItemIds = normalizeCoverageIds(coveredItemIds);
 
   if (definition.packageNames?.includes(pkg.displayName)) {
     return true;
@@ -634,15 +835,15 @@ function calculationAppliesToPackage(definition, pkg, currentProduct, topLevelPr
     return true;
   }
 
-  if (pkg.type === "NIR" && definition.nirPatterns?.some((pattern) => pattern.every((itemId) => coveredItemIds.includes(itemId)))) {
+  if (pkg.type === "NIR" && definition.nirPatterns?.some((pattern) => pattern.every((itemId) => normalizedCoveredItemIds.includes(itemId)))) {
     return true;
   }
 
-  if (definition.allOf && !definition.allOf.every((itemId) => coveredItemIds.includes(itemId))) {
+  if (definition.allOf && !definition.allOf.every((itemId) => normalizedCoveredItemIds.includes(itemId))) {
     return false;
   }
 
-  if (definition.anyOfGroups && !definition.anyOfGroups.every((group) => group.some((itemId) => coveredItemIds.includes(itemId)))) {
+  if (definition.anyOfGroups && !definition.anyOfGroups.every((group) => group.some((itemId) => normalizedCoveredItemIds.includes(itemId)))) {
     return false;
   }
 
@@ -912,20 +1113,28 @@ function renderProductOptions() {
 
 function renderCalculations() {
   elements.calculationContainer.innerHTML = "";
+  const searchTerm = state.searchTerm;
+  const visibleCalculations = CALCULATION_DEFINITIONS.filter((definition) => {
+    if (!searchTerm) {
+      return true;
+    }
+    const searchText = `${definition.label} ${(definition.aliases ?? []).join(" ")}`.toLowerCase();
+    return searchText.includes(searchTerm);
+  });
 
   const card = document.createElement("section");
   card.className = "category-card";
   card.innerHTML = `
     <div class="category-head">
       <h3>Calculations</h3>
-      <span>${state.selectedCalculations.size} selected</span>
+      <span>${visibleCalculations.length} shown</span>
     </div>
   `;
 
   const grid = document.createElement("div");
   grid.className = "calculation-grid";
 
-  CALCULATION_DEFINITIONS.forEach((definition) => {
+  visibleCalculations.forEach((definition) => {
     const option = document.createElement("div");
     option.className = "nutrient-option";
 
@@ -967,10 +1176,14 @@ function renderFeedTypeDropdown() {
 function renderFeedTypeList() {
   const searchTerm = elements.feedTypeInput.value.trim().toLowerCase();
   const visibleProducts = state.products.filter((product) => {
+    if (EXCLUDED_FEED_TYPE_NAMES.includes(product.name)) {
+      return false;
+    }
+
     if (!searchTerm) {
       return true;
     }
-    return buildFeedTypeSearchText(product.name).includes(searchTerm);
+    return buildFeedTypeSearchText(product, state.productLookup).includes(searchTerm);
   });
 
   elements.feedTypeList.innerHTML = "";
@@ -1145,9 +1358,9 @@ function renderResults() {
 
   const baseSelectedNutrientIds = Array.from(state.selectedItems);
   const selectedCalculationIds = Array.from(state.selectedCalculations);
-  const selectedIds = getExpandedSelectionIds(baseSelectedNutrientIds, selectedCalculationIds);
-  const { nirSelectedIds, chemistrySelectedIds: chemistryBaseSelectedIds } = splitSelectedIdsForNirAndChemistry(selectedIds);
   const currentProduct = getCurrentProduct();
+  const selectedIds = getExpandedSelectionIds(baseSelectedNutrientIds, selectedCalculationIds, currentProduct);
+  const { nirSelectedIds, chemistrySelectedIds: chemistryBaseSelectedIds } = splitSelectedIdsForNirAndChemistry(selectedIds);
   const currentFeedTypeLabel = getCurrentFeedTypeLabel();
   const mineralsOnlyRequest = isMineralsOnlySelection(selectedIds);
   const chemistryPackages = getEligibleChemistryPackages(currentProduct, selectedIds);
