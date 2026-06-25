@@ -231,7 +231,7 @@ const CALCULATION_DEFINITIONS = [
   },
   {
     id: "milk2013",
-    label: "MILK2013",
+    label: "MILK2013 (TDN, NEL, NEG, NEM, Milk per ton)",
     aliases: [
       "TDN",
       "Total digestible nutrients",
