@@ -159,7 +159,9 @@ const BASE_FEE_AMOUNT = 7;
 const ALWAYS_INCLUDED_NIR_FIELDS = ["Dry Matter", "Moisture"];
 const EXCLUDED_NIR_PACKAGE_NAMES = ["IVSD7-O"];
 const EXCLUDED_PACKAGE_DISPLAY_NAMES = ["ND-ICP", "Chemlock minerals", "M8 - Ca/P/K/Mg/S/Na"];
-const EXCLUDED_PACKAGE_NAME_PARTS = ["Poulin", "Protekta", "Swine", "Equine"];
+const DEFAULT_EXCLUDED_PACKAGE_NAME_PARTS = ["Poulin", "Protekta", "Swine", "Equine"];
+const SWINE_PACKAGE_REQUIREMENT_ID = "__swine-package-required";
+const EQUINE_PACKAGE_REQUIREMENT_ID = "__equine-package-required";
 const EXCLUDED_FEED_TYPE_NAMES = ["Mixed hay", "Mixed haylage"];
 const FEED_TYPE_SEARCH_ALIASES = [
   { term: "maize", match: "corn" },
@@ -210,6 +212,30 @@ const CALCULATION_DEFINITIONS = [
     ],
     allOf: ["cp", "andfom", "ash"],
     anyOfGroups: [["fat-ee", "total-fatty-acids"]]
+  },
+  {
+    id: "swine-de",
+    label: "Swine DE",
+    aliases: ["DE", "Digestible energy", "Swine energy"],
+    allOf: ["cp", "adf", "andfom", "fat-ee", "ash"]
+  },
+  {
+    id: "swine-me",
+    label: "Swine ME",
+    aliases: ["ME", "Metabolizable energy", "Swine energy"],
+    allOf: ["cp", "adf", "andfom", "fat-ee", "ash"]
+  },
+  {
+    id: "equine-tdn",
+    label: "Equine TDN",
+    aliases: ["TDN", "Total digestible nutrients", "Equine energy"],
+    allOf: ["cp", "adf", "fat-ee", "ash", "andfom", "starch", "sugar-wsc"]
+  },
+  {
+    id: "equine-de",
+    label: "Equine DE",
+    aliases: ["DE", "Digestible energy", "Equine energy"],
+    allOf: ["cp", "adf", "fat-ee", "ash", "andfom", "starch", "sugar-wsc"]
   },
   {
     id: "milk2006",
@@ -345,12 +371,14 @@ const state = {
   selectedItems: new Set(),
   selectedCalculations: new Set(),
   searchTerm: "",
+  selectedSpecies: "",
   currentProductId: "",
   feedTypeDropdownOpen: false,
   chemistryOnly: false
 };
 
 const elements = {
+  speciesSelect: document.getElementById("speciesSelect"),
   feedTypeDropdown: document.getElementById("feedTypeDropdown"),
   feedTypeInput: document.getElementById("feedTypeInput"),
   feedTypeToggle: document.getElementById("feedTypeToggle"),
@@ -390,6 +418,7 @@ async function initialize() {
   state.currentProductId = "";
 
   bindEvents();
+  renderSpeciesOptions();
   renderProductOptions();
   renderSelections();
   renderCalculations();
@@ -401,6 +430,11 @@ async function initialize() {
 }
 
 function bindEvents() {
+  elements.speciesSelect.addEventListener("change", () => {
+    state.selectedSpecies = elements.speciesSelect.value;
+    renderResults();
+  });
+
   const updateSelectedFeedType = () => {
     const typedValue = elements.feedTypeInput.value.trim();
     const matchedProduct = state.products.find((product) => product.name === typedValue);
@@ -459,12 +493,14 @@ function bindEvents() {
     state.selectedItems.clear();
     state.selectedCalculations.clear();
     state.currentProductId = "";
+    state.selectedSpecies = "";
     elements.feedTypeInput.value = "";
     state.searchTerm = "";
     elements.nutrientSearch.value = "";
     state.feedTypeDropdownOpen = false;
     state.chemistryOnly = false;
     elements.chemistryOnlyToggle.checked = false;
+    renderSpeciesOptions();
     renderSelections();
     renderCalculations();
     renderFeedTypeDropdown();
@@ -476,6 +512,7 @@ function bindEvents() {
 function buildDataIndex(packagesRows, packageFieldRows, nirRows, productsRows) {
   const { categories, itemMap, fieldToItemIds } = buildCategoryIndex();
   const calculationMap = new Map(CALCULATION_DEFINITIONS.map((definition) => [definition.id, definition]));
+  addAshOrganicMatterCoverage(fieldToItemIds, itemMap);
   const alwaysIncludedNirIds = ALWAYS_INCLUDED_NIR_FIELDS.flatMap((field) => Array.from(fieldToItemIds.get(field) ?? []));
 
   const rawProducts = productsRows
@@ -565,7 +602,6 @@ function buildDataIndex(packagesRows, packageFieldRows, nirRows, productsRows) {
   }))
   .filter((pkg) => pkg.type === "Chemistry" || pkg.type === "NIR")
   .filter((pkg) => pkg.price > 0)
-  .filter((pkg) => !EXCLUDED_PACKAGE_DISPLAY_NAMES.includes(pkg.displayName))
   .map((pkg) => ({
     ...pkg,
     coveredItemIds: Array.from(fieldMap.get(pkg.packageId) ?? [])
@@ -581,14 +617,12 @@ function buildDataIndex(packagesRows, packageFieldRows, nirRows, productsRows) {
 
   const chemistryPackages = packages
     .filter((pkg) => pkg.type === "Chemistry")
-    .filter((pkg) => !hasExcludedPackageNamePart(pkg.displayName))
     .filter((pkg) => pkg.coveredItemIds.length > 0);
 
   const nirPackages = packages
     .filter((pkg) => pkg.type === "NIR")
     .filter((pkg) => !hasExcludedNirNamePart(pkg.displayName))
     .filter((pkg) => !EXCLUDED_NIR_PACKAGE_NAMES.includes(pkg.displayName))
-    .filter((pkg) => !hasExcludedPackageNamePart(pkg.displayName))
     .map((pkg) => ({
       ...pkg,
       availabilityByProduct: mergeAlwaysIncludedNirFields(
@@ -599,6 +633,16 @@ function buildDataIndex(packagesRows, packageFieldRows, nirRows, productsRows) {
     .filter((pkg) => pkg.availabilityByProduct.size > 0);
 
   return { categories, itemMap, calculationMap, chemistryPackages, nirPackages, products: dedupedProducts, productLookup };
+}
+
+function addAshOrganicMatterCoverage(fieldToItemIds, itemMap) {
+  const ashItemIds = fieldToItemIds.get("Ash");
+  const organicMatterItemId = itemMap.get("organic-matter")?.id;
+  if (!ashItemIds || !organicMatterItemId) {
+    return;
+  }
+
+  ashItemIds.add(organicMatterItemId);
 }
 
 function mergeAlwaysIncludedNirFields(availabilityByProduct, alwaysIncludedNirIds) {
@@ -615,7 +659,7 @@ function mergeAlwaysIncludedNirFields(availabilityByProduct, alwaysIncludedNirId
 
 function hasExcludedPackageNamePart(displayName) {
   const normalizedName = displayName.toLowerCase();
-  return EXCLUDED_PACKAGE_NAME_PARTS.some((part) => normalizedName.includes(part.toLowerCase()));
+  return DEFAULT_EXCLUDED_PACKAGE_NAME_PARTS.some((part) => normalizedName.includes(part.toLowerCase()));
 }
 
 function hasExcludedNirNamePart(displayName) {
@@ -782,6 +826,34 @@ function getPackageCalculationIds(pkg, currentProduct, coveredItemIds) {
     .map((definition) => definition.id);
 }
 
+function getSpeciesPackageCoverageIds(pkg) {
+  if (state.selectedSpecies === "swine" && packageNameIncludesPart(pkg.displayName, "Swine")) {
+    return [SWINE_PACKAGE_REQUIREMENT_ID];
+  }
+
+  if (state.selectedSpecies === "equine" && packageNameIncludesPart(pkg.displayName, "Equine")) {
+    return [EQUINE_PACKAGE_REQUIREMENT_ID];
+  }
+
+  return [];
+}
+
+function getSpeciesPackageRequirementIds() {
+  if (state.selectedSpecies === "swine") {
+    return [SWINE_PACKAGE_REQUIREMENT_ID];
+  }
+
+  if (state.selectedSpecies === "equine") {
+    return [EQUINE_PACKAGE_REQUIREMENT_ID];
+  }
+
+  return [];
+}
+
+function hasSpeciesAutoRecommendation() {
+  return state.selectedSpecies === "swine" || state.selectedSpecies === "equine";
+}
+
 function getExpandedSelectionIds(selectedNutrientIds, selectedCalculationIds, currentProduct = null) {
   const expanded = new Set(selectedNutrientIds);
   const parentId = getCalculationParentId(currentProduct);
@@ -901,7 +973,7 @@ function normalizeCoverageIds(coverageIds) {
 }
 
 function getEligibleChemistryPackages(currentProduct, selectedIds) {
-  let packages = [...state.chemistryPackages];
+  let packages = getSpeciesEligiblePackages(state.chemistryPackages);
 
   if (currentProduct?.name === "Manure") {
     const allowedNames = new Set(["Fecal Starch", "Apparent Digestibility"]);
@@ -917,6 +989,46 @@ function getEligibleChemistryPackages(currentProduct, selectedIds) {
   }
 
   return packages;
+}
+
+function getEligibleNirPackages() {
+  return getSpeciesEligiblePackages(state.nirPackages);
+}
+
+function getSpeciesEligiblePackages(packages) {
+  return packages.filter((pkg) => isSpeciesEligiblePackage(pkg));
+}
+
+function isSpeciesEligiblePackage(pkg) {
+  if (EXCLUDED_PACKAGE_DISPLAY_NAMES.includes(pkg.displayName)) {
+    return false;
+  }
+
+  if (state.selectedSpecies === "swine") {
+    return !packageNameIncludesPart(pkg.displayName, "Equine") && !packageNameIncludesPart(pkg.displayName, "VP Swine");
+  }
+
+  if (state.selectedSpecies === "equine") {
+    return !packageNameIncludesPart(pkg.displayName, "Swine") && !packageNameIncludesPart(pkg.displayName, "Equine - Poulin");
+  }
+
+  return !hasExcludedPackageNamePart(pkg.displayName);
+}
+
+function getPackagePreferenceScore(pkg) {
+  if (state.selectedSpecies === "swine" && packageNameIncludesPart(pkg.displayName, "Swine")) {
+    return 1;
+  }
+
+  if (state.selectedSpecies === "equine" && packageNameIncludesPart(pkg.displayName, "Equine")) {
+    return 1;
+  }
+
+  return 0;
+}
+
+function packageNameIncludesPart(displayName, part) {
+  return displayName.toLowerCase().includes(part.toLowerCase());
 }
 
 function isOnlyMoistureOrDryMatterSelection(selectedIds) {
@@ -1109,6 +1221,10 @@ function renderProductOptions() {
   const selectedProduct = getCurrentProduct();
   elements.feedTypeInput.value = selectedProduct?.name ?? "";
   renderFeedTypeDropdown();
+}
+
+function renderSpeciesOptions() {
+  elements.speciesSelect.value = state.selectedSpecies;
 }
 
 function renderCalculations() {
@@ -1351,7 +1467,7 @@ function renderCategories() {
 function renderResults() {
   elements.resultsState.innerHTML = "";
 
-  if (!state.selectedItems.size && !state.selectedCalculations.size) {
+  if (!state.selectedItems.size && !state.selectedCalculations.size && !hasSpeciesAutoRecommendation()) {
     elements.resultsState.innerHTML = `<div class="loading-card"><p class="empty-state">Recommendations will appear here after nutrients are selected.</p></div>`;
     return;
   }
@@ -1359,7 +1475,10 @@ function renderResults() {
   const baseSelectedNutrientIds = Array.from(state.selectedItems);
   const selectedCalculationIds = Array.from(state.selectedCalculations);
   const currentProduct = getCurrentProduct();
-  const selectedIds = getExpandedSelectionIds(baseSelectedNutrientIds, selectedCalculationIds, currentProduct);
+  const selectedIds = Array.from(new Set([
+    ...getExpandedSelectionIds(baseSelectedNutrientIds, selectedCalculationIds, currentProduct),
+    ...getSpeciesPackageRequirementIds()
+  ]));
   const { nirSelectedIds, chemistrySelectedIds: chemistryBaseSelectedIds } = splitSelectedIdsForNirAndChemistry(selectedIds);
   const currentFeedTypeLabel = getCurrentFeedTypeLabel();
   const mineralsOnlyRequest = isMineralsOnlySelection(selectedIds);
@@ -1367,19 +1486,28 @@ function renderResults() {
   const chemistrySelectedIds = getSelectedItemIdsWithRules(chemistryPackages, chemistryBaseSelectedIds);
   const chemistryPackagesWithCalcs = chemistryPackages.map((pkg) => ({
     ...pkg,
-    coverageIds: normalizeCoverageIds([...pkg.coveredItemIds, ...getPackageCalculationIds(pkg, currentProduct, pkg.coveredItemIds)])
+    coverageIds: normalizeCoverageIds([
+      ...pkg.coveredItemIds,
+      ...getPackageCalculationIds(pkg, currentProduct, pkg.coveredItemIds),
+      ...getSpeciesPackageCoverageIds(pkg)
+    ])
   }));
   const chemistryResult = optimizePackagesCore(chemistryPackagesWithCalcs, chemistrySelectedIds);
-  const nirCandidates = state.nirPackages
+  const nirCandidates = getEligibleNirPackages()
     .map((pkg) => {
       const coveredItemIds = getNirCoveredItemIdsForProduct(pkg, currentProduct);
-      if (!coveredItemIds.length) {
+      const speciesCoverageIds = getSpeciesPackageCoverageIds(pkg);
+      if (!coveredItemIds.length && !speciesCoverageIds.length) {
         return null;
       }
       return {
         ...pkg,
         coveredItemIds,
-        coverageIds: normalizeCoverageIds([...coveredItemIds, ...getPackageCalculationIds(pkg, currentProduct, coveredItemIds)])
+        coverageIds: normalizeCoverageIds([
+          ...coveredItemIds,
+          ...getPackageCalculationIds(pkg, currentProduct, coveredItemIds),
+          ...speciesCoverageIds
+        ])
       };
     })
     .filter(Boolean);
@@ -1652,7 +1780,7 @@ function optimizePackagesCore(packages, selectedIds) {
         mask |= 1n << selectedMaskMap.get(id);
       });
 
-      return { ...pkg, mask, coverage };
+      return { ...pkg, mask, coverage, preferenceScore: getPackagePreferenceScore(pkg) };
     })
     .filter(Boolean);
 
@@ -1670,7 +1798,7 @@ function optimizePackagesCore(packages, selectedIds) {
 
   const reducedPackages = removeDominatedPackages(normalizedPackages);
   const states = new Map();
-  states.set("0|0", { mask: 0n, mode: 0, sumPrice: 0, chosenIndexes: [] });
+  states.set("0|0", { mask: 0n, mode: 0, sumPrice: 0, preferenceScore: 0, chosenIndexes: [] });
 
   reducedPackages.forEach((pkg, packageIndex) => {
     const snapshot = Array.from(states.values());
@@ -1679,8 +1807,9 @@ function optimizePackagesCore(packages, selectedIds) {
       const nextMode = updateMode(stateEntry.mode, pkg.baseFeeFlag);
       const nextKey = `${nextMask.toString()}|${nextMode}`;
       const nextSumPrice = stateEntry.sumPrice + pkg.price;
+      const nextPreferenceScore = stateEntry.preferenceScore + pkg.preferenceScore;
       const existing = states.get(nextKey);
-      if (existing && existing.sumPrice <= nextSumPrice) {
+      if (existing && isStateAsGoodOrBetter(existing, nextSumPrice, nextPreferenceScore, stateEntry.chosenIndexes.length + 1)) {
         return;
       }
 
@@ -1688,6 +1817,7 @@ function optimizePackagesCore(packages, selectedIds) {
         mask: nextMask,
         mode: nextMode,
         sumPrice: nextSumPrice,
+        preferenceScore: nextPreferenceScore,
         chosenIndexes: [...stateEntry.chosenIndexes, packageIndex]
       });
     });
@@ -1705,7 +1835,8 @@ function optimizePackagesCore(packages, selectedIds) {
       !bestState ||
       totalCost < bestState.totalCost ||
       (totalCost === bestState.totalCost && entry.mode > bestState.mode) ||
-      (totalCost === bestState.totalCost && entry.mode === bestState.mode && entry.chosenIndexes.length < bestState.chosenIndexes.length);
+      (totalCost === bestState.totalCost && entry.mode === bestState.mode && entry.preferenceScore > bestState.preferenceScore) ||
+      (totalCost === bestState.totalCost && entry.mode === bestState.mode && entry.preferenceScore === bestState.preferenceScore && entry.chosenIndexes.length < bestState.chosenIndexes.length);
 
     if (preferThisState) {
       bestState = { ...entry, totalCost };
@@ -1864,9 +1995,25 @@ function removeDominatedPackages(packages) {
         return false;
       }
 
+      if (
+        candidate.preferenceScore > other.preferenceScore &&
+        other.price === candidate.price &&
+        other.baseFeeFlag === candidate.baseFeeFlag
+      ) {
+        return false;
+      }
+
       return other.price < candidate.price || other.baseFeeFlag !== candidate.baseFeeFlag || other.mask !== candidate.mask;
     });
   });
+}
+
+function isStateAsGoodOrBetter(existing, nextSumPrice, nextPreferenceScore, nextPackageCount) {
+  return (
+    existing.sumPrice < nextSumPrice ||
+    (existing.sumPrice === nextSumPrice && existing.preferenceScore > nextPreferenceScore) ||
+    (existing.sumPrice === nextSumPrice && existing.preferenceScore === nextPreferenceScore && existing.chosenIndexes.length <= nextPackageCount)
+  );
 }
 
 function isModeAsGoodOrBetter(otherBaseFeeFlag, candidateBaseFeeFlag) {

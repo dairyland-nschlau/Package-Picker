@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Package Picker</title>
+  <title>Package Picker Embed</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="embed">
   <div class="page-shell">
     <header class="hero">
       <img class="brand-logo" src="assets/dairyland-logo.jpg" alt="Dairyland Laboratories">
@@ -112,5 +112,51 @@
   </template>
 
   <script src="app.js"></script>
+  <script>
+    (() => {
+      const targetOrigin = "*";
+
+      const postHeight = () => {
+        const height = Math.max(
+          document.documentElement.scrollHeight,
+          document.body.scrollHeight,
+          document.documentElement.offsetHeight,
+          document.body.offsetHeight
+        );
+
+        window.parent?.postMessage(
+          { type: "package-picker-resize", height },
+          targetOrigin
+        );
+      };
+
+      let rafId = 0;
+      const scheduleHeightPost = () => {
+        cancelAnimationFrame(rafId);
+        rafId = requestAnimationFrame(postHeight);
+      };
+
+      window.addEventListener("load", scheduleHeightPost);
+      window.addEventListener("resize", scheduleHeightPost);
+      window.addEventListener("message", scheduleHeightPost);
+
+      if ("ResizeObserver" in window) {
+        const observer = new ResizeObserver(scheduleHeightPost);
+        observer.observe(document.body);
+      }
+
+      if ("MutationObserver" in window) {
+        const observer = new MutationObserver(scheduleHeightPost);
+        observer.observe(document.body, {
+          subtree: true,
+          childList: true,
+          attributes: true,
+          characterData: true
+        });
+      }
+
+      scheduleHeightPost();
+    })();
+  </script>
 </body>
 </html>
