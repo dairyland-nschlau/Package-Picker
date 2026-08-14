@@ -1,4 +1,4 @@
-package_id,name,display_name,description,price,CAST(include_base_fee AS Unsigned)
+package_id,name,display_name,description,price,base_fee
 5,ACID HYDROL. STARCH,AH starch,,22,1
 7,Acid Insoluble Ash,Acid insoluble ash,,20,1
 8,Acid Solubility,Acid solubility,,26,1
