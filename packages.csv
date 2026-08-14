@@ -1,313 +1,313 @@
-"","package_id","name","display_name","description","price","CAST(include_base_fee AS Unsigned)"
-"1",5,"ACID HYDROL. STARCH","AH starch","",22,1
-"2",7,"Acid Insoluble Ash","Acid insoluble ash","",20,1
-"3",8,"Acid Solubility","Acid solubility","",26,1
-"4",9,"ADDITIONAL FEES","Additional fees","",0,1
-"5",16,"ALUMINUM","Aluminum","",16,1
-"6",18,"AMMONIA","Ammonia","",12,1
-"7",20,"AMYLOPECTIN %STARCH","Amylopectin","",22,1
-"8",21,"AMYLOSE %STARCH","Amylose","",22,1
-"9",26,"ATRAZINE","Atrazine","",0,1
-"10",29,"BASE FEE","Base fee","",8,1
-"11",33,"BORON","Boron","",16,1
-"12",34,"BULK DENSITY","Bulk density","",15,1
-"13",40,"CALIBRATE-FIBER","Calibrate Fiber","",35,1
-"14",41,"CALIBRATE-GPN","Calibrate GPN","",0,1
-"15",42,"CALORIES","Calories","",65,1
-"16",46,"CLOSTRIDIUM","Clostridium perfringens","",30,1
-"17",48,"COARSE STARCH","","",18,1
-"18",49,"COBALT","Cobalt","",55,0
-"19",61,"DCAD Minerals","DCAD Minerals","DCAD Minerals",17.5,1
-"20",74,"ERGOT","Ergot","",105,1
-"21",101,"FALLING NUMBERS","Falling number","",38,1
-"22",102,"FATTY ACID PROFILE","Fatty Acid Profile","Fatty Acid Profile(TFA)",88,0
-"23",104,"Fermentrics","Fermentrics","",0,0
-"24",108,"FREE FATTY ACID","Free fatty acid","",48,1
-"25",109,"Free Glucose","Free glucose","",4.5,1
-"26",114,"GAS PRODUCTION","Gas production","",60,1
-"27",115,"GAS PRODUCTION-LABOR","Gas production labor","",0,1
-"28",125,"GMO ALFALFA SCREEN","GMO alfalfa screen","",125,1
-"29",126,"GMO CORN SCREEN","GMO corn screen","",125,1
-"30",127,"GOSSYPOL","Gossypol","",106,1
-"31",128,"GRINDING/PREP FEE","Grinding/prep fee","",15,1
-"32",130,"IODINE","Iodine","",175,1
-"33",131,"IVSD 12HR","IVSD12","",51,1
-"34",132,"IVSD 16HR","IVSD16","",51,1
-"35",133,"IVSD 2 HR","IVSD2","",51,1
-"36",134,"IVSD 3 HR","IVSD3","",51,1
-"37",138,"IVSD 7 HR (2MM)","IVSD7 (2mm)","",51,1
-"38",146,"KARL FISCHER MOISTUR","KFM - moisture","",29,1
-"39",147,"L1","NDFD 6.5 Forages 30,120,240","NDFD 6.5 Forages 30,120,240",112,0
-"40",149,"L2","NDFD 6.5 Commodities 12,72,120","NDFD 6.5 Commodities 12,72,120",112,0
-"41",152,"LASALOCID BOVATEC","Lasalocid","",115,1
-"42",153,"LISTERIA","Listeria","",125,1
-"43",156,"M2-MINERAL","M2 - Ca/P/K/Mg/S","M2 - Ca/P/K/Mg/S",16,1
-"44",158,"M4-MINERAL","M4 - Complete Mineral","M4 - Complete Mineral",30,1
-"45",160,"M5 MINERAL","M5 - Ca/P/K/Mg/S/Na/Cl","M5 - Ca/P/K/Mg/S/Na/Cl",17.5,1
-"46",164,"MAINTENANCE FEE","Maintenance fee","",0,1
-"47",165,"MANURE KIT","Manure kit","",10,1
-"48",169,"MINERALS CHARGE","Minerals charge","",0,1
-"49",170,"MISCELLANEOUS","Misc","",0,1
-"50",177,"MONENSIN RUMENSIN","Monensin","",115,1
-"51",182,"N4-NIR DISTILLERS","Distillers","Distillers",24,0
-"52",184,"N7-Basic","Basic","Basic",24,0
-"53",187,"ND-ICP w/SS","NDICPss","",10,1
-"54",190,"NDFD/uNDFom 120hr","NDFD/uNDFom120(must incl. NDF)","NDFD/uNDFom120(must incl. NDF)",50,0
-"55",191,"NDFD/uNDFom 12hr","NDFD/uNDFom12(must incl. NDF)","NDFD/uNDFom12(must incl. NDF)",50,0
-"56",192,"NDFD/uNDFom 240hr","NDFD/uNDFom240(must incl. NDF)","NDFD/uNDFom240(must incl. NDF)",50,0
-"57",193,"NDFD/uNDFom 24hr","NDFD/uNDFom24(must incl. NDF)","NDFD/uNDFom24(must incl. NDF)",50,0
-"58",194,"NDFD/uNDFom 30hr","NDFD/uNDFom30(must incl. NDF)","NDFD/uNDFom30(must incl. NDF)",50,0
-"59",195,"NDFD/uNDFom 48hr","NDFD/uNDFom48(must incl. NDF)","NDFD/uNDFom48(must incl. NDF)",50,0
-"60",196,"NDFD/uNDFom 72hr","NDFD/uNDFom72(must incl. NDF)","NDFD/uNDFom72(must incl. NDF)",50,0
-"61",204,"NFTA","NFTA","",0,1
-"62",205,"NIR CNCPS","CNCPS 6.1","CNCPS 6.1",34.5,0
-"63",210,"O.M. Digestibility","OM Digestibilty","",31,1
-"64",215,"PACKAGE I","I","",51,1
-"65",216,"PACKAGE M7","M7 - Complete Mineral w/DCAD","M7 - Complete Mineral w/DCAD",34,1
-"66",217,"PACKAGE M8","M8 - Ca/P/K/Mg/S/Na","M8 - Ca/P/K/Mg/S/Na",15,1
-"67",221,"PELLET DURABILITY","Pellet durability","",35,0
-"68",222,"PEROXIDE VALUE-Fat","Peroxide value - fat","",48,1
-"69",223,"PEROXIDE VALUE-FEED","Peroxide value - feed","",48,1
-"70",226,"PROLAMIN(% STARCH)","Prolamin","",29,1
-"71",229,"PRUSSIC ACID","Prussic acid","",75,1
-"72",231,"Ross RUP(16h)","Ross RUP (16hrs)","Ross RUP (16hrs)",70,0
-"73",232,"Ross RUP(16h) & UCP","Ross RUP (16hrs)+ UCP","Ross RUP (16hrs)+ UCP",140,0
-"74",239,"SALMONELLA","Salmonella","",62,1
-"75",241,"SELENIUM","Selenium","",68,0
-"76",242,"Set Up Fee","Set up fee","",0,1
-"77",243,"SILICA","Silica","",100,1
-"78",247,"STANDARDIZATION FEE","Standardization fee","",0,1
-"79",248,"Starch","Starch","Starch",19,1
-"80",250,"SUBCONTRACT","Subcontract","",0,1
-"81",252,"SUGAR PROFILE","Sugar Profile","Sugar Profile",125,0
-"82",257,"TEST WEIGHT","Test weight","",25,1
-"83",259,"THIAMINE","Thiamine","",125,1
-"84",260,"TITANIUM","Titanium","",15,1
-"85",267,"Trypsin Inhibitor","Trypsin inhibitor","",148,1
-"86",272,"uNDFom240","uNDFom240","",50,1
-"87",279,"uNDFom12","uNDFom12","",50,1
-"88",280,"UNDFOM18","uNDFom18","",50,1
-"89",282,"uNDFom72","uNDFom72","",50,1
-"90",283,"UNDIGESTED LYSINE","Undigested lysine","",495,1
-"91",285,"UPS CHARGE","UPS charge","",0,1
-"92",288,"VFA Complete Profile","VFA Complete Profile","VFA Complete Profile",51,0
-"93",290,"VFA ON GAS PRODUCTIO","Gas production - VFA","",40,1
-"94",293,"VITAMIN A","Vitamin A","",125,1
-"95",294,"VITAMIN D","Vitamin D","",265,1
-"96",295,"VITAMIN E","Vitamin E","",240,1
-"97",296,"VITAMIN K","Vitamin K","",327,1
-"98",304,"WATER SOLUBLE STARCH","Sugar (WSC)","",20,1
-"99",306,"WDE","WDE","",4,1
-"100",333,"AA1-LYS,METH,CYS + 9","Lys, Met, Cys + 9","Lys, Met, Cys + 9",131,0
-"101",334,"AA2-COMPLETE PROFILE","Complete Amino Acids Profile","Complete Amino Acids Profile",186,0
-"102",335,"AAL-LYSINE","Lysine","Lysine",98,0
-"103",336,"AAM-METHIONINE","Methionine","Methionine",98,0
-"104",337,"ACID HYDROLYSIS FAT","Fat - Acid Hydrolysis","Fat - Acid Hydrolysis",17,1
-"105",338,"AMMONIA (AS CP)","Ammonia","Ammonia",13,1
-"106",339,"ASH","Ash","Ash",12,1
-"107",340,"B1-CP/ADF/ADICP","B1 - CP/ADF/ADICP","B1 - CP/ADF/ADICP",38,0
-"108",341,"C1-CP/ADF/ADICP/NDF","C1 - CP/ADF/ADICP/NDF","C1 - CP/ADF/ADICP/NDF",46,0
-"109",342,"CALCIUM","Ca","Ca",16,1
-"110",343,"CHLORIDE","Cl","Cl",16,1
-"111",344,"COPPER","Cu","Cu",16,1
-"112",348,"ESC SUGAR","Sugar (ESC)","Sugar (ESC)",20,1
-"113",350,"FECAL STARCH","Fecal Starch","Fecal Starch",32,0
-"114",351,"FERMENTRICS TMR","Fermentrics TMR","Fermentrics TMR",160,0
-"115",352,"FERMENTRICS-FEEDS","Fermentrics","Fermentrics",140,0
-"116",353,"FORAGE PARTICLE SIZE","Forage part size","Forage part size",28,0
-"117",354,"G - SWINE BASIC","Swine Basic","Swine Basic",57,0
-"118",355,"G1 - SWINE SELECT","Swine Select","Swine Select",75,0
-"119",356,"GERMINATION","Germination","Germination",44,0
-"120",357,"GRAIN PARTICLE SIZE","Grain Particle Size","Grain Particle Size",28,0
-"121",358,"IRON","Fe","Fe",16,1
-"122",359,"IVSD 7 HR (4MM)","IVSD7","IVSD7",51,0
-"123",361,"KOH SOLUBILITY","KOH solubility","KOH solubility",69,0
-"124",364,"LACTOSE","Lactose","Lactose",21,1
-"125",365,"LIGNIN-SULFURIC ACID","Lignin","Lignin",19,1
-"126",369,"MAGNESIUM","Mg","Mg",16,1
-"127",370,"MANGANESE","Mn","Mn",16,1
-"128",371,"MINERAL-CA/P/NA","M9 - Ca/P/Na","M9 - Ca/P/Na",12,1
-"129",372,"MINERALS MIX.TEST-10","Mineral Mixer Test","Mineral Mixer Test",190,0
-"130",373,"MIXER TEST","Mixer Test","Mixer Test",0,0
-"131",374,"MOISTURE","Moisture","Moisture",17,0
-"132",375,"MOJONNIER FAT","Mojonnier Fat","Mojonnier Fat",42,1
-"133",376,"MOLYBDENUM","Mo","Mo",20,1
-"134",377,"ND-ICP","ND-ICP","ND-ICP",10,1
-"135",385,"NPN (AS CP)","NPN","NPN",36,1
-"136",388,"PACKAGE B2","B2 - CP/NDF","B2 - CP/NDF",35,0
-"137",390,"PACKAGE D","D - CP/NDF/EE/ASH","D - CP/NDF/EE/ASH",51,0
-"138",391,"PACKAGE D2","D2 - D1+NDICP/SP/Starch/ESC","D2 - D1+NDICP/SP/Starch/ESC",111,0
-"139",392,"PACKAGE H","H - CP/EE","H - CP/EE",36,0
-"140",393,"PACKAGE K - WHEY","K - Whey","K - Whey",63,0
-"141",397,"PDI w/o Urease","PDI w/o urease","PDI w/o urease",57,0
-"142",399,"pH","pH","pH",12,1
-"143",400,"PHOSPHORUS","P","P",16,1
-"144",402,"POTASSIUM","K","K",16,1
-"145",403,"PROLAMIN","Prolamin","Prolamin",29,1
-"146",404,"PROTEIN SOLUBILITY","Protein Solubility","Protein Solubility",17,0
-"147",405,"ROASTED SOYBEAN PKG","PDI - Protein Dispersibility","PDI - Protein Dispersibility",64,0
-"148",408,"SALT (CL X 1.649)","Salt (Cl as %NaCl)","Salt (Cl as %NaCl)",19,1
-"149",409,"SODIUM","Na","Na",16,1
-"150",411,"STARCH GELATINIZATIO","Starch gelatinization","Starch gelatinization",25,1
-"151",412,"SULFUR","S","S",16,1
-"152",413,"TAG 2","Tag 2","Tag 2",52,0
-"153",414,"TAG BASIC","Tag Basic","Tag Basic",45,0
-"154",415,"TMR Mix. Evaluation","TMR Mixer Test","TMR Mixer Test",210,0
-"155",416,"UREA","Urea","Urea",36,1
-"156",417,"UREASE","Urease Activity","Urease Activity",13,1
-"157",418,"UW Grain 2.0","UW Grain 2.0","UW Grain 2.0",62,0
-"158",419,"VFA BASIC PROFILE","VFA Basic Profile","VFA Basic Profile",51,0
-"159",421,"VP SWINE DDG","VP Swine DDG","VP Swine DDG",275,0
-"160",422,"WET CHEM AD-ICP","AD-ICP","AD-ICP",10,1
-"161",423,"WET CHEM ADF","ADF","ADF",14,1
-"162",424,"WET CHEM APP DIGEST","Apparent Digestibility","Apparent Digestibility",128,0
-"163",425,"WET CHEM CRUDE FIBER","Crude Fiber","Crude Fiber",19,1
-"164",426,"WET CHEM CRUDE PROT","CP","CP",14,1
-"165",427,"WET CHEM CSPS PKG","CSPS","CSPS",31,0
-"166",428,"WET CHEM FAT","Fat - Ether Extract","Fat - Ether Extract",17,1
-"167",429,"WET CHEM NDF","NDF","NDF",14,1
-"168",430,"WET CHEM NITRATE","Nitrates","Nitrates",15,1
-"169",431,"WET CHEM PACKAGE A","A - CP","A - CP",21,0
-"170",432,"WET CHEM PACKAGE B","B - CP/ADF","B - CP/ADF",26,0
-"171",433,"WET CHEM PACKAGE C","C - CP/ADF/NDF","C - CP/ADF/NDF",36,0
-"172",434,"WET CHEM PACKAGE D1","D1 - D+ADF/ADICP/LIGNIN","D1 - D+ADF/ADICP/LIGNIN",80,0
-"173",435,"WET CHEM PENDF","peNDF","peNDF",32,0
-"174",436,"WSC SUGAR","Sugar (WSC)","Sugar (WSC)",20,1
-"175",437,"ZINC","Zn","Zn",16,1
-"176",439,"Calibrate GPN/FPN","Calibrate GPN/FPN","Calibrate GPN/FPN",35,0
-"177",440,"Calibrate HQFA","Calibrate HQFA","Calibrate HQFA",35,0
-"178",441,"Calibrate Leaf%","Calibrate Leaf%","Calibrate Leaf%",35,0
-"179",442,"CSPS","CSPS (only starch by NIR)","CSPS (only starch by NIR)",31,0
-"180",443,"FECAL STARCH-NIR","Fecal starch","Fecal starch",32,0
-"181",445,"IVSD 7 NIR","IVSD7-O","IVSD7-O",7,1
-"182",447,"N2-BG365","Big Gain NIR Package","Big Gain NIR Package",31.5,0
-"183",448,"N3-CNCPS 6.5+","CNCPS 6.5+","CNCPS 6.5+",34.5,0
-"184",449,"N6","NIR Plot Pkg","NIR Plot Pkg",34.95,0
-"185",451,"N7H- NIR EQUINE ME","Equine Choice DE","Equine Choice DE",35,0
-"186",452,"N8-Select","Select","Select",31.5,0
-"187",453,"N9-Complete NASEM","Complete NASEM","Complete NASEM",34.5,0
-"188",454,"NIR APPARENT DIGEST.","Apparent Digestibility","Apparent Digestibility",37,0
-"189",455,"NIR VFA SCREEN","VFA Screen","VFA Screen",19,1
-"190",458,"SELECT48","Select48","Select48",31.5,0
-"191",459,"ALUMINUM","Aluminum","Aluminum",25,0
-"192",460,"CALCIUM","Calcium","Calcium",25,0
-"193",461,"COPPER","Copper","Copper",25,0
-"194",462,"IRON","Iron","Iron",25,0
-"195",463,"MAGNESIUM","Magnesium","Magnesium",25,0
-"196",464,"MANGANESE","Manganese","Manganese",25,0
-"197",465,"MOLYBDENUM","Molybdenum","Molybdenum",25,0
-"198",466,"PHOSPHORUS","Phosphorus","Phosphorus",25,0
-"199",467,"POTASSIUM","Potassium","Potassium",25,0
-"200",468,"SODIUM","Sodium","Sodium",25,0
-"201",469,"SULFUR","Sulfate","Sulfate",25,0
-"202",470,"ZINC","Zinc","Zinc",25,0
-"203",482,"ENTEROBACTER","Enterobacteriaceae","Enterobacteriaceae",30,1
-"204",497,"COLIFORM-Quanti/Tra","MPN-Coliform/E.coli","MPN-Coliform/E.coli",35,0
-"205",498,"COLILERT-ONPG","Coliform/E.coli","Coliform/E.coli",27,0
-"206",502,"BANK CHARGES","","",0,1
-"207",509,"MISC CHARGES","","",0,1
-"208",511,"POSTAGE","","",0,1
-"209",513,"SERVICE CHARGES","","",0,1
-"210",514,"WATER KIT","","",0,1
-"211",515,"WI SALES TAX","","",0,1
-"212",540,"SUBCONTRACT TESTING","Subcontract testing","",0,1
-"213",547,"ANPARIO BASIC","Anpario Basic","Anpario Basic",135,0
-"214",549,"AFLATOXIN-HPLC/MS/MS","Aflatoxin","Aflatoxin",58,0
-"215",550,"AGRARIAN MYCO","Agrarian Myco","Agrarian Myco",160,0
-"216",551,"AGRARIAN MYCO +","Agrarian Myco + Aflatoxin","Agrarian Myco + Aflatoxin",185,0
-"217",556,"FUMONISIN-HPLC/MS/MS","Fumonisin","Fumonisin",58,0
-"218",558,"MOLD COUNT & ID","Mold and Yeast Count & ID","Mold and Yeast Count & ID",52,0
-"219",559,"MYCOTOXIN BASIC","Mycotoxin Basic","Mycotoxin Basic",175,0
-"220",560,"MYCOTOXIN COMPLETE","Mycotoxin Complete","Mycotoxin Complete",300,0
-"221",561,"MYCOTOXIN SELECT","Mycotoxin Select","Mycotoxin Select",230,0
-"222",562,"OCHRATOXIN A-HPLC/MS","Ochratoxin","Ochratoxin",58,0
-"223",564,"T2/HT2 - HPLC/MS/MS","T2/HT2 Toxin","T2/HT2 Toxin",58,0
-"224",565,"VOMITOXIN-HPLC/MS/MS","DON(Vomitoxin)","DON(Vomitoxin)",58,0
-"225",566,"YEAST & MOLD COUNT","Mold and Yeast Count","Mold and Yeast Count",37,0
-"226",567,"ZEARALENONE-HPLC/MS","Zearalenone","Zearalenone",58,0
-"227",569,"Arsenic","Arsenic","",44,0
-"228",570,"BORON","Boron","",22,1
-"229",572,"COBALT","Cobalt","",46,1
-"230",573,"CONDUCTIVITY","Conductivity","",14,1
-"231",574,"FLUORIDE","Flouride","",39,1
-"232",577,"Lead","Lead","",37,1
-"233",581,"POSTAGE","Postage","",0,1
-"234",582,"RESIDUAL CHLORINE","Residual Chlorine","",10,1
-"235",584,"SOLUBLE SALTS","Soluble Salts","",3,1
-"236",587,"SULFATE","Sulfate","",14,1
-"237",588,"Total Suspended Sol","Total suspended solid","",28,1
-"238",590,"AEROBIC PLATE COUNT","Aerobic Plate Count","Aerobic Plate Count",20,1
-"239",591,"CHLORIDE","Chloride","Chloride",17,0
-"240",593,"HARDNESS","Hardness","Hardness",18,0
-"241",594,"NITRATE NITROGEN","NO3-N","NO3-N",21,0
-"242",595,"PH","pH","pH",18,0
-"243",596,"TOTAL DISSOLV.SOLIDS","Total Dissolved Solids","Total Dissolved Solids",13,0
-"244",598,"W1-COLIFORM/NITRATE","Coliform/NO3-N","Coliform/NO3-N",43,0
-"245",600,"W2-DOMESTIC WATER","Domestic Water Package","Domestic Water Package",62,0
-"246",601,"W23-CALF SUITABILITY","Calf Suitability Package","Calf Suitability Package",56,0
-"247",602,"W3-LIVESTOCK WATER","Livestock Water Package","Livestock Water Package",56,0
-"248",603,"W4-9 PACK MINERAL","9 Minerals Package","9 Minerals Package",40,0
-"249",604,"Manure Select","Manure Select","Manure Select",39,0
-"250",605,"Equine - Poulin","Equine - Poulin","Equine - Poulin",97,0
-"251",606,"Pellet Durability Analysis","Pellet Durability Analysis","Pellet Durability Analysis",29,0
-"252",607,"IONOPHORE PANEL","","",126,1
-"253",608,"CHROMIUM","","",62,1
-"254",609,"BIOGENIC AMINES","","",200,1
-"255",610,"PURITY","","",40,1
-"256",611,"PEPSIN DIGESTIBLE PR","","",43,1
-"257",612,"BOMB CALORIMETER","","",90,1
-"258",613,"PMI SHIPPING","","",13,1
-"259",614,"AH FAT (MANUAL)","","",30,1
-"260",615,"IVSD 24HR","","",45,1
-"261",616,"FORTIVA NON-RUMINANT","Fortiva non-ruminant","Fortiva non-ruminant",113,0
-"262",617,"FORTIVA RUMINANT","Fortiva ruminant","Fortiva ruminant",125,0
-"263",618,"ANPARIO SELECT","Anpario Select","Anpario Select",160,0
-"264",619,"3/15 ACETYL-HPLC/MS","3/15 Acetyl","3/15 Acetyl",58,0
-"265",620,"FUSARENON X-HPLC/MS","Fusarenon X","Fusarenon X",58,0
-"266",621,"NIVALENOL-HPLC/MS/MS","Nivalenol","Nivalenol",58,0
-"267",622,"NEOSOLANIOL-HPLC/MS","Neosolaniol","Neosolaniol",58,0
-"268",623,"DAS-HPLC/MS/MS","DAS","DAS",58,0
-"269",624,"CITRININ-HPLC/MS/MS","Citrinin","Citrinin",58,0
-"270",625,"FUSARIC ACID-HPLC/MS","Fusaric Acid","Fusaric Acid",58,0
-"271",626,"PATULIN-HPLC/MS/MS","Patulin","Patulin",58,0
-"272",627,"ROQUEFORTINE-HPLC/MS","Roquefortine C","Roquefortine C",58,0
-"273",628,"SELENIUM-WATER","Selenium","",60,0
-"274",629,"PROTEKTA MINERALS","Protekta minerals","Protekta minerals",24,0
-"275",630,"COLIFORM/E.COLI","Coliform/E.coli","Coliform/E.coli",35,1
-"276",631,"NB SILAGE HYGIENE","NB Silage Hygiene","NB Silage Hygiene",279,0
-"277",632,"TOTAL CLOSTRIDIA","Total Clostridia","",30,1
-"278",633,"FF-ASSESSMENT","FF-Assessment","",66,0
-"279",634,"Mycotoxin Lite","Mycotoxin Lite","Mycotoxin Lite",135,0
-"280",635,"CHEMLOCK MINERALS","Chemlock minerals","Chemlock minerals",24,0
-"281",636,"XRF MINERALS","XRF Minerals","XRF Minerals",0,0
-"282",637,"MARSYT MYCOTOXINS","MarSyt Mycotoxins","MarSyt Mycotoxins",160,0
-"283",639,"DV Basic Dairy","DV Basic Dairy","DV Basic Dairy",102,0
-"284",640,"DV Basic Beef","DV Basic Beef","DV Basic Beef",102,0
-"285",641,"DV Basic Feedlot","DV Basic Feedlot","DV Basic Feedlot",102,0
-"286",642,"DV Basic Calf","DV Basic Calf","DV Basic Calf",102,0
-"287",643,"DV Complete Dairy","DV Complete Dairy","DV Complete Dairy",158,0
-"288",644,"DV Complete Beef","DV Complete Beef","DV Complete Beef",158,0
-"289",645,"DV Complete Feedlot","DV Complete Feedlot","DV Complete Feedlot",158,0
-"290",646,"DV Complete Calf","DV Complete Calf","DV Complete Calf",158,0
-"291",647,"Heterotrophic Plate Count","Heterotrophic Plate Count","Heterotrophic Plate Count",20,0
-"292",648,"UNDFOM 3HR","","",0,1
-"293",649,"NDFD 3HR","","",48,1
-"294",650,"SELECT24","Select24","Select24",31.5,0
-"295",651,"samplehandling5","Package Handling 5","",5,0
-"296",652,"samplehandling10","Package Handling 10","",10,0
-"297",653,"samplehandling15","Package Handling 15","",15,0
-"298",654,"samplehandling25","Package Handling 25","",25,0
-"299",655,"UNDFOM 4HR","","",0,1
-"300",656,"NDFD 4HR","","",48,1
-"301",657,"Equine Select","Equine Select","Equine Select",130,0
-"302",658,"Bushmills Myco","Bushmills Mycotoxins","Bushmills Mycotoxins",140,0
-"303",659,"DV VFA Profile","DV VFA Profile","DV VFA Profile",68,0
-"304",660,"Blood serum mineral","Blood serum mineral",,14,0
-"305",661,"VP NIR Basic","VP NIR Basic","VP NIR Basic",24,0
-"306",662,"VP NIR Select","VP NIR Select","VP NIR Select",31.5,0
-"307",663,"Blood serum Ca","Blood serum Ca","Blood serum Ca",11,0
-"308",664,"Blood serum P","Blood serum P","Blood serum P",11,0
-"309",665,"Rumen VFA Profile","Rumen VFA Profile","Rumen VFA Profile",37,0
-"310",666,"Rumen Ammonia","Rumen Ammonia",,11,1
-"311",667,"Forage Superbowl Entry","Forage Superbowl Entry","Forage Superbowl Entry",45,0
-"312",668,"Ross UCP","Ross UCP","Ross UCP",105,0
+package_id,name,display_name,description,price,CAST(include_base_fee AS Unsigned)
+5,ACID HYDROL. STARCH,AH starch,,22,1
+7,Acid Insoluble Ash,Acid insoluble ash,,20,1
+8,Acid Solubility,Acid solubility,,26,1
+9,ADDITIONAL FEES,Additional fees,,0,1
+16,ALUMINUM,Aluminum,,16,1
+18,AMMONIA,Ammonia,,12,1
+20,AMYLOPECTIN %STARCH,Amylopectin,,22,1
+21,AMYLOSE %STARCH,Amylose,,22,1
+26,ATRAZINE,Atrazine,,0,1
+29,BASE FEE,Base fee,,8,1
+33,BORON,Boron,,16,1
+34,BULK DENSITY,Bulk density,,15,1
+40,CALIBRATE-FIBER,Calibrate Fiber,,35,1
+41,CALIBRATE-GPN,Calibrate GPN,,0,1
+42,CALORIES,Calories,,65,1
+46,CLOSTRIDIUM,Clostridium perfringens,,30,1
+48,COARSE STARCH,,,18,1
+49,COBALT,Cobalt,,55,0
+61,DCAD Minerals,DCAD Minerals,DCAD Minerals,17.5,1
+74,ERGOT,Ergot,,105,1
+101,FALLING NUMBERS,Falling number,,38,1
+102,FATTY ACID PROFILE,Fatty Acid Profile,Fatty Acid Profile(TFA),88,0
+104,Fermentrics,Fermentrics,,0,0
+108,FREE FATTY ACID,Free fatty acid,,48,1
+109,Free Glucose,Free glucose,,4.5,1
+114,GAS PRODUCTION,Gas production,,60,1
+115,GAS PRODUCTION-LABOR,Gas production labor,,0,1
+125,GMO ALFALFA SCREEN,GMO alfalfa screen,,125,1
+126,GMO CORN SCREEN,GMO corn screen,,125,1
+127,GOSSYPOL,Gossypol,,106,1
+128,GRINDING/PREP FEE,Grinding/prep fee,,15,1
+130,IODINE,Iodine,,175,1
+131,IVSD 12HR,IVSD12,,51,1
+132,IVSD 16HR,IVSD16,,51,1
+133,IVSD 2 HR,IVSD2,,51,1
+134,IVSD 3 HR,IVSD3,,51,1
+138,IVSD 7 HR (2MM),IVSD7 (2mm),,51,1
+146,KARL FISCHER MOISTUR,KFM - moisture,,29,1
+147,L1,"NDFD 6.5 Forages 30,120,240","NDFD 6.5 Forages 30,120,240",112,0
+149,L2,"NDFD 6.5 Commodities 12,72,120","NDFD 6.5 Commodities 12,72,120",112,0
+152,LASALOCID BOVATEC,Lasalocid,,115,1
+153,LISTERIA,Listeria,,125,1
+156,M2-MINERAL,M2 - Ca/P/K/Mg/S,M2 - Ca/P/K/Mg/S,16,1
+158,M4-MINERAL,M4 - Complete Mineral,M4 - Complete Mineral,30,1
+160,M5 MINERAL,M5 - Ca/P/K/Mg/S/Na/Cl,M5 - Ca/P/K/Mg/S/Na/Cl,17.5,1
+164,MAINTENANCE FEE,Maintenance fee,,0,1
+165,MANURE KIT,Manure kit,,10,1
+169,MINERALS CHARGE,Minerals charge,,0,1
+170,MISCELLANEOUS,Misc,,0,1
+177,MONENSIN RUMENSIN,Monensin,,115,1
+182,N4-NIR DISTILLERS,Distillers,Distillers,24,0
+184,N7-Basic,Basic,Basic,24,0
+187,ND-ICP w/SS,NDICPss,,10,1
+190,NDFD/uNDFom 120hr,NDFD/uNDFom120(must incl. NDF),NDFD/uNDFom120(must incl. NDF),50,0
+191,NDFD/uNDFom 12hr,NDFD/uNDFom12(must incl. NDF),NDFD/uNDFom12(must incl. NDF),50,0
+192,NDFD/uNDFom 240hr,NDFD/uNDFom240(must incl. NDF),NDFD/uNDFom240(must incl. NDF),50,0
+193,NDFD/uNDFom 24hr,NDFD/uNDFom24(must incl. NDF),NDFD/uNDFom24(must incl. NDF),50,0
+194,NDFD/uNDFom 30hr,NDFD/uNDFom30(must incl. NDF),NDFD/uNDFom30(must incl. NDF),50,0
+195,NDFD/uNDFom 48hr,NDFD/uNDFom48(must incl. NDF),NDFD/uNDFom48(must incl. NDF),50,0
+196,NDFD/uNDFom 72hr,NDFD/uNDFom72(must incl. NDF),NDFD/uNDFom72(must incl. NDF),50,0
+204,NFTA,NFTA,,0,1
+205,NIR CNCPS,CNCPS 6.1,CNCPS 6.1,34.5,0
+210,O.M. Digestibility,OM Digestibilty,,31,1
+215,PACKAGE I,I,,51,1
+216,PACKAGE M7,M7 - Complete Mineral w/DCAD,M7 - Complete Mineral w/DCAD,34,1
+217,PACKAGE M8,M8 - Ca/P/K/Mg/S/Na,M8 - Ca/P/K/Mg/S/Na,15,1
+221,PELLET DURABILITY,Pellet durability,,35,0
+222,PEROXIDE VALUE-Fat,Peroxide value - fat,,48,1
+223,PEROXIDE VALUE-FEED,Peroxide value - feed,,48,1
+226,PROLAMIN(% STARCH),Prolamin,,29,1
+229,PRUSSIC ACID,Prussic acid,,75,1
+231,Ross RUP(16h),Ross RUP (16hrs),Ross RUP (16hrs),70,0
+232,Ross RUP(16h) & UCP,Ross RUP (16hrs)+ UCP,Ross RUP (16hrs)+ UCP,140,0
+239,SALMONELLA,Salmonella,,62,1
+241,SELENIUM,Selenium,,68,0
+242,Set Up Fee,Set up fee,,0,1
+243,SILICA,Silica,,100,1
+247,STANDARDIZATION FEE,Standardization fee,,0,1
+248,Starch,Starch,Starch,19,1
+250,SUBCONTRACT,Subcontract,,0,1
+252,SUGAR PROFILE,Sugar Profile,Sugar Profile,125,0
+257,TEST WEIGHT,Test weight,,25,1
+259,THIAMINE,Thiamine,,125,1
+260,TITANIUM,Titanium,,15,1
+267,Trypsin Inhibitor,Trypsin inhibitor,,148,1
+272,uNDFom240,uNDFom240,,50,1
+279,uNDFom12,uNDFom12,,50,1
+280,UNDFOM18,uNDFom18,,50,1
+282,uNDFom72,uNDFom72,,50,1
+283,UNDIGESTED LYSINE,Undigested lysine,,495,1
+285,UPS CHARGE,UPS charge,,0,1
+288,VFA Complete Profile,VFA Complete Profile,VFA Complete Profile,51,0
+290,VFA ON GAS PRODUCTIO,Gas production - VFA,,40,1
+293,VITAMIN A,Vitamin A,,125,1
+294,VITAMIN D,Vitamin D,,265,1
+295,VITAMIN E,Vitamin E,,240,1
+296,VITAMIN K,Vitamin K,,327,1
+304,WATER SOLUBLE STARCH,Sugar (WSC),,20,1
+306,WDE,WDE,,4,1
+333,"AA1-LYS,METH,CYS + 9","Lys, Met, Cys + 9","Lys, Met, Cys + 9",131,0
+334,AA2-COMPLETE PROFILE,Complete Amino Acids Profile,Complete Amino Acids Profile,186,0
+335,AAL-LYSINE,Lysine,Lysine,98,0
+336,AAM-METHIONINE,Methionine,Methionine,98,0
+337,ACID HYDROLYSIS FAT,Fat - Acid Hydrolysis,Fat - Acid Hydrolysis,17,1
+338,AMMONIA (AS CP),Ammonia,Ammonia,13,1
+339,ASH,Ash,Ash,12,1
+340,B1-CP/ADF/ADICP,B1 - CP/ADF/ADICP,B1 - CP/ADF/ADICP,38,0
+341,C1-CP/ADF/ADICP/NDF,C1 - CP/ADF/ADICP/NDF,C1 - CP/ADF/ADICP/NDF,46,0
+342,CALCIUM,Ca,Ca,16,1
+343,CHLORIDE,Cl,Cl,16,1
+344,COPPER,Cu,Cu,16,1
+348,ESC SUGAR,Sugar (ESC),Sugar (ESC),20,1
+350,FECAL STARCH,Fecal Starch,Fecal Starch,32,0
+351,FERMENTRICS TMR,Fermentrics TMR,Fermentrics TMR,160,0
+352,FERMENTRICS-FEEDS,Fermentrics,Fermentrics,140,0
+353,FORAGE PARTICLE SIZE,Forage part size,Forage part size,28,0
+354,G - SWINE BASIC,Swine Basic,Swine Basic,57,0
+355,G1 - SWINE SELECT,Swine Select,Swine Select,75,0
+356,GERMINATION,Germination,Germination,44,0
+357,GRAIN PARTICLE SIZE,Grain Particle Size,Grain Particle Size,28,0
+358,IRON,Fe,Fe,16,1
+359,IVSD 7 HR (4MM),IVSD7,IVSD7,51,0
+361,KOH SOLUBILITY,KOH solubility,KOH solubility,69,0
+364,LACTOSE,Lactose,Lactose,21,1
+365,LIGNIN-SULFURIC ACID,Lignin,Lignin,19,1
+369,MAGNESIUM,Mg,Mg,16,1
+370,MANGANESE,Mn,Mn,16,1
+371,MINERAL-CA/P/NA,M9 - Ca/P/Na,M9 - Ca/P/Na,12,1
+372,MINERALS MIX.TEST-10,Mineral Mixer Test,Mineral Mixer Test,190,0
+373,MIXER TEST,Mixer Test,Mixer Test,0,0
+374,MOISTURE,Moisture,Moisture,17,0
+375,MOJONNIER FAT,Mojonnier Fat,Mojonnier Fat,42,1
+376,MOLYBDENUM,Mo,Mo,20,1
+377,ND-ICP,ND-ICP,ND-ICP,10,1
+385,NPN (AS CP),NPN,NPN,36,1
+388,PACKAGE B2,B2 - CP/NDF,B2 - CP/NDF,35,0
+390,PACKAGE D,D - CP/NDF/EE/ASH,D - CP/NDF/EE/ASH,51,0
+391,PACKAGE D2,D2 - D1+NDICP/SP/Starch/ESC,D2 - D1+NDICP/SP/Starch/ESC,111,0
+392,PACKAGE H,H - CP/EE,H - CP/EE,36,0
+393,PACKAGE K - WHEY,K - Whey,K - Whey,63,0
+397,PDI w/o Urease,PDI w/o urease,PDI w/o urease,57,0
+399,pH,pH,pH,12,1
+400,PHOSPHORUS,P,P,16,1
+402,POTASSIUM,K,K,16,1
+403,PROLAMIN,Prolamin,Prolamin,29,1
+404,PROTEIN SOLUBILITY,Protein Solubility,Protein Solubility,17,0
+405,ROASTED SOYBEAN PKG,PDI - Protein Dispersibility,PDI - Protein Dispersibility,64,0
+408,SALT (CL X 1.649),Salt (Cl as %NaCl),Salt (Cl as %NaCl),19,1
+409,SODIUM,Na,Na,16,1
+411,STARCH GELATINIZATIO,Starch gelatinization,Starch gelatinization,25,1
+412,SULFUR,S,S,16,1
+413,TAG 2,Tag 2,Tag 2,52,0
+414,TAG BASIC,Tag Basic,Tag Basic,45,0
+415,TMR Mix. Evaluation,TMR Mixer Test,TMR Mixer Test,210,0
+416,UREA,Urea,Urea,36,1
+417,UREASE,Urease Activity,Urease Activity,13,1
+418,UW Grain 2.0,UW Grain 2.0,UW Grain 2.0,62,0
+419,VFA BASIC PROFILE,VFA Basic Profile,VFA Basic Profile,51,0
+421,VP SWINE DDG,VP Swine DDG,VP Swine DDG,275,0
+422,WET CHEM AD-ICP,AD-ICP,AD-ICP,10,1
+423,WET CHEM ADF,ADF,ADF,14,1
+424,WET CHEM APP DIGEST,Apparent Digestibility,Apparent Digestibility,128,0
+425,WET CHEM CRUDE FIBER,Crude Fiber,Crude Fiber,19,1
+426,WET CHEM CRUDE PROT,CP,CP,14,1
+427,WET CHEM CSPS PKG,CSPS,CSPS,31,0
+428,WET CHEM FAT,Fat - Ether Extract,Fat - Ether Extract,17,1
+429,WET CHEM NDF,NDF,NDF,14,1
+430,WET CHEM NITRATE,Nitrates,Nitrates,15,1
+431,WET CHEM PACKAGE A,A - CP,A - CP,21,0
+432,WET CHEM PACKAGE B,B - CP/ADF,B - CP/ADF,26,0
+433,WET CHEM PACKAGE C,C - CP/ADF/NDF,C - CP/ADF/NDF,36,0
+434,WET CHEM PACKAGE D1,D1 - D+ADF/ADICP/LIGNIN,D1 - D+ADF/ADICP/LIGNIN,80,0
+435,WET CHEM PENDF,peNDF,peNDF,32,0
+436,WSC SUGAR,Sugar (WSC),Sugar (WSC),20,1
+437,ZINC,Zn,Zn,16,1
+439,Calibrate GPN/FPN,Calibrate GPN/FPN,Calibrate GPN/FPN,35,0
+440,Calibrate HQFA,Calibrate HQFA,Calibrate HQFA,35,0
+441,Calibrate Leaf%,Calibrate Leaf%,Calibrate Leaf%,35,0
+442,CSPS,CSPS (only starch by NIR),CSPS (only starch by NIR),31,0
+443,FECAL STARCH-NIR,Fecal starch,Fecal starch,32,0
+445,IVSD 7 NIR,IVSD7-O,IVSD7-O,7,1
+447,N2-BG365,Big Gain NIR Package,Big Gain NIR Package,31.5,0
+448,N3-CNCPS 6.5+,CNCPS 6.5+,CNCPS 6.5+,34.5,0
+449,N6,NIR Plot Pkg,NIR Plot Pkg,34.95,0
+451,N7H- NIR EQUINE ME,Equine Choice DE,Equine Choice DE,35,0
+452,N8-Select,Select,Select,31.5,0
+453,N9-Complete NASEM,Complete NASEM,Complete NASEM,34.5,0
+454,NIR APPARENT DIGEST.,Apparent Digestibility,Apparent Digestibility,37,0
+455,NIR VFA SCREEN,VFA Screen,VFA Screen,19,1
+458,SELECT48,Select48,Select48,31.5,0
+459,ALUMINUM,Aluminum,Aluminum,25,0
+460,CALCIUM,Calcium,Calcium,25,0
+461,COPPER,Copper,Copper,25,0
+462,IRON,Iron,Iron,25,0
+463,MAGNESIUM,Magnesium,Magnesium,25,0
+464,MANGANESE,Manganese,Manganese,25,0
+465,MOLYBDENUM,Molybdenum,Molybdenum,25,0
+466,PHOSPHORUS,Phosphorus,Phosphorus,25,0
+467,POTASSIUM,Potassium,Potassium,25,0
+468,SODIUM,Sodium,Sodium,25,0
+469,SULFUR,Sulfate,Sulfate,25,0
+470,ZINC,Zinc,Zinc,25,0
+482,ENTEROBACTER,Enterobacteriaceae,Enterobacteriaceae,30,1
+497,COLIFORM-Quanti/Tra,MPN-Coliform/E.coli,MPN-Coliform/E.coli,35,0
+498,COLILERT-ONPG,Coliform/E.coli,Coliform/E.coli,27,0
+502,BANK CHARGES,,,0,1
+509,MISC CHARGES,,,0,1
+511,POSTAGE,,,0,1
+513,SERVICE CHARGES,,,0,1
+514,WATER KIT,,,0,1
+515,WI SALES TAX,,,0,1
+540,SUBCONTRACT TESTING,Subcontract testing,,0,1
+547,ANPARIO BASIC,Anpario Basic,Anpario Basic,135,0
+549,AFLATOXIN-HPLC/MS/MS,Aflatoxin,Aflatoxin,58,0
+550,AGRARIAN MYCO,Agrarian Myco,Agrarian Myco,160,0
+551,AGRARIAN MYCO +,Agrarian Myco + Aflatoxin,Agrarian Myco + Aflatoxin,185,0
+556,FUMONISIN-HPLC/MS/MS,Fumonisin,Fumonisin,58,0
+558,MOLD COUNT & ID,Mold and Yeast Count & ID,Mold and Yeast Count & ID,52,0
+559,MYCOTOXIN BASIC,Mycotoxin Basic,Mycotoxin Basic,175,0
+560,MYCOTOXIN COMPLETE,Mycotoxin Complete,Mycotoxin Complete,300,0
+561,MYCOTOXIN SELECT,Mycotoxin Select,Mycotoxin Select,230,0
+562,OCHRATOXIN A-HPLC/MS,Ochratoxin,Ochratoxin,58,0
+564,T2/HT2 - HPLC/MS/MS,T2/HT2 Toxin,T2/HT2 Toxin,58,0
+565,VOMITOXIN-HPLC/MS/MS,DON(Vomitoxin),DON(Vomitoxin),58,0
+566,YEAST & MOLD COUNT,Mold and Yeast Count,Mold and Yeast Count,37,0
+567,ZEARALENONE-HPLC/MS,Zearalenone,Zearalenone,58,0
+569,Arsenic,Arsenic,,44,0
+570,BORON,Boron,,22,1
+572,COBALT,Cobalt,,46,1
+573,CONDUCTIVITY,Conductivity,,14,1
+574,FLUORIDE,Flouride,,39,1
+577,Lead,Lead,,37,1
+581,POSTAGE,Postage,,0,1
+582,RESIDUAL CHLORINE,Residual Chlorine,,10,1
+584,SOLUBLE SALTS,Soluble Salts,,3,1
+587,SULFATE,Sulfate,,14,1
+588,Total Suspended Sol,Total suspended solid,,28,1
+590,AEROBIC PLATE COUNT,Aerobic Plate Count,Aerobic Plate Count,20,1
+591,CHLORIDE,Chloride,Chloride,17,0
+593,HARDNESS,Hardness,Hardness,18,0
+594,NITRATE NITROGEN,NO3-N,NO3-N,21,0
+595,PH,pH,pH,18,0
+596,TOTAL DISSOLV.SOLIDS,Total Dissolved Solids,Total Dissolved Solids,13,0
+598,W1-COLIFORM/NITRATE,Coliform/NO3-N,Coliform/NO3-N,43,0
+600,W2-DOMESTIC WATER,Domestic Water Package,Domestic Water Package,62,0
+601,W23-CALF SUITABILITY,Calf Suitability Package,Calf Suitability Package,56,0
+602,W3-LIVESTOCK WATER,Livestock Water Package,Livestock Water Package,56,0
+603,W4-9 PACK MINERAL,9 Minerals Package,9 Minerals Package,40,0
+604,Manure Select,Manure Select,Manure Select,39,0
+605,Equine - Poulin,Equine - Poulin,Equine - Poulin,97,0
+606,Pellet Durability Analysis,Pellet Durability Analysis,Pellet Durability Analysis,29,0
+607,IONOPHORE PANEL,,,126,1
+608,CHROMIUM,,,62,1
+609,BIOGENIC AMINES,,,200,1
+610,PURITY,,,40,1
+611,PEPSIN DIGESTIBLE PR,,,43,1
+612,BOMB CALORIMETER,,,90,1
+613,PMI SHIPPING,,,13,1
+614,AH FAT (MANUAL),,,30,1
+615,IVSD 24HR,,,45,1
+616,FORTIVA NON-RUMINANT,Fortiva non-ruminant,Fortiva non-ruminant,113,0
+617,FORTIVA RUMINANT,Fortiva ruminant,Fortiva ruminant,125,0
+618,ANPARIO SELECT,Anpario Select,Anpario Select,160,0
+619,3/15 ACETYL-HPLC/MS,3/15 Acetyl,3/15 Acetyl,58,0
+620,FUSARENON X-HPLC/MS,Fusarenon X,Fusarenon X,58,0
+621,NIVALENOL-HPLC/MS/MS,Nivalenol,Nivalenol,58,0
+622,NEOSOLANIOL-HPLC/MS,Neosolaniol,Neosolaniol,58,0
+623,DAS-HPLC/MS/MS,DAS,DAS,58,0
+624,CITRININ-HPLC/MS/MS,Citrinin,Citrinin,58,0
+625,FUSARIC ACID-HPLC/MS,Fusaric Acid,Fusaric Acid,58,0
+626,PATULIN-HPLC/MS/MS,Patulin,Patulin,58,0
+627,ROQUEFORTINE-HPLC/MS,Roquefortine C,Roquefortine C,58,0
+628,SELENIUM-WATER,Selenium,,60,0
+629,PROTEKTA MINERALS,Protekta minerals,Protekta minerals,24,0
+630,COLIFORM/E.COLI,Coliform/E.coli,Coliform/E.coli,35,1
+631,NB SILAGE HYGIENE,NB Silage Hygiene,NB Silage Hygiene,279,0
+632,TOTAL CLOSTRIDIA,Total Clostridia,,30,1
+633,FF-ASSESSMENT,FF-Assessment,,66,0
+634,Mycotoxin Lite,Mycotoxin Lite,Mycotoxin Lite,135,0
+635,CHEMLOCK MINERALS,Chemlock minerals,Chemlock minerals,24,0
+636,XRF MINERALS,XRF Minerals,XRF Minerals,0,0
+637,MARSYT MYCOTOXINS,MarSyt Mycotoxins,MarSyt Mycotoxins,160,0
+639,DV Basic Dairy,DV Basic Dairy,DV Basic Dairy,102,0
+640,DV Basic Beef,DV Basic Beef,DV Basic Beef,102,0
+641,DV Basic Feedlot,DV Basic Feedlot,DV Basic Feedlot,102,0
+642,DV Basic Calf,DV Basic Calf,DV Basic Calf,102,0
+643,DV Complete Dairy,DV Complete Dairy,DV Complete Dairy,158,0
+644,DV Complete Beef,DV Complete Beef,DV Complete Beef,158,0
+645,DV Complete Feedlot,DV Complete Feedlot,DV Complete Feedlot,158,0
+646,DV Complete Calf,DV Complete Calf,DV Complete Calf,158,0
+647,Heterotrophic Plate Count,Heterotrophic Plate Count,Heterotrophic Plate Count,20,0
+648,UNDFOM 3HR,,,0,1
+649,NDFD 3HR,,,48,1
+650,SELECT24,Select24,Select24,31.5,0
+651,samplehandling5,Package Handling 5,,5,0
+652,samplehandling10,Package Handling 10,,10,0
+653,samplehandling15,Package Handling 15,,15,0
+654,samplehandling25,Package Handling 25,,25,0
+655,UNDFOM 4HR,,,0,1
+656,NDFD 4HR,,,48,1
+657,Equine Select,Equine Select,Equine Select,130,0
+658,Bushmills Myco,Bushmills Mycotoxins,Bushmills Mycotoxins,140,0
+659,DV VFA Profile,DV VFA Profile,DV VFA Profile,68,0
+660,Blood serum mineral,Blood serum mineral,,14,0
+661,VP NIR Basic,VP NIR Basic,VP NIR Basic,24,0
+662,VP NIR Select,VP NIR Select,VP NIR Select,31.5,0
+663,Blood serum Ca,Blood serum Ca,Blood serum Ca,11,0
+664,Blood serum P,Blood serum P,Blood serum P,11,0
+665,Rumen VFA Profile,Rumen VFA Profile,Rumen VFA Profile,37,0
+666,Rumen Ammonia,Rumen Ammonia,,11,1
+667,Forage Superbowl Entry,Forage Superbowl Entry,Forage Superbowl Entry,45,0
+668,Ross UCP,Ross UCP,Ross UCP,105,0
